@@ -1,0 +1,255 @@
+[
+  {
+    "name": "Coca-Cola",
+    "industry": "beverage_cpg",
+    "domain": "coca-colacompany.com",
+    "hqState": "GA",
+    "ein": "581574705",
+    "foundationStatus": "matched"
+  },
+  {
+    "name": "PepsiCo",
+    "industry": "beverage_cpg",
+    "domain": "pepsico.com",
+    "hqState": "NY",
+    "ein": "136163174",
+    "foundationStatus": "matched"
+  },
+  {
+    "name": "Keurig Dr Pepper",
+    "industry": "beverage_cpg",
+    "domain": "keurigdrpepper.com",
+    "hqState": "MA",
+    "foundationStatus": "none_found"
+  },
+  {
+    "name": "Starbucks",
+    "industry": "beverage_cpg",
+    "domain": "starbucks.com",
+    "hqState": "WA",
+    "ein": "911795425",
+    "foundationStatus": "matched"
+  },
+  {
+    "name": "Procter & Gamble",
+    "industry": "beverage_cpg",
+    "domain": "pg.com",
+    "hqState": "OH",
+    "foundationStatus": "unverified"
+  },
+  {
+    "name": "Colgate-Palmolive",
+    "industry": "beverage_cpg",
+    "domain": "colpal.com",
+    "hqState": "NY",
+    "foundationStatus": "none_found"
+  },
+  {
+    "name": "Kimberly-Clark",
+    "industry": "beverage_cpg",
+    "domain": "kimberly-clark.com",
+    "hqState": "TX",
+    "ein": "396044304",
+    "foundationStatus": "matched"
+  },
+  {
+    "name": "General Mills",
+    "industry": "beverage_cpg",
+    "domain": "genmills.com",
+    "hqState": "MN",
+    "ein": "416018495",
+    "foundationStatus": "matched"
+  },
+  {
+    "name": "Clorox",
+    "industry": "beverage_cpg",
+    "domain": "clorox.com",
+    "hqState": "CA",
+    "ein": "942674980",
+    "foundationStatus": "matched"
+  },
+  {
+    "name": "Monster Beverage",
+    "industry": "beverage_cpg",
+    "domain": "monsterenergy.com",
+    "hqState": "CA",
+    "foundationStatus": "none_found"
+  },
+  {
+    "name": "Liquid Death",
+    "industry": "beverage_cpg",
+    "domain": "liquiddeath.com",
+    "hqState": "CA",
+    "foundationStatus": "none_found"
+  },
+  {
+    "name": "Patagonia",
+    "industry": "outdoor_apparel",
+    "domain": "patagonia.com",
+    "hqState": "CA",
+    "ein": "142004175",
+    "foundationStatus": "matched",
+    "foundationName": "Patagonia.org"
+  },
+  {
+    "name": "REI",
+    "industry": "outdoor_apparel",
+    "domain": "rei.com",
+    "hqState": "WA",
+    "ein": "854299419",
+    "foundationStatus": "matched"
+  },
+  {
+    "name": "Columbia Sportswear",
+    "industry": "outdoor_apparel",
+    "domain": "columbia.com",
+    "hqState": "OR",
+    "foundationStatus": "none_found"
+  },
+  {
+    "name": "VF Corporation",
+    "industry": "outdoor_apparel",
+    "domain": "vfc.com",
+    "hqState": "CO",
+    "ein": "562322084",
+    "foundationStatus": "matched"
+  },
+  {
+    "name": "Nike",
+    "industry": "outdoor_apparel",
+    "domain": "nike.com",
+    "hqState": "OR",
+    "ein": "931159948",
+    "foundationStatus": "matched"
+  },
+  {
+    "name": "YETI",
+    "industry": "outdoor_apparel",
+    "domain": "yeti.com",
+    "hqState": "TX",
+    "foundationStatus": "unverified"
+  },
+  {
+    "name": "Hydro Flask",
+    "industry": "outdoor_apparel",
+    "domain": "hydroflask.com",
+    "hqState": "OR",
+    "foundationStatus": "none_found"
+  },
+  {
+    "name": "Klean Kanteen",
+    "industry": "outdoor_apparel",
+    "domain": "kleankanteen.com",
+    "hqState": "CA",
+    "foundationStatus": "none_found"
+  },
+  {
+    "name": "CamelBak",
+    "industry": "outdoor_apparel",
+    "domain": "camelbak.com",
+    "hqState": "CA",
+    "foundationStatus": "none_found"
+  },
+  {
+    "name": "Google",
+    "industry": "tech",
+    "domain": "google.com",
+    "hqState": "CA",
+    "ein": "201548253",
+    "foundationStatus": "matched"
+  },
+  {
+    "name": "Microsoft",
+    "industry": "tech",
+    "domain": "microsoft.com",
+    "hqState": "WA",
+    "foundationStatus": "unverified"
+  },
+  {
+    "name": "Salesforce",
+    "industry": "tech",
+    "domain": "salesforce.com",
+    "hqState": "CA",
+    "ein": "943347800",
+    "foundationStatus": "matched"
+  },
+  {
+    "name": "Cisco",
+    "industry": "tech",
+    "domain": "cisco.com",
+    "hqState": "CA",
+    "ein": "770443347",
+    "foundationStatus": "matched"
+  },
+  {
+    "name": "Intel",
+    "industry": "tech",
+    "domain": "intel.com",
+    "hqState": "CA",
+    "ein": "943092928",
+    "foundationStatus": "matched"
+  },
+  {
+    "name": "Adobe",
+    "industry": "tech",
+    "domain": "adobe.com",
+    "hqState": "CA",
+    "ein": "260233808",
+    "foundationStatus": "matched"
+  },
+  {
+    "name": "Qualcomm",
+    "industry": "tech",
+    "domain": "qualcomm.com",
+    "hqState": "CA",
+    "ein": "274621444",
+    "foundationStatus": "matched"
+  },
+  {
+    "name": "Xylem",
+    "industry": "water_industrial",
+    "domain": "xylem.com",
+    "hqState": "DC",
+    "foundationStatus": "none_found"
+  },
+  {
+    "name": "Ecolab",
+    "industry": "water_industrial",
+    "domain": "ecolab.com",
+    "hqState": "MN",
+    "ein": "411372157",
+    "foundationStatus": "matched"
+  },
+  {
+    "name": "Culligan",
+    "industry": "water_industrial",
+    "domain": "culligan.com",
+    "hqState": "IL",
+    "ein": "463433979",
+    "foundationStatus": "matched"
+  },
+  {
+    "name": "Wells Fargo",
+    "industry": "financial",
+    "domain": "wellsfargo.com",
+    "hqState": "CA",
+    "ein": "411367441",
+    "foundationStatus": "matched"
+  },
+  {
+    "name": "Bank of America",
+    "industry": "financial",
+    "domain": "bankofamerica.com",
+    "hqState": "NC",
+    "ein": "200721133",
+    "foundationStatus": "matched"
+  },
+  {
+    "name": "Target",
+    "industry": "retail",
+    "domain": "target.com",
+    "hqState": "MN",
+    "ein": "416017088",
+    "foundationStatus": "matched"
+  }
+]

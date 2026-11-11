@@ -1,0 +1,151 @@
+{
+ "ein": "463433979",
+ "name": "Culligan Cares Foundation",
+ "city": "Rosemont",
+ "state": "IL",
+ "formType": "990",
+ "taxYear": 2024,
+ "totalGiving": 27974,
+ "totalAssets": 186783,
+ "detailAvailable": true,
+ "stats": {
+  "count": 2,
+  "total": 20000,
+  "median": 10000,
+  "buckets": [
+   0,
+   0,
+   2,
+   0,
+   0,
+   0
+  ],
+  "waterCount": 0,
+  "waterAmount": 0,
+  "adjacentCount": 0,
+  "peerMatches": [],
+  "thirstProjectGrants": 0
+ },
+ "grantsInAttachment": false,
+ "officers": [
+  {
+   "name": "Christopher Powell",
+   "title": "Vp, Controller, Director"
+  },
+  {
+   "name": "Judd H Larned",
+   "title": "President Na, Director"
+  },
+  {
+   "name": "Andrew Kellogg",
+   "title": "Senior Vp, Treasurer, Director"
+  },
+  {
+   "name": "Frank John Griffith",
+   "title": "Vp, General Counsel & Secretary"
+  },
+  {
+   "name": "Jennifer Hills",
+   "title": "Cfo"
+  },
+  {
+   "name": "Braulio Sanchez",
+   "title": "Vp, Tax"
+  }
+ ],
+ "preselectedOnly": null,
+ "applicationContact": null,
+ "website": "culligancares.org",
+ "history": [
+  {
+   "year": 2016,
+   "giving": null,
+   "assets": 588854,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=12_2017_prefixes_45-46%2F463433979_201612_990_2017121415025844.pdf"
+  },
+  {
+   "year": 2017,
+   "giving": null,
+   "assets": 35425,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=02_2019_prefixes_46-46%2F463433979_201712_990_2019021516103141.pdf"
+  },
+  {
+   "year": 2018,
+   "giving": null,
+   "assets": 65483,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=06_2020_prefixes_46-51%2F463433979_201812_990_2020061517190381.pdf"
+  },
+  {
+   "year": 2019,
+   "giving": null,
+   "assets": 96627,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=download990pdf_03_2022_prefixes_43-47%2F463433979_201912_990_2022030719701656.pdf"
+  },
+  {
+   "year": 2020,
+   "giving": null,
+   "assets": 89818,
+   "pdfUrl": null
+  },
+  {
+   "year": 2021,
+   "giving": null,
+   "assets": 91362,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=download990pdf_03_2023_prefixes_42-46%2F463433979_202112_990_2023031321089986.pdf"
+  },
+  {
+   "year": 2022,
+   "giving": null,
+   "assets": 185633,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=download990pdf_01_2024_prefixes_46-46%2F463433979_202212_990_2024010522182100.pdf"
+  },
+  {
+   "year": 2023,
+   "giving": null,
+   "assets": 186678,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F463433979_202312_990_2025013123059814.pdf"
+  },
+  {
+   "year": 2024,
+   "giving": 27974,
+   "assets": 186783,
+   "pdfUrl": null
+  }
+ ],
+ "sources": [
+  {
+   "label": "ProPublica Nonprofit Explorer",
+   "url": "https://projects.propublica.org/nonprofits/organizations/463433979"
+  },
+  {
+   "label": "IRS e-file XML, 990 2024",
+   "url": "https://gt990datalake-rawdata.s3.amazonaws.com/EfileData/XmlFiles/202512759349301716_public.xml"
+  },
+  {
+   "label": "Filing PDF, 2023",
+   "url": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F463433979_202312_990_2025013123059814.pdf"
+  }
+ ],
+ "fetchedAt": "2026-11-11T11:39:26.390Z",
+ "grants": [
+  {
+   "recipient": "Engineers Without Borders",
+   "purpose": "See Form 990 Part III",
+   "amount": 10000,
+   "place": "Denver, CO",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Convoy of Hope",
+   "purpose": "See Form 990 Part III",
+   "amount": 10000,
+   "place": "Springfield, MO",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  }
+ ],
+ "grantsTruncated": false
+}

@@ -1,0 +1,341 @@
+{
+ "ein": "943347800",
+ "name": "Salesforce Foundation",
+ "city": "San Francisco",
+ "state": "CA",
+ "formType": "990PF",
+ "taxYear": 2024,
+ "totalGiving": 35938600,
+ "totalAssets": 397888517,
+ "detailAvailable": true,
+ "stats": {
+  "count": 22,
+  "total": 35938600,
+  "median": 1000000,
+  "buckets": [
+   0,
+   0,
+   0,
+   1,
+   1,
+   20
+  ],
+  "waterCount": 0,
+  "waterAmount": 0,
+  "adjacentCount": 22,
+  "peerMatches": [],
+  "thirstProjectGrants": 0
+ },
+ "grantsInAttachment": false,
+ "officers": [
+  {
+   "name": "Marc Benioff",
+   "title": "Chairman"
+  },
+  {
+   "name": "Ronald Conway",
+   "title": "Director"
+  },
+  {
+   "name": "Laura Scher",
+   "title": "Director"
+  },
+  {
+   "name": "Rebecca Ferguson",
+   "title": "Ceo"
+  },
+  {
+   "name": "Samuel Chung",
+   "title": "Cfo & Treasurer Through 1/2025"
+  },
+  {
+   "name": "Joachim Wettermark",
+   "title": "Cfo & Treasurer Start 1/2025"
+  },
+  {
+   "name": "Sarah Dods",
+   "title": "Secretary"
+  },
+  {
+   "name": "Michael Butler",
+   "title": "Assistant Treasurer"
+  },
+  {
+   "name": "Lara Mouritsen",
+   "title": "Assistant Secretary"
+  },
+  {
+   "name": "Maggie Tan",
+   "title": "Finance Director"
+  }
+ ],
+ "preselectedOnly": true,
+ "applicationContact": null,
+ "website": "WWW.SALESFORCE.COM/COMPANY/PHILANTHROPY",
+ "history": [
+  {
+   "year": 2014,
+   "giving": null,
+   "assets": 195529,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2014_10_EO%2F94-3347800_990_201401.pdf"
+  },
+  {
+   "year": 2015,
+   "giving": null,
+   "assets": 2058389,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2016_01_EO%2F13-154207_94105_943347800.pdf"
+  },
+  {
+   "year": 2016,
+   "giving": 10728620,
+   "assets": 974173,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2017_01_PF%2F94-3347800_990PF_201601.pdf"
+  },
+  {
+   "year": 2020,
+   "giving": 22678887,
+   "assets": 305427823,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=06_2021_prefixes_94-95%2F943347800_202001_990PF_2021061518358630.pdf"
+  },
+  {
+   "year": 2021,
+   "giving": 32080000,
+   "assets": 330477463,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=download990pdf_04_2022_prefixes_85-95%2F943347800_202101_990PF_2022042019911818.pdf"
+  },
+  {
+   "year": 2022,
+   "giving": 32666460,
+   "assets": 419674142,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F943347800_202201_990PF_2023051921279871.pdf"
+  },
+  {
+   "year": 2023,
+   "giving": 36172950,
+   "assets": 376436080,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=download990pdf_01_2024_prefixes_94-95%2F943347800_202301_990PF_2024011722244747.pdf"
+  },
+  {
+   "year": 2024,
+   "giving": 36145900,
+   "assets": 395528825,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F943347800_202401_990PF_2025011522989319.pdf"
+  }
+ ],
+ "sources": [
+  {
+   "label": "ProPublica Nonprofit Explorer",
+   "url": "https://projects.propublica.org/nonprofits/organizations/943347800"
+  },
+  {
+   "label": "IRS e-file XML, 990PF 2024",
+   "url": "https://gt990datalake-rawdata.s3.amazonaws.com/EfileData/XmlFiles/202543499349100119_public.xml"
+  },
+  {
+   "label": "Filing PDF, 2024",
+   "url": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F943347800_202401_990PF_2025011522989319.pdf"
+  }
+ ],
+ "fetchedAt": "2026-11-11T11:39:22.386Z",
+ "grants": [
+  {
+   "recipient": "Tides Foundation",
+   "purpose": "SUPPORT FOR EDUCATION AND CAREER OPPORTUNITIES FOR YOUNG PEOPLE",
+   "amount": 7338600,
+   "place": "San Francisco, CA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Oakland Unified School District",
+   "purpose": "SUPPORT PUBLIC EDUCATION",
+   "amount": 5000000,
+   "place": "Oakland, CA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Spark Sf Public Schools",
+   "purpose": "SUPPORT PUBLIC EDUCATION",
+   "amount": 5000000,
+   "place": "San Francisco, CA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Codeorg",
+   "purpose": "SUPPORT FOR EDUCATION AND CAREER OPPORTUNITIES FOR YOUNG PEOPLE",
+   "amount": 2000000,
+   "place": "Seattle, WA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Beyond 12 Education Inc",
+   "purpose": "SUPPORT FOR EDUCATION AND CAREER OPPORTUNITIES FOR YOUNG PEOPLE",
+   "amount": 1000000,
+   "place": "Oakland, CA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Burning Glass Institute",
+   "purpose": "SUPPORT FOR EDUCATION AND CAREER OPPORTUNITIES FOR YOUNG PEOPLE",
+   "amount": 1000000,
+   "place": "Bala Cynwyd, PA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Careervillage Inc",
+   "purpose": "SUPPORT FOR EDUCATION AND CAREER OPPORTUNITIES FOR YOUNG PEOPLE",
+   "amount": 1000000,
+   "place": "San Francisco, CA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Children First Fund - the Chicago Public Schools Foundation",
+   "purpose": "SUPPORT PUBLIC EDUCATION",
+   "amount": 1000000,
+   "place": "Chicago, IL",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "College Possible",
+   "purpose": "SUPPORT FOR EDUCATION AND CAREER OPPORTUNITIES FOR YOUNG PEOPLE",
+   "amount": 1000000,
+   "place": "Saint Paul, MN",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Common Sense Media",
+   "purpose": "SUPPORT FOR EDUCATION AND CAREER OPPORTUNITIES FOR YOUNG PEOPLE",
+   "amount": 1000000,
+   "place": "San Francisco, CA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Digital Promise Global",
+   "purpose": "SUPPORT FOR EDUCATION AND CAREER OPPORTUNITIES FOR YOUNG PEOPLE",
+   "amount": 1000000,
+   "place": "Washington, DC",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Fund for Public Schools Inc",
+   "purpose": "SUPPORT PUBLIC EDUCATION",
+   "amount": 1000000,
+   "place": "New York, NY",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Hidden Genius Project",
+   "purpose": "SUPPORT FOR EDUCATION AND CAREER OPPORTUNITIES FOR YOUNG PEOPLE",
+   "amount": 1000000,
+   "place": "Oakland, CA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Imentor",
+   "purpose": "SUPPORT FOR EDUCATION AND CAREER OPPORTUNITIES FOR YOUNG PEOPLE",
+   "amount": 1000000,
+   "place": "New York, NY",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Indianapolis Public Schools Education Foundation",
+   "purpose": "SUPPORT PUBLIC EDUCATION",
+   "amount": 1000000,
+   "place": "Indianapolis, IN",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Khan Academy Inc",
+   "purpose": "SUPPORT FOR EDUCATION AND CAREER OPPORTUNITIES FOR YOUNG PEOPLE",
+   "amount": 1000000,
+   "place": "Mountain View, CA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Onegoal",
+   "purpose": "SUPPORT FOR EDUCATION AND CAREER OPPORTUNITIES FOR YOUNG PEOPLE",
+   "amount": 1000000,
+   "place": "Chicago, IL",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Robin Hood Foundation",
+   "purpose": "SUPPORT FOR EDUCATION AND CAREER OPPORTUNITIES FOR YOUNG PEOPLE",
+   "amount": 1000000,
+   "place": "New York, NY",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "The Education Trust Inc",
+   "purpose": "SUPPORT FOR EDUCATION AND CAREER OPPORTUNITIES FOR YOUNG PEOPLE",
+   "amount": 1000000,
+   "place": "Washington, DC",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Tntp Inc (The New Teacher Project)",
+   "purpose": "SUPPORT FOR EDUCATION AND CAREER OPPORTUNITIES FOR YOUNG PEOPLE",
+   "amount": 1000000,
+   "place": "New York, NY",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "College Track",
+   "purpose": "SUPPORT FOR EDUCATION AND CAREER OPPORTUNITIES FOR YOUNG PEOPLE",
+   "amount": 500000,
+   "place": "Oakland, CA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "San Francisco Unified School District",
+   "purpose": "SUPPORT PUBLIC EDUCATION",
+   "amount": 100000,
+   "place": "San Francisco, CA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  }
+ ],
+ "grantsTruncated": false
+}

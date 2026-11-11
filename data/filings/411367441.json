@@ -1,0 +1,3783 @@
+{
+ "ein": "411367441",
+ "name": "Wells Fargo Foundation",
+ "city": "Minneapolis",
+ "state": "MN",
+ "formType": "990PF",
+ "taxYear": 2025,
+ "totalGiving": 157468750,
+ "totalAssets": 8589696,
+ "detailAvailable": true,
+ "stats": {
+  "count": 1376,
+  "total": 157383750,
+  "median": 35000,
+  "buckets": [
+   0,
+   3,
+   797,
+   442,
+   105,
+   29
+  ],
+  "waterCount": 3,
+  "waterAmount": 230000,
+  "adjacentCount": 147,
+  "peerMatches": [],
+  "thirstProjectGrants": 0
+ },
+ "grantsInAttachment": false,
+ "officers": [
+  {
+   "name": "ATHER WILLIAMS III",
+   "title": "Director"
+  },
+  {
+   "name": "BEI LING",
+   "title": "Director"
+  },
+  {
+   "name": "DARLENE GOINS",
+   "title": "Director & President"
+  },
+  {
+   "name": "JASON ROSENBERG",
+   "title": "Director & Chairperson"
+  },
+  {
+   "name": "JONATHAN WEISS",
+   "title": "Director"
+  },
+  {
+   "name": "KRISTY FERCHO",
+   "title": "Director"
+  },
+  {
+   "name": "PHILLIP SMITH",
+   "title": "Director"
+  },
+  {
+   "name": "SAUL VAN BEURDEN",
+   "title": "Director"
+  },
+  {
+   "name": "ASHLEY HAGER",
+   "title": "Assistant Secretary"
+  },
+  {
+   "name": "DEANNA ERNST",
+   "title": "Assistant Secretary"
+  },
+  {
+   "name": "JAMES C GANTT",
+   "title": "Vice President"
+  },
+  {
+   "name": "MARTINE OLSON-DANIEL",
+   "title": "Secretary"
+  },
+  {
+   "name": "MOLLY PORTER",
+   "title": "Treasurer & Vice President"
+  },
+  {
+   "name": "KARA MCSHANE",
+   "title": "Director"
+  }
+ ],
+ "preselectedOnly": true,
+ "applicationContact": null,
+ "website": "https://www.wellsfargo.com/about/responsibility-and-impact/community-giving/",
+ "history": [
+  {
+   "year": 2013,
+   "giving": 186775875,
+   "assets": 488707083,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2014_05_PF%2F41-1367441_990PF_201312.pdf"
+  },
+  {
+   "year": 2014,
+   "giving": 189380780,
+   "assets": 294640268,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2015_05_PF%2F41-1367441_990PF_201412.pdf"
+  },
+  {
+   "year": 2015,
+   "giving": 226902237,
+   "assets": 214364582,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2016_05_PF%2F41-1367441_990PF_201512.pdf"
+  },
+  {
+   "year": 2019,
+   "giving": 366744092,
+   "assets": 30710898,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=08_2020_prefixes_37-41%2F411367441_201912_990PR_2020083117270015.pdf"
+  },
+  {
+   "year": 2020,
+   "giving": 288560410,
+   "assets": 68712190,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=download990pdf_10_2022_prefixes_38-43%2F411367441_202012_990PF_2022102620586667.pdf"
+  },
+  {
+   "year": 2021,
+   "giving": 206811348,
+   "assets": 19901969,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F411367441_202112_990PF_2023020120875966.pdf"
+  },
+  {
+   "year": 2022,
+   "giving": 239279294,
+   "assets": 15207874,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=download990pdf_10_2023_prefixes_39-45%2F411367441_202212_990PF_2023102621793722.pdf"
+  },
+  {
+   "year": 2023,
+   "giving": 217631092,
+   "assets": 50523797,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F411367441_202312_990PF_2024111422826493.pdf"
+  },
+  {
+   "year": 2025,
+   "giving": 157468750,
+   "assets": 8589696,
+   "pdfUrl": null
+  }
+ ],
+ "sources": [
+  {
+   "label": "ProPublica Nonprofit Explorer",
+   "url": "https://projects.propublica.org/nonprofits/organizations/411367441"
+  },
+  {
+   "label": "IRS e-file XML, 990PF 2025",
+   "url": "https://gt990datalake-rawdata.s3.amazonaws.com/EfileData/XmlFiles/202611349349101596_public.xml"
+  },
+  {
+   "label": "Filing PDF, 2023",
+   "url": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F411367441_202312_990PF_2024111422826493.pdf"
+  }
+ ],
+ "fetchedAt": "2026-11-11T11:39:27.023Z",
+ "grants": [
+  {
+   "recipient": "Concordance",
+   "purpose": "Concordance Reentry Program National Expansion Jul 2025 - Jun 2028",
+   "amount": 8000000,
+   "place": "St Louis, MO",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Enterprise Community Partners Inc",
+   "purpose": "Housing Affordability Breakthrough Challenge",
+   "amount": 5000500,
+   "place": "Columbia, MD",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "The Blackbaud Giving Fund",
+   "purpose": "2025 CCG Prefund 1",
+   "amount": 5000000,
+   "place": "Charleston, SC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Habitat for Humanity International",
+   "purpose": "2025 Wells Fargo Builds & Research / Flexible Funding Grant",
+   "amount": 4900000,
+   "place": "Americus, GA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "African American Leadership Forum",
+   "purpose": "Support for Northside Forward",
+   "amount": 2000000,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Center for Land Reform INC",
+   "purpose": "Expanding National Heirs' Property Work, PT 2",
+   "amount": 2000000,
+   "place": "Flint, MI",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Local Initiatives Support Corporation",
+   "purpose": "New York City WORTH Planning Collaborative",
+   "amount": 1875000,
+   "place": "New York, NY",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Neighborhood Development Center Inc",
+   "purpose": "Capitol Support for the Ruckus Innovation Center",
+   "amount": 1800000,
+   "place": "Saint Paul, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Forest Forward",
+   "purpose": "Capacity Building and Affordable Housing Development Initiative",
+   "amount": 1650000,
+   "place": "Dallas, TX",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Compass Working Capital Inc",
+   "purpose": "General operating support first three years of strategic plan",
+   "amount": 1500000,
+   "place": "Boston, MA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Enterprise Community Partners Inc",
+   "purpose": "Faith Based Development Initiative Expansion",
+   "amount": 1500000,
+   "place": "Columbia, MD",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "IRC's Center for Economic Opportunity",
+   "purpose": "Financial Opportunity for All",
+   "amount": 1500000,
+   "place": "San Diego, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Local Initiatives Support Corporation",
+   "purpose": "Advancing Economic Mobility Through LISC's FOC Model",
+   "amount": 1500000,
+   "place": "New York, NY",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "The Center for New York City Neighborhoods Inc",
+   "purpose": "Heirs Property Protection Program",
+   "amount": 1500000,
+   "place": "New York, NY",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "West Boulevard Neighborhood Coalition",
+   "purpose": "Three Sisters Market Food Co-op",
+   "amount": 1500000,
+   "place": "Charlotte, NC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Community Ventures Corporation",
+   "purpose": "Keeping People Housed - Housing Counseling Intermediary",
+   "amount": 1300000,
+   "place": "Lexington, KY",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Lakewood Neighborhood Alliance Inc",
+   "purpose": "LNAs EHub & Lakeview ADU Partnership Program (LAPP)",
+   "amount": 1250000,
+   "place": "Charlotte, NC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Community Ventures Corporation",
+   "purpose": "Keeping People Housed Housing Counseling Intermediary",
+   "amount": 1200000,
+   "place": "Lexington, KY",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Freedom Communities",
+   "purpose": "Freedom Communities (FC) Low-Barrier Affordable Rental Housing",
+   "amount": 1200000,
+   "place": "Charlotte, NC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Rebuilding Together Inc",
+   "purpose": "Rebuilding Together and Wells Fargo Builds 2025",
+   "amount": 1065000,
+   "place": "Washington, DC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Ascendus Inc",
+   "purpose": "Ascendus B.R.I.D.G.E. Broward Program",
+   "amount": 1000000,
+   "place": "New York, NY",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Center for Land Reform",
+   "purpose": "Expanding National Heirs' Property Work",
+   "amount": 1000000,
+   "place": "Flint, MI",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "CodePathorg",
+   "purpose": "Expanding AI and Software Engineering Pathways in Charlotte, NC",
+   "amount": 1000000,
+   "place": "San Francisco, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "DignityMoves",
+   "purpose": "Accelerating Interim Housing for San Francisco",
+   "amount": 1000000,
+   "place": "San Francisco, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Forest Forward",
+   "purpose": "Forest Theater Project",
+   "amount": 1000000,
+   "place": "Dallas, TX",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Local Initiatives Support Corporation",
+   "purpose": "Richmond WORTH Implementation Grant",
+   "amount": 1000000,
+   "place": "New York, NY",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Neighborhood Housing Services of Los Angeles County",
+   "purpose": "RLA Coalition ADU Program",
+   "amount": 1000000,
+   "place": "Los Angeles, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "San Gabriel Valley Habitat for Humanity",
+   "purpose": "Building ADUs to Rebuild Altadena",
+   "amount": 1000000,
+   "place": "Monrovia, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Volunteer Florida Foundation",
+   "purpose": "Elevate Florida Cost Share Support Program",
+   "amount": 1000000,
+   "place": "Tallahassee, FL",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Acts Community Development Corporation",
+   "purpose": "Milwaukee WORTH Implementation Grant",
+   "amount": 937500,
+   "place": "Milwaukee, WI",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Community Foundation for Greater Atlanta Inc",
+   "purpose": "Atlanta WORTH Implementation Grant",
+   "amount": 937500,
+   "place": "Atlanta, GA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Local Initiatives Support Corporation",
+   "purpose": "Houston WORTH Implementation Grant",
+   "amount": 937500,
+   "place": "New York, NY",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Urban League of Philadelphia",
+   "purpose": "Philadelphia WORTH",
+   "amount": 937500,
+   "place": "Philadelphia, PA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Community Development Corporation of Brownsville Inc",
+   "purpose": "Native & Rural WORTH Implementation Grant",
+   "amount": 900000,
+   "place": "Brownsville, TX",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Credit Builders Alliance Inc",
+   "purpose": "Expanding Credit Building",
+   "amount": 800000,
+   "place": "Washington, DC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "American Red Cross",
+   "purpose": "RUST REQUEST DISASTER - American Red Cross ADGP",
+   "amount": 750000,
+   "place": "Washington, DC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Blackbaud Giving Fund",
+   "purpose": "International Philanthropy Prefund",
+   "amount": 750000,
+   "place": "Charleston, SC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Charlotte Regional Business Alliance Foundation",
+   "purpose": "Start Up To Scale Up - West Charlotte",
+   "amount": 750000,
+   "place": "Charlotte, NC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Empowering the Masses",
+   "purpose": "Workforce Development Expansion and Economic Empowerment Center",
+   "amount": 750000,
+   "place": "Dallas, TX",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "National Association for Latino Community Asset Builders",
+   "purpose": "NALCAB National Financial Opportunity Program Proposal",
+   "amount": 750000,
+   "place": "San Antonio, TX",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "The Blackbaud Giving Fund",
+   "purpose": "2025 Disaster Prefund 1",
+   "amount": 750000,
+   "place": "Charleston, SC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "The Community Foundation for Greater Atlanta Inc",
+   "purpose": "Atlanta Housing Stabilization and Neighborhood Investment",
+   "amount": 750000,
+   "place": "Atlanta, GA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "100 Black Men of Atlanta Inc",
+   "purpose": "Future$mart: Financial Literacy & Investment Initiative",
+   "amount": 680000,
+   "place": "Atlanta, GA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Oklahoma Native Assets Coalition Inc",
+   "purpose": "Increasing the financial health of low-income families",
+   "amount": 650000,
+   "place": "Oklahoma City, OK",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "American Bankers Association Community Engagement Foundation",
+   "purpose": "Veterans Benefits Banking Program Extension and Expansion",
+   "amount": 642998,
+   "place": "Washington, DC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "By Degrees Foundation",
+   "purpose": "Increasing Long-Term Savings & Strengthening Financial Health at North",
+   "amount": 600000,
+   "place": "Des Moines, IA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Cooperative Development Institute",
+   "purpose": "Northeast Transition Initiative",
+   "amount": 600000,
+   "place": "Northampton, MA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "South Carolina Research Authority",
+   "purpose": "Cultivating Innovation in SC Agribusiness: Small Farms, Big Business",
+   "amount": 600000,
+   "place": "Columbia, SC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "JUST Community Inc",
+   "purpose": "Texas Savings Accelerator and Credit Score Booster Initiative",
+   "amount": 550000,
+   "place": "Austin, TX",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "SIFMA Foundation for Investor Education",
+   "purpose": "2025: Advancing Youth Financial Health",
+   "amount": 520000,
+   "place": "New York, NY",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Akiptan Inc",
+   "purpose": "Access to Capital is a Path to Success",
+   "amount": 500000,
+   "place": "Eagle Butte, SD",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "American Heart Association Inc",
+   "purpose": "American Heart Association EmPowered to Serve Business Accelerator",
+   "amount": 500000,
+   "place": "Dallas, TX",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Auburn University Foundation",
+   "purpose": "Rural Studio: Building Capacity for Workforce Home Construction",
+   "amount": 500000,
+   "place": "Auburn, AL",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "California Community Foundation",
+   "purpose": "Altadena Prefab Showcase",
+   "amount": 500000,
+   "place": "Los Angeles, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Cen-Tex Certified Development Corporation",
+   "purpose": "Community Developers Roundtable Fund 2.0",
+   "amount": 500000,
+   "place": "Austin, TX",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Cooperative Fund of the Northeast Inc",
+   "purpose": "Loan Capital Grant Request",
+   "amount": 500000,
+   "place": "Watertown, MA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "DreamSpring",
+   "purpose": "Lending Innovation & Place-Based Capital Access for the Missing Middle",
+   "amount": 500000,
+   "place": "Albuquerque, NM",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Forest Forward",
+   "purpose": "Talent Bank (Gig Economy): Forest Theater & Workforce Hub Operations",
+   "amount": 500000,
+   "place": "Dallas, TX",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Gary Sinise Foundation",
+   "purpose": "R.I.S.E. Home Mods - Tennessee and Idaho",
+   "amount": 500000,
+   "place": "Merrifield, VA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "GROW South Dakota",
+   "purpose": "Rural Resiliency and Prosperity for Small Business",
+   "amount": 500000,
+   "place": "Sisseton, SD",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Homeboy Industries",
+   "purpose": "Transitional Housing Development",
+   "amount": 500000,
+   "place": "Los Angeles, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "HomeFree-USA Inc",
+   "purpose": "2025 Housing Access and Affordability Support",
+   "amount": 500000,
+   "place": "Landover, MD",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Los Angeles Room and Board",
+   "purpose": "General Operating Support",
+   "amount": 500000,
+   "place": "Alhambra, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "National Foundation for Credit Counseling Inc",
+   "purpose": "Life Beyond Debt",
+   "amount": 500000,
+   "place": "Washington, DC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "New Capernaum Life Services",
+   "purpose": "Food Truck & Workforce Readiness Incubator Initiative",
+   "amount": 500000,
+   "place": "Columbia, SC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Northeast Entrepreneur Fund Inc",
+   "purpose": "Healthy Foods Builder Awards",
+   "amount": 500000,
+   "place": "Duluth, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Pasadena City College Foundation Inc",
+   "purpose": "Altadena Small Business Recovery 2025",
+   "amount": 500000,
+   "place": "Pasadena, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Summit Academy OIC",
+   "purpose": "Career & Technical Education (CTE) programs",
+   "amount": 500000,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Terner Housing Innovation Labs Inc",
+   "purpose": "Ongoing Support for the Housing Venture Lab",
+   "amount": 500000,
+   "place": "Oakland, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "TMC Community Capital",
+   "purpose": "Community-Based Lending - Rural Expansion",
+   "amount": 500000,
+   "place": "Oakland, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Society for Financial Education and Professional Development Inc",
+   "purpose": "SFEPD Student Ambassador Financial Education Program",
+   "amount": 470000,
+   "place": "Alexandria, VA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Oweesta Corporation",
+   "purpose": "Building Strong Dine-Serving Organizations",
+   "amount": 425000,
+   "place": "Longmont, CO",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Raza Development Fund Inc",
+   "purpose": "The Lending Learning Lab: Next Level Lending",
+   "amount": 425000,
+   "place": "Phoenix, AZ",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Brooklyn Alliance Inc",
+   "purpose": "Brooklyn Made Growth",
+   "amount": 400000,
+   "place": "Brooklyn, NY",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Business Consortium Fund",
+   "purpose": "BCF Capital Readiness Program",
+   "amount": 400000,
+   "place": "New York, NY",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "California Finance Consortium",
+   "purpose": "CFC Collective for Small Businesses, Rural and Tribal Assistance",
+   "amount": 400000,
+   "place": "Chico, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Community Foundation of the Texas Hill Country",
+   "purpose": "Texas Flooding - Texas Hill Country Kerr County Flood Relief Fund",
+   "amount": 400000,
+   "place": "Kerrville, TX",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Live the Solution",
+   "purpose": "Earn to Learn - Expansion and Financial Wellness",
+   "amount": 400000,
+   "place": "Tucson, AZ",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "National Bankers Community Alliance",
+   "purpose": "Our Money Matters",
+   "amount": 400000,
+   "place": "Washington, DC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Northside Economic Opportunity Network",
+   "purpose": "NEON Collective Kitchen 2025",
+   "amount": 400000,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "NPower Inc",
+   "purpose": "Building Financial Health through Tech Training and Job Placement",
+   "amount": 400000,
+   "place": "Brooklyn, NY",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Renaissance Economic Development Corporation",
+   "purpose": "Promoting Capital Access for NYC Small Businesses",
+   "amount": 400000,
+   "place": "New York, NY",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Builders of Hope CDC",
+   "purpose": "North Texas Homestead Preservation Center Network",
+   "amount": 375000,
+   "place": "Dallas, TX",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "National Community Stabilization Trust LLC",
+   "purpose": "Middle Neighborhoods Heirs Property Associate Program",
+   "amount": 375000,
+   "place": "Washington, DC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Roc USA LLC",
+   "purpose": "Adapting to Scale Impact",
+   "amount": 375000,
+   "place": "Concord, NH",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Roc USA LLC",
+   "purpose": "Shoring Up ROC Performance for Targeted Growth",
+   "amount": 375000,
+   "place": "Concord, NH",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "The Urban Institute",
+   "purpose": "Worth Evaluation Extension",
+   "amount": 375000,
+   "place": "Washington, DC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Build Wealth MN INC",
+   "purpose": "Family Stabilization Plan Program",
+   "amount": 350000,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Human Rights Campaign Foundation",
+   "purpose": "WorthIt: Expanding Financial Wellness Through Partnership & Pride",
+   "amount": 350000,
+   "place": "Washington, DC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "LiftFund",
+   "purpose": "Texas Flood - LiftFund Small Business Recovery",
+   "amount": 350000,
+   "place": "San Antonio, TX",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "National American Red Cross",
+   "purpose": "Disaster Relief - Annual Disaster Giving Program (ADGP)",
+   "amount": 350000,
+   "place": "Washington, DC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "North Carolina Community Colleges Foundation",
+   "purpose": "Statewide Emerging Entrepreneurs Challenge",
+   "amount": 350000,
+   "place": "Raleigh, NC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "United Way of New York City",
+   "purpose": "Change Capital Fund for Community Ownership",
+   "amount": 350000,
+   "place": "New York, NY",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "National Disability Institute Inc",
+   "purpose": "Disability-Inclusive Financial Counseling",
+   "amount": 325000,
+   "place": "Washington, DC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Asset Funders Network",
+   "purpose": "Asset Funders Operating Support",
+   "amount": 320000,
+   "place": "Chicago, IL",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Cheyenne River Housing Authority",
+   "purpose": "North Star III",
+   "amount": 320000,
+   "place": "Eagle Butte, SD",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Women's Economic Self-Sufficiency Team",
+   "purpose": "Supporting Entrepreneurial Development and Capital Access in NM",
+   "amount": 305000,
+   "place": "Albuquerque, NM",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Pacific Community Ventures Inc",
+   "purpose": "Unlocking Capital through AI/ML: CDFI Data Champions Pilot Program",
+   "amount": 301000,
+   "place": "Oakland, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Coalition for Nonprofit Housing and Economic Development",
+   "purpose": "Advancing Workforce Housing Accelerator",
+   "amount": 300000,
+   "place": "Washington, DC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Community Foundation for Greater Atlanta",
+   "purpose": "Atlanta Falcons HBCU Fellows Program",
+   "amount": 300000,
+   "place": "Atlanta, GA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Growth Partners Arizona",
+   "purpose": "AZ CDFI Landscape Analysis",
+   "amount": 300000,
+   "place": "Tucson, AZ",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Increasing HOPE",
+   "purpose": "Charleston FEC's Year 2 Programming",
+   "amount": 300000,
+   "place": "North Charleston, SC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "La Cocina Inc",
+   "purpose": "General Operating Support",
+   "amount": 300000,
+   "place": "San Francisco, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Pursuit Transformation Company",
+   "purpose": "Building Career Pathways for an AI-First Economy",
+   "amount": 300000,
+   "place": "Long Island City, NY",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Rural Community Assistance Corporation",
+   "purpose": "Support for RCAC Housing programs",
+   "amount": 300000,
+   "place": "West Sacramento, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "South Dakota Native Homeowners Coalition",
+   "purpose": "Construction Internship Program",
+   "amount": 300000,
+   "place": "Kyle, SD",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "The Urban Institute",
+   "purpose": "Affordable Housing Support of Local Communities and Businesses",
+   "amount": 300000,
+   "place": "Washington, DC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "The Urban Institute",
+   "purpose": "Heirs' Property Protection Pilot",
+   "amount": 300000,
+   "place": "Washington, DC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Copa Health Inc",
+   "purpose": "Copa Health Financial Health & Wellness at La Victoria Commons",
+   "amount": 285000,
+   "place": "Mesa, AZ",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Working Credit NFP",
+   "purpose": "HBCU Credit Building & Credit Repair and Debt Settlement Education",
+   "amount": 275000,
+   "place": "Chicago, IL",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Acevedo Foundation",
+   "purpose": "Recover & Reimagine L.A",
+   "amount": 250000,
+   "place": "Santa Monica, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "ASPIRE Community Capital",
+   "purpose": "Scaling for Small Business Financial Growth & Resilience",
+   "amount": 250000,
+   "place": "Charlotte, NC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Behavioral Ideas Lab",
+   "purpose": "Scaling the application of behavioral science for narrative change",
+   "amount": 250000,
+   "place": "New York, NY",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Build Commonwealth Inc",
+   "purpose": "Reconnecting Workers with Lost Retirement Wealth",
+   "amount": 250000,
+   "place": "Boston, MA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Consumer Credit Counseling Serivce of Delaware Valley",
+   "purpose": "Philadelphia Homeowner Sustainability Program",
+   "amount": 250000,
+   "place": "Philadelphia, PA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Covenant House",
+   "purpose": "Covenant House's Rights of Passage & Transitional Housing Programs",
+   "amount": 250000,
+   "place": "New York, NY",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "EARN Inc",
+   "purpose": "Partnering to Advance Financial Mobility and Opportunity at Scale",
+   "amount": 250000,
+   "place": "San Francisco, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Economic Awareness Council",
+   "purpose": "Money Moves: Financial Coaching & Education for Youth in Work Programs",
+   "amount": 250000,
+   "place": "Chicago, IL",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Four Bands Community Fund Inc",
+   "purpose": "Building Financial Futures on Cheyenne River",
+   "amount": 250000,
+   "place": "Eagle Butte, SD",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Great Rivers Community Trust",
+   "purpose": "Small Dollar Loan Guarantee Program",
+   "amount": 250000,
+   "place": "Zebulon, NC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "GRID Alternatives",
+   "purpose": "GRID Alternatives Energy for All National Partnership",
+   "amount": 250000,
+   "place": "Oakland, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Home Builders Institute",
+   "purpose": "Pathways to Careers in the Construction Trades in Orlando and Phoenix",
+   "amount": 250000,
+   "place": "Washington, DC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "HomeFree-USA Inc",
+   "purpose": "CFA Scholars Support",
+   "amount": 250000,
+   "place": "Landover, MD",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Iowa Rural Development Council",
+   "purpose": "Strengthening Rural Iowa through Small Business Growth 2.0",
+   "amount": 250000,
+   "place": "Grinnell, IA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Legal Services of Eastern Missouri Inc",
+   "purpose": "Neighborhood Advocacy",
+   "amount": 250000,
+   "place": "St Louis, MO",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Montana Community Foundation Inc",
+   "purpose": "Reimagining Rural",
+   "amount": 250000,
+   "place": "Helena, MT",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Montana HomeOwnership Network",
+   "purpose": "Rural Housing Education & Counseling",
+   "amount": 250000,
+   "place": "Great Falls, MT",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "NACDC Financial Services Inc",
+   "purpose": "NACDCFS Strengthening through Capacity Building",
+   "amount": 250000,
+   "place": "Browning, MT",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Nimiipuu Community Development Fund",
+   "purpose": "2025 Rural Funding - Housing Pillar Grant Nimiipuu Fund",
+   "amount": 250000,
+   "place": "Lapwai, ID",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Project for Pride in Living",
+   "purpose": "Zaria on 3030 Nicollet",
+   "amount": 250000,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Prosperity Now",
+   "purpose": "VITA Support Fund",
+   "amount": 250000,
+   "place": "Washington, DC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Services and Advocacy for Gay Lesbian Bisexual and Transgender Elders I",
+   "purpose": "Housing Consumer Resources & Education for Older Adults via SAGECents",
+   "amount": 250000,
+   "place": "New York, NY",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "The Urban Institute",
+   "purpose": "Evaluation Grant - Wealth Opportunities Restored through Homeownership",
+   "amount": 250000,
+   "place": "District of Columbia, WA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "University Area Community Development Corporation Inc",
+   "purpose": "INVEST to Advance",
+   "amount": 250000,
+   "place": "Tampa, FL",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "The Blackbaud Giving Fund",
+   "purpose": "2025 International Prefund 2",
+   "amount": 247305,
+   "place": "Charleston, SC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "ActivateWork Inc",
+   "purpose": "Workforce Development Program",
+   "amount": 225000,
+   "place": "Denver, CO",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Arizona Native Asset Coalition Corporation",
+   "purpose": "Sovereignty Through Education II - General Operation Support",
+   "amount": 200000,
+   "place": "Tempe, AZ",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Chicago Urban League",
+   "purpose": "CONSTRUCT",
+   "amount": 200000,
+   "place": "Chicago, IL",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Chinatown Community Development Center Inc",
+   "purpose": "Chinatown CDC: Water Conservation for Affordable Housing Units",
+   "amount": 200000,
+   "place": "San Francisco, CA",
+   "water": true,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "David Eccles School of Business University of Utah",
+   "purpose": "Support for Masters of Business Creation and Lassonde Programs",
+   "amount": 200000,
+   "place": "Salt Lake Cty, UT",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Durham Community Land Trustees Inc",
+   "purpose": "CLT plus One",
+   "amount": 200000,
+   "place": "Durham, NC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Economic Development Corporation of Los Angeles County",
+   "purpose": "Fires Recovery Grant - Economic Impact Fund",
+   "amount": 200000,
+   "place": "Los Angeles, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Federation of Appalachian Housing Enterprises",
+   "purpose": "Achieving Our Mission",
+   "amount": 200000,
+   "place": "Berea, KY",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Fresno Community Development Financial Institution",
+   "purpose": "Rural Roots Capital Initiative",
+   "amount": 200000,
+   "place": "Fresno, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Goalsetter Foundation",
+   "purpose": "Goalsetter Financial Compe-Tuition College Program",
+   "amount": 200000,
+   "place": "Brooklyn, NY",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Lake Street Council",
+   "purpose": "Lake Street Small Business Support",
+   "amount": 200000,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Manufacturing Renaissance",
+   "purpose": "Young Manufacturers Association",
+   "amount": 200000,
+   "place": "Chicago, IL",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Native American Finance Officers Association",
+   "purpose": "NAFOA Native Financial Coach",
+   "amount": 200000,
+   "place": "Washington, DC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Native CDFI Network Inc",
+   "purpose": "Native CDFI Support and Technical Assistance Initiative",
+   "amount": 200000,
+   "place": "Grand Island, NE",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Neighborhood Solidarity Fund",
+   "purpose": "Tornado Disaster Response",
+   "amount": 200000,
+   "place": "Saint Louis, MO",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Point Source Youth Inc",
+   "purpose": "Scaling WorthIt & Housing Aid to Empower 700 Youth Financially",
+   "amount": 200000,
+   "place": "New York, NY",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "San Diego Seniors Community Foundation",
+   "purpose": "Elder Fraud & Financial Stability Program",
+   "amount": 200000,
+   "place": "San Diego, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Swords to Plowshares Veterans Rights Organization",
+   "purpose": "Housing Solutions for Homeless Veterans: 1035 Van Ness",
+   "amount": 200000,
+   "place": "San Francisco, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "The Lakota Fund",
+   "purpose": "Strengthening Construction Industry|Strenthening Lakota Funds",
+   "amount": 200000,
+   "place": "Kyle, SD",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "The Urban Institute",
+   "purpose": "Enhancing Retirement Savings & Financial Well-Being",
+   "amount": 200000,
+   "place": "Washington, DC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "The Veterans Collective",
+   "purpose": "The West LA Veterans Collective",
+   "amount": 200000,
+   "place": "Los Angeles, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "TMC Community Capital",
+   "purpose": "LA Wildfire Relief - Small Business Strong Program",
+   "amount": 200000,
+   "place": "Oakland, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "United Way of Greater Charlotte",
+   "purpose": "United Neighborhoods: A Collaborative NOAH Preservation Strategy",
+   "amount": 200000,
+   "place": "Charlotte, NC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "University System of New Hampshire",
+   "purpose": "Sustaining Climate Finance in Community Development",
+   "amount": 200000,
+   "place": "Concord, NH",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "World Institute on Disability",
+   "purpose": "Global Heumann Fellowship",
+   "amount": 200000,
+   "place": "Berkeley, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Hispanic Business Initiative Fund of Florida Inc",
+   "purpose": "Prospera - Growing Small Business in FL, GA, NC",
+   "amount": 185000,
+   "place": "Orlando, FL",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Urban League of Philadelphia",
+   "purpose": "Home for Good Pilot",
+   "amount": 185000,
+   "place": "Philadelphia, PA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Building Bridges Across the River",
+   "purpose": "Strong Small Businesses: Strong Communities Pilot",
+   "amount": 175000,
+   "place": "Washington, DC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Charleston Gaillard Management Corporation",
+   "purpose": "Charleston Gaillard Center Education & Community Program",
+   "amount": 175000,
+   "place": "Charleston, SC",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Coalition for Nonprofit Housing and Economic Development",
+   "purpose": "DC Community Anchor Partnership",
+   "amount": 175000,
+   "place": "Washington, DC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Greenwood Project",
+   "purpose": "Scaling College-to-Career and Earnings Impact",
+   "amount": 175000,
+   "place": "Chicago, IL",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Neighborhood Housing Services of Los Angeles County",
+   "purpose": "Neighborhood Housing Services Los Angeles",
+   "amount": 175000,
+   "place": "Los Angeles, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Washington Area Community Investment Fund",
+   "purpose": "Retail Ascent Technical Assistance Program",
+   "amount": 175000,
+   "place": "Washington DC, DC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "American Indian Science and Engineering Society",
+   "purpose": "AISES Native Financial Cents",
+   "amount": 170000,
+   "place": "Albuquerque, NM",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Southwestern College Foundation",
+   "purpose": "San Diego & Imperial SBDC - General Support",
+   "amount": 165000,
+   "place": "Chula Vista, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Affiliated Tribes of Northwest Indians Economic Development Corporation",
+   "purpose": "ATNI-EDC Regional Business Development Initiative",
+   "amount": 150000,
+   "place": "Portland, OR",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Albina Vision Inc",
+   "purpose": "Land Acquisition for Restorative Redevelopment",
+   "amount": 150000,
+   "place": "Portland, OR",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Austin Disaster Relief Network",
+   "purpose": "RUSH REQUEST DISASTER GRANT-Texas Flood - ADRN",
+   "amount": 150000,
+   "place": "Austin, TX",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Big Brothers Big Sisters of Metro Atlanta Inc",
+   "purpose": "Level Up - Stock Market Game Pilot Initiative",
+   "amount": 150000,
+   "place": "Atlanta, GA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Centro de Apoyo Familiar",
+   "purpose": "Asset Building Program",
+   "amount": 150000,
+   "place": "Riverdale, MD",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "DC Bar Pro Bono Center",
+   "purpose": "Small Business Legal Assistance",
+   "amount": 150000,
+   "place": "Washington, DC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "DC Affordable Law Firm",
+   "purpose": "Preserving Wealth for Homeowners through Estate Planning and Probate",
+   "amount": 150000,
+   "place": "Washington, DC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Florida Housing Coalition Inc",
+   "purpose": "Heirs' Property, Sadowski Affiliates and 2030 Blueprint",
+   "amount": 150000,
+   "place": "Tallahassee, FL",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Fresno Area Hispanic Foundation",
+   "purpose": "Confia Rural Program",
+   "amount": 150000,
+   "place": "Fresno, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Greater Des Moines Habitat for Humanity",
+   "purpose": "Greater Des Moines Habitat for Humanity Framing Our Future",
+   "amount": 150000,
+   "place": "Des Moines, IA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Groundswell Inc",
+   "purpose": "Groundswell - Westside Resilience Corridor",
+   "amount": 150000,
+   "place": "Washington, DC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "LIFT Orlando Inc",
+   "purpose": "Early Learning Collaborative: Pathway to Accreditation",
+   "amount": 150000,
+   "place": "Orlando, FL",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Manna Inc",
+   "purpose": "Financial Health & Mobility Education",
+   "amount": 150000,
+   "place": "Washington, DC",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Military Family Advisory Network",
+   "purpose": "Military Family Financial Readiness Coalition",
+   "amount": 150000,
+   "place": "Arlington, VA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "NewWest Community Capital Inc",
+   "purpose": "Financing Affordable Housing in the Intermountain West",
+   "amount": 150000,
+   "place": "Boise, ID",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Phipps Neighborhoods",
+   "purpose": "Crotona Park West (CPW) Resident Services + Volunteer Engagement",
+   "amount": 150000,
+   "place": "New York, NY",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Quad Communities Development Corp NFP",
+   "purpose": "2025-26 QCDC Business Development Programming",
+   "amount": 150000,
+   "place": "Chicago, IL",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Southwest Partnership Inc",
+   "purpose": "Growing a Holistic Revitalization Program Together",
+   "amount": 150000,
+   "place": "Baltimore, MD",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Stonewall Community Foundation",
+   "purpose": "NYC Grantmaking & Capacity Building Program",
+   "amount": 150000,
+   "place": "New York, NY",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "The Association for Neighborhood & Housing Development Inc",
+   "purpose": "Transforming ANHD's Affordable Housing Institute (AHI)",
+   "amount": 150000,
+   "place": "New York, NY",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "The Enterprise Center",
+   "purpose": "The Enterprise Center/ Center for Capital Investment",
+   "amount": 150000,
+   "place": "Philadelphia, PA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "United Way of Greater St Louis Inc",
+   "purpose": "United Way 2025 Campaign & College Kids",
+   "amount": 150000,
+   "place": "St Louis, MO",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Urban League of Greater Atlanta",
+   "purpose": "Urban League of Greater Atlanta Heritage Village Naming Rights",
+   "amount": 150000,
+   "place": "Atlanta, GA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Wisconsin Native Loan Fund Inc",
+   "purpose": "Wisconsin Tribal Housing Coalition",
+   "amount": 150000,
+   "place": "Lac Du Flambu, WI",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Federation of Appalachian Housing Enterprises Inc",
+   "purpose": "PRT Do Tank and Capital Pool Design",
+   "amount": 145000,
+   "place": "Berea, KY",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Montgomery Housing Partnership Inc",
+   "purpose": "Small Business Development and Affordable Housing Expansion",
+   "amount": 135000,
+   "place": "Silver Spring, MD",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Lift to Rise",
+   "purpose": "Expansion of the Affordable Housing Pipeline in the Coachella Valley",
+   "amount": 130000,
+   "place": "Palm Desert, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "The University of North Carolina at Chapel Hill",
+   "purpose": "Accelerating Underserved Small Business in NC",
+   "amount": 128000,
+   "place": "Chapel Hill, NC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Bay Area Community Services Inc",
+   "purpose": "Keep People Housed-Contra Costa",
+   "amount": 125000,
+   "place": "Oakland, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "California Capital Small Business Financial Development Corporation",
+   "purpose": "Small Business Flexible Loan Fund",
+   "amount": 125000,
+   "place": "Sacramento, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Casa",
+   "purpose": "15 Summit Ave - Veteran Housing",
+   "amount": 125000,
+   "place": "Raleigh, NC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Manhattan Chamber of Commerce Foundation Inc",
+   "purpose": "Storefront Improvement Program",
+   "amount": 125000,
+   "place": "New York, NY",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Mission Economic Development Agency",
+   "purpose": "2025 General Operating Support for MEDA's Economic Mobility Programs",
+   "amount": 125000,
+   "place": "San Francisco, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Scholars of Finance",
+   "purpose": "Wells Fargo & SOF: Expanding Financial Health & Leadership Research",
+   "amount": 125000,
+   "place": "Saint Louis Park, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Oweesta Corp",
+   "purpose": "Building Native Communities Financial Coaching",
+   "amount": 120000,
+   "place": "Longmont, CO",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Mutual Housing California",
+   "purpose": "Permanent Supportive Housing at Mutual Housing California",
+   "amount": 115000,
+   "place": "Sacramento, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Habitat for Humanity International",
+   "purpose": "2025 Wells Fargo & Habitat International Employee Engagement",
+   "amount": 102695,
+   "place": "Americus, GA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "6th Avenue Corridor Inc",
+   "purpose": "E3 Program",
+   "amount": 100000,
+   "place": "Des Moines, IA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Accessity",
+   "purpose": "Microlending Program",
+   "amount": 100000,
+   "place": "San Diego, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "African American Leadership Forum",
+   "purpose": "General Operating Support",
+   "amount": 100000,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Association of Alaska Housing Authorities",
+   "purpose": "Alaska Tribal Housing Accelerator Academy",
+   "amount": 100000,
+   "place": "Anchorage, AK",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Big Brothers Big Sisters of the Bay Area",
+   "purpose": "Stock Market Game & Mentoring - Financial Health & Economic Mobility",
+   "amount": 100000,
+   "place": "Oakland, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Brooklyn Childrens Museum Corp",
+   "purpose": "BCM's Culinary Residency & Incubator Support Program",
+   "amount": 100000,
+   "place": "Brooklyn, NY",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "California Association for Microenterprise Opportunity",
+   "purpose": "Leading Coordination as SCALE Network Manager - General Operating",
+   "amount": 100000,
+   "place": "San Francisco, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "California Community Foundation",
+   "purpose": "Los Angeles Wildfire Rebuilding and Renewal Fund (LAWRRF)",
+   "amount": 100000,
+   "place": "Los Angeles, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "California Restaurant Foundation",
+   "purpose": "FIT Day Financial Health Program",
+   "amount": 100000,
+   "place": "Sacramento, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Coalition for the Homeless HoustonHarris County",
+   "purpose": "General Operating Support for Ending Street Homelessness",
+   "amount": 100000,
+   "place": "Houston, TX",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "CSUN Foundation",
+   "purpose": "CSUN VITA Clinic",
+   "amount": 100000,
+   "place": "Northridge, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Downtown Women's Center",
+   "purpose": "DWC's Housing and Supportive Services Program",
+   "amount": 100000,
+   "place": "Los Angeles, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Energize Colorado Inc",
+   "purpose": "Energize Colorado PEAK Program",
+   "amount": 100000,
+   "place": "Boulder, CO",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Epicenter",
+   "purpose": "Resilient Housing Initiative",
+   "amount": 100000,
+   "place": "Green River, UT",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Firm Foundation Community Housing",
+   "purpose": "Broadway Village",
+   "amount": 100000,
+   "place": "Castro Valley, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Foundation for the Carolinas",
+   "purpose": "A Way Home",
+   "amount": 100000,
+   "place": "Charlotte, NC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Genesis LA Economic Growth Corporation",
+   "purpose": "South LA Community Food Hall",
+   "amount": 100000,
+   "place": "Los Angeles, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Glide Foundation",
+   "purpose": "GLIDE Rental Assistance Program",
+   "amount": 100000,
+   "place": "San Francisco, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Goalsetter Foundation",
+   "purpose": "Financial Compe-Tuition: BBCB",
+   "amount": 100000,
+   "place": "Brooklyn, NY",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Greater Twin Cities United Way",
+   "purpose": "Pathways Home",
+   "amount": 100000,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Growth Partners Arizona",
+   "purpose": "GrowthHUUB Access | Financial Education",
+   "amount": 100000,
+   "place": "Tucson, AZ",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Gulf Coast Economic Development District",
+   "purpose": "Small Business Loan Fund programs",
+   "amount": 100000,
+   "place": "Houston, TX",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Habitat for Humanity of Greater Sacramento",
+   "purpose": "Rock the Block Bryte Broderick & Citrus Heights New Home Development",
+   "amount": 100000,
+   "place": "Sacramento, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Hispanic Federation Inc",
+   "purpose": "NY Financial Resilience Project",
+   "amount": 100000,
+   "place": "New York, NY",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "HLB Fund",
+   "purpose": "Finding Home at Yellow Cab",
+   "amount": 100000,
+   "place": "Houston, TX",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Homes by TLC Inc",
+   "purpose": "Affordable Housing: Project Home XVIII: Sullivan Way, Ewing NJ",
+   "amount": 100000,
+   "place": "Lawrenceville, NJ",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "I M Sulzbacher Center for the Homeless Inc",
+   "purpose": "Sulzbacher Housing Stability and Employment Services",
+   "amount": 100000,
+   "place": "Jacksonville, FL",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Jewish Communal Fund",
+   "purpose": "RUSH REQUEST-DISASTER GRANT Jewish Communal Fund",
+   "amount": 100000,
+   "place": "New York, NY",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Junior Achievement of Greater Washington",
+   "purpose": "Expanding 3DE in Prince George's County",
+   "amount": 100000,
+   "place": "Washington, DC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Junior Achievement of Washington",
+   "purpose": "JAWA Experiential Learning Programs & Mobile Finance Park",
+   "amount": 100000,
+   "place": "Auburn, WA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Kingdom House",
+   "purpose": "2025 LifeWise StL Economic Wellness IDA Program",
+   "amount": 100000,
+   "place": "Saint Louis, MO",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "LIFT Inc",
+   "purpose": "LIFT-LA and AltaMed: Financial Coaching within Pediatric Healthcare",
+   "amount": 100000,
+   "place": "Washington, DC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Local INITIATIVES Support Corporation",
+   "purpose": "Blue Line Corridor Coalition",
+   "amount": 100000,
+   "place": "New York, NY",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Local Initiatives Support Corporation Inc",
+   "purpose": "The Real Estate Developer Incubator Training Program (REDi)",
+   "amount": 100000,
+   "place": "New York, NY",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Long Island Housing Partnership Inc",
+   "purpose": "ECKE AVENUE SUBDIVISION",
+   "amount": 100000,
+   "place": "Hauppauge, NY",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Los Angeles Urban League",
+   "purpose": "Entrepreneurship Center",
+   "amount": 100000,
+   "place": "Los Angeles, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Masters of Coin",
+   "purpose": "Central AZ Volunteer Income Tax Assistance (VITA)",
+   "amount": 100000,
+   "place": "Phoenix, AZ",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Mexican American Unity Council Inc",
+   "purpose": "MAUC Homestead Preservation Center",
+   "amount": 100000,
+   "place": "San Antonio, TX",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Miami Homes for All",
+   "purpose": "Connecting Capital and Community (3C)",
+   "amount": 100000,
+   "place": "Miami, FL",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Mile High United Way Inc",
+   "purpose": "United for Business",
+   "amount": 100000,
+   "place": "Denver, CO",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Mile High United Way Inc",
+   "purpose": "Tax Help Colorado",
+   "amount": 100000,
+   "place": "Denver, CO",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Mountain Mediation Center Inc",
+   "purpose": "Housing: Eviction Prevention in Rural Utah",
+   "amount": 100000,
+   "place": "Park City, UT",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "National Minority Community Reinvestment Co-Operative Inc",
+   "purpose": "Endowment Support",
+   "amount": 100000,
+   "place": "Tampa, FL",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "National Multiple Sclerosis Society",
+   "purpose": "Financial Health and Patient Advocacy",
+   "amount": 100000,
+   "place": "New York, NY",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Neighborhood Solidarity Fund",
+   "purpose": "General Operating",
+   "amount": 100000,
+   "place": "Saint Louis, MO",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "NHS Lending Inc dba NeighborWorks Boise Lending",
+   "purpose": "Launch affordable homebuilding and repair programs in Cascade, Idaho",
+   "amount": 100000,
+   "place": "Boise, ID",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Pacific Coast Regional Small Business Development Corporation",
+   "purpose": "Grand Opening - PCR Business Resource Center",
+   "amount": 100000,
+   "place": "Los Angeles, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Pasadena Community Foundation",
+   "purpose": "Altadena Builds Back Foundation - Breathing Room Loan Program",
+   "amount": 100000,
+   "place": "Pasadena, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "People Assisting the Homeless",
+   "purpose": "General Operating Support",
+   "amount": 100000,
+   "place": "Los Angeles, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Philadelphia Association of Community Development Corporations",
+   "purpose": "Community Economic Development Programming",
+   "amount": 100000,
+   "place": "Philadelphia, PA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Pocatello Neighborhood Housing Services Inc",
+   "purpose": "Expansion of Owner-Occupied Home Rehabilitation Program",
+   "amount": 100000,
+   "place": "Pocatello, ID",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Raleigh Area Land Trust",
+   "purpose": "Permanent Affordable Housing",
+   "amount": 100000,
+   "place": "Raleigh, NC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Rebuilding Together East Bay Network",
+   "purpose": "A Firm Foundation for the Big Skills Program",
+   "amount": 100000,
+   "place": "Berkeley, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Reinvestment Partners",
+   "purpose": "Harriet Tubman YWCA Historic Renovation",
+   "amount": 100000,
+   "place": "Durham, NC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Renaissance Entrepreneurship Center",
+   "purpose": "Beyond the Kitchen",
+   "amount": 100000,
+   "place": "San Francisco, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "San Diego Foundation",
+   "purpose": "Strengthening Communities Through Inclusive Small Business Development",
+   "amount": 100000,
+   "place": "San Diego, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "San Francisco Foundation",
+   "purpose": "The Partnership for HOPE SF",
+   "amount": 100000,
+   "place": "San Francisco, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Springfield Preservation and Revitalization Council Inc",
+   "purpose": "2026 Small Business Support",
+   "amount": 100000,
+   "place": "Jacksonville, FL",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "TacomaPierce County Habitat for Humanity",
+   "purpose": "Building Hope Campaign",
+   "amount": 100000,
+   "place": "Tacoma, WA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Team Rubicon",
+   "purpose": "Accelerated Disaster Response Through AI-Driven Volunteer Mobilization",
+   "amount": 100000,
+   "place": "Los Angeles, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Texsar Texas Search and Rescue",
+   "purpose": "Texas Flooding - Texas Search and Rescue",
+   "amount": 100000,
+   "place": "Wimberley, TX",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "The Housing Partnership Network Inc",
+   "purpose": "LA Post-Wildfire Recovery and Rebuild Efforts",
+   "amount": 100000,
+   "place": "Boston, MA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "The North Carolina Arboretum Society",
+   "purpose": "Project PEACE and EXPLORE: Increasing Access to Outdoor Learning",
+   "amount": 100000,
+   "place": "Asheville, NC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "The Urban Institute",
+   "purpose": "Supporting Housing and Diverse Developers through Capital Access",
+   "amount": 100000,
+   "place": "District of Columbia, WA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "United Way of Greater Atlanta",
+   "purpose": "Economic Stability - VITA",
+   "amount": 100000,
+   "place": "Atlanta, GA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "United Way of Greater Houston",
+   "purpose": "Financial Stability Programming with United Way THRIVE",
+   "amount": 100000,
+   "place": "Houston, TX",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Urban Impact Inc",
+   "purpose": "4th Avenue Forward Culinary Training and Kitchen Incubator",
+   "amount": 100000,
+   "place": "Birmingham, AL",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Urban League of Essex County",
+   "purpose": "Affordable Housing Creation in Newark's Fairmount Neighborhood",
+   "amount": 100000,
+   "place": "Newark, NJ",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Utah State University",
+   "purpose": "Monument Valley Indigenous Business Launchpad",
+   "amount": 100000,
+   "place": "Logan, UT",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Valley of the Sun United Way",
+   "purpose": "Mighty Change Housing Programs",
+   "amount": 100000,
+   "place": "Phoenix, AZ",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Vision Atlantic Inc",
+   "purpose": "Wells Fargo Madison Tiny Home in Atlantic, IA",
+   "amount": 100000,
+   "place": "Atlantic, IA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Volunteers of America Inc",
+   "purpose": "Rehousing Services to Individuals Facing Homelessness in Sacramento",
+   "amount": 100000,
+   "place": "Sacramento, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Volunteers of America-Greater New York",
+   "purpose": "VOA-GNY Fall Welcome Home Engagement Events",
+   "amount": 100000,
+   "place": "New York, NY",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Wesley-Rankin Community Center",
+   "purpose": "Financial Empowerment Initiative for Legacy West Dallas Residents",
+   "amount": 100000,
+   "place": "Dallas, TX",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "West Los Angeles College Foundation",
+   "purpose": "Real Estate Appraiser Career Education and Experience Program",
+   "amount": 100000,
+   "place": "Culver City, CA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Neighborhood Housing Services of Chicago INC",
+   "purpose": "NHS' Next Level",
+   "amount": 95000,
+   "place": "Chicago, IL",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "LTSC Community Development Corporation",
+   "purpose": "Linda Vista Apartments",
+   "amount": 93500,
+   "place": "Los Angeles, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Asian Pacific Islander Small Business Program Inc",
+   "purpose": "API SBP General Operating Support",
+   "amount": 90000,
+   "place": "Los Angeles, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "New Jersey Citizen Action Education Fund Inc",
+   "purpose": "2025 NJ Housing Affordability & Financial Wellness Project",
+   "amount": 90000,
+   "place": "Newark, NJ",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Iowa Center for Economic Success",
+   "purpose": "Elevate Small Business Education Series",
+   "amount": 85000,
+   "place": "Des Moines, IA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "LifeStyles of Maryland Foundation Inc",
+   "purpose": "Housing Access & Stability Through Education & Employment Program.",
+   "amount": 85000,
+   "place": "La Plata, MD",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "San Antonio for Growth on the Eastside Inc",
+   "purpose": "SAGE Store Front Grant Program",
+   "amount": 85000,
+   "place": "San Antonio, TX",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Trustees of Davidson College",
+   "purpose": "Summer Wheat Painting Acquisition",
+   "amount": 82000,
+   "place": "Davidson, NC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Casa Familiar Inc",
+   "purpose": "Lending Circles",
+   "amount": 80000,
+   "place": "San Ysidro, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Charlotte Is Creative",
+   "purpose": "Creative Entrepreneurs Initiative - Year Five",
+   "amount": 80000,
+   "place": "Charlotte, NC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Community HousingWorks",
+   "purpose": "Financial Well-Being Program",
+   "amount": 80000,
+   "place": "San Diego, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Gardhouse Limited",
+   "purpose": "Supporting Small Businesses",
+   "amount": 80000,
+   "place": "Charlotte, NC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Goodwill Industries of the Valleys Inc",
+   "purpose": "Melrose Plaza",
+   "amount": 80000,
+   "place": "Roanoke, VA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Housing California",
+   "purpose": "Creating a California with homes, health, and prosperity for all",
+   "amount": 80000,
+   "place": "Sacramento, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "LA Family Housing Corporation",
+   "purpose": "Housing Stability Services",
+   "amount": 80000,
+   "place": "N Hollywood, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Latino Economic Development Corporation of Washington Dc",
+   "purpose": "FY26 LEDC Housing and Small Business",
+   "amount": 80000,
+   "place": "Washington, DC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "The Center for Strategic Economic Studies and Institutional Development",
+   "purpose": "LA Wildfire Home Rebuilding Initiative",
+   "amount": 80000,
+   "place": "Los Angeles, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Central Virginia Legal Aid Society",
+   "purpose": "Heirs Property and Estate Planning Documents Project",
+   "amount": 77000,
+   "place": "Richmond, VA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "American Bankers Association Community Engagement Foundation",
+   "purpose": "ABA Foundation's Adult Financial Literacy Expansion",
+   "amount": 75000,
+   "place": "Washington, DC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Arizona Hispanic Chamber of Commerce Foundation",
+   "purpose": "AZHCC's Capital Readiness Program",
+   "amount": 75000,
+   "place": "Phoenix, AZ",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "BEN Colorado Inc",
+   "purpose": "Elevating Impact through the Denver Scaleup Network",
+   "amount": 75000,
+   "place": "Denver, CO",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Beyond Housing Inc",
+   "purpose": "Beyond Housing Affordable Rental Housing",
+   "amount": 75000,
+   "place": "St Louis, MO",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Casita Coalition",
+   "purpose": "ADU resource toolkit and convening",
+   "amount": 75000,
+   "place": "Los Angeles, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Catholic Charities of the Archdiocese of St Paul and Minneapolis",
+   "purpose": "A Path to Home: Supportive Housing in St. Paul",
+   "amount": 75000,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Chicanos Por La Causa Inc",
+   "purpose": "Housing Counseling in Maricopa and Pima County",
+   "amount": 75000,
+   "place": "Phoenix, AZ",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Community Capital New York Inc",
+   "purpose": "CCNY's Small Business Lending and Technical Assistance Program",
+   "amount": 75000,
+   "place": "Elmsford, NY",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Community Ventures Corporation",
+   "purpose": "Estate Planning and Heirs Property Module",
+   "amount": 75000,
+   "place": "Lexington, KY",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Dallas City Homes INC",
+   "purpose": "Single Family Workforce-Housing Queen City",
+   "amount": 75000,
+   "place": "Dallas, TX",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Dallas College Foundation Inc",
+   "purpose": "Start.Pivot.Grow. Accelerator",
+   "amount": 75000,
+   "place": "Dallas, TX",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "East Bay Asian Local Development Corporation",
+   "purpose": "General Operating Support",
+   "amount": 75000,
+   "place": "Oakland, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "East Denver Colfax Partnership",
+   "purpose": "East Colfax Equitable Development Support",
+   "amount": 75000,
+   "place": "Denver, CO",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Enterprise Community Partners Inc",
+   "purpose": "Home 4 Good",
+   "amount": 75000,
+   "place": "Columbia, MD",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Freedom Fighting Missionaries Inc",
+   "purpose": "Homeless To Housed",
+   "amount": 75000,
+   "place": "Charlotte, NC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Goodwill Industries of South Florida",
+   "purpose": "Skills Training and Career Ladder Program for Homeless",
+   "amount": 75000,
+   "place": "Miami, FL",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Greater Jamaica Development Corporation",
+   "purpose": "Building Business Credit",
+   "amount": 75000,
+   "place": "Jamaica, NY",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Habitat for Humanity in Atlanta",
+   "purpose": "Youth Build Day",
+   "amount": 75000,
+   "place": "Atlanta, GA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Hemisfair Conservancy",
+   "purpose": "Yanaguana Garden Beautification",
+   "amount": 75000,
+   "place": "San Antonio, TX",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Housing and Community Development Network of New Jersey",
+   "purpose": "HouseNJ General Operating Support",
+   "amount": 75000,
+   "place": "Trenton, NJ",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Junior Achievement North",
+   "purpose": "Junior Achievement North: Financial Literacy for North Dakota Students",
+   "amount": 75000,
+   "place": "St Paul, MN",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Local Initiatives Support Corporation",
+   "purpose": "Affordable Housing Capacity Building Initiative",
+   "amount": 75000,
+   "place": "New York, NY",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Minnesota Home Ownership Center",
+   "purpose": "Closing the Homeownership Gap for Underserved Households in Minnesota",
+   "amount": 75000,
+   "place": "Saint Paul, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Native American Finance Officers Association",
+   "purpose": "NAFOA Leadership Summit",
+   "amount": 75000,
+   "place": "Washington, DC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "NEWSED Community Development Corporation",
+   "purpose": "Statewide Financial Literacy Training",
+   "amount": 75000,
+   "place": "Denver, CO",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Oak Park Regional Housing Center",
+   "purpose": "Create a Legacy- Become a Homeowner",
+   "amount": 75000,
+   "place": "Oak Park, IL",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Red Feather Development Group",
+   "purpose": "Healthy Housing Solutions for Resilient Tribal Communities",
+   "amount": 75000,
+   "place": "Bozeman, AZ",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Ronald McDonald House Charities of Southwest Virginia Inc",
+   "purpose": "Employee Impact Grant",
+   "amount": 75000,
+   "place": "Roanoke, VA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Spanish Speaking Unity Council of Alameda County Inc",
+   "purpose": "Building Community Financial Empowerment in East Oakland",
+   "amount": 75000,
+   "place": "Oakland, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "United Way of Central Iowa",
+   "purpose": "211 Programming Grant",
+   "amount": 75000,
+   "place": "Des Moines, IA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Volunteers of America Colorado Branch",
+   "purpose": "VOA Colorado Helping People Move from Crisis to Permanent Housing",
+   "amount": 75000,
+   "place": "Denver, CO",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Warrior Rising",
+   "purpose": "First Round Platoon Model",
+   "amount": 75000,
+   "place": "South Jordan, UT",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Womens Enterprise Development Center",
+   "purpose": "Entrepreneurial Programs and Services",
+   "amount": 75000,
+   "place": "White Plains, NY",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Common Wealth Charlotte",
+   "purpose": "Trauma-Informed Financial Capability",
+   "amount": 70000,
+   "place": "Charlotte, NC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Local Initiatives Support Corporation",
+   "purpose": "Blue Line Corridor Coalition Economic Mobility",
+   "amount": 70000,
+   "place": "New York, NY",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Native American Connections",
+   "purpose": "Sunrise Circle",
+   "amount": 70000,
+   "place": "Phoenix, AZ",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Roof Above",
+   "purpose": "Ending Homelessness with Housing",
+   "amount": 70000,
+   "place": "Charlotte, NC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "United Way of Northeast Florida Inc",
+   "purpose": "Mission United Housing Initiative",
+   "amount": 70000,
+   "place": "Jacksonville, FL",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Urban Affairs Coalition",
+   "purpose": "CED Programming",
+   "amount": 69500,
+   "place": "Philadelphia, PA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "DHIC Inc",
+   "purpose": "General Operating Support",
+   "amount": 65000,
+   "place": "Raleigh, NC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Greater Des Moines Partnership Foundation",
+   "purpose": "Scale DSM Business Accelerator",
+   "amount": 65000,
+   "place": "Des Moines, IA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Habitat for Humanity of Florida Inc",
+   "purpose": "Habitat Florida New Leader Cohort",
+   "amount": 65000,
+   "place": "Clearwater, FL",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Jacksonville Public Education Fund Inc",
+   "purpose": "Advancing Workforce Development through Public Education",
+   "amount": 65000,
+   "place": "Jacksonville, FL",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "United Way of Forsyth County Inc",
+   "purpose": "United Way: Increasing Housing Affordability and Stability",
+   "amount": 65000,
+   "place": "Winston Salem, NC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Westside Health Authority",
+   "purpose": "Advance Manufacturing Training pilot program",
+   "amount": 65000,
+   "place": "Chicago, IL",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Junior Achievement of Alabama Inc",
+   "purpose": "JA BizTown Wells Fargo Storefront",
+   "amount": 62500,
+   "place": "Birmingham, AL",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Ability Housing Inc",
+   "purpose": "Village of Pine Hills -Northeast Florida Villages Program",
+   "amount": 60000,
+   "place": "Jacksonville, FL",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "AmPac Tri-State CDC Inc",
+   "purpose": "Entrepreneur Ecosystem and Small Business Incubator Program",
+   "amount": 60000,
+   "place": "Ontario, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Bridgeport Neighborhood Trust Inc",
+   "purpose": "Urban Homeownership Assistance Program",
+   "amount": 60000,
+   "place": "Bridgeport, CT",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "CSUSB Philanthropic Foundation",
+   "purpose": "Entrepreneurial Resource Centers: A Catalyst for Small Business Growth",
+   "amount": 60000,
+   "place": "San Bernardino, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "El Pajaro Community Development Corporation",
+   "purpose": "Helping businesses take flight",
+   "amount": 60000,
+   "place": "Watsonville, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "For the Struggle Inc",
+   "purpose": "Elder Response Initiative",
+   "amount": 60000,
+   "place": "Charlotte, NC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "HomeFree-USA Inc",
+   "purpose": "2025 HomeFree Cummings Scholars Program",
+   "amount": 60000,
+   "place": "Landover, MD",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Junior Achievement of Arizona",
+   "purpose": "JA K12 Financial Literacy Education",
+   "amount": 60000,
+   "place": "Tempe, AZ",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Local Initiatives Support Corporation",
+   "purpose": "Building Wealth for LMI Residents with Financial Opportunity Centers",
+   "amount": 60000,
+   "place": "New York, NY",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Local Initiatives Support Corporation",
+   "purpose": "Affordable Housing and Small Business Initiatives",
+   "amount": 60000,
+   "place": "New York, NY",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Local Initiatives Support Corporation",
+   "purpose": "LISC Twin Cities General Operating Support",
+   "amount": 60000,
+   "place": "New York, NY",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Local Initiatives Support Corporation",
+   "purpose": "LISC Upstate's Affordable Housing Development Initiative",
+   "amount": 60000,
+   "place": "New York, NY",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Modesto Educational Foundation",
+   "purpose": "Small Business Innovation Hub",
+   "amount": 60000,
+   "place": "Long Valley, NJ",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "National Institute of Minority Economic Development",
+   "purpose": "Expanding Programming in the Triangle and Eastern NC",
+   "amount": 60000,
+   "place": "Durham, NC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Players Philanthropy Fund Inc",
+   "purpose": "Goodr Community Market at iVillage @ MLK: Expanding Services",
+   "amount": 60000,
+   "place": "Towson, MD",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "REACH Riverside Development Corporation",
+   "purpose": "REACH Riverside Homeownership Opportunities",
+   "amount": 60000,
+   "place": "Wilmington, DE",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "United Way of Central Alabama",
+   "purpose": "Increasing Financial and Housing Stability in Central Alabama",
+   "amount": 60000,
+   "place": "Birmingham, AL",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Urban League of Greater Philadelphia",
+   "purpose": "Homebuyer Education and Entrepreneurship Program",
+   "amount": 60000,
+   "place": "Philadelphia, PA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Wakeland Housing and Development Corporation",
+   "purpose": "Wakeland Housing Affordable Housing Beautification Projects Projects",
+   "amount": 60000,
+   "place": "San Diego, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Women Business Development Council Inc",
+   "purpose": "Entrepreneurship Support for CT Small Businesses",
+   "amount": 60000,
+   "place": "Stamford, CT",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Abode Services",
+   "purpose": "Landlord Engagement and Volunteer Event",
+   "amount": 55000,
+   "place": "Fremont, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Beyond Housing Foundation",
+   "purpose": "Financial Empowerment and Homeownership Prep",
+   "amount": 55000,
+   "place": "Fresno, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Fairfield County's Community Foundation Inc",
+   "purpose": "Center for Nonprofit Excellence",
+   "amount": 55000,
+   "place": "Norwalk, CT",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Make It Home",
+   "purpose": "FURNISHING STABILITY WITH MAKE IT HOME",
+   "amount": 55000,
+   "place": "San Rafael, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Massachusetts Affordable Housing Alliance",
+   "purpose": "STASH: First-Gen Home",
+   "amount": 55000,
+   "place": "Dorchester, MA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Riverworks Development Corporation",
+   "purpose": "Riverworks Financial Clinic: Financially Empowering Milwaukee",
+   "amount": 55000,
+   "place": "Milwaukee, WI",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Greater Twin Cities United Way",
+   "purpose": "Home for Good Volunteer Event, 2025",
+   "amount": 52750,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Able Works",
+   "purpose": "FutureProfits: Financial Education for Bay Area High School Students",
+   "amount": 50000,
+   "place": "San Francisco, CA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "ACHIEVEability",
+   "purpose": "Family Self Sufficiency Program",
+   "amount": 50000,
+   "place": "Philadelphia, PA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Ada Jenkins Families and Careers Development Center Inc",
+   "purpose": "Asset Building",
+   "amount": 50000,
+   "place": "Davidson, NC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Affordable Homes of South Texas Inc",
+   "purpose": "SMART SAVINGS PROGRAM",
+   "amount": 50000,
+   "place": "Mcallen, TX",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Agape Resource & Assistance Center Inc",
+   "purpose": "Wells Fargo Welcome Home to Jericho & Agape",
+   "amount": 50000,
+   "place": "Plano, TX",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Arizona Food Bank Network",
+   "purpose": "Feeding America affiliate support program",
+   "amount": 50000,
+   "place": "Phoenix, AZ",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Ascend Dallas",
+   "purpose": "Ascend Dallas: Economic Advancement Program",
+   "amount": 50000,
+   "place": "Dallas, TX",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Ascendus Inc",
+   "purpose": "Ascendus's Path to Access to Capital and Financial Coaching in Boston",
+   "amount": 50000,
+   "place": "New York, NY",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Asheville Area Habitat for Humanity Inc",
+   "purpose": "General Operating Support for Asheville Habitat Hurricane Recovery",
+   "amount": 50000,
+   "place": "Asheville, NC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Asian Americans Advancing Justice Southern California",
+   "purpose": "AJSOCAL's Home Preservation Program: Eviction Defense Legal Services",
+   "amount": 50000,
+   "place": "Los Angeles, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Asian Americans for Equality",
+   "purpose": "AAFE Housing Preservation Initiative",
+   "amount": 50000,
+   "place": "New York, NY",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Athens Land Trust Inc",
+   "purpose": "Homebuyer Education and first time Homebuyer Program",
+   "amount": 50000,
+   "place": "Athens, GA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "BakerRipley",
+   "purpose": "Entrepreneur Connection",
+   "amount": 50000,
+   "place": "Houston, TX",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Benedict College",
+   "purpose": "Benedict College Statewide Investment Accelerator",
+   "amount": 50000,
+   "place": "Columbia, SC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "BizStarts Milwaukee",
+   "purpose": "General Operating/Capital Catalyst Fund",
+   "amount": 50000,
+   "place": "Milwaukee, WI",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "BRAVER Together Tarrant",
+   "purpose": "Braver Business Academy",
+   "amount": 50000,
+   "place": "Fort Worth, TX",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Breaking Ground Housing Development Fund Corporation",
+   "purpose": "Financial Empowerment",
+   "amount": 50000,
+   "place": "New York, NY",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Brooklyn Alliance Inc",
+   "purpose": "Brooklyn Made Inventory Replenishment",
+   "amount": 50000,
+   "place": "Brooklyn, NY",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "BUILD Inc",
+   "purpose": "Financial Literacy & Investment Strategy Program",
+   "amount": 50000,
+   "place": "Chicago, IL",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Business and Community Lenders of Texas",
+   "purpose": "Austin Small Business Ecosystem",
+   "amount": 50000,
+   "place": "Austin, TX",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Cabrillo Economic Development Corp",
+   "purpose": "Increase Access to Affordable and Stable Housing",
+   "amount": 50000,
+   "place": "Ventura, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "California Coalition for Rural Housing",
+   "purpose": "General Operating Support - Internship & Tribal",
+   "amount": 50000,
+   "place": "Sacramento, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "California Housing Partnership",
+   "purpose": "Roadmap Home 2.0 Amplification",
+   "amount": 50000,
+   "place": "San Francisco, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Camden Community Partnership",
+   "purpose": "Camden Home Improvement Program 2025",
+   "amount": 50000,
+   "place": "Camden, NJ",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Caminar",
+   "purpose": "Resource Connect Solano",
+   "amount": 50000,
+   "place": "San Mateo, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Canal Alliance",
+   "purpose": "Economic Mobility",
+   "amount": 50000,
+   "place": "San Rafael, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Catholic Charities of Spokane",
+   "purpose": "Eviction Prevention in Nine Affordable Housing Sites in Spokane County",
+   "amount": 50000,
+   "place": "Spokane, WA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Soldiers' Angels",
+   "purpose": "Assembling hygiene kits, making no sew blankets",
+   "amount": 25000,
+   "place": "San Antonio, TX",
+   "water": true,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Volunteers of America - Greater New York",
+   "purpose": "Mom & Baby kits *OR* Hygiene Kits",
+   "amount": 5000,
+   "place": "New York, NY",
+   "water": true,
+   "adjacent": false,
+   "peer": null
+  }
+ ],
+ "grantsTruncated": true
+}

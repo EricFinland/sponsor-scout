@@ -1,0 +1,236 @@
+{
+ "ein": "931159948",
+ "name": "Nike Foundation",
+ "city": "Beaverton",
+ "state": "OR",
+ "formType": "990PF",
+ "taxYear": 2024,
+ "totalGiving": 16553624,
+ "totalAssets": 47523705,
+ "detailAvailable": true,
+ "stats": {
+  "count": 11,
+  "total": 16739627,
+  "median": 500000,
+  "buckets": [
+   0,
+   0,
+   1,
+   0,
+   8,
+   2
+  ],
+  "waterCount": 0,
+  "waterAmount": 0,
+  "adjacentCount": 0,
+  "peerMatches": [],
+  "thirstProjectGrants": 0
+ },
+ "grantsInAttachment": false,
+ "officers": [
+  {
+   "name": "Vanessa Garcia-Brito",
+   "title": "President"
+  },
+  {
+   "name": "Kelsey Baldwin",
+   "title": "Secretary"
+  },
+  {
+   "name": "Danielle Dausman",
+   "title": "Treasurer"
+  },
+  {
+   "name": "Jorge G Casimiro",
+   "title": "Director"
+  },
+  {
+   "name": "Robert Leinwand",
+   "title": "Director"
+  },
+  {
+   "name": "Glynis Jones",
+   "title": "Treasurer Thru 12/2024"
+  },
+  {
+   "name": "Ann Miller",
+   "title": "Director Thru 12/2024"
+  }
+ ],
+ "preselectedOnly": true,
+ "applicationContact": null,
+ "website": "N/A",
+ "history": [
+  {
+   "year": 2013,
+   "giving": 5062026,
+   "assets": 71495610,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2014_04_PF%2F93-1159948_990PF_201305.pdf"
+  },
+  {
+   "year": 2014,
+   "giving": 6635467,
+   "assets": 60378797,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2015_04_PF%2F93-1159948_990PF_201405.pdf"
+  },
+  {
+   "year": 2015,
+   "giving": 15256369,
+   "assets": 22893171,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2016_04_PF%2F93-1159948_990PF_201505.pdf"
+  },
+  {
+   "year": 2019,
+   "giving": 18407740,
+   "assets": 12927684,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=08_2020_prefixes_90-95%2F931159948_201905_990PR_2020082417251758.pdf"
+  },
+  {
+   "year": 2020,
+   "giving": 29563201,
+   "assets": 7787156,
+   "pdfUrl": null
+  },
+  {
+   "year": 2021,
+   "giving": 19398933,
+   "assets": 5644402,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F931159948_202105_990PF_2022051320042619.pdf"
+  },
+  {
+   "year": 2022,
+   "giving": 24912325,
+   "assets": 18150265,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F931159948_202205_990PF_2023060521365451.pdf"
+  },
+  {
+   "year": 2023,
+   "giving": 21310121,
+   "assets": 34085997,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=download990pdf_03_2024_prefixes_86-99%2F931159948_202305_990PF_2024031222320281.pdf"
+  },
+  {
+   "year": 2024,
+   "giving": 16553624,
+   "assets": 47523705,
+   "pdfUrl": null
+  }
+ ],
+ "sources": [
+  {
+   "label": "ProPublica Nonprofit Explorer",
+   "url": "https://projects.propublica.org/nonprofits/organizations/931159948"
+  },
+  {
+   "label": "IRS e-file XML, 990PF 2024",
+   "url": "https://gt990datalake-rawdata.s3.amazonaws.com/EfileData/XmlFiles/202640239349100004_public.xml"
+  },
+  {
+   "label": "Filing PDF, 2023",
+   "url": "https://projects.propublica.org/nonprofits/download-filing?path=download990pdf_03_2024_prefixes_86-99%2F931159948_202305_990PF_2024031222320281.pdf"
+  }
+ ],
+ "fetchedAt": "2026-11-11T11:39:21.057Z",
+ "grants": [
+  {
+   "recipient": "American Online Giving Foundation",
+   "purpose": "FUNDING PARTNER FOR NIKE CORPORATE MATCH GIVING AND VOLUNTEER REWARDS PROGRAM",
+   "amount": 8975651,
+   "place": "Safety Harbor, FL",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Girl Effect",
+   "purpose": "TO SUPPORT AND SCALE THE GIRL EFFECT MOVEMENT.",
+   "amount": 4500000,
+   "place": "London, UK",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "American National Red Cross",
+   "purpose": "DONATION TOWARDS THE LA COUNTY WILDFIRES",
+   "amount": 750000,
+   "place": "Safety Harbor, FL",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Girl Effect",
+   "purpose": "TO SUPPORT AND SCALE THE GIRL EFFECT MOVEMENT.",
+   "amount": 500000,
+   "place": "London, UK",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Los Angeles Fire Department Foundation",
+   "purpose": "DONATION FOR THE LA COUNTY WILDFIRES",
+   "amount": 500000,
+   "place": "Los Angeles, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "World Central Kitchen",
+   "purpose": "DISASTER RECOVERY FUND HURRICANE MILTON",
+   "amount": 500000,
+   "place": "Washington, DC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "American National Red Cross",
+   "purpose": "DISASTER RECOVERY FUND HURRICANE MILTON",
+   "amount": 250000,
+   "place": "Safety Harbor, FL",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Center for Disaster Philanthropy",
+   "purpose": "GENERAL DISASTER RECOVERY FUND TYPHOON YAGI",
+   "amount": 250000,
+   "place": "Washington, DC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Feeding America",
+   "purpose": "DISASTER RECOVERY FUND HURRICANE MILTON",
+   "amount": 250000,
+   "place": "Chicago, IL",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "World Central Kitchen",
+   "purpose": "DISASTER RECOVERY FUND HURRICANE MILTON",
+   "amount": 250000,
+   "place": "Washington, DC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Canadian Online Giving Foundation",
+   "purpose": "FUNDING PARTNER FOR NIKE CORPORATE MATCH GIVING AND VOLUNTEER REWARDS PROGRAM",
+   "amount": 13976,
+   "place": "Calgary, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  }
+ ],
+ "grantsTruncated": false
+}

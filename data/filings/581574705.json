@@ -1,0 +1,2410 @@
+{
+ "ein": "581574705",
+ "name": "The Coca-Cola Foundation Inc",
+ "city": "Atlanta",
+ "state": "GA",
+ "formType": "990PF",
+ "taxYear": 2024,
+ "totalGiving": 116505217,
+ "totalAssets": 533903735,
+ "detailAvailable": true,
+ "stats": {
+  "count": 246,
+  "total": 117155948,
+  "median": 256793,
+  "buckets": [
+   0,
+   0,
+   6,
+   92,
+   115,
+   33
+  ],
+  "waterCount": 39,
+  "waterAmount": 22590698,
+  "adjacentCount": 51,
+  "peerMatches": [
+   {
+    "nonprofit": "charity: water",
+    "amount": 1529400,
+    "purpose": "Rural Water Programing - Pakistan, India & Zimbabwe"
+   },
+   {
+    "nonprofit": "DigDeep",
+    "amount": 530827,
+    "purpose": "United States Water Programing"
+   },
+   {
+    "nonprofit": "Global Water Challenge",
+    "amount": 109342,
+    "purpose": "Sustainable Access to Safe Water for Marzandiyya V illage, Azerbaijan"
+   },
+   {
+    "nonprofit": "Global Water Challenge",
+    "amount": 537618,
+    "purpose": "Promoting Climate Resilience through Water Resourc e Management in Al Jawf and Jazan, Saudi Arabia"
+   },
+   {
+    "nonprofit": "Global Water Challenge",
+    "amount": 1800000,
+    "purpose": "Transformative WASH Initiatives 2025 in Bolivia, B razil, Ecuador and Mexico"
+   },
+   {
+    "nonprofit": "Millennium Water Alliance",
+    "amount": 2232899,
+    "purpose": "Sustainable Access to Safe Water (SASaWa)"
+   },
+   {
+    "nonprofit": "Splash",
+    "amount": 100000,
+    "purpose": "WASH in Schools at Scale Phase I"
+   },
+   {
+    "nonprofit": "Water Mission",
+    "amount": 500000,
+    "purpose": "Improving Well-Being through Safe Water and Sanita tion for Communities in Mexico"
+   },
+   {
+    "nonprofit": "Water.org",
+    "amount": 1000000,
+    "purpose": "Advancing Water and Sanitation Project Development through WaterConnect"
+   },
+   {
+    "nonprofit": "WaterAid",
+    "amount": 1000000,
+    "purpose": "Women + Water Collaborative: India"
+   }
+  ],
+  "thirstProjectGrants": 0
+ },
+ "grantsInAttachment": false,
+ "officers": [
+  {
+   "name": "Beatriz Perez",
+   "title": "Chair/Director"
+  },
+  {
+   "name": "John Murphy",
+   "title": "Treasurer"
+  },
+  {
+   "name": "Carlos Pagoaga",
+   "title": "President"
+  },
+  {
+   "name": "Mark Harris",
+   "title": "Asst Treasurer,Gen Tax Counsel"
+  },
+  {
+   "name": "Henrique Braun",
+   "title": "Secretary"
+  },
+  {
+   "name": "Yasmin Assar",
+   "title": "General Legal Counsel"
+  },
+  {
+   "name": "Michael Goltzman",
+   "title": "Board Director"
+  },
+  {
+   "name": "Saadia Madsbjerg",
+   "title": "President"
+  },
+  {
+   "name": "Marc Goncher",
+   "title": "General Legal Counsel"
+  }
+ ],
+ "preselectedOnly": false,
+ "applicationContact": "Carlos Pagoaga President",
+ "website": "https://www.coca-colacompany.com/social/coca-",
+ "history": [
+  {
+   "year": 2013,
+   "giving": 98175501,
+   "assets": 114927625,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2014_12_PF%2F58-1574705_990PF_201312.pdf"
+  },
+  {
+   "year": 2014,
+   "giving": 90518700,
+   "assets": 25967077,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2015_11_PF%2F58-1574705_990PF_201412.pdf"
+  },
+  {
+   "year": 2015,
+   "giving": 84831796,
+   "assets": 39283384,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2016_11_PF%2F58-1574705_990PF_201512.pdf"
+  },
+  {
+   "year": 2019,
+   "giving": 87093647,
+   "assets": 289458101,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=05_2021_prefixes_58-59%2F581574705_201912_990PF_2021050518064258.pdf"
+  },
+  {
+   "year": 2020,
+   "giving": 138982030,
+   "assets": 264004314,
+   "pdfUrl": null
+  },
+  {
+   "year": 2021,
+   "giving": 108025885,
+   "assets": 328454102,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=download990pdf_03_2023_prefixes_54-62%2F581574705_202112_990PF_2023030821053329.pdf"
+  },
+  {
+   "year": 2022,
+   "giving": 94684802,
+   "assets": 266535468,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=download990pdf_01_2024_prefixes_56-58%2F581574705_202212_990PF_2024011122227456.pdf"
+  },
+  {
+   "year": 2023,
+   "giving": 95888203,
+   "assets": 309608071,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F581574705_202312_990PF_2025011522989276.pdf"
+  },
+  {
+   "year": 2024,
+   "giving": 116505217,
+   "assets": 533903735,
+   "pdfUrl": null
+  }
+ ],
+ "sources": [
+  {
+   "label": "ProPublica Nonprofit Explorer",
+   "url": "https://projects.propublica.org/nonprofits/organizations/581574705"
+  },
+  {
+   "label": "IRS e-file XML, 990PF 2024",
+   "url": "https://gt990datalake-rawdata.s3.amazonaws.com/EfileData/XmlFiles/202523049349100227_public.xml"
+  },
+  {
+   "label": "Filing PDF, 2023",
+   "url": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F581574705_202312_990PF_2025011522989276.pdf"
+  }
+ ],
+ "fetchedAt": "2026-11-11T11:39:14.294Z",
+ "grants": [
+  {
+   "recipient": "International Union for Conservation of Nature and",
+   "purpose": "IslandPlas: Advancing Circular Solutions to Plasti c Pollution in African Islands",
+   "amount": 5000000,
+   "place": "Washington, DC",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "United Nations Development Programme Regional Bure",
+   "purpose": "Regional Partnership on Management of Plastic Wast e and Circular Interventions on Plastics in South, South East Asia, and the Pacific",
+   "amount": 5000000,
+   "place": "Bangkok, TH",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "United States Soccer Federation Inc",
+   "purpose": "Workforce Development Program",
+   "amount": 4000000,
+   "place": "Fayetteville, GA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "World Wildlife Fund Inc",
+   "purpose": "Recharge Pakistan",
+   "amount": 3000000,
+   "place": "Washington, DC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "World Wildlife Fund Inc",
+   "purpose": "Plastic Smart Cities Program",
+   "amount": 3000000,
+   "place": "Washington, DC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Millennium Water Alliance",
+   "purpose": "Sustainable Access to Safe Water (SASaWa)",
+   "amount": 2232899,
+   "place": "Washington, DC",
+   "water": true,
+   "adjacent": true,
+   "peer": "Millennium Water Alliance"
+  },
+  {
+   "recipient": "Global Water Challenge",
+   "purpose": "Transformative WASH Initiatives 2025 in Bolivia, B razil, Ecuador and Mexico",
+   "amount": 1800000,
+   "place": "Arlington, VA",
+   "water": true,
+   "adjacent": false,
+   "peer": "Global Water Challenge"
+  },
+  {
+   "recipient": "United Way of Greater Atlanta Inc",
+   "purpose": "Child Well Being Impact Fund",
+   "amount": 1650000,
+   "place": "Atlanta, GA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "African Development Bank",
+   "purpose": "Mainstreaming circular economy as a green growth strategy in Africa through ACEF",
+   "amount": 1625000,
+   "place": "Abidjan, IV",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "American Online Giving Foundation Inc",
+   "purpose": "January Payment for December Matching Gifts",
+   "amount": 1621243,
+   "place": "Clearwater, FL",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Charity Global Inc",
+   "purpose": "Rural Water Programing - Pakistan, India & Zimbabwe",
+   "amount": 1529400,
+   "place": "Hagerstown, MD",
+   "water": true,
+   "adjacent": false,
+   "peer": "charity: water"
+  },
+  {
+   "recipient": "Water & Sanitation for the Urban Poor",
+   "purpose": "Resilient Water & Sanitation Programing for Low In come Communities",
+   "amount": 1500464,
+   "place": "Dhaka, BG",
+   "water": true,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Avina Americas Inc",
+   "purpose": "Expanding Latitud R's Model: Driving Progress Toward a Circular Economy via Inclusive Recycling",
+   "amount": 1500000,
+   "place": "Washington, DC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Conservation International Foundation",
+   "purpose": "Community, Climate and Conservation Initiative in the Great Limpopo Transfrontier Conservation Area (GLTFCA)",
+   "amount": 1250000,
+   "place": "Arlington, VA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Conservation International Foundation",
+   "purpose": "Rapid Scaling Portfolio: Mountains to Mangroves",
+   "amount": 1250000,
+   "place": "Arlington, VA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Future Smile Charitable Foundation",
+   "purpose": "Project Together: China Climate Resilience Program 2024 - Yangtze River Delta",
+   "amount": 1250000,
+   "place": "Hangzhou, CH",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Generation You Employed Inc",
+   "purpose": "Job Opportunities Boosting Self Sufficiency (JOBS)",
+   "amount": 1250000,
+   "place": "Washington DC, DC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "The Global Environment Technology Foundation",
+   "purpose": "Eurasia and Middle East Circular Economy Fund",
+   "amount": 1106630,
+   "place": "Arlington, VA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Acted",
+   "purpose": "Towards Holistic Resilience in Vulnerable Environments of Tchologo region, Northern Cote d'Ivoire, and West Pokot County, Kenya",
+   "amount": 1100000,
+   "place": "Paris, FR",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Possibility Labs",
+   "purpose": "CONECTA",
+   "amount": 1100000,
+   "place": "San Francisco, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Technoserve Inc",
+   "purpose": "Digital Hubs for Economic Empowerment",
+   "amount": 1100000,
+   "place": "Arlington, VA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "American National Red Cross",
+   "purpose": "Hurricane Helene Relief",
+   "amount": 1000000,
+   "place": "Washington, DC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Circulate Initiative Inc",
+   "purpose": "Responsible Sourcing of Recycled Plastics Africa",
+   "amount": 1000000,
+   "place": "Iselin, NJ",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Cooperative for Assistance and Relief Everywhere I",
+   "purpose": "CARE Relief Pack Project",
+   "amount": 1000000,
+   "place": "Atlanta, GA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Cooperative for Assistance and Relief Everywhere I",
+   "purpose": "Village Savings & Loan Associations in Emergency",
+   "amount": 1000000,
+   "place": "Atlanta, GA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Emergency Assistance Foundation Inc",
+   "purpose": "EDRF",
+   "amount": 1000000,
+   "place": "Orlando, FL",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "InterAmerican Development Bank",
+   "purpose": "Results Based Financing for Rural Water and Sanita tion Sustainable Services",
+   "amount": 1000000,
+   "place": "Washington, DC",
+   "water": true,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "International Bank for Reconstruction and Developm",
+   "purpose": "Platform for a Water Secure Gauteng",
+   "amount": 1000000,
+   "place": "Washington DC, DC",
+   "water": true,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Mercy Corps",
+   "purpose": "Strengthening Anticipatory Action in Nepal (SAAN)",
+   "amount": 1000000,
+   "place": "Portland, OR",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Nature Conservancy",
+   "purpose": "Nature for Water Facility - Ground Outcomes Fund",
+   "amount": 1000000,
+   "place": "Arlington, VA",
+   "water": true,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Water Org Inc",
+   "purpose": "Advancing Water and Sanitation Project Development through WaterConnect",
+   "amount": 1000000,
+   "place": "Kansas City, MO",
+   "water": true,
+   "adjacent": false,
+   "peer": "Water.org"
+  },
+  {
+   "recipient": "Wateraid America Inc",
+   "purpose": "Women + Water Collaborative: India",
+   "amount": 1000000,
+   "place": "New York, NY",
+   "water": true,
+   "adjacent": false,
+   "peer": "WaterAid"
+  },
+  {
+   "recipient": "World Wildlife Fund Inc",
+   "purpose": "Yucatan Vive",
+   "amount": 1000000,
+   "place": "Washington, DC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "American Online Giving Foundation Inc",
+   "purpose": "April Payment - 2024 Matching Gifts Program",
+   "amount": 935049,
+   "place": "Clearwater, FL",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "American Online Giving Foundation Inc",
+   "purpose": "Matching Gifts November Payment AAPI Women",
+   "amount": 877177,
+   "place": "Clearwater, FL",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "American Online Giving Foundation Inc",
+   "purpose": "February Payment - 2024 Matching Gifts Program",
+   "amount": 845199,
+   "place": "Clearwater, FL",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "African Reclaimers Organisation",
+   "purpose": "Reclaimer Integration Programme",
+   "amount": 833859,
+   "place": "Johannesburg, SF",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "United States International University Africa",
+   "purpose": "Africa Impact Academy",
+   "amount": 800000,
+   "place": "Nairobi, KE",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Cooperative for Assistance and Relief Everywhere I",
+   "purpose": "Integrated Flood Emergency Response in the Horn of Africa (FEE HOA)",
+   "amount": 791111,
+   "place": "Atlanta, GA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "American Online Giving Foundation Inc",
+   "purpose": "May Payment - 2024 Matching Gifts Program",
+   "amount": 774851,
+   "place": "Clearwater, FL",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "American National Red Cross",
+   "purpose": "Hurricane Milton Relief",
+   "amount": 750000,
+   "place": "Washington, DC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Ocean Conservancy",
+   "purpose": "Trash Free Seas",
+   "amount": 750000,
+   "place": "Washington, DC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "World Wildlife Fund Inc",
+   "purpose": "AQUA REVIVAL: promoting drought resilience across the water cycle in the Algarve",
+   "amount": 748915,
+   "place": "Washington, DC",
+   "water": true,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "American Online Giving Foundation Inc",
+   "purpose": "Matching Gifts December Payment",
+   "amount": 725797,
+   "place": "Clearwater, FL",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "American Online Giving Foundation Inc",
+   "purpose": "March Payment - 2024 Matching Gifts Program",
+   "amount": 683931,
+   "place": "Clearwater, FL",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "American Online Giving Foundation Inc",
+   "purpose": "October Matching Gifts Payment",
+   "amount": 676196,
+   "place": "Clearwater, FL",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Generation You Employed Inc",
+   "purpose": "Supporting Diversity & Employment in the Green & R etail Sectors in France",
+   "amount": 674324,
+   "place": "Washington DC, DC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "American Online Giving Foundation Inc",
+   "purpose": "July Payment - 2024 Matching Gifts Program",
+   "amount": 640247,
+   "place": "Clearwater, FL",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Accion International",
+   "purpose": "From Access to Resilience: Promoting the Growth of Small Businesses",
+   "amount": 600000,
+   "place": "Washington DC, DC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Fundacion para la Sostenibilidad y la Equidad ALIA",
+   "purpose": "Sustainable access to drinking water hand in hand with local water operators",
+   "amount": 600000,
+   "place": "San Pedro, CS",
+   "water": true,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Conservation X Labs Inc",
+   "purpose": "The Fire Grand Challenge: Tending the Spark",
+   "amount": 555000,
+   "place": "Washington, DC",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Global Water Center",
+   "purpose": "Professionalizing Water Services in East Africa & Building Global Alliances for Scalable Impact",
+   "amount": 550000,
+   "place": "North Charleston, SC",
+   "water": true,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Global Water Challenge",
+   "purpose": "Promoting Climate Resilience through Water Resourc e Management in Al Jawf and Jazan, Saudi Arabia",
+   "amount": 537618,
+   "place": "Arlington, VA",
+   "water": true,
+   "adjacent": true,
+   "peer": "Global Water Challenge"
+  },
+  {
+   "recipient": "Digdeep Right to Water Project",
+   "purpose": "United States Water Programing",
+   "amount": 530827,
+   "place": "Los Angeles, CA",
+   "water": true,
+   "adjacent": false,
+   "peer": "DigDeep"
+  },
+  {
+   "recipient": "Asociatia Social Innovation Solutions",
+   "purpose": "Sustainable Futures",
+   "amount": 530000,
+   "place": "Bucuresti, RO",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Robert W Woodruff Arts Center Inc",
+   "purpose": "2024-2025 Operations",
+   "amount": 525000,
+   "place": "Atlanta, GA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "American Online Giving Foundation Inc",
+   "purpose": "June Payment - 2024 Matching Gifts Program",
+   "amount": 516506,
+   "place": "Clearwater, FL",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "American Online Giving Foundation Inc",
+   "purpose": "Matching Gifts Special Cycle",
+   "amount": 501352,
+   "place": "Clearwater, FL",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Atlanta Beltline Partnership Inc",
+   "purpose": "Advancing the Vision: Expanding and Enhancing Greenspace",
+   "amount": 500000,
+   "place": "Atlanta, GA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "City of Refuge Inc",
+   "purpose": "Workforce Development - City of Refuge",
+   "amount": 500000,
+   "place": "Atlanta, GA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Ducks Unlimited Inc",
+   "purpose": "Coastal Earthen Marsh Terracing in Louisiana to He lp Reduce Storm Surge-Induced Flooding For Communi ties",
+   "amount": 500000,
+   "place": "Memphis, TN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Emergency Assistance Foundation Inc",
+   "purpose": "EDRF",
+   "amount": 500000,
+   "place": "Orlando, FL",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Fundacion Avina Panama",
+   "purpose": "Lazos de Agua Phase II- Second Commitment",
+   "amount": 500000,
+   "place": "Panama City, PM",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Great Barrier Reef Foundation",
+   "purpose": "Scaling Tropical Seagrass Restoration on the Great Barrier Reef",
+   "amount": 500000,
+   "place": "South Brisbane, AS",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Hispanic Scholarship Fund",
+   "purpose": "Coca-Cola Foundation & HSF Scholarship Program",
+   "amount": 500000,
+   "place": "Gardena, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "International Bank for Reconstruction and Developm",
+   "purpose": "World Bank - Water Utility Creditworthiness Capaci ty Building",
+   "amount": 500000,
+   "place": "Washington DC, DC",
+   "water": true,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "National Park Foundation",
+   "purpose": "Conservation & Sustainability in our National Park s",
+   "amount": 500000,
+   "place": "Washington, DC",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "PATH Foundation Inc",
+   "purpose": "Our PATH Forward Continuing the Journey Capital Ca mpaign",
+   "amount": 500000,
+   "place": "Atlanta, GA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Save the Children Federation Inc",
+   "purpose": "Scaling Up Child-Centered Early Warning and Antici patory Action to Strengthen the Resilience of Chil dren and Communities in Ethiopia",
+   "amount": 500000,
+   "place": "Fairfield, CT",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Shenzhen One Foundation",
+   "purpose": "Clean Water Project",
+   "amount": 500000,
+   "place": "Shenzhen, CH",
+   "water": true,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Shepherd Center Foundation Inc",
+   "purpose": "Pursuing Possible Campaign",
+   "amount": 500000,
+   "place": "Atlanta, GA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Stichting Aqua for All",
+   "purpose": "SME Growth Programme for Climate Resilient WASH",
+   "amount": 500000,
+   "place": "The Hague, NL",
+   "water": true,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "The Global Environment Technology Foundation",
+   "purpose": "Project Last Mile",
+   "amount": 500000,
+   "place": "Arlington, VA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "United Nations Development Programme China",
+   "purpose": "Nature-based solutions of ecosystem restoration fo r improving climate resilience and disaster prepar edness and response",
+   "amount": 500000,
+   "place": "Beijing, CH",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "United Service Organizations Inc",
+   "purpose": "Coca-Cola Foundation & The USO: Serving Those Who Serve Us",
+   "amount": 500000,
+   "place": "Arlington, VA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "United Service Organizations Inc",
+   "purpose": "Coca-Cola Foundation & The USO: Serving Those Who Serve Us",
+   "amount": 500000,
+   "place": "Arlington, VA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Water Missions International",
+   "purpose": "Improving Well-Being through Safe Water and Sanita tion for Communities in Mexico",
+   "amount": 500000,
+   "place": "North Charleston, SC",
+   "water": true,
+   "adjacent": false,
+   "peer": "Water Mission"
+  },
+  {
+   "recipient": "Westside Future Fund",
+   "purpose": "Writing Our Next Chapter: 55 Million Campaign",
+   "amount": 500000,
+   "place": "Atlanta, GA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "WWF Central and Eastern Europe",
+   "purpose": "Living Danube Partnership 2.0",
+   "amount": 500000,
+   "place": "Vienna, AU",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "One Drop Foundation Inc",
+   "purpose": "Indigenous Water Allyship (IWA) Second Phase Diag nostic and Planning",
+   "amount": 499985,
+   "place": "Las Vegas, NV",
+   "water": true,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Cewas",
+   "purpose": "Accelerating Water Innovations in Rural Settings",
+   "amount": 497851,
+   "place": "Willisau, SZ",
+   "water": true,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "American Online Giving Foundation Inc",
+   "purpose": "Matching Gifts September Payment",
+   "amount": 455315,
+   "place": "Clearwater, FL",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "International Bank for Reconstruction and Developm",
+   "purpose": "Kisan Unnati Project Phase II Climate Smart Cluste rs for Sustainable Crop Production in Uttar Prades h",
+   "amount": 450340,
+   "place": "Washington DC, DC",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Hispanic Federation Inc",
+   "purpose": "Latino Youth 21C Digital Accelerator",
+   "amount": 450000,
+   "place": "New York, NY",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Water Fund for Lima and Callao Aquafondo",
+   "purpose": "Improvement of water resilience through Amunas sol utions",
+   "amount": 444235,
+   "place": "Miraflores, PE",
+   "water": true,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Oikologiki Etaireia Anakyklosis",
+   "purpose": "Zero Waste HoReCa (GR)",
+   "amount": 410000,
+   "place": "Athens, GR",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Universiti Kebangsaan Malaysia",
+   "purpose": "SUSTAINABLE BUSINESS FOR MICRO-ENTREPRENEURS",
+   "amount": 407000,
+   "place": "Bangi, MY",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Accion Opportunity Fund",
+   "purpose": "Accion Opportunity Fund - Supporting Women Entrepreneurship",
+   "amount": 400000,
+   "place": "San Jose, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Alternative Indigenous Development Foundation Inc",
+   "purpose": "Preparing and Capacitating 5 Water Utilities in Negros Occidental through the Development of a Comprehensive and Holistic NRW Management Program",
+   "amount": 400000,
+   "place": "Bacolod, RP",
+   "water": true,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Associacao Alianca Empreendedora",
+   "purpose": "Women Empowerment Ambassadors",
+   "amount": 400000,
+   "place": "Curitiba, BR",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Building Markets Ltd",
+   "purpose": "Circular Marketplace Iraq",
+   "amount": 400000,
+   "place": "Brooklyn, NY",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Instituto Phi Philantropia Inteligente",
+   "purpose": "Bridging Futures: Empowering Brazilian Youth for T omorrow",
+   "amount": 400000,
+   "place": "Rio de Janeiro, BR",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Korea Green Foundation",
+   "purpose": "Creating Coastal Disaster Prevention Forest",
+   "amount": 400000,
+   "place": "Seoul, KS",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Mercy Corps",
+   "purpose": "Enhancing WASH Services and Climate-Resilience in Informal IDP Settlements",
+   "amount": 400000,
+   "place": "Portland, OR",
+   "water": true,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Red Cross Society Nigeria",
+   "purpose": "Flood Response Nigeria",
+   "amount": 400000,
+   "place": "Abuja, NI",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "International Bank for Reconstruction and Developm",
+   "purpose": "Introducing Water Efficient Technologies in Barind Tract (IWET) Project",
+   "amount": 390000,
+   "place": "Washington DC, DC",
+   "water": true,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Korea Social Investment Foundation",
+   "purpose": "PET Circular Loan Fund",
+   "amount": 375000,
+   "place": "KS",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Sustainable Environment and Ecological Development",
+   "purpose": "Sustainable Urban Resilience and Governance Initia tive",
+   "amount": 350043,
+   "place": "Delhi, IN",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "YWCA USA Inc",
+   "purpose": "YWCA's Women's Empowerment 360 Program",
+   "amount": 350000,
+   "place": "Washington, DC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Smsehgal Foundation",
+   "purpose": "WASH Initiative in Karnataka and Uttar Pradesh",
+   "amount": 346867,
+   "place": "Gurugram, IN",
+   "water": true,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "American Online Giving Foundation Inc",
+   "purpose": "August Matching Gifts Payment",
+   "amount": 341044,
+   "place": "Clearwater, FL",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "American National Red Cross",
+   "purpose": "American Red Cross Hurricane Debby",
+   "amount": 325000,
+   "place": "Washington, DC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "United Nations Development Programme China",
+   "purpose": "Demonstration, knowledge sharing, and gender-respo nsive capacity development for improving WASH syst ems in rural areas",
+   "amount": 310000,
+   "place": "Beijing, CH",
+   "water": true,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Spelman College",
+   "purpose": "Coca Cola First-Generation Scholars",
+   "amount": 305000,
+   "place": "Atlanta, GA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "100 Black Men of America Inc",
+   "purpose": "100 Black Men of America Youth Leadership Academy and Collegiate 100 Leadership Academy",
+   "amount": 300000,
+   "place": "Atlanta, GA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Asian and Pacific Islander American Scholarship Fu",
+   "purpose": "APIA/Coca-Cola Foundation First Generation Scholarship",
+   "amount": 300000,
+   "place": "Washington DC, DC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "ASKI Foundation Inc",
+   "purpose": "iSTAR Center for Entrepreneurship (CFE) Scaling Sustainability Mechanism of Support for Micro, Small, and Medium Enterprises (MSMEs)",
+   "amount": 300000,
+   "place": "Cabanatuan City, RP",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Asociacion Fundes",
+   "purpose": "Training program for small business",
+   "amount": 300000,
+   "place": "Heredia, CS",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Associacao Comite Rio da Acao da Cidadania Contra",
+   "purpose": "Disaster Relief Support for Communities Affected by Floods in Brazil",
+   "amount": 300000,
+   "place": "Rio de Janeiro, BR",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Atlanta Womens Foundation INC",
+   "purpose": "Continuation Grant - Economic Empowerment",
+   "amount": 300000,
+   "place": "Atlanta, GA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Fundacion Junior Achievement Ecuador",
+   "purpose": "ProgramOn - Youth Employability in Ecuador",
+   "amount": 300000,
+   "place": "Quito, EC",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Herman J Russell Center for Innovation and Entrepr",
+   "purpose": "BIG IDEAS Program",
+   "amount": 300000,
+   "place": "Atlanta, GA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Japan Heart",
+   "purpose": "Emergency Relief Efforts for Noto Peninsula Earthquake in Japan",
+   "amount": 300000,
+   "place": "Tokyo, JA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Latin American Association Inc",
+   "purpose": "The Avanzando Juntas Latina Economic Empowerment P rogram",
+   "amount": 300000,
+   "place": "Atlanta, GA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Mediterranean Information Office for Environment C",
+   "purpose": "Alter Aqua Recap",
+   "amount": 300000,
+   "place": "Athens, GR",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "SAHARA Nepal",
+   "purpose": "Strengthening regenerative horticulture in Nepal addressing the challenges and harnessing opportunities of AFOLU Sector in Nepal",
+   "amount": 300000,
+   "place": "Birtamod, NP",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Thurgood Marshall College Fund Inc",
+   "purpose": "TMCF Coca-Cola First Generation Scholarships 2025- 2029",
+   "amount": 300000,
+   "place": "Washington, DC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "United Purpose",
+   "purpose": "Growing Together: Women's Economic Growth through integrated Agroecological Farming Systems",
+   "amount": 300000,
+   "place": "Dhaka, BG",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Women for Human Rights single women group WHR",
+   "purpose": "Strengthen informal workers and Infrastructure in Nepal",
+   "amount": 300000,
+   "place": "NP",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "WWF-Korea Foundation",
+   "purpose": "2025 Water Recharge project for Irrigation Water R esources",
+   "amount": 300000,
+   "place": "Seoul, KS",
+   "water": true,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "International Union for Conservation of Nature and",
+   "purpose": "Developing a sustainable value chain of products f rom lotus silk to support the flood storage for th e Mekong Delta",
+   "amount": 276020,
+   "place": "Washington, DC",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Dascoh Foundation",
+   "purpose": "Water Management Project for Vulnerable Communitie s in Barind Tract",
+   "amount": 263375,
+   "place": "Rajshahi, BG",
+   "water": true,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Social Dynamics Public Fund",
+   "purpose": "Coca-Cola Belestery",
+   "amount": 260000,
+   "place": "Almaty, KZ",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Fundacion Gastronomia Social",
+   "purpose": "My Entrepreneurship, My Community - Economic and c ommunity empowerment program for entrepreneurs in Chile",
+   "amount": 253585,
+   "place": "Santiago, CI",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Agnes Scott College",
+   "purpose": "Removing the COVID-19 Heightened Barriers to the Educational Attainment and Professional Success of College-Going Women",
+   "amount": 250000,
+   "place": "Decatur, GA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "American Indian College Fund",
+   "purpose": "Coca-Cola Foundation First-Generation Scholarship Program",
+   "amount": 250000,
+   "place": "Denver, CO",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "American National Red Cross",
+   "purpose": "Disaster Responder",
+   "amount": 250000,
+   "place": "Washington, DC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Atlanta Community Food Bank Inc",
+   "purpose": "Transforming the Neighbor Experience Campaign",
+   "amount": 250000,
+   "place": "Atlanta, GA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Board of the University of Alabama",
+   "purpose": "First Generation Scholars",
+   "amount": 250000,
+   "place": "Tuscaloosa, AL",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Clark Atlanta University Inc",
+   "purpose": "The Coca-Cola First Generation Scholarship Program 2021-2025",
+   "amount": 250000,
+   "place": "Atlanta, GA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Clayton State University Foundation Inc",
+   "purpose": "Clayton State University - First Generation Schola rships",
+   "amount": 250000,
+   "place": "Morrow, GA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Easter Seals Inc",
+   "purpose": "Easterseals SkillsBuild Initiative",
+   "amount": 250000,
+   "place": "Chicago, IL",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Ethiopian Red Cross Society",
+   "purpose": "GOFA Landslide Emergency Response",
+   "amount": 250000,
+   "place": "Addis Ababa, ET",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Friends of the Osa",
+   "purpose": "Forest restoration and integrated community manage ment to address water scarcity across working land scapes in Costa Rica",
+   "amount": 250000,
+   "place": "Washington, DC",
+   "water": true,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Fundacion para la Sostenibilidad y la Equidad ALIA",
+   "purpose": "DIGITAL TRANSFORMATION PROGRAM FOR MICRO SMALL AND MEDIUM ENTERPRISE (MSMEs) IN CENTRAL AMERICA",
+   "amount": 250000,
+   "place": "San Pedro, CS",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Georgia State University Foundation Inc",
+   "purpose": "Coca-Cola Foundation First-Generation College Scho larships: 2022 Renewal",
+   "amount": 250000,
+   "place": "Atlanta, GA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Georgia Tech Foundation Inc",
+   "purpose": "First Generation/URM Scholarship; Postdoc in Susta inability/Global Development; Study Abroad Program ; Project ENGAGES Scholarship; EXCEL Scholarship",
+   "amount": 250000,
+   "place": "Atlanta, GA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Kennesaw State University Foundation Inc",
+   "purpose": "First Generation Scholarship Cohort",
+   "amount": 250000,
+   "place": "Kennesaw, GA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Morehouse College",
+   "purpose": "Morehouse College Coca-Cola First Generation Colle ge Scholarship Program",
+   "amount": 250000,
+   "place": "Atlanta, GA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Piedmont Park Conservancy Inc",
+   "purpose": "Piedmont Park Conservancy Campaign",
+   "amount": 250000,
+   "place": "Atlanta, GA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Sea Cleaners Charitable Trust",
+   "purpose": "Circular Economy - Sea Cleaners",
+   "amount": 250000,
+   "place": "Auckland, NZ",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "The Canadian Red Cross Society",
+   "purpose": "Disaster Response Alliance (DRA): Investing in the full Continuum of Emergency Support for Canadian Communities",
+   "amount": 250000,
+   "place": "Ottawa, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "The Morehouse School of Medicine Inc",
+   "purpose": "Morehouse School of Medicine Coca-Cola Scholars",
+   "amount": 250000,
+   "place": "Atlanta, GA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "The Urban League of Greater Atlanta Inc",
+   "purpose": "Career Pathways Program",
+   "amount": 250000,
+   "place": "Atlanta, GA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Trust for Public Land",
+   "purpose": "Improving the Ecological Health of the Chattahooch ee River",
+   "amount": 250000,
+   "place": "San Francisco, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "United Negro College Fund Inc",
+   "purpose": "First Generation Scholarships",
+   "amount": 250000,
+   "place": "Washington, DC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "University of Georgia Foundation",
+   "purpose": "UGA First Generation Scholars Cohort 24-28",
+   "amount": 250000,
+   "place": "Athens, GA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Young Women Christian Association of Greater Atlan",
+   "purpose": "Collaboration In Action: Campaign for the Phillis Wheatley Westside YWCA",
+   "amount": 250000,
+   "place": "Atlanta, GA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Janathakshan GTE Ltd",
+   "purpose": "Strengthening Women and Youth Engagement in Inform al Waste Management in Sri Lanka",
+   "amount": 249935,
+   "place": "Colombo, CE",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Ozel Sektor Gonulluleri Dernegi Corporate Voluntee",
+   "purpose": "My Sister Project 3.0",
+   "amount": 240000,
+   "place": "Istanbul, TU",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Asociacion Fundes",
+   "purpose": "Growing Together Program: Economic empowerment initiative for MSMEs owned by mandarin speaking families in Caribbean Countries",
+   "amount": 230000,
+   "place": "Heredia, CS",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Cesky cerveny kriz",
+   "purpose": "Immediate Flood Relief in the Czech Republic 2024",
+   "amount": 225000,
+   "place": "Praha, EZ",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Fundacja Wielka Orkiestra Swiatecznej Pomocy",
+   "purpose": "Flood in Poland - Disaster Relief",
+   "amount": 225000,
+   "place": "Warszawa, PL",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Centre for Rural Education and Economic Developmen",
+   "purpose": "Ensuring Rural Health through WASH interventions i n Tamil Nadu and Puducherry, India",
+   "amount": 222344,
+   "place": "IN",
+   "water": true,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "EV Water and Life Philippines",
+   "purpose": "Extension of WASH in Leyte and Samar",
+   "amount": 220000,
+   "place": "Mandaue, RP",
+   "water": true,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Australian Red Cross Society",
+   "purpose": "Disaster Preparedness in Australia Phase 2: Redi Communities",
+   "amount": 205313,
+   "place": "Melbourne, AS",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "American National Red Cross",
+   "purpose": "Flooding Relief Program in Myanmar",
+   "amount": 200000,
+   "place": "Washington, DC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Atlanta Girls School Inc",
+   "purpose": "Special Financial Support for School Closure Transition",
+   "amount": 200000,
+   "place": "Atlanta, GA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Chicosnet",
+   "purpose": "ProgramON Trainings - youth employability",
+   "amount": 200000,
+   "place": "Caba, AR",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Fundacion Creamos Juntos",
+   "purpose": "Let's Grow Together",
+   "amount": 200000,
+   "place": "La Paz, BL",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Girls Incorporated",
+   "purpose": "Project Accelerate",
+   "amount": 200000,
+   "place": "New York, NY",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "National Cares Mentoring Movement Inc",
+   "purpose": "The Rising 2023",
+   "amount": 200000,
+   "place": "New York, NY",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Norges Rode KorsThe Norwegian Red Cross",
+   "purpose": "The path to employment",
+   "amount": 200000,
+   "place": "Oslo, NO",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Operation Homefront Inc",
+   "purpose": "Operation Homefront's Transitional Housing - Villa ges",
+   "amount": 200000,
+   "place": "San Antonio, TX",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "OSCE Project Coordinator in Uzbekistan",
+   "purpose": "Supporting women in Tajikistan and Uzbekistan on s elf-employment and education to master business in digital era",
+   "amount": 200000,
+   "place": "Tashkent, UZ",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "ReDI School of Digital Integration Sweden",
+   "purpose": "Digital Women Program (DWP)",
+   "amount": 200000,
+   "place": "Malmo, SW",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Ron Clark Academy Inc",
+   "purpose": "Alumni Gap Scholarship Fund",
+   "amount": 200000,
+   "place": "Atlanta, GA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Sanitation First",
+   "purpose": "Integrated Water, Sanitation, and Hygiene (WASH) Interventions in Uttar Pradesh",
+   "amount": 200000,
+   "place": "Chennai, IN",
+   "water": true,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "The Red Crescent Society of the Republic of Kazakh",
+   "purpose": "Flood Relief in Kazakhstan",
+   "amount": 200000,
+   "place": "Almaty, KZ",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "University of Notre Dame Du Lac",
+   "purpose": "Urban Poverty & Business Institute",
+   "amount": 200000,
+   "place": "Notre Dame, IN",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Westside Future Fund",
+   "purpose": "Operations Support",
+   "amount": 200000,
+   "place": "Atlanta, GA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Associacio Cultural Per A La Cooperacio Al Desenvo",
+   "purpose": "PET Plastic Recycling in Guinea Conakry- A project for the inclusion of waste pickers (Phase 2)",
+   "amount": 190150,
+   "place": "Salt, SP",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Perkumpulan Petani Qaryah Tayyibah",
+   "purpose": "Rainwater Savings Deposit through Infiltration Pon ds in Tuk Mulyo, Temanggung, Central Java",
+   "amount": 183292,
+   "place": "Kota Salatiga, ID",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Caritas Austria",
+   "purpose": "Emergency Response for Severe Storms in Austria",
+   "amount": 175000,
+   "place": "Wien, AU",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "ReDI School of Digital Integration DK",
+   "purpose": "Career Catalyst: Empowering Tech Futures for All",
+   "amount": 170676,
+   "place": "Kobenhavn NV, DA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "AKTI Project and Research Centre",
+   "purpose": "Zero Waste HoReCa (MA)",
+   "amount": 170000,
+   "place": "Platy Aglantzias, CY",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "AKTI Project and Research Centre",
+   "purpose": "Zero Waste HoReCa (CY)",
+   "amount": 170000,
+   "place": "Platy Aglantzias, CY",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "ReDI School of Digital Integration DK",
+   "purpose": "Onboarding immigrant women to the labour market",
+   "amount": 165000,
+   "place": "Kobenhavn NV, DA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Romanian Red Cross",
+   "purpose": "Humanitarian aid for the people affected by the fl oods in Galati and Vaslui",
+   "amount": 153800,
+   "place": "Bucharest, RO",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Perkumpulan Arta Jaya",
+   "purpose": "Urban Clean Water Access Solution: Master Meter No rth Sumatra",
+   "amount": 150308,
+   "place": "Medan, ID",
+   "water": true,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Bangladesh Red Crescent Society",
+   "purpose": "Disaster Relief for Flood Affected Bangladesh",
+   "amount": 150000,
+   "place": "Dhaka, BG",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Communities in Schools of Atlanta Inc",
+   "purpose": "College and Career Readiness",
+   "amount": 150000,
+   "place": "Atlanta, GA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Four Block Foundation Inc",
+   "purpose": "Veteran Career Readiness Program",
+   "amount": 150000,
+   "place": "New York, NY",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Friends of the World Food Program Inc",
+   "purpose": "Restoring the Fisheries Sector in Barbados",
+   "amount": 150000,
+   "place": "Washington, DC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Gallaudet University",
+   "purpose": "Coca Cola First-Generation Scholars",
+   "amount": 150000,
+   "place": "Washington, DC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Global Good Friends",
+   "purpose": "Dream Catcher Support Project for Youths from Mult icultural Families",
+   "amount": 150000,
+   "place": "Seoul, KS",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Hispanic Alliance for Career Enhancement",
+   "purpose": "Lideres de HACE Program",
+   "amount": 150000,
+   "place": "Chicago, IL",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "International Federation of Red Cross and Red Cres",
+   "purpose": "Disaster Relief for Grenada, St Vincent and the Gr enadines, and Barbados to mitigate effects of Hurr icane Beryl",
+   "amount": 150000,
+   "place": "Geneva, SZ",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "MTU BPW Estonia",
+   "purpose": "Building impactful female entrepreneurs' community to transform and grow into green and sustainable businesses",
+   "amount": 150000,
+   "place": "Tallinn, EN",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "MTU BPW Estonia",
+   "purpose": "Estonian women support Ukrainian female war refuge es in Estonia. Women support women.",
+   "amount": 150000,
+   "place": "Tallinn, EN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "ONG Agualimpia",
+   "purpose": "WASH in Desert and Amazonian rural areas of Peru",
+   "amount": 150000,
+   "place": "Lima, PE",
+   "water": true,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Phi Theta Kappa Foundation",
+   "purpose": "Phi Theta Kappa Scholar Support",
+   "amount": 150000,
+   "place": "Jackson, MS",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "The Executive Leadership Council Inc",
+   "purpose": "Coca-Cola's Award for Excellence",
+   "amount": 150000,
+   "place": "Washington, DC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "United Nations Human Settlements Programme UNHabit",
+   "purpose": "E.A.R.T.H.: Enabling Advancements in Recycling & Transforming Habits through Women-led Initiatives",
+   "amount": 150000,
+   "place": "Amman, JO",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Vietnam Red Cross Society",
+   "purpose": "Emergency Relief for People Affected by Typhoon Ya gi and Floods",
+   "amount": 150000,
+   "place": "Ha Noi, VM",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Women's Startup Lab Impact Foundation Japan",
+   "purpose": "Amelias Scale Through Impact Fund",
+   "amount": 150000,
+   "place": "Tokyo, JA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Fundacion Gastronomia Social",
+   "purpose": "Humanitarian Emergency Response Vina del Mar Fires , Chile",
+   "amount": 148850,
+   "place": "Santiago, CI",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Adopem Asfl",
+   "purpose": "Emprendamos Juntos / Growing Together",
+   "amount": 125000,
+   "place": "Santo Domingo, DR",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Adopem Asfl",
+   "purpose": "Economic empowerment DR ADOPEM",
+   "amount": 125000,
+   "place": "Santo Domingo, DR",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Asociacion Fundes",
+   "purpose": "Growing Together",
+   "amount": 125000,
+   "place": "Heredia, CS",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Trees Atlanta Inc",
+   "purpose": "Growing. Protecting. Educating. Campaign.",
+   "amount": 125000,
+   "place": "Atlanta, GA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Hrvatski Crveni kriz Croatian Red Cross",
+   "purpose": "Cleaning and Sanitation of wells affected by earth quake and drought in Croatia",
+   "amount": 121000,
+   "place": "Zagreb, HR",
+   "water": true,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Global Water Challenge",
+   "purpose": "Sustainable Access to Safe Water for Marzandiyya V illage, Azerbaijan",
+   "amount": 109342,
+   "place": "Arlington, VA",
+   "water": true,
+   "adjacent": true,
+   "peer": "Global Water Challenge"
+  },
+  {
+   "recipient": "Forest and Sea for Life Foundation",
+   "purpose": "RAKNAM Clean Water for Communities",
+   "amount": 105968,
+   "place": "Mueang Surat Thani, TH",
+   "water": true,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "American Indian College Fund",
+   "purpose": "Rez-based Economic Development Accelerator Program",
+   "amount": 100000,
+   "place": "Denver, CO",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Atlanta Educational Telecommunications Collaborati",
+   "purpose": "Transformation Fund and FY24 Annual Fund",
+   "amount": 100000,
+   "place": "Atlanta, GA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Center for Puppetry Arts Inc",
+   "purpose": "Enhancing Diversity, Equity, and Inclusion through Accessibility Initiatives",
+   "amount": 100000,
+   "place": "Atlanta, GA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Cooperative for Assistance and Relief Everywhere I",
+   "purpose": "Reviving Livelihoods of Socially and Economically Marginalized Households Affected by the Earthquak e in Jajarkot and Rukum West",
+   "amount": 100000,
+   "place": "Atlanta, GA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Earth University Foundation",
+   "purpose": "Coca-Cola First Generation Scholarships for EARTH University in Costa Rica",
+   "amount": 100000,
+   "place": "Atlanta, GA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Fundacion FH Bolivia",
+   "purpose": "Disaster Relief Bolivia - Forest Fires",
+   "amount": 100000,
+   "place": "La Paz, BL",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Fundacion Instituto De Cooperacion Tecnologica Par",
+   "purpose": "Economic Empowerment Traditional Trade",
+   "amount": 100000,
+   "place": "San Salvador de Jujuy, AR",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Fundacion Instituto De Cooperacion Tecnologica Par",
+   "purpose": "Economic Empowerment of Women from Underserved Com munities",
+   "amount": 100000,
+   "place": "San Salvador de Jujuy, AR",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Fundacion Paraguaya",
+   "purpose": "Project for Women's Training and Youth Employabili ty",
+   "amount": 100000,
+   "place": "Asuncion, PA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Latino Community Fund Inc",
+   "purpose": "Workforce Developemnt Healthcare Training",
+   "amount": 100000,
+   "place": "Decatur, GA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Latino Leadership Institute",
+   "purpose": "Ignite Leadership Program",
+   "amount": 100000,
+   "place": "Littleton, CO",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Morris Brown College",
+   "purpose": "Scholarships for Morris Brown College Students",
+   "amount": 100000,
+   "place": "Atlanta, GA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "National Black Arts Festival Inc",
+   "purpose": "Next Gen Artist Program",
+   "amount": 100000,
+   "place": "Atlanta, GA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "National Center for Civil and Humanrights Inc",
+   "purpose": "2024 Power to Inspire Matinee Experience",
+   "amount": 100000,
+   "place": "Atlanta, GA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Network of Women in Growth",
+   "purpose": "Economic Inclusion of Marginalized Women Living in Urban Centers",
+   "amount": 100000,
+   "place": "Sogakofe, GH",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Prospera Georgia LLC",
+   "purpose": "Prospera - Entrepreneurial Growth in Atlanta",
+   "amount": 100000,
+   "place": "Orlando, FL",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Red Cross Society of Bosnia and Herzegovina",
+   "purpose": "Urgent Response: Cash Assistance and Essential Rep air Kits for Flood-Affected Communities",
+   "amount": 100000,
+   "place": "Sarajevo, BK",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Splash International",
+   "purpose": "WASH in Schools at Scale Phase I",
+   "amount": 100000,
+   "place": "Seattle, WA",
+   "water": true,
+   "adjacent": true,
+   "peer": "Splash"
+  },
+  {
+   "recipient": "Startout",
+   "purpose": "StartOUT LGBTQ+ Entrepreneurship",
+   "amount": 100000,
+   "place": "San Francisco, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Synergies Work Inc",
+   "purpose": "Incubation to Impact (i2i) Program",
+   "amount": 100000,
+   "place": "Atlanta, GA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "TELACU Education Foundation",
+   "purpose": "TELACU College Success Program (CSP) South Africans",
+   "amount": 100000,
+   "place": "Los Angeles, CA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "The Atlanta Opera Inc",
+   "purpose": "The 96 Hour Opera Project",
+   "amount": 100000,
+   "place": "Atlanta, GA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "The Veritas School of Social Sciences Inc",
+   "purpose": "Veritas Debate Institute",
+   "amount": 100000,
+   "place": "Atlanta, GA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Tommy Nobis Center Inc",
+   "purpose": "Breaking Barriers Building Futures Project",
+   "amount": 100000,
+   "place": "Marietta, GA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "United Way Brasil",
+   "purpose": "Global Opportunity Youth Network in Sao Paulo (Juv entudes Potentes) 2025",
+   "amount": 80000,
+   "place": "Sao Paulo, BR",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Georgia Historical Society",
+   "purpose": "Coxe-Curry Associates Feasibility Study",
+   "amount": 79500,
+   "place": "Atlanta, GA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Yayasan Lembaga Pengembangan Teknologi Pedesaan",
+   "purpose": "Urban Clean Water Access Solution: Surakarta Maste r Meter Project",
+   "amount": 79300,
+   "place": "Kabupaten Karanganyar, ID",
+   "water": true,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "CARE International Pakistan",
+   "purpose": "Chef De Cuisine",
+   "amount": 77000,
+   "place": "Islamabad, PK",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Hispanic Association of Colleges and Universities",
+   "purpose": "HACU First Generation Scholarship Program",
+   "amount": 75000,
+   "place": "San Antonio, TX",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "United Way of Miami",
+   "purpose": "Biz Nation Emprendedoras Program - Jefa Squad II",
+   "amount": 75000,
+   "place": "Miami, FL",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "World Vision Papua New Guinea",
+   "purpose": "Disaster Relief: Papua New Guinea Landslide",
+   "amount": 75000,
+   "place": "Port Moresby, PP",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Food for the Poor",
+   "purpose": "Disaster Relief Jamaica to mitigate effects of Hur ricane Beryl",
+   "amount": 50000,
+   "place": "Spanish Town, JM",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Georgia Research Alliance",
+   "purpose": "Workforce Development - Student Scholars Program",
+   "amount": 50000,
+   "place": "Atlanta, GA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "HBCU First",
+   "purpose": "HBCU Day-One-Ready Academy",
+   "amount": 50000,
+   "place": "New York, NY",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Point Foundation",
+   "purpose": "First Generation Community College Scholarships",
+   "amount": 50000,
+   "place": "Los Angeles, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Serjobs for Progress National Inc",
+   "purpose": "SER Negocios",
+   "amount": 50000,
+   "place": "Irving, TX",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Fundacion Gastronomia Social",
+   "purpose": "GASTRONOMIC BOOTCAMPS CHILE 2024",
+   "amount": 44915,
+   "place": "Santiago, CI",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Tanzania Red Cross Society",
+   "purpose": "Tanzania Flood and Landslide Emergency Relief",
+   "amount": 30000,
+   "place": "Dar Es Salaam, TZ",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Cruz Roja Espanola",
+   "purpose": "DANA FLOODS EMERGENCY 2024",
+   "amount": 25000,
+   "place": "Madrid, SP",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Leadership Atlanta Inc",
+   "purpose": "Leadership Development Series",
+   "amount": 25000,
+   "place": "Atlanta, GA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Karmayog Foundation",
+   "purpose": "Disaster Relief Program for Nepal Floods",
+   "amount": 20000,
+   "place": "Kathmandu, NP",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Martin Luther King Jr Center for Non Violent Socia",
+   "purpose": "In Memory of Dexter King",
+   "amount": 10000,
+   "place": "Atlanta, GA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  }
+ ],
+ "grantsTruncated": false
+}

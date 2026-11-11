@@ -1,0 +1,669 @@
+{
+ "ein": "136163174",
+ "name": "PepsiCo Foundation Inc",
+ "city": "Purchase",
+ "state": "NY",
+ "formType": "990PF",
+ "taxYear": 2024,
+ "totalGiving": 37584175,
+ "totalAssets": 112971885,
+ "detailAvailable": true,
+ "stats": {
+  "count": 57,
+  "total": 37584175,
+  "median": 100000,
+  "buckets": [
+   0,
+   8,
+   11,
+   19,
+   14,
+   5
+  ],
+  "waterCount": 2,
+  "waterAmount": 576152,
+  "adjacentCount": 4,
+  "peerMatches": [
+   {
+    "nonprofit": "Safe Water Network",
+    "amount": 9500,
+    "purpose": "General Support"
+   },
+   {
+    "nonprofit": "WaterAid",
+    "amount": 566652,
+    "purpose": "General Support"
+   }
+  ],
+  "thirstProjectGrants": 0
+ },
+ "grantsInAttachment": false,
+ "officers": [
+  {
+   "name": "C D Glin",
+   "title": "President"
+  },
+  {
+   "name": "Christine Griff",
+   "title": "Secretary"
+  },
+  {
+   "name": "Ada Cheng",
+   "title": "Treasurer"
+  },
+  {
+   "name": "Jim Andrews",
+   "title": "Director"
+  },
+  {
+   "name": "David Flavell",
+   "title": "Director"
+  },
+  {
+   "name": "Jane Wakely",
+   "title": "Director"
+  },
+  {
+   "name": "Stephen Kehoe",
+   "title": "Director"
+  },
+  {
+   "name": "Jamie Caulfield",
+   "title": "Director"
+  },
+  {
+   "name": "Becky Schmitt",
+   "title": "Director"
+  }
+ ],
+ "preselectedOnly": true,
+ "applicationContact": null,
+ "website": "WWW.PEPSICO.COM/SUSTAINABILITY/PHILANTHROPY",
+ "history": [
+  {
+   "year": 2013,
+   "giving": 31730571,
+   "assets": 56552966,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2014_07_PF%2F13-6163174_990PF_201312.pdf"
+  },
+  {
+   "year": 2014,
+   "giving": 29363526,
+   "assets": 40771760,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2015_05_PF%2F13-6163174_990PF_201412.pdf"
+  },
+  {
+   "year": 2015,
+   "giving": 35636114,
+   "assets": 43387008,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2016_12_PF%2F13-6163174_990PF_201512.pdf"
+  },
+  {
+   "year": 2019,
+   "giving": 30144118,
+   "assets": 73956587,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=05_2021_prefixes_13-20%2F136163174_201912_990PF_2021051018082285.pdf"
+  },
+  {
+   "year": 2020,
+   "giving": 80911640,
+   "assets": 91824822,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F136163174_202012_990PF_2022102620590097.pdf"
+  },
+  {
+   "year": 2021,
+   "giving": 58579111,
+   "assets": 25033678,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=download990pdf_05_2023_prefixes_13-15%2F136163174_202112_990PF_2023051221226510.pdf"
+  },
+  {
+   "year": 2022,
+   "giving": 48435260,
+   "assets": 49144431,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=download990pdf_12_2023_prefixes_13-20%2F136163174_202212_990PF_2023120422059601.pdf"
+  },
+  {
+   "year": 2023,
+   "giving": 38647192,
+   "assets": 66360081,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F136163174_202312_990PF_2024122022965420.pdf"
+  },
+  {
+   "year": 2024,
+   "giving": 37584175,
+   "assets": 112971885,
+   "pdfUrl": null
+  }
+ ],
+ "sources": [
+  {
+   "label": "ProPublica Nonprofit Explorer",
+   "url": "https://projects.propublica.org/nonprofits/organizations/136163174"
+  },
+  {
+   "label": "IRS e-file XML, 990PF 2024",
+   "url": "https://gt990datalake-rawdata.s3.amazonaws.com/EfileData/XmlFiles/202513189349102061_public.xml"
+  },
+  {
+   "label": "Filing PDF, 2023",
+   "url": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F136163174_202312_990PF_2024122022965420.pdf"
+  }
+ ],
+ "fetchedAt": "2026-11-11T11:39:15.503Z",
+ "grants": [
+  {
+   "recipient": "Charities Aid Foundation America",
+   "purpose": "Donor Advised Fund/Matching Gifts Fund",
+   "amount": 14366928,
+   "place": "Alexandria, VA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "American Association of Community Colleges",
+   "purpose": "Scholarship Program",
+   "amount": 5218954,
+   "place": "Washington, DC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Scholarship America Inc",
+   "purpose": "Scholarship Program",
+   "amount": 5211952,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Global Impact",
+   "purpose": "General Support",
+   "amount": 2150000,
+   "place": "Alexandria, VA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Myriad USA Inc",
+   "purpose": "DISASTER RELIEF",
+   "amount": 1982024,
+   "place": "New York, NY",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "CARE Inc (Cooperative for Assistance and Relief)",
+   "purpose": "General Support",
+   "amount": 989000,
+   "place": "Atlanta, GA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Globalgiving Foundation Inc",
+   "purpose": "DISASTER RELIEF",
+   "amount": 677000,
+   "place": "Washington, DC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "World Central Kitchen Inc",
+   "purpose": "Disaster Relief",
+   "amount": 650000,
+   "place": "Washington, DC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Wateraid America Inc",
+   "purpose": "General Support",
+   "amount": 566652,
+   "place": "New York, NY",
+   "water": true,
+   "adjacent": false,
+   "peer": "WaterAid"
+  },
+  {
+   "recipient": "American National Red Cross",
+   "purpose": "Disaster Relief",
+   "amount": 500000,
+   "place": "New York, NY",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "The Lebron James Family Foundation",
+   "purpose": "General Support",
+   "amount": 500000,
+   "place": "Akron, OH",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Save the Children Federation Inc",
+   "purpose": "General Support",
+   "amount": 500000,
+   "place": "Fairfield, CT",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Unidosus",
+   "purpose": "General Support",
+   "amount": 340000,
+   "place": "Washington, DC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Pyxera Global Inc",
+   "purpose": "General Support",
+   "amount": 300000,
+   "place": "Washington, DC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "The Barack Obama Foundation",
+   "purpose": "General Support",
+   "amount": 300000,
+   "place": "Chicago, IL",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Genyouth Inc",
+   "purpose": "General Support",
+   "amount": 250000,
+   "place": "Rosemont, IL",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Iraq Fund for Higher Education",
+   "purpose": "Scholarship Program",
+   "amount": 250000,
+   "place": "Washington, DC",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "National Restaurant Association Educational Fdn",
+   "purpose": "General Support",
+   "amount": 250000,
+   "place": "Chicago, CA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "The Milken Institute",
+   "purpose": "General Support",
+   "amount": 250000,
+   "place": "Santa Monica, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Charities Aid Foundation Canada",
+   "purpose": "Donor Advised Fund",
+   "amount": 223926,
+   "place": "Toronto, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Smithsonian Institute",
+   "purpose": "General Support",
+   "amount": 200000,
+   "place": "Washington, DC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Give2asia",
+   "purpose": "Donor Advised Fund",
+   "amount": 176500,
+   "place": "Oakland, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Association of St Augustine Alumni - New Orleans",
+   "purpose": "Scholarship Program",
+   "amount": 150000,
+   "place": "New Orleans, LA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Congressional Black Caucus Foundation Inc",
+   "purpose": "Fellowship Support",
+   "amount": 150000,
+   "place": "Washington, DC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Congressional Hispanic Caucus Institute Inc",
+   "purpose": "General Support",
+   "amount": 150000,
+   "place": "Washington, DC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Inter-American Development Bank",
+   "purpose": "General Support",
+   "amount": 150000,
+   "place": "Washington, DC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "The Executive Leadership Council Inc",
+   "purpose": "Scholarship Program",
+   "amount": 145000,
+   "place": "Washington, DC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "La Plaza De Cultura Y Artes",
+   "purpose": "General Support",
+   "amount": 125000,
+   "place": "Los Angeles, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "The Salvation Army",
+   "purpose": "Disaster Relief",
+   "amount": 100000,
+   "place": "Brookhaven, GA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "American Corporate Partners",
+   "purpose": "General Support",
+   "amount": 50000,
+   "place": "New York, NY",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Anti-Defamation League Foundation",
+   "purpose": "General Support",
+   "amount": 50000,
+   "place": "New York, NY",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Asian Pacific Am Inst for Congressional Studies",
+   "purpose": "General Support",
+   "amount": 50000,
+   "place": "Washington, DC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Human Rights Campaign Foundation",
+   "purpose": "General Support",
+   "amount": 50000,
+   "place": "Washington, DC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Lulac Institute Inc",
+   "purpose": "General Support",
+   "amount": 50000,
+   "place": "Washington, DC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "New Venture Fund",
+   "purpose": "General Support",
+   "amount": 50000,
+   "place": "Washington, DC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Team Rubicon",
+   "purpose": "Disaster Relief",
+   "amount": 50000,
+   "place": "Los Angeles, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "US Chamber of Commerce Foundation",
+   "purpose": "General Support",
+   "amount": 50000,
+   "place": "Washington, DC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Womens Congressional Policy Institute",
+   "purpose": "Fellowship Support",
+   "amount": 50000,
+   "place": "Washington, DC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "National Merit Scholarship Corporation",
+   "purpose": "Scholarship Program",
+   "amount": 41739,
+   "place": "Chicago, IL",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "California Asian Pacific Chamber of Commerce Fdn",
+   "purpose": "General Support",
+   "amount": 25000,
+   "place": "Sacramento, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Central States Ser Jobs for Progress Inc",
+   "purpose": "General Support",
+   "amount": 25000,
+   "place": "Chicago, IL",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Feeding the Carolinas",
+   "purpose": "Disaster Relief",
+   "amount": 25000,
+   "place": "Clemmons, NC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Iraqi Children Foundation",
+   "purpose": "General Support",
+   "amount": 25000,
+   "place": "Falls Church, VA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Ron Brown Scholar Fund",
+   "purpose": "General Support",
+   "amount": 25000,
+   "place": "Charlottesville, VA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Ser Jobs for Progress National Inc",
+   "purpose": "General Support",
+   "amount": 25000,
+   "place": "Irving, TX",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "United Way of North Carolina",
+   "purpose": "Disaster Relief",
+   "amount": 25000,
+   "place": "Cary, NC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "YWCA White Plains & Central Westchester Inc",
+   "purpose": "General Support",
+   "amount": 20000,
+   "place": "White Plains, NY",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "United Way of Westchester and Putnam Inc",
+   "purpose": "General Support",
+   "amount": 15000,
+   "place": "White Plains, NY",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Westchester Community College Foundation Inc",
+   "purpose": "General Support",
+   "amount": 15000,
+   "place": "Valhalla, NY",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Safe Water Network",
+   "purpose": "General Support",
+   "amount": 9500,
+   "place": "New York, NY",
+   "water": true,
+   "adjacent": false,
+   "peer": "Safe Water Network"
+  },
+  {
+   "recipient": "Barbershop Books",
+   "purpose": "General Support",
+   "amount": 6250,
+   "place": "New York, NY",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Dallas Foundation A Tx Nonprofit Corporation",
+   "purpose": "General Support",
+   "amount": 6250,
+   "place": "Dallas, TX",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Hebni Nutrition Consultants Inc",
+   "purpose": "General Support",
+   "amount": 6250,
+   "place": "Orlando, FL",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Youth Design Center Inc",
+   "purpose": "General Support",
+   "amount": 6250,
+   "place": "Brooklyn, NY",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "North Shore Elementary School",
+   "purpose": "General Support",
+   "amount": 5000,
+   "place": "Jacksonville, FL",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "International Research and Exchanges Board Inc",
+   "purpose": "General Support",
+   "amount": 2500,
+   "place": "Washington, DC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Mural Movement",
+   "purpose": "General Support",
+   "amount": 2500,
+   "place": "Chicago, IL",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  }
+ ],
+ "grantsTruncated": false
+}

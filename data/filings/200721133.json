@@ -1,0 +1,127 @@
+{
+ "ein": "200721133",
+ "name": "The Bank of America Charitable Foundation Inc",
+ "city": "Charlotte",
+ "state": "NC",
+ "formType": "990PF",
+ "taxYear": 2024,
+ "totalGiving": 216309069,
+ "totalAssets": 10062101,
+ "detailAvailable": false,
+ "stats": null,
+ "grantsInAttachment": true,
+ "officers": [
+  {
+   "name": "Steve D Boland",
+   "title": "Chairman/Director"
+  },
+  {
+   "name": "Alastair Borthwick",
+   "title": "Director"
+  },
+  {
+   "name": "AJ Barkley",
+   "title": "President"
+  },
+  {
+   "name": "Jennifer Locane Silvania",
+   "title": "Vice President"
+  },
+  {
+   "name": "Frank Racaniello",
+   "title": "Tax"
+  },
+  {
+   "name": "Colleen O Johnson",
+   "title": "Secretary"
+  },
+  {
+   "name": "Susan Campbell",
+   "title": "Treasurer"
+  },
+  {
+   "name": "Libbie A Pryor",
+   "title": "Assistant Secretary"
+  },
+  {
+   "name": "Paul Donofrio",
+   "title": "director"
+  }
+ ],
+ "preselectedOnly": false,
+ "applicationContact": "See website address",
+ "website": "WWW.BANKOFAMERICA.COM/FOUNDATION",
+ "history": [
+  {
+   "year": 2013,
+   "giving": 160479796,
+   "assets": 17183323,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2014_11_PF%2F20-0721133_990PF_201312.pdf"
+  },
+  {
+   "year": 2014,
+   "giving": 175729430,
+   "assets": 4083376,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2015_07_PF%2F20-0721133_990PF_201412.pdf"
+  },
+  {
+   "year": 2015,
+   "giving": 149183853,
+   "assets": 5527756,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2016_09_PF%2F20-0721133_990PF_201512.pdf"
+  },
+  {
+   "year": 2019,
+   "giving": 204726038,
+   "assets": 13409522,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=08_2020_prefixes_16-20%2F200721133_201912_990PR_2020081917242756.pdf"
+  },
+  {
+   "year": 2020,
+   "giving": 309128133,
+   "assets": 8919572,
+   "pdfUrl": null
+  },
+  {
+   "year": 2021,
+   "giving": 306540244,
+   "assets": 249985331,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F200721133_202112_990PF_2025030523151284.pdf"
+  },
+  {
+   "year": 2022,
+   "giving": 314875472,
+   "assets": 13022222,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F200721133_202212_990PF_2023082321521166.pdf"
+  },
+  {
+   "year": 2023,
+   "giving": 225641539,
+   "assets": 7556845,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F200721133_202312_990PF_2024060522488911.pdf"
+  },
+  {
+   "year": 2024,
+   "giving": 216309069,
+   "assets": 10062101,
+   "pdfUrl": null
+  }
+ ],
+ "sources": [
+  {
+   "label": "ProPublica Nonprofit Explorer",
+   "url": "https://projects.propublica.org/nonprofits/organizations/200721133"
+  },
+  {
+   "label": "IRS e-file XML, 990PF 2024",
+   "url": "https://gt990datalake-rawdata.s3.amazonaws.com/EfileData/XmlFiles/202522519349100637_public.xml"
+  },
+  {
+   "label": "Filing PDF, 2023",
+   "url": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F200721133_202312_990PF_2024060522488911.pdf"
+  }
+ ],
+ "fetchedAt": "2026-11-11T11:39:27.891Z",
+ "grants": [],
+ "grantsTruncated": false
+}

@@ -1,0 +1,289 @@
+{
+ "ein": "201548253",
+ "name": "Google Foundation",
+ "city": "Mountain View",
+ "state": "CA",
+ "formType": "990PF",
+ "taxYear": 2015,
+ "totalGiving": 15657511,
+ "totalAssets": 171926644,
+ "detailAvailable": true,
+ "stats": {
+  "count": 20,
+  "total": 13345583,
+  "median": 542500,
+  "buckets": [
+   0,
+   0,
+   0,
+   3,
+   13,
+   4
+  ],
+  "waterCount": 0,
+  "waterAmount": 0,
+  "adjacentCount": 0,
+  "peerMatches": [],
+  "thirstProjectGrants": 0
+ },
+ "grantsInAttachment": false,
+ "officers": [
+  {
+   "name": "Larry Page",
+   "title": "Director"
+  },
+  {
+   "name": "Sergey Brin",
+   "title": "Director"
+  },
+  {
+   "name": "Jacquelline Fuller",
+   "title": "President"
+  },
+  {
+   "name": "Kristin Reinke",
+   "title": "Treasurer"
+  },
+  {
+   "name": "Tony Altobelli",
+   "title": "Director"
+  },
+  {
+   "name": "Ellen West",
+   "title": "Director"
+  }
+ ],
+ "preselectedOnly": true,
+ "applicationContact": null,
+ "website": "N/A",
+ "history": [
+  {
+   "year": 2011,
+   "giving": 10902000,
+   "assets": 70866860,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2012_11_PF%2F20-1548253_990PF_201112.pdf"
+  },
+  {
+   "year": 2012,
+   "giving": 39606000,
+   "assets": 72412693,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2013_12_PF%2F20-1548253_990PF_201212.pdf"
+  },
+  {
+   "year": 2013,
+   "giving": 13990321,
+   "assets": 93694936,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2014_11_PF%2F20-1548253_990PF_201312.pdf"
+  },
+  {
+   "year": 2014,
+   "giving": 29980000,
+   "assets": 82595569,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2015_12_PF%2F20-1548253_990PF_201412.pdf"
+  },
+  {
+   "year": 2015,
+   "giving": 15657511,
+   "assets": 171926644,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2017_04_PF%2F20-1548253_990PF_201512.pdf"
+  }
+ ],
+ "sources": [
+  {
+   "label": "ProPublica Nonprofit Explorer",
+   "url": "https://projects.propublica.org/nonprofits/organizations/201548253"
+  },
+  {
+   "label": "IRS e-file XML, 990PF 2015",
+   "url": "https://gt990datalake-rawdata.s3.amazonaws.com/EfileData/XmlFiles/201643199349102559_public.xml"
+  },
+  {
+   "label": "Filing PDF, 2015",
+   "url": "https://projects.propublica.org/nonprofits/download-filing?path=2017_04_PF%2F20-1548253_990PF_201512.pdf"
+  }
+ ],
+ "fetchedAt": "2026-11-11T11:39:21.726Z",
+ "grants": [
+  {
+   "recipient": "Give Directly Inc",
+   "purpose": "CHARITABLE",
+   "amount": 2000000,
+   "place": "New York, NY",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Care Message",
+   "purpose": "CHARITABLE",
+   "amount": 1550000,
+   "place": "San Francisco, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Nexleaf Analytics",
+   "purpose": "CHARITABLE",
+   "amount": 1200000,
+   "place": "Los Angeles, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Stanford University",
+   "purpose": "CHARITABLE",
+   "amount": 1100000,
+   "place": "Stanford, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Friends of Unfpa",
+   "purpose": "CHARITABLE",
+   "amount": 800000,
+   "place": "New York, NY",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Benetech",
+   "purpose": "CHARITABLE",
+   "amount": 800000,
+   "place": "Palo Alto, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Millenium Promise",
+   "purpose": "CHARITABLE",
+   "amount": 800000,
+   "place": "New York, NY",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Thorn",
+   "purpose": "CHARITABLE",
+   "amount": 750000,
+   "place": "Los Angeles, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Friends of the World Food Program",
+   "purpose": "CHARITABLE",
+   "amount": 750000,
+   "place": "Washington, DC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Landesa",
+   "purpose": "CHARITABLE",
+   "amount": 585000,
+   "place": "Seattle, WA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Hamilton Family Center",
+   "purpose": "CHARITABLE",
+   "amount": 500000,
+   "place": "San Francisco, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Family Independence Initiative",
+   "purpose": "CHARITABLE",
+   "amount": 400000,
+   "place": "Oakland, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Project Concern International",
+   "purpose": "CHARITABLE",
+   "amount": 380583,
+   "place": "San Diego, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Instedd",
+   "purpose": "CHARITABLE",
+   "amount": 350000,
+   "place": "Sunnyvale, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Columbia University",
+   "purpose": "CHARITABLE",
+   "amount": 350000,
+   "place": "New York, NY",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "International Rescue Committee",
+   "purpose": "CHARITABLE",
+   "amount": 280000,
+   "place": "San Jose, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Ushahidi",
+   "purpose": "CHARITABLE",
+   "amount": 250000,
+   "place": "Orlando, FL",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Fab Foundation",
+   "purpose": "CHARITABLE",
+   "amount": 200000,
+   "place": "Boston, MA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Trek Medics",
+   "purpose": "CHARITABLE",
+   "amount": 150000,
+   "place": "New York, NY",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Ilab",
+   "purpose": "CHARITABLE",
+   "amount": 150000,
+   "place": "Allston, MA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  }
+ ],
+ "grantsTruncated": false
+}

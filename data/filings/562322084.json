@@ -1,0 +1,536 @@
+{
+ "ein": "562322084",
+ "name": "The VF Foundation",
+ "city": "Wilmington",
+ "state": "DE",
+ "formType": "990PF",
+ "taxYear": 2024,
+ "totalGiving": 3422000,
+ "totalAssets": 23674421,
+ "detailAvailable": true,
+ "stats": {
+  "count": 44,
+  "total": 3422000,
+  "median": 32500,
+  "buckets": [
+   0,
+   1,
+   23,
+   16,
+   4,
+   0
+  ],
+  "waterCount": 2,
+  "waterAmount": 225000,
+  "adjacentCount": 13,
+  "peerMatches": [
+   {
+    "nonprofit": "Water.org",
+    "amount": 100000,
+    "purpose": "Scaling Water and Sanitation Access in Kenya"
+   },
+   {
+    "nonprofit": "WaterAid",
+    "amount": 125000,
+    "purpose": "Championing sustainable water, sanitation, and hygiene (WASH) for factory workers and communities in Cambodia"
+   }
+  ],
+  "thirstProjectGrants": 0
+ },
+ "grantsInAttachment": false,
+ "officers": [
+  {
+   "name": "Bracken Darrell",
+   "title": "Chairman of the Board"
+  },
+  {
+   "name": "Doug Hassman",
+   "title": "Dir, Treas"
+  },
+  {
+   "name": "Brent Hyder",
+   "title": "Vice-Chair of the Board"
+  },
+  {
+   "name": "Jennifer S Sim",
+   "title": "Dir, Sec"
+  },
+  {
+   "name": "Colin Wheeler",
+   "title": "Dir, Pres"
+  }
+ ],
+ "preselectedOnly": false,
+ "applicationContact": "The Vf Foundation",
+ "website": null,
+ "history": [
+  {
+   "year": 2014,
+   "giving": 5079912,
+   "assets": 12356886,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2015_08_PF%2F56-2322084_990PF_201412.pdf"
+  },
+  {
+   "year": 2015,
+   "giving": 2137798,
+   "assets": 9952223,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2016_05_PF%2F56-2322084_990PF_201512.pdf"
+  },
+  {
+   "year": 2018,
+   "giving": 5446222,
+   "assets": 19123312,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=02_2020_prefixes_56-59%2F562322084_201812_990PF_2020022017165738.pdf"
+  },
+  {
+   "year": 2019,
+   "giving": 5350638,
+   "assets": 50130446,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=download990pdf_01_2022_prefixes_47-58%2F562322084_201912_990PF_2022012019506708.pdf"
+  },
+  {
+   "year": 2020,
+   "giving": 8507994,
+   "assets": 45837021,
+   "pdfUrl": null
+  },
+  {
+   "year": 2021,
+   "giving": 7990000,
+   "assets": 41808827,
+   "pdfUrl": null
+  },
+  {
+   "year": 2022,
+   "giving": 8215500,
+   "assets": 26676495,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F562322084_202212_990PF_2023082221511822.pdf"
+  },
+  {
+   "year": 2023,
+   "giving": 3972500,
+   "assets": 26161399,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F562322084_202312_990PF_2024060422481197.pdf"
+  },
+  {
+   "year": 2024,
+   "giving": 3422000,
+   "assets": 23674421,
+   "pdfUrl": null
+  }
+ ],
+ "sources": [
+  {
+   "label": "ProPublica Nonprofit Explorer",
+   "url": "https://projects.propublica.org/nonprofits/organizations/562322084"
+  },
+  {
+   "label": "IRS e-file XML, 990PF 2024",
+   "url": "https://gt990datalake-rawdata.s3.amazonaws.com/EfileData/XmlFiles/202522899349101202_public.xml"
+  },
+  {
+   "label": "Filing PDF, 2023",
+   "url": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F562322084_202312_990PF_2024060422481197.pdf"
+  }
+ ],
+ "fetchedAt": "2026-11-11T11:39:20.389Z",
+ "grants": [
+  {
+   "recipient": "University of Denver",
+   "purpose": "Leadership in the Outdoor Recreation Industry (LORI) Program",
+   "amount": 380000,
+   "place": "Denver, CO",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Soil Health Institute",
+   "purpose": "U.S. Regenerative Cotton Fund (USRCF)",
+   "amount": 250000,
+   "place": "Morrisville, NC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Trust for Public Land",
+   "purpose": "Tribal Community Schoolyards and National Trails Activation Fund",
+   "amount": 250000,
+   "place": "Los Angeles, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "United Nations Foundation Inc",
+   "purpose": "Resilience Fund for Women in Global Value Chains",
+   "amount": 250000,
+   "place": "Washington, DC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Myriad USA Inc",
+   "purpose": "Increasing the Flexibility and Market-Responsiveness of Training Landscapes in Bangladesh and Honduras/Shimmy",
+   "amount": 225000,
+   "place": "New York, NY",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Lewis College of Business",
+   "purpose": "PLC Program Pathway - VF x PLC Youth Summer Design Camp",
+   "amount": 155000,
+   "place": "Detroit, MI",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Yma Fashion Scholarship Fund",
+   "purpose": "The VF Foundation x FSF Community Colleges Initiative: Sustaining Success",
+   "amount": 150000,
+   "place": "New York, NY",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Protect Our Winters Europe - Association for Clima",
+   "purpose": "Glacier Footprints",
+   "amount": 142000,
+   "place": "Innsbruck, AU",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Environmental Learning for Kids",
+   "purpose": "Outside Festival 2024",
+   "amount": 125000,
+   "place": "Denver, CO",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Wateraid America Inc",
+   "purpose": "Championing sustainable water, sanitation, and hygiene (WASH) for factory workers and communities in Cambodia",
+   "amount": 125000,
+   "place": "New York, NY",
+   "water": true,
+   "adjacent": true,
+   "peer": "WaterAid"
+  },
+  {
+   "recipient": "Forum for the Future US Inc",
+   "purpose": "Growing our Future: Policy Advocacy and Innovative Finance in the Cotton Sector",
+   "amount": 100000,
+   "place": "Brooklyn, NY",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Get Lit Words Ignite Inc",
+   "purpose": "Get Lit Creative Lab",
+   "amount": 100000,
+   "place": "Los Angeles, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Greensboro Chamber Foundation",
+   "purpose": "2023-2027 GROW Greensboro Initiative",
+   "amount": 100000,
+   "place": "Greensboro, NC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Water Org Inc",
+   "purpose": "Scaling Water and Sanitation Access in Kenya",
+   "amount": 100000,
+   "place": "Kansas City, MO",
+   "water": true,
+   "adjacent": false,
+   "peer": "Water.org"
+  },
+  {
+   "recipient": "World Business Council for Sustainable Development",
+   "purpose": "Circular Transition Indicators (CTI) Fashion Initiative",
+   "amount": 100000,
+   "place": "Geneva, SZ",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "American National Red Cross",
+   "purpose": "for general disaster relief and recovery in the U.S.; Hurricane Helene relief and recovery in North Carolina",
+   "amount": 75000,
+   "place": "Denver, CO",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "American Recreation Coalition",
+   "purpose": "Integration of the Outdoor Recreation Economy Across Sectors",
+   "amount": 60000,
+   "place": "Washington, DC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "4dwn Project Inc",
+   "purpose": "Community Centered in Skateboarding: Operational Development",
+   "amount": 50000,
+   "place": "Dallas, TX",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Leicester City Football Club Trust Limited",
+   "purpose": "Urban Foxes",
+   "amount": 50000,
+   "place": "Leicester, UK",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Skateistan",
+   "purpose": "Skateistan in a Box & Skate Schools",
+   "amount": 50000,
+   "place": "Seattle, WA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Wildmon",
+   "purpose": "Ecoacoustics as an Approach to Inclusive Science in Uplifting Farmer Voices & Catalyzing Landscape-Level Ecosystem Change",
+   "amount": 45000,
+   "place": "Dale, TX",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Civic Center Conservancy",
+   "purpose": "Civic Center WORKS",
+   "amount": 35000,
+   "place": "Denver, CO",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Outdoor Alliance",
+   "purpose": "Building the Outdoor Conservation Movement",
+   "amount": 30000,
+   "place": "Washington, DC",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Summit Foundation",
+   "purpose": "Clean-Up Tour 2024",
+   "amount": 30000,
+   "place": "Vevey, SZ",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Catalyst Sports Inc",
+   "purpose": "Adaptive Climbers Festival",
+   "amount": 25000,
+   "place": "Atlanta, GA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Church Health Center of Memphis Inc",
+   "purpose": "Memphis Rox Programs Operations",
+   "amount": 25000,
+   "place": "Memphis, TN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Denver Public Schools Foundation",
+   "purpose": "Discovery Link Enrichments",
+   "amount": 25000,
+   "place": "Denver, CO",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Environmental Learning for Kids",
+   "purpose": "Denver Youth Naturally (DYN) program",
+   "amount": 25000,
+   "place": "Denver, CO",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "First Descents",
+   "purpose": "First Descents I Expanding Participation and Access to Outdoor Adventure and Psychosocial Support",
+   "amount": 25000,
+   "place": "Denver, CO",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Historic Southside Incorporated",
+   "purpose": "Skate School at Dickies Skate Plaza",
+   "amount": 25000,
+   "place": "Fort Worth, TX",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Impact Farming Foundation Inc",
+   "purpose": "Regenerative Agriculture Research Enterprise (RARE)",
+   "amount": 25000,
+   "place": "Briarcliff, NY",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Industrial Commons",
+   "purpose": "Digital Inventory System, Implementation Supporting Textile Circularity",
+   "amount": 25000,
+   "place": "Morganton, NC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Mca Denver",
+   "purpose": "Removing Barriers to Arts Access and Leadership for Denver's Teens",
+   "amount": 25000,
+   "place": "Denver, CO",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "National Sports Center for the Disabled Inc",
+   "purpose": "Opening access to adaptive outdoor recreation for underserved youth with a disability in the Denver area",
+   "amount": 25000,
+   "place": "Golden, CO",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Noisyvision Ets",
+   "purpose": "Inclusive Hikes",
+   "amount": 25000,
+   "place": "Sant Angelo Di Piove, IT",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Protect Our Winters",
+   "purpose": "Empowering and inspiring the Outdoor State to be the movement for climate",
+   "amount": 25000,
+   "place": "Boulder, CO",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Real Deal Revolution",
+   "purpose": "Real Deal Workshops: Teaching skilled trades for Women",
+   "amount": 25000,
+   "place": "Long Beach, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Social Good Fund Inc",
+   "purpose": "Outdoor Industry Scholarship fund",
+   "amount": 25000,
+   "place": "Richmond, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Society for the Protection of New Hampshire Forest",
+   "purpose": "Mt. Major Main Trail Sustainable Trail Construction: Improving Hiker Safety and Protecting Habitat and Natural Resources at Popular New England Outdoor Recreation Destination",
+   "amount": 25000,
+   "place": "Concord, NH",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Sos Outreach",
+   "purpose": "SOS Outreach - Expanding Outdoor Industry Career Opportunities for Young People",
+   "amount": 25000,
+   "place": "Avon, CO",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Community Initiatives",
+   "purpose": "Semillitas Outdoors - Supporting Latine Children in Nature",
+   "amount": 15000,
+   "place": "Oakland, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "University Impact",
+   "purpose": "Advocacy for Bike Safety + Film Series | The White Line",
+   "amount": 15000,
+   "place": "Provo, UT",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Soles4souls",
+   "purpose": "Flood Relief and Recovery in Valencia, Spain",
+   "amount": 10000,
+   "place": "Old Hickory, TN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Trust for Public Land",
+   "purpose": "Youth clinic with athletes at The North Face Climb Fest",
+   "amount": 5000,
+   "place": "Los Angeles, CA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  }
+ ],
+ "grantsTruncated": false
+}

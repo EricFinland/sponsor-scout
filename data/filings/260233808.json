@@ -1,0 +1,390 @@
+{
+ "ein": "260233808",
+ "name": "Adobe Foundation",
+ "city": "Wilmington",
+ "state": "DE",
+ "formType": "990PF",
+ "taxYear": 2024,
+ "totalGiving": 13864375,
+ "totalAssets": 14754179,
+ "detailAvailable": true,
+ "stats": {
+  "count": 29,
+  "total": 13864375,
+  "median": 300000,
+  "buckets": [
+   0,
+   0,
+   0,
+   9,
+   17,
+   3
+  ],
+  "waterCount": 0,
+  "waterAmount": 0,
+  "adjacentCount": 0,
+  "peerMatches": [],
+  "thirstProjectGrants": 0
+ },
+ "grantsInAttachment": false,
+ "officers": [
+  {
+   "name": "Rosemary Arrida-Keiper",
+   "title": "Dir"
+  },
+  {
+   "name": "Hannah Elsakr",
+   "title": "Dir, Pres"
+  },
+  {
+   "name": "Stacy Martinet",
+   "title": "Dir, Sec"
+  },
+  {
+   "name": "Karen Robinson",
+   "title": "Dir"
+  },
+  {
+   "name": "Amy White",
+   "title": "Executive Dir"
+  }
+ ],
+ "preselectedOnly": true,
+ "applicationContact": null,
+ "website": null,
+ "history": [
+  {
+   "year": 2013,
+   "giving": 4269520,
+   "assets": 25125359,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2014_05_PF%2F26-0233808_990PF_201311.pdf"
+  },
+  {
+   "year": 2014,
+   "giving": 6453370,
+   "assets": 25143027,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2016_02_PF%2F26-0233808_990PF_201411.pdf"
+  },
+  {
+   "year": 2015,
+   "giving": 7217790,
+   "assets": 23559803,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2016_10_PF%2F26-0233808_990PF_201511.pdf"
+  },
+  {
+   "year": 2019,
+   "giving": 3840000,
+   "assets": 146332,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=02_2021_prefixes_25-26%2F260233808_201911_990PF_2021021217705523.pdf"
+  },
+  {
+   "year": 2020,
+   "giving": 0,
+   "assets": 10099571,
+   "pdfUrl": null
+  },
+  {
+   "year": 2021,
+   "giving": 12600000,
+   "assets": 7431428,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F260233808_202111_990PF_2023020320909142.pdf"
+  },
+  {
+   "year": 2022,
+   "giving": 13160642,
+   "assets": 17494472,
+   "pdfUrl": null
+  },
+  {
+   "year": 2023,
+   "giving": 15009001,
+   "assets": 30089367,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F260233808_202311_990PF_2024112122908883.pdf"
+  },
+  {
+   "year": 2024,
+   "giving": 13864375,
+   "assets": 14754179,
+   "pdfUrl": null
+  }
+ ],
+ "sources": [
+  {
+   "label": "ProPublica Nonprofit Explorer",
+   "url": "https://projects.propublica.org/nonprofits/organizations/260233808"
+  },
+  {
+   "label": "IRS e-file XML, 990PF 2024",
+   "url": "https://gt990datalake-rawdata.s3.amazonaws.com/EfileData/XmlFiles/202601009349100230_public.xml"
+  },
+  {
+   "label": "Filing PDF, 2023",
+   "url": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F260233808_202311_990PF_2024112122908883.pdf"
+  }
+ ],
+ "fetchedAt": "2026-11-11T11:39:24.411Z",
+ "grants": [
+  {
+   "recipient": "Victoria and Albert Museum",
+   "purpose": "Adobe Creative Residency Program",
+   "amount": 2112220,
+   "place": "London, UK",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Museum of Modern Art",
+   "purpose": "Adobe x MoMA program",
+   "amount": 2000000,
+   "place": "New York, NY",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Human Rights Watch Inc",
+   "purpose": "General & Unrestricted",
+   "amount": 1000000,
+   "place": "New York, NY",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "American National Red Cross",
+   "purpose": "General & Unrestricted",
+   "amount": 750000,
+   "place": "San Francisco, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Asian Law Caucus",
+   "purpose": "General & Unrestricted",
+   "amount": 500000,
+   "place": "San Francisco, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "California Community Foundation",
+   "purpose": "General & Unrestricted",
+   "amount": 500000,
+   "place": "Los Angeles, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Disability Rights Fund Inc",
+   "purpose": "General & Unrestricted",
+   "amount": 500000,
+   "place": "Boston, MA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Equal Justice Initiative",
+   "purpose": "General & Unrestricted",
+   "amount": 500000,
+   "place": "Montgomery, AL",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Equality Now Inc",
+   "purpose": "General & Unrestricted",
+   "amount": 500000,
+   "place": "Boston, MA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "First Nations Development Institute",
+   "purpose": "General & Unrestricted",
+   "amount": 500000,
+   "place": "Longmont, CO",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Outright Action International",
+   "purpose": "General & Unrestricted",
+   "amount": 500000,
+   "place": "New York, NY",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "The Actors Fund of America",
+   "purpose": "General & Unrestricted",
+   "amount": 500000,
+   "place": "New York, NY",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "The Miami Foundation Inc",
+   "purpose": "General & Unrestricted",
+   "amount": 500000,
+   "place": "Miami, FL",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Homefirst Services of Santa Clara County",
+   "purpose": "General & Unrestricted",
+   "amount": 400000,
+   "place": "Milpitas, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "San Jose Downtown Foundation",
+   "purpose": "General & Unrestricted",
+   "amount": 300000,
+   "place": "San Jose, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Independent Administrative Institution National of",
+   "purpose": "Adobe x NMA Japan program",
+   "amount": 252155,
+   "place": "Chiyodaku, JA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Direct Relief",
+   "purpose": "General & Unrestricted",
+   "amount": 250000,
+   "place": "Santa Barbara, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Hispanic Heritage Foundation",
+   "purpose": "General & Unrestricted",
+   "amount": 250000,
+   "place": "Washington, DC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "United Service Organizations Inc",
+   "purpose": "General & Unrestricted",
+   "amount": 250000,
+   "place": "Washington, DC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Vetsintech",
+   "purpose": "General & Unrestricted",
+   "amount": 250000,
+   "place": "San Francisco, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Cinequest Inc",
+   "purpose": "General & Unrestricted",
+   "amount": 200000,
+   "place": "San Jose, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Guadalupe River Park Conservancy",
+   "purpose": "General & Unrestricted",
+   "amount": 200000,
+   "place": "San Jose, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "San Jose Museum of Art Association",
+   "purpose": "General & Unrestricted",
+   "amount": 200000,
+   "place": "San Jose, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "The Kelsey",
+   "purpose": "General & Unrestricted",
+   "amount": 200000,
+   "place": "San Francisco, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Local Color",
+   "purpose": "General & Unrestricted",
+   "amount": 150000,
+   "place": "San Jose, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Philanthropy Northwest",
+   "purpose": "The Giving Practice",
+   "amount": 150000,
+   "place": "Seattle, WA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "San Jose Childrens Discovery Museum",
+   "purpose": "General & Unrestricted",
+   "amount": 150000,
+   "place": "San Jose, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Second Harvest of Silicon Valley",
+   "purpose": "General & Unrestricted",
+   "amount": 150000,
+   "place": "San Jose, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "The Tech Interactive",
+   "purpose": "General & Unrestricted",
+   "amount": 150000,
+   "place": "San Jose, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  }
+ ],
+ "grantsTruncated": false
+}

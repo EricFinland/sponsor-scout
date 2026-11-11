@@ -1,0 +1,203 @@
+{
+ "ein": "943092928",
+ "name": "Intel Foundation",
+ "city": "Hillsboro",
+ "state": "OR",
+ "formType": "990PF",
+ "taxYear": 2025,
+ "totalGiving": 19223256,
+ "totalAssets": 20045435,
+ "detailAvailable": true,
+ "stats": {
+  "count": 6,
+  "total": 19223256,
+  "median": 1279725,
+  "buckets": [
+   0,
+   0,
+   0,
+   1,
+   1,
+   4
+  ],
+  "waterCount": 0,
+  "waterAmount": 0,
+  "adjacentCount": 2,
+  "peerMatches": [],
+  "thirstProjectGrants": 0
+ },
+ "grantsInAttachment": false,
+ "officers": [
+  {
+   "name": "Kimberly Mayes",
+   "title": "President (7/21/2025-Present)"
+  },
+  {
+   "name": "Dawn Jones",
+   "title": "President (Retired 9/1/2025)"
+  },
+  {
+   "name": "Victoria Holroyd-Fogg",
+   "title": "Chair (7/21/2025 - Present)"
+  },
+  {
+   "name": "Christy Pambianchi",
+   "title": "Chair (Retired 4/30/2025)"
+  },
+  {
+   "name": "Beth Meuth",
+   "title": "Treasurer"
+  },
+  {
+   "name": "Allen Thompson",
+   "title": "Director"
+  },
+  {
+   "name": "Madison West",
+   "title": "Board Member"
+  },
+  {
+   "name": "Karlin Keller",
+   "title": "Board Member"
+  },
+  {
+   "name": "Orietta Verdugo",
+   "title": "Secretary"
+  },
+  {
+   "name": "Michelle Holthaus",
+   "title": "Board Member (Retired 10/31/2025)"
+  }
+ ],
+ "preselectedOnly": true,
+ "applicationContact": null,
+ "website": "SEE STATEMENT 6",
+ "history": [
+  {
+   "year": 2013,
+   "giving": 45122195,
+   "assets": 31025459,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2014_11_PF%2F94-3092928_990PF_201312.pdf"
+  },
+  {
+   "year": 2014,
+   "giving": 39047597,
+   "assets": 22233490,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2015_11_PF%2F94-3092928_990PF_201412.pdf"
+  },
+  {
+   "year": 2015,
+   "giving": 36689173,
+   "assets": 35537365,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2016_11_PF%2F94-3092928_990PF_201512.pdf"
+  },
+  {
+   "year": 2019,
+   "giving": 33730932,
+   "assets": 12573444,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=11_2020_prefixes_91-99%2F943092928_201912_990PF_2020110617415829.pdf"
+  },
+  {
+   "year": 2020,
+   "giving": 35697689,
+   "assets": 82014242,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=06_2021_prefixes_94-95%2F943092928_202012_990PF_2021061718380485.pdf"
+  },
+  {
+   "year": 2021,
+   "giving": 31605075,
+   "assets": 50440341,
+   "pdfUrl": null
+  },
+  {
+   "year": 2022,
+   "giving": 32941540,
+   "assets": 42844436,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=download990pdf_10_2023_prefixes_94-99%2F943092928_202212_990PF_2023102521775545.pdf"
+  },
+  {
+   "year": 2023,
+   "giving": 28554102,
+   "assets": 60834640,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F943092928_202312_990PF_2024060422485667.pdf"
+  },
+  {
+   "year": 2025,
+   "giving": 19223256,
+   "assets": 20045435,
+   "pdfUrl": null
+  }
+ ],
+ "sources": [
+  {
+   "label": "ProPublica Nonprofit Explorer",
+   "url": "https://projects.propublica.org/nonprofits/organizations/943092928"
+  },
+  {
+   "label": "IRS e-file XML, 990PF 2025",
+   "url": "https://gt990datalake-rawdata.s3.amazonaws.com/EfileData/XmlFiles/202611129349100716_public.xml"
+  },
+  {
+   "label": "Filing PDF, 2023",
+   "url": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F943092928_202312_990PF_2024060422485667.pdf"
+  }
+ ],
+ "fetchedAt": "2026-11-11T11:39:23.762Z",
+ "grants": [
+  {
+   "recipient": "American Online Giving Foundation Inc",
+   "purpose": "MATCHING GIFTS, VOLUNTEER MATCHING GRANTS",
+   "amount": 12170119,
+   "place": "Safety Harbor, FL",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "The Uk Online Giving Foundation",
+   "purpose": "MATCHING GIFTS, VOLUNTEER MATCHING GRANTS",
+   "amount": 4093687,
+   "place": "London, UK",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Scholarship America",
+   "purpose": "ANDY GROVE SCHOLARSHIP FOR INTEL EMPLOYEES' CHILDREN",
+   "amount": 1559450,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Project Lead the Way Inc",
+   "purpose": "2025 - 2027 PLTW ADVANCED MANUFACTURING CURRICULUM DEVELOPMENT & SCHOOL GRANTS",
+   "amount": 1000000,
+   "place": "Indianapolis, IN",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Society for Science & the Public",
+   "purpose": "2025 - 2026 INTEL EDUCATION OUTREACH DAY AT ISEF AZ AND OH",
+   "amount": 300000,
+   "place": "Washington, DC",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Stem Next Opportunity Fund",
+   "purpose": "2024 - 2025 BUILDING DIVERSE STEM TALENT FOR THE SEMICONDUCTOR DECADE",
+   "amount": 100000,
+   "place": "San Diego, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  }
+ ],
+ "grantsTruncated": false
+}

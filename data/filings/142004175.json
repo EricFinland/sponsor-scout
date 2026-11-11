@@ -1,0 +1,3729 @@
+{
+ "ein": "142004175",
+ "name": "Patagonia.org",
+ "city": "Ventura",
+ "state": "CA",
+ "formType": "990PF",
+ "taxYear": 2024,
+ "totalGiving": 13207055,
+ "totalAssets": 0,
+ "detailAvailable": true,
+ "stats": {
+  "count": 425,
+  "total": 13207055,
+  "median": 15000,
+  "buckets": [
+   0,
+   1,
+   401,
+   21,
+   1,
+   1
+  ],
+  "waterCount": 11,
+  "waterAmount": 175000,
+  "adjacentCount": 425,
+  "peerMatches": [],
+  "thirstProjectGrants": 0
+ },
+ "grantsInAttachment": false,
+ "officers": [
+  {
+   "name": "Hans Cole",
+   "title": "President"
+  },
+  {
+   "name": "Hilary Dessouky",
+   "title": "Vp Legal/ General Counsel/Sec"
+  },
+  {
+   "name": "Yvon Chouinard",
+   "title": "Director"
+  },
+  {
+   "name": "Malinda P Chouinard",
+   "title": "Director"
+  },
+  {
+   "name": "Yvonne Besvold",
+   "title": "Chief Financial Officer, Treasurer"
+  }
+ ],
+ "preselectedOnly": true,
+ "applicationContact": null,
+ "website": "N/A",
+ "history": [
+  {
+   "year": 2013,
+   "giving": 5969904,
+   "assets": 6023191,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2014_03_PF%2F14-2004175_990PF_201304.pdf"
+  },
+  {
+   "year": 2014,
+   "giving": 5604914,
+   "assets": 5868529,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2015_03_PF%2F14-2004175_990PF_201404.pdf"
+  },
+  {
+   "year": 2015,
+   "giving": 5801229,
+   "assets": 5531322,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2016_07_PF%2F14-2004175_990PF_201504.pdf"
+  },
+  {
+   "year": 2019,
+   "giving": 10881777,
+   "assets": 24061297,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=12_2020_prefixes_14-23%2F142004175_201904_990PF_2020122217579054.pdf"
+  },
+  {
+   "year": 2020,
+   "giving": 28933330,
+   "assets": 5594067,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=06_2021_prefixes_13-16%2F142004175_202004_990PF_2021061718370050.pdf"
+  },
+  {
+   "year": 2021,
+   "giving": 11561778,
+   "assets": 4912093,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F142004175_202104_990PF_2022051320040700.pdf"
+  },
+  {
+   "year": 2022,
+   "giving": 4966231,
+   "assets": 4269390,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=download990pdf_06_2023_prefixes_06-16%2F142004175_202204_990PF_2023060221356136.pdf"
+  },
+  {
+   "year": 2023,
+   "giving": 13217158,
+   "assets": 3694759,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F142004175_202304_990PF_2024040522339787.pdf"
+  },
+  {
+   "year": 2024,
+   "giving": 13207055,
+   "assets": 0,
+   "pdfUrl": null
+  }
+ ],
+ "sources": [
+  {
+   "label": "ProPublica Nonprofit Explorer",
+   "url": "https://projects.propublica.org/nonprofits/organizations/142004175"
+  },
+  {
+   "label": "IRS e-file XML, 990PF 2024",
+   "url": "https://gt990datalake-rawdata.s3.amazonaws.com/EfileData/XmlFiles/202640719349100529_public.xml"
+  },
+  {
+   "label": "Filing PDF, 2023",
+   "url": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F142004175_202304_990PF_2024040522339787.pdf"
+  }
+ ],
+ "fetchedAt": "2026-11-11T11:39:18.930Z",
+ "grants": [
+  {
+   "recipient": "Charities Aid Foundation America",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 5174555,
+   "place": "Alexandria, VA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Makeway Foundation",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 635000,
+   "place": "Vancouver, CA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "The Conservation Alliance",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 110000,
+   "place": "Bend, OR",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Americares",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 100000,
+   "place": "Stamford, CT",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Wisteqn'eemit",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 100000,
+   "place": "Lapwai, ID",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Earth Island Institute",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 80000,
+   "place": "San Francisco, CA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Resources Legacy Fund",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 75000,
+   "place": "Sacramento, CA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Colorado Plateau Foundation",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 65000,
+   "place": "Flagstaff, AZ",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Climate Justice Alliance",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 50000,
+   "place": "Berkeley, CA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Dogwood Alliance",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 50000,
+   "place": "Asheville, NC",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Health Care Without Harm",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 50000,
+   "place": "Reston, VA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Idaho Conservation League",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 50000,
+   "place": "Boise, ID",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Indigenous Environmental Network",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 50000,
+   "place": "Bemijdi, MN",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Meridian Institute",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 50000,
+   "place": "Dillon, CO",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "National Wildlife Federation",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 50000,
+   "place": "Reston, VA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Nextgen Climate America Inc Dba Nextgen Policy",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 50000,
+   "place": "Washington, DC",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Movement Sustainability Commons Cor Resist",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 50000,
+   "place": "Boston, MA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Save Our Wild Salmon Coalition",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 50000,
+   "place": "Seattle, WA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Southern Environmental Law Center",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 50000,
+   "place": "Charlottesville, VA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Sponsor Inc",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 50000,
+   "place": "Cookeville, TN",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Sustainable Markets Foundation",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 50000,
+   "place": "Concord, NH",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "United Tribes of Bristol Bay",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 50000,
+   "place": "Dillingham, AK",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Vote Solar",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 50000,
+   "place": "Oakland, CA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "American Whitewater",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 40000,
+   "place": "Cullowhee, NC",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Bee Regenerative",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 35000,
+   "place": "Ashland, OR",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Coalition for Susitna Dam Alternatives Dba Susitna River Coalition",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 35000,
+   "place": "Talkeetna, AK",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Friends of the Everglades",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 35000,
+   "place": "Stuart, FL",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Grand Canyon Youth",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 35000,
+   "place": "Flagstaff, AZ",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Social and Environmental Entrepreneurs",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 35000,
+   "place": "Lindsay, CA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "1 for the Planet",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 30000,
+   "place": "Burlington, VT",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "American Farmland Trust",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 30000,
+   "place": "Washington, DC",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Community Initiatives",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 30000,
+   "place": "Oakland, CA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Conservation Nw",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 30000,
+   "place": "Seattle, WA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Great Basin Water Network",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 30000,
+   "place": "Baker, NV",
+   "water": true,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Mad Agriculture",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 30000,
+   "place": "Boulder, CO",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Maine Climate Action Now",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 30000,
+   "place": "Augusta, ME",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "National Family Farm Coalition",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 30000,
+   "place": "Gloucester, MA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "National Young Farmers Coalition",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 30000,
+   "place": "Hudson, NY",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Savanna Institute",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 30000,
+   "place": "Madison, WI",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Soul Fire Farm Institute Inc",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 30000,
+   "place": "Petersburg, NY",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Booker T Washington Community Service Center",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 25000,
+   "place": "San Francisco, CA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Columbia Riverkeeper",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 25000,
+   "place": "Hood River, OR",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Croatan Institute",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 25000,
+   "place": "Durham, NC",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Gwich'in Steering Committee",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 25000,
+   "place": "Fairbanks, AK",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Greater Hells Canyon Council",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 25000,
+   "place": "Enterprise, OR",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "The Institute for Enhanced Equity",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 25000,
+   "place": "Lake Charles, LA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Memphis Community Against Pollution",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 25000,
+   "place": "Memphis, TN",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Partnership Project Inc",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 25000,
+   "place": "Dallas, TX",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "The Next 100 Syndicate",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 25000,
+   "place": "Washington, DC",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "The Wilderness Society",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 25000,
+   "place": "Washington, DC",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Trustees for Alaska",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 25000,
+   "place": "Anchorage, AK",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Turning Green",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 25000,
+   "place": "Sausalito, CA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Glacier-Two Medicine Alliance",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 23000,
+   "place": "East Glacier Park, MT",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Agricultural Institute of Marin",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 20000,
+   "place": "San Rafael, CA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "The Ecology Center",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 20000,
+   "place": "San Juan Capistrano, CA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Santa Barbara Channelkeeper",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 20000,
+   "place": "Santa Barbara, CA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Citizens Committee to Save Our Canyons",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 20000,
+   "place": "Cottonwood Heights, UT",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Edible Schoolyard Project Dba Alice Waters Institute",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 20000,
+   "place": "Berkeley, CA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Tilth Alliance",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 20000,
+   "place": "Seattle, WA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Eat Real Certified Inc",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 20000,
+   "place": "San Francisco, CA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Wild Fish Conservancy",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 20000,
+   "place": "Duvall, WA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "350 Colorado",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Boulder, CO",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "350 Wisconsin Inc",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Madison, WI",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "4dasoil",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Philadelphia, PA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Accelerating Agriculture",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Midway, KY",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Addison County Relocalization Network",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Bristol, VT",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Adelante Mujeres",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Forest Grove, OR",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Adventure Crew",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Cincinnati, OH",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Advocates for the West",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Boise, ID",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Agriculture and Land Based Training Association",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Salinas, CA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Agroecology Commons",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "El Sobrante, CA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Alabama Rivers Alliance",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Birmingham, AL",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Alianza Agri-Cultura De Taos",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Taos, NM",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Alma Backyard Farm",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Los Angeles, CA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Alternatives for Community and Environment Inc",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Roxbury, MA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Amargosa Land Trust (Dba Amargosa Conservancy)",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Shoshone, CA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Apalachicola Bay & Riverkeeper Dba Apalachicola Riverkeeper",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Apalachicola, FL",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Appalachian Citizens' Law Center",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Whitesburg, KY",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Arise Inc",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Springfield, MA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Arizona Mining Reform Coalition",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Tucson, AZ",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Asian Pacific Environmental Network (Apen)",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Oakland, CA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Association of Ramaytush Ohlone",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "San Francisco, CA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Atabey Outdoors",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Phoenix, AZ",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Atchafalaya Basinkeeper Inc",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Plaquemine, LA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Ausable Freshwater Center Inc",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Wilmington, NY",
+   "water": true,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Bayou City Waterkeeper",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Houston, TX",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Biscayne Bay Waterkeeper Dba Miami Waterkeeper",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Coral Gables, FL",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Bitter Root Resource Conservation and Development- Rc&d",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Hamilton, MT",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Black Belt Justice Center",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Washington, DC",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Black Outside Inc",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "San Antonio, TX",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Black Surf Santa Cruz",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Santa Cruz, CA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Black Packers LLC",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Colorado Spgs, CO",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "The Hunger Coalition",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Bellevue, ID",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Bold Education Fund",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Hastings, NE",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Bronx River Alliance",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Bronx, NY",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Brooklyn Heights Community Garden",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Nashville, TN",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Oregon Wildlife Foundation",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Portland, OR",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Buffalo River Watershed Alliance",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Jasper, AR",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "California Environmental Justice Alliance",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Oakland, CA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "California Institute of Environmental Studies",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Davis, CA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Calwild",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Oakland, CA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Carbon Cycle Institute",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Petaluma, CA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Cascade Forest Conservancy",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Vancouver, WA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Cascadia Wildlands",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Eugene, OR",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Center for Coalfield Justice",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Washington, PA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Center on Race Poverty & Environment",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Delano, CA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Central California Environmental Justice Network",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Fresno, CA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Cause",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Ventura, CA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Central Oregon Landwatch",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Bend, OR",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Channel Islands Marine & Wildlife Institute",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Santa Barbara, CA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Charles River Watershed Association",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Boston, MA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Cheyenne River Youth Project",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Eagle Butte, SD",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "City Kids Wilderness Project",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Washington, DC",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Clark Fork Coalition",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Missoula, MT",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Clean Water Expected in East Tennessee",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Cosby, TN",
+   "water": true,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Clean Water for North Carolina Inc",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Mocksville, NC",
+   "water": true,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Clean Water Legacy",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Rapid City, SD",
+   "water": true,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Clientearth USA Inc",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Santa Monica, CA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Climate First Replacing Oil & Gas (Cfrog)",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Ventura, CA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Climate Resolve",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Los Angeles, CA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Cloud 9 Community Farms",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Philadelphia, PA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Color the Water",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Culver City, CA",
+   "water": true,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Colorado Rising for Communities",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Denver, CO",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Common Roots Farm",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Santa Cruz, CA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Community Environmental Advocates Foundation",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Cedar Ridge, CA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Community Foundation of Greater Johnstown",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Johnstown, PA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Community Water Center",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Visalia, CA",
+   "water": true,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Conservation Voters of South Carolina Education Fund",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Columbia, SC",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Cook Inletkeeper",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Homer, AK",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Co-Operate Wnc",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Black Mountain, NC",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Coosa Riverkeeper",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Birmingham, AL",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Cottonwood Institute",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Denver, CO",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Crag Law Center",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Portland, OR",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Creative Visions",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Bozeman, MT",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Cultivando",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Eastlake, CO",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Dakota Resource Council",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Bismarck, ND",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Dakota Rural Action",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Brookings, SD",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Deschutes River Alliance",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Portland, OR",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Dolores River Boating Advocates",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Dolores, CO",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Doug Coombs Foundation",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Jackson, WY",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Downwinders at Risk Education Fund",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Dallas, TX",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Dream of Wild Health",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "East Michigan Environmental Action Council Inc",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Detroit, MI",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Eastie Farm",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "East Boston, MA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Ecology Action of Texas",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Austin, TX",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Ecology Project International (Epi)",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Missoula, MT",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Ekvnv Yefolecvlke",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Weogufka, AL",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Environmental Protection Information Center",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Arcata, CA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Environment Oregon Research & Policy Center",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Portland, OR",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Environmental Defense Center",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Santa Barbara, CA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Environmental Health Coalition",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "National City, CA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Everett Community Growers Inc",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Everett, MA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Fair Shake Environmental Legal Services",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Pittsburgh, PA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Farm Alliance of Baltimore",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Baltimore, MD",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "For A Better Bayou",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Lake Charles, LA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Foundation for Louisiana",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "New Orleans, LA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Four Mile Run Conservatory Foundation",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Alexandria, VA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Bears Ears Partnership (Formerly Friends of Cedar Mesa)",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Bluff, UT",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Friends of Nevada Wilderness",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Reno, NV",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Friends of the Big Sioux River",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Sioux Falls, SD",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Friends of the Eel River",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Arcata, CA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Friends of the Inyo",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Bishop, CA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Friends of the Yampa",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Steamboat Springs, CO",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Front Line Farming",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Arvada, CO",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Georgia River Network",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Athens, GA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Girlventures",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Oakland, CA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Gofarm",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Golden, CO",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Grand Canyon Trust",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Flagstaff, AZ",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Grand Staircase Escalante Partners",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Kanab, UT",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Great Basin Resource Watch",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Reno, NV",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Freshwater Future (Glahnf)",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Petoskey, MI",
+   "water": true,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Great Plains Action Society",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Iowa City, IA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Greenbelt Land Trust of Mid-Missouri Inc",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Columbia, MO",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Greenroots Inc",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Chelsea, MA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Grid Alternatives",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Oakland, CA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Grow Greater Englewood",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Chicago, IL",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Harpeth Conservancy",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Brentwood, TN",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Healthy Environment Alliance of Utah (Heal Utah)",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Salt Lake City, UT",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Henrys Fork Wildlife Alliance Inc",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Ashton, ID",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Hunters of Color",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Corvallis, OR",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Idaho Rivers United",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Boise, ID",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Idaho Wildlife Federation",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Boise, ID",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Indiana Forest Alliance",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Indianapolis, IN",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Inquiring Systems Inc (Isi)",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Atlanta, GA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Intervale Center",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Burlington, VT",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Iowa Citizens for Community Improvement",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Des Moines, IA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Just Roots",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Chicago, IL",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Just Transition Nwi Inc",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Michigan City, IN",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Justme for Justus",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "South Freeport, ME",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Kentucky Heartwood",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Berea, KY",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Kentucky Waterways Alliance",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Louisville, KY",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "The Keystone Center (Dba Keystone Policy Center)",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Keystone, CO",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Kindness Farm",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Portland, OR",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Kitchen Table Advisors",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Berkeley, CA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Klamath Forest Alliance",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Arcata, CA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Klamath-Siskiyou Wildlands Center",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Ashland, OR",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "La Semilla Food Center",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Anthony, NM",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Land Stewardship Project",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "League of Conservation Voters Education Fund",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Washington, DC",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Liberty Hill Foundation",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Los Angeles, CA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Little Village Environmental Justice Organization (Lvejo)",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Chicago, IL",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Livelihoods Knowledge Exchange Network Inc",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Lexington, KY",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Los Angeles Waterkeeper",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Los Angeles, CA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Lost Sierra Food Project",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Quincy, CA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Louisiana Bucket Brigade",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "New Orleans, LA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Lulapin Chumash Foundation",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Ojai, CA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Lynn Canal Conservation",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Haines, AK",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Mevo (Mahwah Environmental Volunteers Organization Inc)",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Mahwah, NJ",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Maine Environmental Education Association",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Portland, ME",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Mofga - Maine Organic Farmers and Gardeners Association",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Unity, ME",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Maya Economic Development Corporation",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Omaha, NE",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Mica Group Inc",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "San Carlos, AZ",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Michigan Environmental Council",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Lansing, MI",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Michigan League of Conservation Voters Education Fund",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Ann Arbor, MI",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Midwest Environmental Advocates Inc",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Madison, WI",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Milwaukee Water Commons",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Milwaukee, WI",
+   "water": true,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Mini Nature Reserve",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Oxnard, CA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Missouri Coalition for the Environment",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "St Louis, MO",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Mobile Baykeeper Inc",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Mobile, AL",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Mono Lake Committee",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Lee Vining, CA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Movement Strategy Center",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Oakland, CA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Multicultural Refugee Coalition Dba the Refugee Collective",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Austin, TX",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Mystic River Watershed Association Inc",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Arlington, MA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "The Nashville Food Project",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Nashville, TN",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Nashville Tree Conservation Corps",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Nashville, TN",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "National Black Food and Justice Alliance",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Atlanta, GA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "National Organic Coalition Inc",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Arlington, MA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Hecho A Program of the National Wildlife Federation",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Denver, CO",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Native Fish Society",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Oregon City, OR",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Native Movement",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Bethel, AK",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Neighbor to Neighbor - Massachusetts Education Fund",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Worcester, MA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Neponset River Watershed Association",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Canton, MA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "New England Grassroots Environment Fund Inc",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Newmarket, NH",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Gather New Haven",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "New Haven, CT",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "New Mexico Community Foundation",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Taos, NM",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "New Mexico Environmental Law Center",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Albuquerque, NM",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Nooksack Salmon Enhancement Association",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Bellingham, WA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "North American Water Office Inc",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Lake Elmo, MN",
+   "water": true,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "North Carolina Coastal Federation",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Newport, NC",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Northeastern Minnesotans for Wilderness",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Ely, MN",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Northern Jaguar Project",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Tucson, AZ",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "The Nuestra Tierra Conservation Project",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Las Cruces, NM",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Occidental Arts and Ecology Center",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Houston, TX",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Oil and Gas Action Network",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "El Cerrito, CA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "One Hundred Miles",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Brunswick, GA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "One World Bridge",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Imperial Bch, CA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Oneoc",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Santa Ana, CA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Oregon Natural Desert Association",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Bend, OR",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Oregon Wild",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Portland, OR",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Organic Association of Kentucky",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Lexington, KY",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Organic Farming Research Foundation",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Santa Cruz, CA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Organic Growers School (Ogs)",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Asheville, NC",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Our Climate Education Fund",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Nw Washington Dc, DC",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Outdoor Afro",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Oakland, CA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Pacific Rivers Council Inc",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Portland, OR",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Para-Cliffhangers Inc",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Brooklyn, NY",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Pearl Riverkeeper",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Madison, MS",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "People and Carnivores Inc",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Bozeman, MT",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "People United for Sustainable Housing Inc",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Buffalo, NY",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Pesticide Action Network North America",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Berkeley, CA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Philadelphia Orchard Project Inc",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Philadelphia, PA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Philly Thrive",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Philadelphia, PA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Pigtown Climbs",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Baltimore, MD",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Plant the Seed",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Antioch, TN",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Polygrarian Institute Dba Reno Food Systems",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Reno, NV",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Powder River Basin Resource Council",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Sheridan, WY",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Project Worthmore",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Aurora, CO",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Queer Crush Climbing",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Oakland, CA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Quivira Coalition Inc",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Santa Fe, NM",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "River Alliance of Wisconsin",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Madison, WI",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Rocky Mountain Wild",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Denver, CO",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Rogue Climate",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Phoenix, OR",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Rural Advancement Foundation International-Usa",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Pittsboro, NC",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Sacred Rok",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Yosemite, CA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Salmon River Restoration Council",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Sawyers Bar, CA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "San Francisco Parks Appliance",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "San Francisco, CA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "San Juan Citizens Alliance",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Durango, CO",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Santa Clara River Conservancy",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Santa Paula, CA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Save California Salmon",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Orleans, CA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Save the World's Rivers",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Boulder, CO",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Shared Adventures",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Santa Cruz, CA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Sheep Mountain Alliance",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Telluride, CO",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Shred Foundation",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Stratford, CT",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Sierra Club Foundation",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Lansing, MI",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Sierra Harvest",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Nevada City, CA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Sierra Nevada Journeys",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Reno, NV",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Sitka Conservation Society",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Sitka, AK",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Smokey House Center",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Danby, VT",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Snake River Waterkeeper",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Boise, ID",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Social Good Fund",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Oakland, CA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Solar Youth Inc",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "New Haven, CT",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Somali Bantu Community Association",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Lewiston, ME",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Soulful Seeds",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Reno, NV",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Sound Rivers Inc",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Washington, NC",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Southeast Alaska Conservation Council",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Juneau, AK",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Southeast Alaska Indigenous Transboundary Commission",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Juneau, AK",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Southern Utah Wilderness Alliance",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Salt Lake City, UT",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Southwest Research Information Cen",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Albuquerque, NM",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Spirit of the Sun Inc",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Denver, CO",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "The Sugar Pine Foundation",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "South Lake Tahoe, CA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Sure We Can Inc",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Brooklyn, NY",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "The Surfrider Foundation",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "San Clemente, CA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Last Chance Alliance",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "New York, NY",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Tahoe Food Hub",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Truckee, CA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Tennessee Environmental Council",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Nashville, TN",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Texas Campaign for the Environment Fund",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Austin, TX",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Texas Conservation Alliance",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Dallas, TX",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "The Hack Foundation",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Sterrett, AL",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "The Lands Council",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Spokane, WA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "The Service Board",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Seattle, WA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Tides Center",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Port Townsend, WA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Toxic Free North Carolina Inc",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Durham, NC",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Tribal Image Museum",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Cameron, LA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Tri-Valley Communities Against A Radioactive Environment",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Livermore, CA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Montana Trout Unlimited",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Missoula, MT",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "United Rocks Unity With Community",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Plano, TX",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "United Way of Greater Nashua",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Nashua, NH",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Upper Missouri Waterkeeper",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Bozeman, MT",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Uproot Colorado",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Boulder, CO",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "The Urban Farming Institute of Boston",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Mattapan, MA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Urban Habitat Program",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Oakland, CA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Urban Tilth",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Richmond, CA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Utah Rivers Council",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Sandy, UT",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Victory Garden Initiative",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Milwaukee, WI",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Foodshed Capital",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Charlottesville, VA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Walker Basin Conservancy",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Reno, NV",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Washington Conservation Action Education Fund",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Seattle, WA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Washington Wild",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Seattle, WA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Wegotnext",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "San Francisco, CA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Western Colorado Alliance",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Grand Jct, CO",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Western Mining Action Project",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Lyons, CO",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Wildlands Network",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Salt Lake City, UT",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Wild Salmon Rivers Dba the Conservation Angler",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Portland, OR",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Winyah Rivers Foundation Inc",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Conway, SC",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Women Food and Agriculture Network",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Ames, IA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Worldwide Opportunities on Organic Farms USA (Wwoof-Usa)",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "San Luis Obispo, CA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Wyoming Outdoor Council",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Lander, WY",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Wyoming Wilderness Association",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Sheridan, WY",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Yaak Valley Forest Council",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Troy, MT",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Yellowstone to Yukon Conservation Initiative",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Bozeman, MT",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Young Masterminds Initiative Inc",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Brooklyn, NY",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Youth Passageways",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "Twisp, WA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Zero Foodprint",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 15000,
+   "place": "San Francisco, CA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Black Thumb Farm",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 12500,
+   "place": "Porter Ranch, CA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Color My Outdoors",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 12500,
+   "place": "Asheville, NC",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Pa Cleanways of Allegheny County Inc (Dba Allegheny Cleanways)",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 12500,
+   "place": "Etna, PA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Promote Pt Inc Dba Protect Pt",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 12500,
+   "place": "Harrison City, PA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "South River Watershed Alliance",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 12500,
+   "place": "Decatur, GA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Van Cortlandt Park Alliance Inc",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 12500,
+   "place": "Bronx, NY",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "West Harlem Environmental Action",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 12500,
+   "place": "New York, NY",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Chattooga Conservancy",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 12000,
+   "place": "Mountain Rest, SC",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Coosa River Basin Initiative",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 12000,
+   "place": "Rome, GA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Pollinator Friendly Alliance",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 11500,
+   "place": "Stillwater, MN",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "The Bulb Gallery",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 11500,
+   "place": "Charlotte, NC",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Treescharlotte",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 11500,
+   "place": "Charlotte, NC",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Urban Roots Mn",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 11500,
+   "place": "St Paul, MN",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Nature Forward",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 11250,
+   "place": "Chevy Chase, MD",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "City Blossoms",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 11250,
+   "place": "Washington, DC",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Soul Trak Outdoors",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 11250,
+   "place": "Washington, DC",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Ward 8 Woods Conservancy Inc",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 11250,
+   "place": "Washington, DC",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Clean River Partners",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 11000,
+   "place": "Northfield, MN",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Catawba Riverkeeper Foundation Inc",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 11000,
+   "place": "Mcadenville, NC",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Cleanaire Nc",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 11000,
+   "place": "Charlotte, NC",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Flint Riverkeeper",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 11000,
+   "place": "Albany, GA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Georgia Forestwatch",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 11000,
+   "place": "Dahlonega, GA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Girl Plus Environment",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 11000,
+   "place": "Atlanta, GA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Laru Beya Collective Incorporated",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 11000,
+   "place": "Far Rockaway, NY",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Lower Phalen Creek Project",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 11000,
+   "place": "Saint Paul, MN",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Multiplier (Formerly Trust for Conservation Innovation)",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 11000,
+   "place": "Brooklyn, NY",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Nyc Plover Project",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 11000,
+   "place": "Rockaway Park, NY",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Oko Urban Farms Inc",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 11000,
+   "place": "Brooklyn, NY",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Sixth Street Community Center",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 11000,
+   "place": "New York, NY",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Abundant Grace Coastside Worker",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 10000,
+   "place": "Half Moon Bay, CA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Arcadia Food Inc",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 10000,
+   "place": "Alexandria, VA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Austin Youth & Community Farm Inc Dba Urban Roots",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 10000,
+   "place": "Austin, TX",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Austin Youth River Watch",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 10000,
+   "place": "Austin, TX",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Backyard Basecamp Inc",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 10000,
+   "place": "Baltimore, MD",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Baltimore Tree Trust Inc",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 10000,
+   "place": "Baltimore, MD",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Black Too Earth Inc",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 10000,
+   "place": "Atlanta, GA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Blue Water Baltimore",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 10000,
+   "place": "Baltimore, MD",
+   "water": true,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "California Wildlife Center",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 10000,
+   "place": "Malibu, CA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Centennial Valley Association Inc",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 10000,
+   "place": "Dell, MT",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Changing Tides Foundation",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 10000,
+   "place": "Encinitas, CA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Institute for Washington's Future (Iwf)",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 10000,
+   "place": "Bellingham, WA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Concerned Resource & Environmental Workers - the Crew",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 10000,
+   "place": "Ojai, CA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Austin Explore Inc Dba Explore Austin",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 10000,
+   "place": "Austin, TX",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Friends of Ballona Wetlands",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 10000,
+   "place": "Playa Del Rey, CA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Friends of Great Salt Lake",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 10000,
+   "place": "Salt Lake City, UT",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Green City Force Inc",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 10000,
+   "place": "Brooklyn, NY",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Hanford Challenge",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 10000,
+   "place": "Seattle, WA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Harlem Grown",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 10000,
+   "place": "New York, NY",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Hui O Ko'olaupoko",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 10000,
+   "place": "Kailua, HI",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Huli Hawaii Inc",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 10000,
+   "place": "Honolulu, HI",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Indigenous Values Initiative",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 10000,
+   "place": "Lafayette, NY",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Ke Kula Nui O Waimanalo",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 10000,
+   "place": "Waimanalo, HI",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Kuleana Coral Restoration",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 10000,
+   "place": "Kapolei, HI",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Malama Maunalua",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 10000,
+   "place": "Honolulu, HI",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Malama Pupukea-Waimea",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 10000,
+   "place": "Haleiwa, HI",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Mountain Watershed Association",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 10000,
+   "place": "Melcroft, PA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Multicultural Education for Resource Issues Threatening Oceans Foundation I",
+   "purpose": "TO SUPPORT ENVIRONMENTAL PROJECTS.",
+   "amount": 10000,
+   "place": "Ventura, CA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  }
+ ],
+ "grantsTruncated": true
+}

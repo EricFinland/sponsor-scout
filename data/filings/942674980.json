@@ -1,0 +1,113 @@
+{
+ "ein": "942674980",
+ "name": "The Clorox Company Foundation",
+ "city": "Oakland",
+ "state": "CA",
+ "formType": "990PF",
+ "taxYear": 2024,
+ "totalGiving": 4432304,
+ "totalAssets": 2268024,
+ "detailAvailable": false,
+ "stats": null,
+ "grantsInAttachment": true,
+ "officers": [
+  {
+   "name": "Donovan Kirkland",
+   "title": "Trustee"
+  },
+  {
+   "name": "Kirsten Marriner",
+   "title": "President"
+  },
+  {
+   "name": "Renu Mevasse",
+   "title": "Trustee"
+  },
+  {
+   "name": "David Green",
+   "title": "Vp/Treasurer"
+  },
+  {
+   "name": "Michelle Claudnic",
+   "title": "Trustee"
+  },
+  {
+   "name": "Mariah Eckhardt",
+   "title": "Trustee"
+  },
+  {
+   "name": "Shanique Bonelli-Moore",
+   "title": "Vp/Secretary"
+  }
+ ],
+ "preselectedOnly": true,
+ "applicationContact": "See Exhibit II",
+ "website": "http://www.thecloroxcompany.com/corporate-res",
+ "history": [
+  {
+   "year": 2012,
+   "giving": 5182502,
+   "assets": 2370796,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2013_03_PF%2F94-2674980_990PF_201206.pdf"
+  },
+  {
+   "year": 2013,
+   "giving": 5793125,
+   "assets": 2147290,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2014_02_PF%2F94-2674980_990PF_201306.pdf"
+  },
+  {
+   "year": 2014,
+   "giving": 6119683,
+   "assets": 2382898,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2014_11_PF%2F94-2674980_990PF_201406.pdf"
+  },
+  {
+   "year": 2015,
+   "giving": 4992245,
+   "assets": 1906674,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2016_02_PF%2F94-2674980_990PF_201506.pdf"
+  },
+  {
+   "year": 2021,
+   "giving": 8441860,
+   "assets": 2115167,
+   "pdfUrl": null
+  },
+  {
+   "year": 2022,
+   "giving": 4429240,
+   "assets": 1954499,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F942674980_202206_990PF_2023030621032332.pdf"
+  },
+  {
+   "year": 2023,
+   "giving": 4150596,
+   "assets": 3189853,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=download990pdf_10_2023_prefixes_94-99%2F942674980_202306_990PF_2023102721798259.pdf"
+  },
+  {
+   "year": 2024,
+   "giving": 4581859,
+   "assets": 2113175,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F942674980_202406_990PF_2024112522920130.pdf"
+  }
+ ],
+ "sources": [
+  {
+   "label": "ProPublica Nonprofit Explorer",
+   "url": "https://projects.propublica.org/nonprofits/organizations/942674980"
+  },
+  {
+   "label": "IRS e-file XML, 990PF 2024",
+   "url": "https://gt990datalake-rawdata.s3.amazonaws.com/EfileData/XmlFiles/202512769349100816_public.xml"
+  },
+  {
+   "label": "Filing PDF, 2024",
+   "url": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F942674980_202406_990PF_2024112522920130.pdf"
+  }
+ ],
+ "fetchedAt": "2026-11-11T11:39:18.289Z",
+ "grants": [],
+ "grantsTruncated": false
+}

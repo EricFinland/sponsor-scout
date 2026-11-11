@@ -1,0 +1,2444 @@
+{
+ "ein": "854299419",
+ "name": "REI Cooperative Action Fund",
+ "city": "Sumner",
+ "state": "WA",
+ "formType": "990",
+ "taxYear": 2024,
+ "totalGiving": 5058581,
+ "totalAssets": 11181431,
+ "detailAvailable": true,
+ "stats": {
+  "count": 257,
+  "total": 5055000,
+  "median": 10000,
+  "buckets": [
+   0,
+   6,
+   232,
+   17,
+   2,
+   0
+  ],
+  "waterCount": 2,
+  "waterAmount": 70000,
+  "adjacentCount": 19,
+  "peerMatches": [],
+  "thirstProjectGrants": 0
+ },
+ "grantsInAttachment": false,
+ "officers": [
+  {
+   "name": "Ben Steele",
+   "title": "Chair Thru 08/24"
+  },
+  {
+   "name": "Roma McCaig",
+   "title": "Chair From 10/24"
+  },
+  {
+   "name": "Eric Artz",
+   "title": "Director"
+  },
+  {
+   "name": "Wilma Wallace",
+   "title": "Director"
+  },
+  {
+   "name": "Katie Kniffen",
+   "title": "Director"
+  },
+  {
+   "name": "Squire Simpson",
+   "title": "Director"
+  },
+  {
+   "name": "Sharon Philpott",
+   "title": "Director"
+  },
+  {
+   "name": "Michelle Kirkpatrick",
+   "title": "Director From 10/24"
+  },
+  {
+   "name": "Marc Berejka",
+   "title": "President"
+  },
+  {
+   "name": "Jeremy Kelly",
+   "title": "Treasurer"
+  },
+  {
+   "name": "Raelynn Hulse",
+   "title": "Secretary Thru 09/24"
+  },
+  {
+   "name": "Nina Freedman",
+   "title": "Secretary From 09/24"
+  },
+  {
+   "name": "Kristen Ragain",
+   "title": "Managing Director"
+  }
+ ],
+ "preselectedOnly": null,
+ "applicationContact": null,
+ "website": "REIFUND.ORG",
+ "history": [
+  {
+   "year": 2021,
+   "giving": null,
+   "assets": 1772720,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F854299419_202106_990_2022052520137275.pdf"
+  },
+  {
+   "year": 2022,
+   "giving": null,
+   "assets": 5245105,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F854299419_202206_990_2023060621388149.pdf"
+  },
+  {
+   "year": 2023,
+   "giving": null,
+   "assets": 8243596,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=download990pdf_03_2024_prefixes_74-86%2F854299419_202306_990_2024031222316618.pdf"
+  },
+  {
+   "year": 2024,
+   "giving": 5058581,
+   "assets": 11181431,
+   "pdfUrl": null
+  }
+ ],
+ "sources": [
+  {
+   "label": "ProPublica Nonprofit Explorer",
+   "url": "https://projects.propublica.org/nonprofits/organizations/854299419"
+  },
+  {
+   "label": "IRS e-file XML, 990 2024",
+   "url": "https://gt990datalake-rawdata.s3.amazonaws.com/EfileData/XmlFiles/202542969349301549_public.xml"
+  },
+  {
+   "label": "Filing PDF, 2023",
+   "url": "https://projects.propublica.org/nonprofits/download-filing?path=download990pdf_03_2024_prefixes_74-86%2F854299419_202306_990_2024031222316618.pdf"
+  }
+ ],
+ "fetchedAt": "2026-11-11T11:39:19.656Z",
+ "grants": [
+  {
+   "recipient": "Texas A&m Foundation",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 400000,
+   "place": "College Station, TX",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Taking Care of Texas Dba Texan By Nature",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 300000,
+   "place": "Austin, TX",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "University of Utah",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 150000,
+   "place": "Salt Lake City, UT",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Catalyst Sports",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 100000,
+   "place": "Atlanta, GA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Coalitions & Collaboratives",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 100000,
+   "place": "Denver, CO",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Continental Divide Trail Coalition",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 100000,
+   "place": "Golden, CO",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Rising Routes",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 100000,
+   "place": "Denver, CO",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "The University of Tennessee Foundation Inc",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 100000,
+   "place": "Knoxville, TN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Boyz N the Wood",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 75000,
+   "place": "Teaneck, NJ",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Hbcus Outside",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 75000,
+   "place": "Elizabeth City, NC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Cheyenne River Youth Project",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 50000,
+   "place": "Eagle Butte, SD",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Leave No Trace",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 50000,
+   "place": "Boulder, CO",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Mountains to Sound Greenway Trust",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 50000,
+   "place": "Seattle, WA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Native Like Water - One World Bridge",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 50000,
+   "place": "Imperial Beach, CA",
+   "water": true,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Oregon Wildlife Heritage Foundation",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 50000,
+   "place": "Portland, OR",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Outward Bound Adventures",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 50000,
+   "place": "Pasadena, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "The Mountaineers",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 50000,
+   "place": "Seattle, WA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Yellow Bird Life Ways",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 50000,
+   "place": "Lame Deer, MT",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "YMCA Bold & Gold",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 50000,
+   "place": "Seattle, WA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Black Kids Adventures",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 25000,
+   "place": "Huntsville, AL",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "City Kids Wilderness Project",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 25000,
+   "place": "Washington, DC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Friends of the Los Angeles River",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 25000,
+   "place": "Los Angeles, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Great Springs Project",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 25000,
+   "place": "Austin, TX",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Greening Youth Foundation",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 25000,
+   "place": "Atlanta, GA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Memphis Rox",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 25000,
+   "place": "Memphis, TN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Outdoor Outreach",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 25000,
+   "place": "San Diego, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Outdoors for All",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 25000,
+   "place": "Seattle, WA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Seattle Parks Foundation",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 25000,
+   "place": "Seattle, WA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Streetwaves",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 25000,
+   "place": "Delray Beach, FL",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Vermont Adaptive Ski and Sports",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 25000,
+   "place": "Killington, VT",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Bay Area Ridge Trail Council",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 20000,
+   "place": "Berkeley, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Black to the Land Coalition",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 20000,
+   "place": "Detroit, MI",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Bronx River Alliance",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 20000,
+   "place": "Bronx, NY",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Ciclavia",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 20000,
+   "place": "Los Angeles, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Freshwater Land Trust",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 20000,
+   "place": "Birmingham, AL",
+   "water": true,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Get Outdoors Nevada",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 20000,
+   "place": "Las Vegas, NV",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Great Rivers Greenway Foundation",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 20000,
+   "place": "St Louis, MO",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Groundwork Ohio River Valley",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 20000,
+   "place": "Cincinnati, OH",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Mass Audubon",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 20000,
+   "place": "Lincoln, MA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "North Carolina Adapted Sports",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 20000,
+   "place": "Cary, NC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Ogden Valley Adaptive Sports",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 20000,
+   "place": "Ogden, UT",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Oregon Adaptive Sports",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 20000,
+   "place": "Bend, OR",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Organic Connects",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 20000,
+   "place": "Cleveland Hts, OH",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Outdoor Equity Alliance",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 20000,
+   "place": "West Windsor, NJ",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Regional Parks Foundation",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 20000,
+   "place": "Castro Valley, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Skate Like A Girl",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 20000,
+   "place": "Seattle, WA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Sogorea Te' Land Trust",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 20000,
+   "place": "Oakland, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "West Michigan Environmental Action Council",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 20000,
+   "place": "Grand Rapids, MI",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Wilderness Inquiry",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 20000,
+   "place": "St Paul, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Wisdom of the Elders Inc",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 20000,
+   "place": "Portland, OR",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Women's Wilderness",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 20000,
+   "place": "Boulder, CO",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Woonasquatucket River Watershed Council",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 20000,
+   "place": "Providence, RI",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Access Ability Wisconsin",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 15000,
+   "place": "Verona, WI",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Adaptive Sports Connection",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 15000,
+   "place": "Powell, OH",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Alachua Conservation Trust",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 15000,
+   "place": "Gainesville, FL",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Arizona Women's Climbing Coalition",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 15000,
+   "place": "Phoenix, AZ",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Baztec Fishing & Outdoors",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 15000,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Big City Mountaineers",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 15000,
+   "place": "Arvada, CO",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Bike Walk Wichita",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 15000,
+   "place": "Wichita, KS",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Bike Walk Kc",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 15000,
+   "place": "Kansas City, MO",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Central California Adaptive Sports Center",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 15000,
+   "place": "Shaver Lake, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Challenge Alaska",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 15000,
+   "place": "Anchorage, AK",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Charleston Moves",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 15000,
+   "place": "Charleston, SC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Chicago Adventure Therapy",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 15000,
+   "place": "Chicago, IL",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Community Nature Connection",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 15000,
+   "place": "Los Angeles, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Dc Bike Academy",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 15000,
+   "place": "Washington, DC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Diversify Whitewater",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 15000,
+   "place": "Fort Collins, CO",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Eagle Mount Billings",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 15000,
+   "place": "Billings, MT",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Emerald Necklace Conservancy",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 15000,
+   "place": "Boston, MA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Eugene Parks Foundation",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 15000,
+   "place": "Eugene, OR",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Evergreen Mountain Bike Alliance",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 15000,
+   "place": "North Bend, WA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Forest Park Conservancy",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 15000,
+   "place": "Portland, OR",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Friends of Missoula Parks",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 15000,
+   "place": "Missoula, MT",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Galveston Bay Foundation",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 15000,
+   "place": "Kemah, TX",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Georgia Hi-Lo Trail",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 15000,
+   "place": "Sandersville, GA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Girl & Her Backpack",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 15000,
+   "place": "Salt Lake City, UT",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Girls Who Hike Sc",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 15000,
+   "place": "Greenville, SC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Great Smoky Mountains Institute at Tremont",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 15000,
+   "place": "Townsend, TN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Greenspace Dallas",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 15000,
+   "place": "Dallas, TX",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Groundwork Jacksonville",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 15000,
+   "place": "Jacksonville, FL",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Harpeth Conservancy",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 15000,
+   "place": "Brentwood, TN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "High Country Adaptive Sports",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 15000,
+   "place": "Flagstaff, AZ",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Hoods to Woods Foundation",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 15000,
+   "place": "Brooklyn, NY",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Iowa Natural Heritage Foundation",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 15000,
+   "place": "Des Moines, IA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Kismet Rock Foundation",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 15000,
+   "place": "North Conway, NH",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Lgbt Outdoors",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 15000,
+   "place": "Ft Worth, TX",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Living Classrooms of the National Capital Region",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 15000,
+   "place": "Washington, DC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Make the World Better",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 15000,
+   "place": "Philadelphia, PA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Mississippi Park Connection",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 15000,
+   "place": "Saint Paul, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Myteam Triumph Wisconsin",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 15000,
+   "place": "Green Bay, WI",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Natural Lands",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 15000,
+   "place": "Media, PA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Neighborhood Bike Works",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 15000,
+   "place": "Philadelphia, PA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "New York-New Jersey Trail Conference",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 15000,
+   "place": "Mahwah, NJ",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Northwest Youth Corps",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 15000,
+   "place": "Tacoma, WA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Norwalk River Valley Trail",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 15000,
+   "place": "Georgetown, CT",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "One N Ten",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 15000,
+   "place": "Phoenix, AZ",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Outdoor Inclusion Coalition",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 15000,
+   "place": "Pittsburgh, PA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Paradox Sports",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 15000,
+   "place": "Boulder, CO",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Park Pride",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 15000,
+   "place": "Atlanta, GA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Pigtown Climbs",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 15000,
+   "place": "Baltimore, MD",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Prospect Park Alliance",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 15000,
+   "place": "Brooklyn, NY",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Rails to Trails Conservancy",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 15000,
+   "place": "Washington, DC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Refugee Women's Network",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 15000,
+   "place": "Decatur, GA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Roaring Fork Outdoor Volunteers",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 15000,
+   "place": "Carbondale, CO",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Rochester Accessible Adventures",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 15000,
+   "place": "Rochester, NY",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Runners for Public Lands",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 15000,
+   "place": "Ventura, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "San Diego Canyonlands",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 15000,
+   "place": "San Diego, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Santa Fe Conservation Trust",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 15000,
+   "place": "Santa Fe, NM",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Sempervirens Fund",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 15000,
+   "place": "Los Altos, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Sierra Buttes Trail Stewardship",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 15000,
+   "place": "Quincy, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Soul Trak Outdoors",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 15000,
+   "place": "Washington, DC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "South Texas Off Road Mountain-Bikers (Storm)",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 15000,
+   "place": "San Antonio, TX",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Sportsability Alliance",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 15000,
+   "place": "Tallahassee, FL",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Swim Bike Run Fun Club & Events",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 15000,
+   "place": "Manor, TX",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "The Cycle Effect",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 15000,
+   "place": "Eagle, CO",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "The Woods Project",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 15000,
+   "place": "Houston, TX",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Tiny Wpa",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 15000,
+   "place": "Philadelphia, PA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Trail Access Project",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 15000,
+   "place": "Las Vegas, NV",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Trails Have Our Respect (Thor)",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 15000,
+   "place": "Omaha, NE",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Triangle Land Conservancy",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 15000,
+   "place": "Durham, NC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Un Mar De Colores",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 15000,
+   "place": "Encinitas, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Urban Nature Partners Pdx",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 15000,
+   "place": "Portland, OR",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Urban Tilth",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 15000,
+   "place": "Richmond, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Vibe Tribe Adventures",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 15000,
+   "place": "Aurora, CO",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Winona Outdoor Collaborative",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 15000,
+   "place": "Winona, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Young Women Empowered",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 15000,
+   "place": "Seattle, WA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "3 Rivers Bicycle Coalition",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Kennewick, WA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Anytown Leadership Program",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Phoenix, AZ",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Austin Youth River Watch",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Austin, TX",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Azimuth Quest Foundation",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Prescott, AZ",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Back Alley Bikes",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Detroit, MI",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Bayou Land Conservancy",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Spring, TX",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Bearings Bike Works",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Atlanta, GA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Beyond Boundaries",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Richmond, VA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Big Sur Land Trust",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Monterey, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Bike Norfolk",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Norfolk, VA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Bike Works",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Seattle, WA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Bike Pittsburgh Inc",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Pittsburgh, PA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Bikes Del Pueblo",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "San Diego, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Bikes Together",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Denver, CO",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Black Farmer's Collective",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Seattle, WA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Black Men Hike",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Los Angeles, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Blacklistla Run Organization",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Los Angeles, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Bob Marshall Wilderness Foundation",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Hungry Horse, MT",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Boise Bicycle Project",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Boise, ID",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Braided Seeds",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Tukwila, WA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "C&o Canal Trust",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Williamsport, MD",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "C5la",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Los Angeles, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Carolina Thread Trail",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Charlotte, NC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Ch8sing Waterfalls",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Covington, GA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Chicago Eco House",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Chicago, IL",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "City Surf Project",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "San Francisco, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Coastal Watershed Council",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Santa Cruz, CA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Colorado Discover Ability",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Grand Junction, CO",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Community Cycling Center",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Portland, OR",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Conestee Nature Preserve",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Greenville, SC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Connecticut Forest and Park Association",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Rockfall, CT",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Conservation Foundation of the Gulf Coast",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Osprey, FL",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Cool Learning Experience Inc",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Waukegan, IL",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Coombs Outdoors",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Jackson, WY",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Cosumnes Culture and Waterways",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Placerville, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Crossroads",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Duxbury, MA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Dare2tri",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Chicago, IL",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Dream Adaptive Recreation",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Whitefish, MT",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Eagle Mount Bozeman",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Bozeman, MT",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Earth Island Institute Inc",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Oakland, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Earthcorps",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Seattle, WA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Elevate Youth",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Boston, MA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Elizabeth River Trail",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Norfolk, VA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Find Outdoors",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Pisgah Forest, NC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Forevergreen Trails",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Tacoma, WA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Friends of Macarthur Beach State Park",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "North Palm Beach, FL",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Friends of Metro Parks",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Westerville, OH",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Friends of Patapsco Valley State Park",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Ellicott City, MD",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Friends of the Desert Mountains",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Palm Desert, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Friends of the Mountains-To-Sea Trail",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Raleigh, NC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Friends of the Riverfront",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Pittsburgh, PA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Friends of Trees",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Portland, OR",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Friends of Tryon Creek",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Portland, OR",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Friends of Weedon Island",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "St Petersburg, FL",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Funkytown Food Project",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Crowley, TX",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Garden-Raised Bounty (Grub)",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Olympia, WA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Gateway to the Great Outdoors",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Chicago, IL",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Gather New Haven",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "New Haven, CT",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Great Peninsula Conservancy",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Bremerton, WA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Groundwork San Diego-Chollas Creek",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "San Diego, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Harris Center for Conservation Education Inc",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Hancock, NH",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Humble Sons Bike Company (Aka Bike Club)",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Broken Arrow, OK",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Laguna Canyon Foundation",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Laguna Beach, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Landpaths",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Santa Rosa, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Lifting Our Stories",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "San Bernardino, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Live in Peace",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "East Palo Alto, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Lookout Mountain Conservancy",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Lookout Mountain, TN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Loveland Youth Gardeners",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Loveland, CO",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Major Taylor Trail Keepers Chicago",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Chicago, IL",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Multicultural Education for Resource Issues Threatening Oceans",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Ventura, CA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Native Land Conservancy",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Mashpee, MA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Nearby Nature Milwaukee",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Milwaukee, WI",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "New Jersey Tree Foundation",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Medford, NJ",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "New Urban Arts",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Providence, RI",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Okc Black Alumni Coalition Inc",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Spencer, OK",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Outloud Dallas",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Dallas, TX",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Pacoima Beautiful",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Pacoima, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Paddle4tomorrow",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Atlanta, GA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Parks Alliance of Louisville",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Louisville, KY",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Partners in Education for the Santa Fe Public Schools",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Santa Fe, NM",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Petaluma River Park Foundation",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Petaluma, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Portland Wheelers",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Portland, ME",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Positive Ride Jams Inc",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "San Luis Obispo, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Queer Climbing Columbus",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Columbus, OH",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Queer Crush",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Oakland, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Reflection Riding",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Chattanooga, TN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Richmond Cycling Corps",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Richmond, VA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Riverside Education Centers",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Grand Junction, CO",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Rogue River Institute",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Merlin, OR",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Sacramento Tree Foundation",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Sacramento, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Save the Harborsave the Bay",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Boston, MA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Sierra Nevada Journeys",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Reno, NV",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Southern Appalachian Highlands Conservancy",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Asheville, NC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Spokes Fighting Strokes",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Arizona City, AZ",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "St Louis Bicycle Works",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "St Louis, MO",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Stonewall Climbing",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Washington, DC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Stride Adaptive Sports",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "West Sand Lake, NY",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Teton Adaptive",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Teton Village, WY",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "The Greening of Detroit",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Detroit, MI",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "The Greenway Foundation",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Denver, CO",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "The Loppet Foundation",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "The Parks Alliance of Indianapolis",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Indianapolis, IN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Tiger Mountain Foundation Inc",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Tempe, AZ",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Trails and Open Space Coalition",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Colorado Springs, CO",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Transit Alliance of the Piedmont",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Greensboro, NC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Transportation Alternatives",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "New York, NY",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Trips for Kids Charlotte",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Charlotte, NC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Two Bikes",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Knoxville, TN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "University of Alaska Foundation",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Anchorage, AK",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Upstate Greenways and Trails Alliance",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Greenville, SC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Urban Bike Project",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Wilmington, DE",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Vamos Outdoors Project",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Bellingham, WA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Vermont Parks Forever",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Montpelier, VT",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Vida Verde",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "San Gregorio, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Washington Trails Association",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Seattle, WA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "We Explore Earth",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "San Gabriel, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "We Hike to Heal",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Mableton, GA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Whiteswan Environmental",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Bellingham, WA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Wild Hearts Idaho",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Boise, ID",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Wilderness Adventures for Kids Everywhere Inc",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Wasilla, AK",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Wilderness Kids Alexandria",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Alexandria, VA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Wilderness Youth Project",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Santa Barbara, CA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Willamette Partnership",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Portland, OR",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Yes Nature to Neighborhoods",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Richmond, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Youth Enrichment Services",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 10000,
+   "place": "Boston, MA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Bike Walk Tompkins",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 5000,
+   "place": "Ithaca, NY",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Black Boarders Ct",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 5000,
+   "place": "Stratford, CT",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Forever Parks Foundation of Pearland",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 5000,
+   "place": "Pearland, TX",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Ks Wild",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 5000,
+   "place": "Ashland, OR",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Primitive Pursuits",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 5000,
+   "place": "Ithaca, NY",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Sponsor Inc",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 5000,
+   "place": "Framingham, MA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  }
+ ],
+ "grantsTruncated": false
+}

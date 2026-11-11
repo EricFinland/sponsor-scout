@@ -1,0 +1,25 @@
+{
+  "weights": {
+    "mission_alignment": 30,
+    "peer_signal": 20,
+    "capacity_fit": 20,
+    "accessibility": 20,
+    "confidence": 10
+  },
+  "tiers": {
+    "A": 65,
+    "B": 50,
+    "C": 35
+  },
+  "confidenceLabels": {
+    "high": 70,
+    "medium": 40
+  },
+  "baseline": {
+    "mission_alignment": 45,
+    "peer_signal": 25,
+    "capacity_fit": 45,
+    "accessibility": 40
+  },
+  "homeState": "CA"
+}

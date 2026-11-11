@@ -1,0 +1,123 @@
+{
+ "ein": "274621444",
+ "name": "Qualcomm Charitable Foundation",
+ "city": "San Diego",
+ "state": "CA",
+ "formType": "990PF",
+ "taxYear": 2024,
+ "totalGiving": 2263812,
+ "totalAssets": 8955969,
+ "detailAvailable": false,
+ "stats": null,
+ "grantsInAttachment": true,
+ "officers": [
+  {
+   "name": "Heather Ace",
+   "title": "Chair"
+  },
+  {
+   "name": "Richard Jimenez",
+   "title": "President"
+  },
+  {
+   "name": "Amy Carniglia",
+   "title": "Treasurer"
+  },
+  {
+   "name": "Vanitha Kumar",
+   "title": "Director"
+  },
+  {
+   "name": "Duane A Nelles III",
+   "title": "Director"
+  },
+  {
+   "name": "Nathan Tibbits",
+   "title": "Director"
+  },
+  {
+   "name": "Curtis Cotton",
+   "title": "Secretary"
+  },
+  {
+   "name": "Clare Conley",
+   "title": "Director"
+  }
+ ],
+ "preselectedOnly": true,
+ "applicationContact": "Qualcomm Incorporated",
+ "website": "N/A",
+ "history": [
+  {
+   "year": 2013,
+   "giving": 12151990,
+   "assets": 19682507,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2014_02_PF%2F27-4621444_990PF_201309.pdf"
+  },
+  {
+   "year": 2014,
+   "giving": 6863293,
+   "assets": 1,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2015_02_PF%2F27-4621444_990PF_201409.pdf"
+  },
+  {
+   "year": 2015,
+   "giving": 3742121,
+   "assets": 1,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2016_04_PF%2F27-4621444_990PF_201509.pdf"
+  },
+  {
+   "year": 2019,
+   "giving": 1455000,
+   "assets": 1,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=download990pdf_02_2022_prefixes_23-34%2F274621444_201909_990PF_2022021619660627.pdf"
+  },
+  {
+   "year": 2020,
+   "giving": 4120000,
+   "assets": 1,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=download990pdf_03_2022_prefixes_26-31%2F274621444_202009_990PF_2022030719702625.pdf"
+  },
+  {
+   "year": 2021,
+   "giving": 5685799,
+   "assets": 9599408,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F274621444_202109_990PF_2022051320039029.pdf"
+  },
+  {
+   "year": 2022,
+   "giving": 1591775,
+   "assets": 9546312,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=download990pdf_05_2023_prefixes_27-31%2F274621444_202209_990PF_2023053121338865.pdf"
+  },
+  {
+   "year": 2023,
+   "giving": 2066027,
+   "assets": 7420066,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=download990pdf_02_2024_prefixes_25-31%2F274621444_202309_990PF_2024020822275484.pdf"
+  },
+  {
+   "year": 2024,
+   "giving": 2263812,
+   "assets": 8955969,
+   "pdfUrl": null
+  }
+ ],
+ "sources": [
+  {
+   "label": "ProPublica Nonprofit Explorer",
+   "url": "https://projects.propublica.org/nonprofits/organizations/274621444"
+  },
+  {
+   "label": "IRS e-file XML, 990PF 2024",
+   "url": "https://gt990datalake-rawdata.s3.amazonaws.com/EfileData/XmlFiles/202610349349101016_public.xml"
+  },
+  {
+   "label": "Filing PDF, 2023",
+   "url": "https://projects.propublica.org/nonprofits/download-filing?path=download990pdf_02_2024_prefixes_25-31%2F274621444_202309_990PF_2024020822275484.pdf"
+  }
+ ],
+ "fetchedAt": "2026-11-11T11:39:25.096Z",
+ "grants": [],
+ "grantsTruncated": false
+}

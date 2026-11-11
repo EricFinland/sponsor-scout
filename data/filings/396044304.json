@@ -1,0 +1,275 @@
+{
+ "ein": "396044304",
+ "name": "Kimberly-Clark Foundation",
+ "city": "Irving",
+ "state": "TX",
+ "formType": "990PF",
+ "taxYear": 2024,
+ "totalGiving": 4910218,
+ "totalAssets": 0,
+ "detailAvailable": true,
+ "stats": {
+  "count": 14,
+  "total": 4910218,
+  "median": 175508,
+  "buckets": [
+   0,
+   0,
+   3,
+   5,
+   5,
+   1
+  ],
+  "waterCount": 0,
+  "waterAmount": 0,
+  "adjacentCount": 4,
+  "peerMatches": [],
+  "thirstProjectGrants": 0
+ },
+ "grantsInAttachment": false,
+ "officers": [
+  {
+   "name": "FLAVIO COSTA",
+   "title": "Director & Treasurer"
+  },
+  {
+   "name": "JEFFREY S MCFALL",
+   "title": "Assistant Secretary"
+  },
+  {
+   "name": "CHARLES BALLARD",
+   "title": "Assistant Treasurer"
+  },
+  {
+   "name": "JOHN C HAERTEL",
+   "title": "Assistant Treasurer"
+  },
+  {
+   "name": "MATT HEADLEY",
+   "title": "Assistant Treasurer"
+  },
+  {
+   "name": "JOSEPH PERERA",
+   "title": "Assistant Treasurer"
+  },
+  {
+   "name": "JENNY L LEWIS",
+   "title": "Vice President"
+  },
+  {
+   "name": "MARGARET FRAZIER",
+   "title": "Assistant Treasurer"
+  },
+  {
+   "name": "ALISON RHOTEN",
+   "title": "Secretary"
+  },
+  {
+   "name": "MICHAEL D HSU",
+   "title": "Director & President"
+  }
+ ],
+ "preselectedOnly": false,
+ "applicationContact": "Kimberly-Clark Foundation",
+ "website": "N/A",
+ "history": [
+  {
+   "year": 2012,
+   "giving": 4240401,
+   "assets": 14395,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2013_08_PF%2F39-6044304_990PF_201212.pdf"
+  },
+  {
+   "year": 2013,
+   "giving": 5255613,
+   "assets": 28691,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2014_09_PF%2F39-6044304_990PF_201312.pdf"
+  },
+  {
+   "year": 2015,
+   "giving": 4112331,
+   "assets": 31299,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2016_08_PF%2F39-6044304_990PF_201512.pdf"
+  },
+  {
+   "year": 2019,
+   "giving": 3281374,
+   "assets": 86008,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=06_2021_prefixes_38-41%2F396044304_201912_990PF_2021060318258605.pdf"
+  },
+  {
+   "year": 2020,
+   "giving": 11696137,
+   "assets": 1,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=download990pdf_08_2022_prefixes_39-45%2F396044304_202012_990PF_2022080220261930.pdf"
+  },
+  {
+   "year": 2021,
+   "giving": 5746321,
+   "assets": 1,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F396044304_202112_990PF_2023020720939489.pdf"
+  },
+  {
+   "year": 2022,
+   "giving": 4380566,
+   "assets": 1,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=download990pdf_10_2023_prefixes_37-39%2F396044304_202212_990PF_2023102621786938.pdf"
+  },
+  {
+   "year": 2023,
+   "giving": 3550002,
+   "assets": 1,
+   "pdfUrl": null
+  },
+  {
+   "year": 2024,
+   "giving": 4910218,
+   "assets": 0,
+   "pdfUrl": null
+  }
+ ],
+ "sources": [
+  {
+   "label": "ProPublica Nonprofit Explorer",
+   "url": "https://projects.propublica.org/nonprofits/organizations/396044304"
+  },
+  {
+   "label": "IRS e-file XML, 990PF 2024",
+   "url": "https://gt990datalake-rawdata.s3.amazonaws.com/EfileData/XmlFiles/202511929349100611_public.xml"
+  },
+  {
+   "label": "Filing PDF, 2022",
+   "url": "https://projects.propublica.org/nonprofits/download-filing?path=download990pdf_10_2023_prefixes_37-39%2F396044304_202212_990PF_2023102621786938.pdf"
+  }
+ ],
+ "fetchedAt": "2026-11-11T11:39:16.930Z",
+ "grants": [
+  {
+   "recipient": "Blackbaud Giving Fund",
+   "purpose": "CIVIC, CULTURAL AND MISCELLANEOUS",
+   "amount": 1892702,
+   "place": "Charleston, SC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Scholarship America",
+   "purpose": "OTHER",
+   "amount": 987500,
+   "place": "Detroit, MI",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "United Way of Metropolitan Dallas",
+   "purpose": "SOCIAL WELFARE",
+   "amount": 554000,
+   "place": "Dallas, TX",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "World Wildlife Fund",
+   "purpose": "ENVIRONMENTAL",
+   "amount": 300000,
+   "place": "Washington, DC",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Emergency Assistance Foundation",
+   "purpose": "SOCIAL WELFARE",
+   "amount": 300000,
+   "place": "West Palm Beach, FL",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "American Red Cross",
+   "purpose": "CIVIC, CULTURAL AND MISCELLANEOUS",
+   "amount": 250000,
+   "place": "Dallas, TX",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "United Way Metro Dallas",
+   "purpose": "SOCIAL WELFARE",
+   "amount": 226016,
+   "place": "Dallas, TX",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Forest Stewardship Council",
+   "purpose": "CIVIC, CULTURAL AND MISCELLANEOUS",
+   "amount": 125000,
+   "place": "Seattle, WA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Forum for the Future American Climate Futures",
+   "purpose": "ENVIRONMENTAL",
+   "amount": 100000,
+   "place": "Brooklyn, NY",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Boston College High School",
+   "purpose": "OTHER",
+   "amount": 50000,
+   "place": "Boston, MA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Wayland Academy",
+   "purpose": "OTHER",
+   "amount": 50000,
+   "place": "Beaver Dam, WI",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "The Nature Conservancy",
+   "purpose": "ENVIRONMENTAL",
+   "amount": 25000,
+   "place": "arlington, VA",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "United Way Aiken County",
+   "purpose": "SOCIAL WELFARE",
+   "amount": 25000,
+   "place": "Aiken, SC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "United Way Henderson County",
+   "purpose": "SOCIAL WELFARE",
+   "amount": 25000,
+   "place": "Hendersonville, NC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  }
+ ],
+ "grantsTruncated": false
+}

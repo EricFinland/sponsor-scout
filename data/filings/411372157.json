@@ -1,0 +1,160 @@
+{
+ "ein": "411372157",
+ "name": "Ecolab Foundation (A/K/A Ecolab Industry Foundation)",
+ "city": "Saint Paul",
+ "state": "MN",
+ "formType": "990PF",
+ "taxYear": 2024,
+ "totalGiving": 8554695,
+ "totalAssets": 24812120,
+ "detailAvailable": true,
+ "stats": {
+  "count": 3,
+  "total": 8488389,
+  "median": 533335,
+  "buckets": [
+   0,
+   0,
+   0,
+   1,
+   1,
+   1
+  ],
+  "waterCount": 0,
+  "waterAmount": 0,
+  "adjacentCount": 0,
+  "peerMatches": [],
+  "thirstProjectGrants": 0
+ },
+ "grantsInAttachment": false,
+ "officers": [
+  {
+   "name": "Christophe Beck",
+   "title": "Director"
+  },
+  {
+   "name": "Youhao Dong",
+   "title": "Secretary"
+  },
+  {
+   "name": "Catherine Loh",
+   "title": "Treasurer"
+  },
+  {
+   "name": "Kris J Taylor",
+   "title": "President and Director"
+  },
+  {
+   "name": "Lisa Maloney-Vinz",
+   "title": "Vice President and Director"
+  },
+  {
+   "name": "David F Duvick End 1124",
+   "title": "Secretary"
+  }
+ ],
+ "preselectedOnly": false,
+ "applicationContact": "Lisa Maloney-Vinz",
+ "website": "N/A",
+ "history": [
+  {
+   "year": 2014,
+   "giving": 10676342,
+   "assets": 19976678,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2015_11_PF%2F41-1372157_990PF_201412.pdf"
+  },
+  {
+   "year": 2015,
+   "giving": 7592026,
+   "assets": 11251530,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2016_11_PF%2F41-1372157_990PF_201512.pdf"
+  },
+  {
+   "year": 2018,
+   "giving": 12926070,
+   "assets": 25914305,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=06_2020_prefixes_36-42%2F411372157_201812_990PR_2020061617191162.pdf"
+  },
+  {
+   "year": 2019,
+   "giving": 9203346,
+   "assets": 17283818,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=download990pdf_02_2022_prefixes_34-46%2F411372157_201912_990PF_2022022419666614.pdf"
+  },
+  {
+   "year": 2020,
+   "giving": 9571600,
+   "assets": 15602448,
+   "pdfUrl": null
+  },
+  {
+   "year": 2021,
+   "giving": 7846476,
+   "assets": 11735972,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=download990pdf_05_2023_prefixes_39-43%2F411372157_202112_990PF_2023051521228187.pdf"
+  },
+  {
+   "year": 2022,
+   "giving": 7293419,
+   "assets": 12244972,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=download990pdf_11_2023_prefixes_38-41%2F411372157_202212_990PF_2023112422012029.pdf"
+  },
+  {
+   "year": 2023,
+   "giving": 7270695,
+   "assets": 25557359,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F411372157_202312_990PF_2024111422832423.pdf"
+  },
+  {
+   "year": 2024,
+   "giving": 8554695,
+   "assets": 24812120,
+   "pdfUrl": null
+  }
+ ],
+ "sources": [
+  {
+   "label": "ProPublica Nonprofit Explorer",
+   "url": "https://projects.propublica.org/nonprofits/organizations/411372157"
+  },
+  {
+   "label": "IRS e-file XML, 990PF 2024",
+   "url": "https://gt990datalake-rawdata.s3.amazonaws.com/EfileData/XmlFiles/202512539349100701_public.xml"
+  },
+  {
+   "label": "Filing PDF, 2023",
+   "url": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F411372157_202312_990PF_2024111422832423.pdf"
+  }
+ ],
+ "fetchedAt": "2026-11-11T11:39:25.744Z",
+ "grants": [
+  {
+   "recipient": "Blackbaud Giving Fund",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 7905054,
+   "place": "Charleston, SC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "University of Minnesota Foundation",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 533335,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Thomas Irvine Dodge Foundation",
+   "purpose": "GENERAL SUPPORT",
+   "amount": 50000,
+   "place": "Saint Paul, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  }
+ ],
+ "grantsTruncated": false
+}

@@ -1,0 +1,1260 @@
+{
+ "ein": "416017088",
+ "name": "Target Foundation",
+ "city": "Minneapolis",
+ "state": "MN",
+ "formType": "990PF",
+ "taxYear": 2024,
+ "totalGiving": 25075000,
+ "totalAssets": 73909184,
+ "detailAvailable": true,
+ "stats": {
+  "count": 125,
+  "total": 23075000,
+  "median": 100000,
+  "buckets": [
+   0,
+   0,
+   11,
+   86,
+   23,
+   5
+  ],
+  "waterCount": 0,
+  "waterAmount": 0,
+  "adjacentCount": 2,
+  "peerMatches": [],
+  "thirstProjectGrants": 0
+ },
+ "grantsInAttachment": false,
+ "officers": [
+  {
+   "name": "Kiera Fernandez",
+   "title": "President & Chair"
+  },
+  {
+   "name": "Bill Foudy",
+   "title": "Trustee"
+  },
+  {
+   "name": "Dave Donlin",
+   "title": "Secretary"
+  },
+  {
+   "name": "Dexter Newman",
+   "title": "Trustee"
+  },
+  {
+   "name": "Janine Brown",
+   "title": "Assistant Treasurer"
+  },
+  {
+   "name": "Pam Tomczik",
+   "title": "Treasurer"
+  },
+  {
+   "name": "Amanda Vela",
+   "title": "Trustee (Beg 05/24)"
+  },
+  {
+   "name": "Sousan Ortega",
+   "title": "Trustee (Beg 03/24)"
+  }
+ ],
+ "preselectedOnly": false,
+ "applicationContact": "Target Foundation",
+ "website": "CORPORATE.TARGET.COM/SUSTAINABILITY-GOVERNANCE",
+ "history": [
+  {
+   "year": 2014,
+   "giving": 9362000,
+   "assets": 28410751,
+   "pdfUrl": null
+  },
+  {
+   "year": 2015,
+   "giving": 10098000,
+   "assets": 19082280,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2015_12_PF%2F41-6017088_990PF_201501.pdf"
+  },
+  {
+   "year": 2019,
+   "giving": 14816050,
+   "assets": 3192096,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=06_2020_prefixes_36-42%2F416017088_201902_990PR_2020060917182054.pdf"
+  },
+  {
+   "year": 2020,
+   "giving": 14545833,
+   "assets": 17816807,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=06_2021_prefixes_41-43%2F416017088_202002_990PF_2021061518358695.pdf"
+  },
+  {
+   "year": 2021,
+   "giving": 22174814,
+   "assets": 53812054,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F416017088_202101_990PF_2022051320034725.pdf"
+  },
+  {
+   "year": 2022,
+   "giving": 22592025,
+   "assets": 85335634,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F416017088_202201_990PF_2023051721256210.pdf"
+  },
+  {
+   "year": 2023,
+   "giving": 25970608,
+   "assets": 61121764,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F416017088_202301_990PF_2024041022351143.pdf"
+  },
+  {
+   "year": 2024,
+   "giving": 26355000,
+   "assets": 92692164,
+   "pdfUrl": null
+  }
+ ],
+ "sources": [
+  {
+   "label": "ProPublica Nonprofit Explorer",
+   "url": "https://projects.propublica.org/nonprofits/organizations/416017088"
+  },
+  {
+   "label": "IRS e-file XML, 990PF 2024",
+   "url": "https://gt990datalake-rawdata.s3.amazonaws.com/EfileData/XmlFiles/202513459349100001_public.xml"
+  },
+  {
+   "label": "Filing PDF, 2023",
+   "url": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F416017088_202301_990PF_2024041022351143.pdf"
+  }
+ ],
+ "fetchedAt": "2026-11-11T11:39:28.587Z",
+ "grants": [
+  {
+   "recipient": "Caf America",
+   "purpose": "ECONOMIC OPPORTUNITY - GLOBAL",
+   "amount": 1000000,
+   "place": "Alexandria, VA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Co-Impact Philanthropic Funds Inc",
+   "purpose": "ECONOMIC OPPORTUNITY - GLOBAL",
+   "amount": 1000000,
+   "place": "New York City, NY",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Issara Institute Inc",
+   "purpose": "ECONOMIC OPPORTUNITY - GLOBAL",
+   "amount": 1000000,
+   "place": "Vaughn, WA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Peoples Courage International Inc",
+   "purpose": "ECONOMIC OPPORTUNITY - GLOBAL",
+   "amount": 1000000,
+   "place": "Washington, DC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "The Acumen Fund Inc",
+   "purpose": "ECONOMIC OPPORTUNITY - GLOBAL",
+   "amount": 1000000,
+   "place": "New York, NY",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Common Future",
+   "purpose": "ECONOMIC OPPORTUNITY - NATIONAL",
+   "amount": 750000,
+   "place": "San Francisco, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "First Nations Development Institute",
+   "purpose": "ECONOMIC OPPORTUNITY - NATIONAL",
+   "amount": 750000,
+   "place": "Longmont, CO",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Policylink",
+   "purpose": "ECONOMIC OPPORTUNITY - NATIONAL (ECOSYSTEM)",
+   "amount": 600000,
+   "place": "Oakland, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Earn Inc",
+   "purpose": "ECONOMIC OPPORTUNITY - NATIONAL",
+   "amount": 500000,
+   "place": "San Francisco, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Mission Asset Fund",
+   "purpose": "ECONOMIC OPPORTUNITY - NATIONAL",
+   "amount": 500000,
+   "place": "San Francisco, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Neighborhood Trust Financial Partners",
+   "purpose": "ECONOMIC OPPORTUNITY - NATIONAL",
+   "amount": 500000,
+   "place": "New York, NY",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Prosperity Now",
+   "purpose": "ECONOMIC OPPORTUNITY - NATIONAL",
+   "amount": 500000,
+   "place": "Washington, DC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Caf America",
+   "purpose": "ECONOMIC OPPORTUNITY - GLOBAL",
+   "amount": 300000,
+   "place": "Alexandria, VA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Chapel & York Foundation Inc",
+   "purpose": "ECONOMIC OPPORTUNITY - GLOBAL (ECOSYSTEM)",
+   "amount": 300000,
+   "place": "New York, NY",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Fund for the City of New York Inc",
+   "purpose": "ECONOMIC OPPORTUNITY - GLOBAL (ECOSYSTEM)",
+   "amount": 300000,
+   "place": "New York, NY",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Myriad USA Inc",
+   "purpose": "ECONOMIC OPPORTUNITY - GLOBAL (ECOSYSTEM)",
+   "amount": 300000,
+   "place": "New York, NY",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Accion Opportunity Fund Community Development",
+   "purpose": "ECONOMIC OPPORTUNITY - NATIONAL",
+   "amount": 250000,
+   "place": "San Jose, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Build From Within Alliance",
+   "purpose": "ECONOMIC OPPORTUNITY - NATIONAL",
+   "amount": 250000,
+   "place": "Saint Paul, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Change Machine",
+   "purpose": "ECONOMIC OPPORTUNITY - NATIONAL",
+   "amount": 250000,
+   "place": "Brooklyn, NY",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Dreamspring",
+   "purpose": "ECONOMIC OPPORTUNITY - NATIONAL",
+   "amount": 250000,
+   "place": "Albuquerque, NM",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Federation of Applachian Housing Inc",
+   "purpose": "ECONOMIC OPPORTUNITY - NATIONAL",
+   "amount": 250000,
+   "place": "Berea, KY",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Financial Health Network Inc",
+   "purpose": "ECONOMIC OPPORTUNITY - NATIONAL",
+   "amount": 250000,
+   "place": "Chicago, IL",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Grameen America Inc",
+   "purpose": "ECONOMIC OPPORTUNITY - NATIONAL",
+   "amount": 250000,
+   "place": "Jackson Hts, NY",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Mdc Inc",
+   "purpose": "ECONOMIC OPPORTUNITY - NATIONAL",
+   "amount": 250000,
+   "place": "Durham, NC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "New Majority Capital Foundation Inc",
+   "purpose": "ECONOMIC OPPORTUNITY - NATIONAL",
+   "amount": 250000,
+   "place": "Wakefield, MA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Oklahoma Native Assets Coalition Inc",
+   "purpose": "ECONOMIC OPPORTUNITY - NATIONAL",
+   "amount": 250000,
+   "place": "Oklahoma City, OK",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Opportunity Finance Network",
+   "purpose": "ECONOMIC OPPORTUNITY - NATIONAL",
+   "amount": 250000,
+   "place": "Philadelphia, PA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Third Sector New England Inc",
+   "purpose": "ECONOMIC OPPORTUNITY - NATIONAL (ECOSYSTEM)",
+   "amount": 250000,
+   "place": "Boston, MA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Build Wealth Mn Inc",
+   "purpose": "ECONOMIC OPPORTUNITY - HOMETOWN",
+   "amount": 200000,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Caf America",
+   "purpose": "ECONOMIC OPPORTUNITY - GLOBAL",
+   "amount": 200000,
+   "place": "Alexandria, VA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Comunidades Latinas Unidas En Servicio Inc",
+   "purpose": "ECONOMIC OPPORTUNITY - HOMETOWN",
+   "amount": 200000,
+   "place": "Saint Paul, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Hmong American Partnership",
+   "purpose": "ECONOMIC OPPORTUNITY - HOMETOWN",
+   "amount": 200000,
+   "place": "Saint Paul, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Hope Community Inc",
+   "purpose": "ECONOMIC OPPORTUNITY - HOMETOWN",
+   "amount": 200000,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Juxtaposition Inc",
+   "purpose": "ECONOMIC OPPORTUNITY - HOMETOWN",
+   "amount": 200000,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Local Initiatives Support Corporation",
+   "purpose": "ECONOMIC OPPORTUNITY - HOMETOWN",
+   "amount": 200000,
+   "place": "St Paul, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Mni Sota Fund",
+   "purpose": "ECONOMIC OPPORTUNITY - HOMETOWN",
+   "amount": 200000,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Native Governance Center",
+   "purpose": "ECONOMIC OPPORTUNITY - HOMETOWN (ECOSYSTEM)",
+   "amount": 200000,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Neighborhood Development Center Inc",
+   "purpose": "ECONOMIC OPPORTUNITY - HOMETOWN",
+   "amount": 200000,
+   "place": "Saint Paul, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Nexus Community Partners",
+   "purpose": "ECONOMIC OPPORTUNITY - HOMETOWN (ECOSYSTEM)",
+   "amount": 200000,
+   "place": "Saint Paul, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Northside Economic Opportunity Network",
+   "purpose": "ECONOMIC OPPORTUNITY - HOMETOWN",
+   "amount": 200000,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Urban League Twin Cities",
+   "purpose": "ECONOMIC OPPORTUNITY - HOMETOWN",
+   "amount": 200000,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Womens Foundation of Minnesota",
+   "purpose": "ECONOMIC OPPORTUNITY - HOMETOWN (ECOSYSTEM)",
+   "amount": 200000,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Youthprise",
+   "purpose": "ECONOMIC OPPORTUNITY - HOMETOWN",
+   "amount": 200000,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "African Development Center",
+   "purpose": "ECONOMIC OPPORTUNITY - HOMETOWN",
+   "amount": 175000,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "American Indian Oic Inc",
+   "purpose": "ECONOMIC OPPORTUNITY - HOMETOWN",
+   "amount": 175000,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Capi USA",
+   "purpose": "ECONOMIC OPPORTUNITY - HOMETOWN",
+   "amount": 175000,
+   "place": "Brooklyn Ctr, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Metropolitan Economic Development Association",
+   "purpose": "ECONOMIC OPPORTUNITY - HOMETOWN",
+   "amount": 175000,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "African Economic Development Solutions",
+   "purpose": "ECONOMIC OPPORTUNITY - HOMETOWN",
+   "amount": 150000,
+   "place": "Saint Paul, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "All Square",
+   "purpose": "ECONOMIC OPPORTUNITY - HOMETOWN",
+   "amount": 150000,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Coalition of Asian American Leaders",
+   "purpose": "ECONOMIC OPPORTUNITY - HOMETOWN (ECOSYSTEM)",
+   "amount": 150000,
+   "place": "Saint Paul, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Emerge Community Development",
+   "purpose": "ECONOMIC OPPORTUNITY - HOMETOWN",
+   "amount": 150000,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Greater Twin Cities United Way",
+   "purpose": "ECONOMIC OPPORTUNITY - HOMETOWN",
+   "amount": 150000,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Latino Economic Development Center",
+   "purpose": "ECONOMIC OPPORTUNITY - HOMETOWN",
+   "amount": 150000,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Metropolitan Consortium of Community Developers",
+   "purpose": "ECONOMIC OPPORTUNITY - HOMETOWN",
+   "amount": 150000,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Minnesota Council of Nonprofits",
+   "purpose": "ECONOMIC OPPORTUNITY - HOMETOWN (ECOSYSTEM)",
+   "amount": 150000,
+   "place": "Saint Paul, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Propel Nonprofits",
+   "purpose": "ECONOMIC OPPORTUNITY - HOMETOWN (ECOSYSTEM)",
+   "amount": 150000,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Springboard for the Arts",
+   "purpose": "ECONOMIC OPPORTUNITY - HOMETOWN",
+   "amount": 150000,
+   "place": "Saint Paul, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Summit Academy Oic",
+   "purpose": "ECONOMIC OPPORTUNITY - HOMETOWN",
+   "amount": 150000,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "The Rondo Community Land Trust",
+   "purpose": "ECONOMIC OPPORTUNITY - HOMETOWN",
+   "amount": 150000,
+   "place": "Saint Paul, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Hmong American Farmers Association",
+   "purpose": "ECONOMIC OPPORTUNITY - HOMETOWN",
+   "amount": 125000,
+   "place": "West Saint Paul, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Latinolead",
+   "purpose": "ECONOMIC OPPORTUNITY - HOMETOWN (ECOSYSTEM)",
+   "amount": 120000,
+   "place": "Saint Paul, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Aeon",
+   "purpose": "ECONOMIC OPPORTUNITY - HOMETOWN",
+   "amount": 100000,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Commonbond Communities",
+   "purpose": "ECONOMIC OPPORTUNITY - HOMETOWN",
+   "amount": 100000,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Connectup Institute",
+   "purpose": "ECONOMIC OPPORTUNITY - HOMETOWN",
+   "amount": 100000,
+   "place": "Saint Paul, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Cookie Cart",
+   "purpose": "ECONOMIC OPPORTUNITY - HOMETOWN",
+   "amount": 100000,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Initiative Foundation",
+   "purpose": "ECONOMIC OPPORTUNITY - HOMETOWN (ECOSYSTEM)",
+   "amount": 100000,
+   "place": "Little Falls, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "International Institute of Minnesota",
+   "purpose": "ECONOMIC OPPORTUNITY - HOMETOWN",
+   "amount": 100000,
+   "place": "Saint Paul, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Karen Organization of Minnesota",
+   "purpose": "ECONOMIC OPPORTUNITY - HOMETOWN",
+   "amount": 100000,
+   "place": "Roseville, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Lake Street Council",
+   "purpose": "ECONOMIC OPPORTUNITY - HOMETOWN",
+   "amount": 100000,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Northland Foundation",
+   "purpose": "ECONOMIC OPPORTUNITY - HOMETOWN (ECOSYSTEM)",
+   "amount": 100000,
+   "place": "Duluth, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Pillsbury United Communities",
+   "purpose": "ECONOMIC OPPORTUNITY - HOMETOWN (ECOSYSTEM)",
+   "amount": 100000,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Project for Pride in Living Inc",
+   "purpose": "ECONOMIC OPPORTUNITY - HOMETOWN",
+   "amount": 100000,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Tiwahe Foundation",
+   "purpose": "ECONOMIC OPPORTUNITY - HOMETOWN (ECOSYSTEM)",
+   "amount": 100000,
+   "place": "St Paul, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "YWCA of Minneapolis",
+   "purpose": "ECONOMIC OPPORTUNITY - HOMETOWN",
+   "amount": 100000,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "American Indian Community Housing Organization",
+   "purpose": "ECONOMIC OPPORTUNITY - HOMETOWN",
+   "amount": 75000,
+   "place": "Duluth, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "City of Lakes Community Land Trust",
+   "purpose": "ECONOMIC OPPORTUNITY - HOMETOWN",
+   "amount": 75000,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Community Reinvestment Fund Inc",
+   "purpose": "ECONOMIC OPPORTUNITY - HOMETOWN",
+   "amount": 75000,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Family Housing Fund",
+   "purpose": "ECONOMIC OPPORTUNITY - HOMETOWN",
+   "amount": 75000,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "H I R E D",
+   "purpose": "ECONOMIC OPPORTUNITY - HOMETOWN",
+   "amount": 75000,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Habitat for Humanity International Inc",
+   "purpose": "ECONOMIC OPPORTUNITY - HOMETOWN",
+   "amount": 75000,
+   "place": "Saint Paul, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Home Line",
+   "purpose": "ECONOMIC OPPORTUNITY - HOMETOWN",
+   "amount": 75000,
+   "place": "Bloomington, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Jeremiah Program",
+   "purpose": "ECONOMIC OPPORTUNITY - HOMETOWN",
+   "amount": 75000,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Jobs Foundation",
+   "purpose": "ECONOMIC OPPORTUNITY - HOMETOWN",
+   "amount": 75000,
+   "place": "St Paul, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Minneapolis Foundation",
+   "purpose": "ECONOMIC OPPORTUNITY - HOMETOWN",
+   "amount": 75000,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Minnesota Assistance Council for Veterans",
+   "purpose": "ECONOMIC OPPORTUNITY - HOMETOWN",
+   "amount": 75000,
+   "place": "Saint Paul, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Model Cities of St Paul Inc",
+   "purpose": "ECONOMIC OPPORTUNITY - HOMETOWN",
+   "amount": 75000,
+   "place": "St Paul, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Native American Community Development Institute",
+   "purpose": "ECONOMIC OPPORTUNITY - HOMETOWN",
+   "amount": 75000,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Network for Better Futures",
+   "purpose": "ECONOMIC OPPORTUNITY - HOMETOWN",
+   "amount": 75000,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Prepare and Prosper",
+   "purpose": "ECONOMIC OPPORTUNITY - HOMETOWN",
+   "amount": 75000,
+   "place": "Saint Paul, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Sabathani Community Center",
+   "purpose": "ECONOMIC OPPORTUNITY - HOMETOWN",
+   "amount": 75000,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Vibrant & Safe Downtown",
+   "purpose": "ECONOMIC OPPORTUNITY - HOMETOWN",
+   "amount": 75000,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Women Venture",
+   "purpose": "ECONOMIC OPPORTUNITY - HOMETOWN",
+   "amount": 75000,
+   "place": "Saint Paul, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Alliance Housing Inc",
+   "purpose": "ECONOMIC OPPORTUNITY - HOMETOWN",
+   "amount": 60000,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Accessability Inc",
+   "purpose": "ECONOMIC OPPORTUNITY - HOMETOWN",
+   "amount": 50000,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "African Career Education and Resources Inc",
+   "purpose": "ECONOMIC OPPORTUNITY - HOMETOWN",
+   "amount": 50000,
+   "place": "Brooklyn Center, MN",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Ain Dah Yung Our Home Center",
+   "purpose": "ECONOMIC OPPORTUNITY - HOMETOWN",
+   "amount": 50000,
+   "place": "Saint Paul, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Amherst H Wilder Foundation",
+   "purpose": "ECONOMIC OPPORTUNITY - HOMETOWN (ECOSYSTEM)",
+   "amount": 50000,
+   "place": "St Paul, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Appetite for Change Inc",
+   "purpose": "ECONOMIC OPPORTUNITY - HOMETOWN",
+   "amount": 50000,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Beacon Interfaith Housing Collaborative",
+   "purpose": "ECONOMIC OPPORTUNITY - HOMETOWN",
+   "amount": 50000,
+   "place": "Saint Paul, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "East Side Neighborhood Development Company",
+   "purpose": "ECONOMIC OPPORTUNITY - HOMETOWN",
+   "amount": 50000,
+   "place": "St Paul, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Emma Norton Services",
+   "purpose": "ECONOMIC OPPORTUNITY - HOMETOWN",
+   "amount": 50000,
+   "place": "Saint Paul, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Housing Justice Center",
+   "purpose": "ECONOMIC OPPORTUNITY - HOMETOWN",
+   "amount": 50000,
+   "place": "Saint Paul, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Led By Truth",
+   "purpose": "ECONOMIC OPPORTUNITY - HOMETOWN",
+   "amount": 50000,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Microgrants",
+   "purpose": "ECONOMIC OPPORTUNITY - HOMETOWN",
+   "amount": 50000,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Migizi Communications Inc",
+   "purpose": "ECONOMIC OPPORTUNITY - HOMETOWN",
+   "amount": 50000,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Mind the Gapp",
+   "purpose": "ECONOMIC OPPORTUNITY - HOMETOWN",
+   "amount": 50000,
+   "place": "Minnetonka, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Minnesota Home Ownership Center",
+   "purpose": "ECONOMIC OPPORTUNITY - HOMETOWN",
+   "amount": 50000,
+   "place": "St Paul, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Minnesota Housing Partnership",
+   "purpose": "ECONOMIC OPPORTUNITY - HOMETOWN",
+   "amount": 50000,
+   "place": "Saint Paul, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Neighborhood Development Alliance Inc",
+   "purpose": "ECONOMIC OPPORTUNITY - HOMETOWN",
+   "amount": 50000,
+   "place": "Saint Paul, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Prg Inc",
+   "purpose": "ECONOMIC OPPORTUNITY - HOMETOWN",
+   "amount": 50000,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "The Market Entry Fund",
+   "purpose": "ECONOMIC OPPORTUNITY - HOMETOWN",
+   "amount": 50000,
+   "place": "Saint Paul, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Urban Homeworks Inc",
+   "purpose": "ECONOMIC OPPORTUNITY - HOMETOWN",
+   "amount": 50000,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "West Hennepin Affordable Housing Land Trust",
+   "purpose": "ECONOMIC OPPORTUNITY - HOMETOWN",
+   "amount": 50000,
+   "place": "Minnetonka, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Young Womens Christian Association",
+   "purpose": "ECONOMIC OPPORTUNITY - HOMETOWN",
+   "amount": 50000,
+   "place": "Saint Paul, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Exodus Financial Services",
+   "purpose": "ECONOMIC OPPORTUNITY - HOMETOWN",
+   "amount": 30000,
+   "place": "St Paul, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Conorth (Formerly Northcountry Cooperative Foundation)",
+   "purpose": "ECONOMIC OPPORTUNITY - HOMETOWN",
+   "amount": 25000,
+   "place": "Saint Paul, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Elpis Enterprises",
+   "purpose": "ECONOMIC OPPORTUNITY - HOMETOWN",
+   "amount": 25000,
+   "place": "St Paul, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Fortis Capital",
+   "purpose": "ECONOMIC OPPORTUNITY - HOMETOWN",
+   "amount": 25000,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Greater Metropolitan Housing Corporation",
+   "purpose": "ECONOMIC OPPORTUNITY - HOMETOWN",
+   "amount": 25000,
+   "place": "Saint Paul, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Habitat for Humanity of Minnesota Inc",
+   "purpose": "ECONOMIC OPPORTUNITY - HOMETOWN",
+   "amount": 25000,
+   "place": "Saint Paul, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Inquilinxs Unidxs Por Justicia - United Renters for Justice",
+   "purpose": "ECONOMIC OPPORTUNITY - HOMETOWN",
+   "amount": 25000,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "New Impact Fund",
+   "purpose": "ECONOMIC OPPORTUNITY - HOMETOWN",
+   "amount": 25000,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Southwest Minnesota Housing Partnership",
+   "purpose": "ECONOMIC OPPORTUNITY - HOMETOWN",
+   "amount": 25000,
+   "place": "Slayton, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Wildflyer Coffee",
+   "purpose": "ECONOMIC OPPORTUNITY - HOMETOWN",
+   "amount": 25000,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Comunidades Organizando El Poder Y La Accion Latina Copal Education",
+   "purpose": "ECONOMIC OPPORTUNITY - HOMETOWN",
+   "amount": 15000,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  }
+ ],
+ "grantsTruncated": false
+}

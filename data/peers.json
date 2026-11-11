@@ -1,0 +1,152 @@
+[
+  {
+    "company": "Coca-Cola",
+    "industry": "beverage_cpg",
+    "peerNonprofit": "charity: water",
+    "relationship": "Foundation grant",
+    "year": 2024,
+    "amountUsd": 1529400,
+    "sourceUrl": "https://gt990datalake-rawdata.s3.amazonaws.com/EfileData/XmlFiles/202523049349100227_public.xml",
+    "note": "Rural Water Programing - Pakistan, India & Zimbabwe"
+  },
+  {
+    "company": "Coca-Cola",
+    "industry": "beverage_cpg",
+    "peerNonprofit": "DigDeep",
+    "relationship": "Foundation grant",
+    "year": 2024,
+    "amountUsd": 530827,
+    "sourceUrl": "https://gt990datalake-rawdata.s3.amazonaws.com/EfileData/XmlFiles/202523049349100227_public.xml",
+    "note": "United States Water Programing"
+  },
+  {
+    "company": "Coca-Cola",
+    "industry": "beverage_cpg",
+    "peerNonprofit": "Global Water Challenge",
+    "relationship": "Foundation grant",
+    "year": 2024,
+    "amountUsd": 109342,
+    "sourceUrl": "https://gt990datalake-rawdata.s3.amazonaws.com/EfileData/XmlFiles/202523049349100227_public.xml",
+    "note": "Sustainable Access to Safe Water for Marzandiyya V illage, Azerbaijan"
+  },
+  {
+    "company": "Coca-Cola",
+    "industry": "beverage_cpg",
+    "peerNonprofit": "Global Water Challenge",
+    "relationship": "Foundation grant",
+    "year": 2024,
+    "amountUsd": 537618,
+    "sourceUrl": "https://gt990datalake-rawdata.s3.amazonaws.com/EfileData/XmlFiles/202523049349100227_public.xml",
+    "note": "Promoting Climate Resilience through Water Resourc e Management in Al Jawf and Jazan, Saudi Arabia"
+  },
+  {
+    "company": "Coca-Cola",
+    "industry": "beverage_cpg",
+    "peerNonprofit": "Global Water Challenge",
+    "relationship": "Foundation grant",
+    "year": 2024,
+    "amountUsd": 1800000,
+    "sourceUrl": "https://gt990datalake-rawdata.s3.amazonaws.com/EfileData/XmlFiles/202523049349100227_public.xml",
+    "note": "Transformative WASH Initiatives 2025 in Bolivia, B razil, Ecuador and Mexico"
+  },
+  {
+    "company": "Coca-Cola",
+    "industry": "beverage_cpg",
+    "peerNonprofit": "Millennium Water Alliance",
+    "relationship": "Foundation grant",
+    "year": 2024,
+    "amountUsd": 2232899,
+    "sourceUrl": "https://gt990datalake-rawdata.s3.amazonaws.com/EfileData/XmlFiles/202523049349100227_public.xml",
+    "note": "Sustainable Access to Safe Water (SASaWa)"
+  },
+  {
+    "company": "Coca-Cola",
+    "industry": "beverage_cpg",
+    "peerNonprofit": "Splash",
+    "relationship": "Foundation grant",
+    "year": 2024,
+    "amountUsd": 100000,
+    "sourceUrl": "https://gt990datalake-rawdata.s3.amazonaws.com/EfileData/XmlFiles/202523049349100227_public.xml",
+    "note": "WASH in Schools at Scale Phase I"
+  },
+  {
+    "company": "Coca-Cola",
+    "industry": "beverage_cpg",
+    "peerNonprofit": "Water Mission",
+    "relationship": "Foundation grant",
+    "year": 2024,
+    "amountUsd": 500000,
+    "sourceUrl": "https://gt990datalake-rawdata.s3.amazonaws.com/EfileData/XmlFiles/202523049349100227_public.xml",
+    "note": "Improving Well-Being through Safe Water and Sanita tion for Communities in Mexico"
+  },
+  {
+    "company": "Coca-Cola",
+    "industry": "beverage_cpg",
+    "peerNonprofit": "Water.org",
+    "relationship": "Foundation grant",
+    "year": 2024,
+    "amountUsd": 1000000,
+    "sourceUrl": "https://gt990datalake-rawdata.s3.amazonaws.com/EfileData/XmlFiles/202523049349100227_public.xml",
+    "note": "Advancing Water and Sanitation Project Development through WaterConnect"
+  },
+  {
+    "company": "Coca-Cola",
+    "industry": "beverage_cpg",
+    "peerNonprofit": "WaterAid",
+    "relationship": "Foundation grant",
+    "year": 2024,
+    "amountUsd": 1000000,
+    "sourceUrl": "https://gt990datalake-rawdata.s3.amazonaws.com/EfileData/XmlFiles/202523049349100227_public.xml",
+    "note": "Women + Water Collaborative: India"
+  },
+  {
+    "company": "PepsiCo",
+    "industry": "beverage_cpg",
+    "peerNonprofit": "Safe Water Network",
+    "relationship": "Foundation grant",
+    "year": 2024,
+    "amountUsd": 9500,
+    "sourceUrl": "https://gt990datalake-rawdata.s3.amazonaws.com/EfileData/XmlFiles/202513189349102061_public.xml",
+    "note": "General Support"
+  },
+  {
+    "company": "PepsiCo",
+    "industry": "beverage_cpg",
+    "peerNonprofit": "WaterAid",
+    "relationship": "Foundation grant",
+    "year": 2024,
+    "amountUsd": 566652,
+    "sourceUrl": "https://gt990datalake-rawdata.s3.amazonaws.com/EfileData/XmlFiles/202513189349102061_public.xml",
+    "note": "General Support"
+  },
+  {
+    "company": "Starbucks",
+    "industry": "beverage_cpg",
+    "peerNonprofit": "Planet Water Foundation",
+    "relationship": "Foundation grant",
+    "year": 2024,
+    "amountUsd": 469300,
+    "sourceUrl": "https://gt990datalake-rawdata.s3.amazonaws.com/EfileData/XmlFiles/202632229349100543_public.xml",
+    "note": "THRIVING COMMUNITIES & DISASTER RESPONSE"
+  },
+  {
+    "company": "VF Corporation",
+    "industry": "outdoor_apparel",
+    "peerNonprofit": "Water.org",
+    "relationship": "Foundation grant",
+    "year": 2024,
+    "amountUsd": 100000,
+    "sourceUrl": "https://gt990datalake-rawdata.s3.amazonaws.com/EfileData/XmlFiles/202522899349101202_public.xml",
+    "note": "Scaling Water and Sanitation Access in Kenya"
+  },
+  {
+    "company": "VF Corporation",
+    "industry": "outdoor_apparel",
+    "peerNonprofit": "WaterAid",
+    "relationship": "Foundation grant",
+    "year": 2024,
+    "amountUsd": 125000,
+    "sourceUrl": "https://gt990datalake-rawdata.s3.amazonaws.com/EfileData/XmlFiles/202522899349101202_public.xml",
+    "note": "Championing sustainable water, sanitation, and hygiene (WASH) for factory workers and communities in Cambodia"
+  }
+]

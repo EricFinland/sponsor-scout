@@ -1,0 +1,735 @@
+{
+ "ein": "416018495",
+ "name": "General Mills Foundation",
+ "city": "Minneapolis",
+ "state": "MN",
+ "formType": "990PF",
+ "taxYear": 2021,
+ "totalGiving": 28945341,
+ "totalAssets": 0,
+ "detailAvailable": true,
+ "stats": {
+  "count": 66,
+  "total": 28945341,
+  "median": 35000,
+  "buckets": [
+   1,
+   0,
+   39,
+   22,
+   3,
+   1
+  ],
+  "waterCount": 0,
+  "waterAmount": 0,
+  "adjacentCount": 9,
+  "peerMatches": [],
+  "thirstProjectGrants": 0
+ },
+ "grantsInAttachment": false,
+ "officers": [
+  {
+   "name": "Jeff Harmening",
+   "title": "Chairman, Board of Trustees"
+  },
+  {
+   "name": "Mary J Melendez",
+   "title": "President"
+  },
+  {
+   "name": "Nicola Dixon",
+   "title": "Executive Director, Secretary"
+  },
+  {
+   "name": "Edgar DeGuia",
+   "title": "Treasurer"
+  },
+  {
+   "name": "Wendy Unglaub",
+   "title": "Assistant Treasurer"
+  },
+  {
+   "name": "Richard C Allendorf",
+   "title": "Trustee"
+  },
+  {
+   "name": "Jodi Benson",
+   "title": "Trustee"
+  },
+  {
+   "name": "Kofi Bruce",
+   "title": "Trustee"
+  },
+  {
+   "name": "John R Church",
+   "title": "Trustee"
+  },
+  {
+   "name": "Shawn P O'Grady",
+   "title": "Trustee"
+  },
+  {
+   "name": "Jacqueline Williams-Roll",
+   "title": "Trustee"
+  }
+ ],
+ "preselectedOnly": true,
+ "applicationContact": null,
+ "website": "www.generalmills.com/en/responsibility",
+ "history": [
+  {
+   "year": 2012,
+   "giving": 28177998,
+   "assets": 98486863,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2013_04_PF%2F41-6018495_990PF_201205.pdf"
+  },
+  {
+   "year": 2013,
+   "giving": 33843919,
+   "assets": 110841484,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2014_02_PF%2F41-6018495_990PF_201305.pdf"
+  },
+  {
+   "year": 2014,
+   "giving": 28187197,
+   "assets": 93606312,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2014_12_PF%2F41-6018495_990PF_201405.pdf"
+  },
+  {
+   "year": 2015,
+   "giving": 23664477,
+   "assets": 84796383,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2015_12_PF%2F41-6018495_990PF_201505.pdf"
+  },
+  {
+   "year": 2019,
+   "giving": 18041522,
+   "assets": 59628747,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=02_2020_prefixes_41-45%2F416018495_201905_990PF_2020022017165520.pdf"
+  },
+  {
+   "year": 2020,
+   "giving": 19299586,
+   "assets": 41760738,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=06_2021_prefixes_41-43%2F416018495_202005_990PF_2021060218232359.pdf"
+  },
+  {
+   "year": 2021,
+   "giving": 28945341,
+   "assets": 1,
+   "pdfUrl": null
+  }
+ ],
+ "sources": [
+  {
+   "label": "ProPublica Nonprofit Explorer",
+   "url": "https://projects.propublica.org/nonprofits/organizations/416018495"
+  },
+  {
+   "label": "IRS e-file XML, 990PF 2021",
+   "url": "https://gt990datalake-rawdata.s3.amazonaws.com/EfileData/XmlFiles/202231179349102053_public.xml"
+  },
+  {
+   "label": "Filing PDF, 2020",
+   "url": "https://projects.propublica.org/nonprofits/download-filing?path=06_2021_prefixes_41-43%2F416018495_202005_990PF_2021060218232359.pdf"
+  }
+ ],
+ "fetchedAt": "2026-11-11T11:39:17.599Z",
+ "grants": [
+  {
+   "recipient": "Charities Aid Foundation America",
+   "purpose": "General Mills Foundation Corpus Account",
+   "amount": 25023040,
+   "place": "Alexandria, VA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Partners in Food Solutions",
+   "purpose": "Operating Support",
+   "amount": 550000,
+   "place": "Golden Valley, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "The Blackbaud Giving Fund",
+   "purpose": "Workplace Giving Match",
+   "amount": 321272,
+   "place": "Plano, TX",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Second Harvest Heartland",
+   "purpose": "Operating Support and Retail Food Rescue",
+   "amount": 250000,
+   "place": "Brooklyn Park, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "The Blackbaud Giving Fund",
+   "purpose": "Workplace Giving Match",
+   "amount": 246803,
+   "place": "Plano, TX",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "United Negro College Fund Inc",
+   "purpose": "Operating Support and Dr. Martin Luther King Breakfast",
+   "amount": 225000,
+   "place": "Washington, DC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Greater Twin Cities United Way",
+   "purpose": "Operating Support Generation Next",
+   "amount": 100000,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Northside Achievement Zone",
+   "purpose": "Operating Support",
+   "amount": 100000,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "The Food Group Minnesota Inc",
+   "purpose": "Operating Support & Emerging Partners/Twin Cities Mobile Market",
+   "amount": 95000,
+   "place": "New Hope, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "University of Minnesota Foundation",
+   "purpose": "Bell Museum Operating Support and 150th Anniversary",
+   "amount": 95000,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Way to Grow",
+   "purpose": "Great By Eight",
+   "amount": 90000,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Minnesota Historical Society",
+   "purpose": "Mill City Museum Operating Support",
+   "amount": 75000,
+   "place": "St Paul, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Pillsbury United Communities",
+   "purpose": "North Market Fresh Produce Purchasing Incentive Program",
+   "amount": 75000,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Big Brothers Big Sisters of Greater Twin Cities",
+   "purpose": "Operating Support",
+   "amount": 60000,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Community Emergency Assistance Programs Inc",
+   "purpose": "Operating Support and Mobile Food Truck",
+   "amount": 55000,
+   "place": "Brooklyn Center, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Achieve Minneapolis",
+   "purpose": "Career & College Initiative",
+   "amount": 50000,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Boys & Girls Clubs of the Twin Cities",
+   "purpose": "Operating Support",
+   "amount": 50000,
+   "place": "St Paul, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Catholic Charities of Archdiocese of St PaulMpls",
+   "purpose": "Children and Family Services Programs",
+   "amount": 50000,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Comunidades Latinas Unidas En Servicio Inc",
+   "purpose": "Canasta Familiar and Anniversary Operating Support",
+   "amount": 50000,
+   "place": "St Paul, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Great MN Schools",
+   "purpose": "Operating Support",
+   "amount": 50000,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Twin Cities RISE",
+   "purpose": "Operating Support",
+   "amount": 50000,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Urban Ventures Leadership Foundation",
+   "purpose": "Farm and Nutrition Program",
+   "amount": 50000,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Washburn Center for Children",
+   "purpose": "Operating Support",
+   "amount": 50000,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Youthprise",
+   "purpose": "Operating Support",
+   "amount": 50000,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Greater Minneapolis Council of Churches",
+   "purpose": "Operating Support for Minnesota FoodShare",
+   "amount": 50000,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Cristo Rey Jesuit High School",
+   "purpose": "Operating Support and Corporate Work Study Program Support",
+   "amount": 50000,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "BestPrep",
+   "purpose": "Youth Education Programs and Racial Equity Advancements",
+   "amount": 40000,
+   "place": "Brooklyn Park, MN",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Capi USA",
+   "purpose": "Food Shelf Programming",
+   "amount": 40000,
+   "place": "Brooklyn Center, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Hunger Impact Partners",
+   "purpose": "Operating Support Ensuring Food Access for Minnesota Kids",
+   "amount": 40000,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "The BrandLab",
+   "purpose": "Operating Support",
+   "amount": 40000,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Young Men's Christian Association of Greater TC",
+   "purpose": "YMCA Beacons Program",
+   "amount": 40000,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Youth Farm and Market Project",
+   "purpose": "Operating Support",
+   "amount": 40000,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Ed Allies",
+   "purpose": "Operating Support",
+   "amount": 35000,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Minneapolis Youth Coordinating Board",
+   "purpose": "Hawthorne Huddle",
+   "amount": 35000,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Project Success-Students Undertaking Creative",
+   "purpose": "Operating Support",
+   "amount": 35000,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Division of Indian Work",
+   "purpose": "Horizons Unlimited Food Shelf",
+   "amount": 30000,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Hiawatha Academies",
+   "purpose": "Hiawatha Through College",
+   "amount": 30000,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Interfaith Outreach and Community Partners",
+   "purpose": "Operating Support",
+   "amount": 30000,
+   "place": "Plymouth, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Metro Meals on Wheels Collaborative Inc",
+   "purpose": "Operating Support",
+   "amount": 30000,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Mill City Farmers Market Charitable Fund",
+   "purpose": "Operating Support",
+   "amount": 30000,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Open Arms of Minnesota Inc",
+   "purpose": "Operating Support",
+   "amount": 30000,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Project in Pride in Living Inc",
+   "purpose": "Operating Support",
+   "amount": 30000,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Northside Economic Opportunity Network",
+   "purpose": "Operating Support",
+   "amount": 30000,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "NorthPoint Health and Wellness Center",
+   "purpose": "Northside Partners for Home Delivery",
+   "amount": 30000,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "AFSA High School",
+   "purpose": "Activity Busing",
+   "amount": 25000,
+   "place": "Vadnais Heights, MN",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Cookie Cart",
+   "purpose": "Operating Support",
+   "amount": 25000,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Greater Minneapolis Crisis Nursery",
+   "purpose": "Operating Support",
+   "amount": 25000,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Help at Your Door",
+   "purpose": "Nutritional Operating Support",
+   "amount": 25000,
+   "place": "Golden Valley, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Junior Achievement of the Upper Midwest",
+   "purpose": "Operating Support and General Mills Employee Engagement in North Minneapolis",
+   "amount": 25000,
+   "place": "St Paul, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "KIPP Minnesota",
+   "purpose": "Operating Support",
+   "amount": 25000,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Loaves & Fishes Too",
+   "purpose": "Operating Support",
+   "amount": 25000,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Minnesota Landscape Arboretum Foundation",
+   "purpose": "Farm at the Arb Apprenticeship Program",
+   "amount": 25000,
+   "place": "Chaska, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Perspectives Inc",
+   "purpose": "Children's Programs",
+   "amount": 25000,
+   "place": "St Louis Park, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "YWCA of Minneapolis",
+   "purpose": "Early Childhood Education Program",
+   "amount": 25000,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": true,
+   "peer": null
+  },
+  {
+   "recipient": "Dunwoody College of Technology",
+   "purpose": "Pathways to Careers",
+   "amount": 20000,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "People Responding in Social Ministry (PRISM)",
+   "purpose": "Marketplace Food Shelf",
+   "amount": 20000,
+   "place": "Golden Valley, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "People Serving People Inc",
+   "purpose": "Equitable and Safe Food Access for Children and Guests",
+   "amount": 20000,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Reading Partners",
+   "purpose": "Minnesota Reading Partners",
+   "amount": 20000,
+   "place": "Oakland, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "The Blackbaud Giving Fund",
+   "purpose": "Workplace Giving Match",
+   "amount": 15222,
+   "place": "Charleston, TX",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Centro Tyrone Guzman",
+   "purpose": "Centro Family Nutrition Program",
+   "amount": 15000,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Minnesota Academy of Science",
+   "purpose": "Operating Support",
+   "amount": 13000,
+   "place": "St Louis Park, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Prepare & Prosper",
+   "purpose": "Operating Support",
+   "amount": 13000,
+   "place": "St Paul, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Propel Nonprofits",
+   "purpose": "Operating Support and Board Trainings",
+   "amount": 12500,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "The Blackbaud Giving Fund",
+   "purpose": "Workplace Giving Match",
+   "amount": 10471,
+   "place": "Plano, TX",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Citizens League",
+   "purpose": "Operating Support",
+   "amount": 10000,
+   "place": "St Paul, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "The Minneapolis Foundation",
+   "purpose": "General Mills Hometown Grantmaking Program",
+   "amount": 33,
+   "place": "Minneapolis, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  }
+ ],
+ "grantsTruncated": false
+}

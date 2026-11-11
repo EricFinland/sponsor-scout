@@ -1,0 +1,761 @@
+[
+  {
+    "slug": "coca-cola",
+    "name": "Coca-Cola",
+    "industry": "beverage_cpg",
+    "domain": "coca-colacompany.com",
+    "hqState": "GA",
+    "foundation": {
+      "status": "matched",
+      "ein": "581574705",
+      "name": "The Coca-Cola Foundation Inc"
+    },
+    "research": {
+      "waterFocus": "unknown",
+      "focusAreas": [],
+      "applicationProcess": "unknown",
+      "annualGivingUsd": null,
+      "sizeBand": "unknown",
+      "warmIntro": false,
+      "sourceUrl": "",
+      "notes": "",
+      "updatedAt": null
+    }
+  },
+  {
+    "slug": "pepsico",
+    "name": "PepsiCo",
+    "industry": "beverage_cpg",
+    "domain": "pepsico.com",
+    "hqState": "NY",
+    "foundation": {
+      "status": "matched",
+      "ein": "136163174",
+      "name": "PepsiCo Foundation Inc"
+    },
+    "research": {
+      "waterFocus": "unknown",
+      "focusAreas": [],
+      "applicationProcess": "unknown",
+      "annualGivingUsd": null,
+      "sizeBand": "unknown",
+      "warmIntro": false,
+      "sourceUrl": "",
+      "notes": "",
+      "updatedAt": null
+    }
+  },
+  {
+    "slug": "keurig-dr-pepper",
+    "name": "Keurig Dr Pepper",
+    "industry": "beverage_cpg",
+    "domain": "keurigdrpepper.com",
+    "hqState": "MA",
+    "foundation": {
+      "status": "none_found",
+      "ein": null,
+      "name": null
+    },
+    "research": {
+      "waterFocus": "unknown",
+      "focusAreas": [],
+      "applicationProcess": "unknown",
+      "annualGivingUsd": null,
+      "sizeBand": "unknown",
+      "warmIntro": false,
+      "sourceUrl": "",
+      "notes": "",
+      "updatedAt": null
+    }
+  },
+  {
+    "slug": "starbucks",
+    "name": "Starbucks",
+    "industry": "beverage_cpg",
+    "domain": "starbucks.com",
+    "hqState": "WA",
+    "foundation": {
+      "status": "matched",
+      "ein": "911795425",
+      "name": "The Starbucks Foundation"
+    },
+    "research": {
+      "waterFocus": "unknown",
+      "focusAreas": [],
+      "applicationProcess": "unknown",
+      "annualGivingUsd": null,
+      "sizeBand": "unknown",
+      "warmIntro": false,
+      "sourceUrl": "",
+      "notes": "",
+      "updatedAt": null
+    }
+  },
+  {
+    "slug": "procter-and-gamble",
+    "name": "Procter & Gamble",
+    "industry": "beverage_cpg",
+    "domain": "pg.com",
+    "hqState": "OH",
+    "foundation": {
+      "status": "unverified",
+      "ein": null,
+      "name": null
+    },
+    "research": {
+      "waterFocus": "unknown",
+      "focusAreas": [],
+      "applicationProcess": "unknown",
+      "annualGivingUsd": null,
+      "sizeBand": "unknown",
+      "warmIntro": false,
+      "sourceUrl": "",
+      "notes": "",
+      "updatedAt": null
+    }
+  },
+  {
+    "slug": "colgate-palmolive",
+    "name": "Colgate-Palmolive",
+    "industry": "beverage_cpg",
+    "domain": "colpal.com",
+    "hqState": "NY",
+    "foundation": {
+      "status": "none_found",
+      "ein": null,
+      "name": null
+    },
+    "research": {
+      "waterFocus": "unknown",
+      "focusAreas": [],
+      "applicationProcess": "unknown",
+      "annualGivingUsd": null,
+      "sizeBand": "unknown",
+      "warmIntro": false,
+      "sourceUrl": "",
+      "notes": "",
+      "updatedAt": null
+    }
+  },
+  {
+    "slug": "kimberly-clark",
+    "name": "Kimberly-Clark",
+    "industry": "beverage_cpg",
+    "domain": "kimberly-clark.com",
+    "hqState": "TX",
+    "foundation": {
+      "status": "matched",
+      "ein": "396044304",
+      "name": "Kimberly-Clark Foundation"
+    },
+    "research": {
+      "waterFocus": "unknown",
+      "focusAreas": [],
+      "applicationProcess": "unknown",
+      "annualGivingUsd": null,
+      "sizeBand": "unknown",
+      "warmIntro": false,
+      "sourceUrl": "",
+      "notes": "",
+      "updatedAt": null
+    }
+  },
+  {
+    "slug": "general-mills",
+    "name": "General Mills",
+    "industry": "beverage_cpg",
+    "domain": "genmills.com",
+    "hqState": "MN",
+    "foundation": {
+      "status": "matched",
+      "ein": "416018495",
+      "name": "General Mills Foundation"
+    },
+    "research": {
+      "waterFocus": "unknown",
+      "focusAreas": [],
+      "applicationProcess": "unknown",
+      "annualGivingUsd": null,
+      "sizeBand": "unknown",
+      "warmIntro": false,
+      "sourceUrl": "",
+      "notes": "",
+      "updatedAt": null
+    }
+  },
+  {
+    "slug": "clorox",
+    "name": "Clorox",
+    "industry": "beverage_cpg",
+    "domain": "clorox.com",
+    "hqState": "CA",
+    "foundation": {
+      "status": "matched",
+      "ein": "942674980",
+      "name": "The Clorox Company Foundation"
+    },
+    "research": {
+      "waterFocus": "unknown",
+      "focusAreas": [],
+      "applicationProcess": "unknown",
+      "annualGivingUsd": null,
+      "sizeBand": "unknown",
+      "warmIntro": false,
+      "sourceUrl": "",
+      "notes": "",
+      "updatedAt": null
+    }
+  },
+  {
+    "slug": "monster-beverage",
+    "name": "Monster Beverage",
+    "industry": "beverage_cpg",
+    "domain": "monsterenergy.com",
+    "hqState": "CA",
+    "foundation": {
+      "status": "none_found",
+      "ein": null,
+      "name": null
+    },
+    "research": {
+      "waterFocus": "unknown",
+      "focusAreas": [],
+      "applicationProcess": "unknown",
+      "annualGivingUsd": null,
+      "sizeBand": "unknown",
+      "warmIntro": false,
+      "sourceUrl": "",
+      "notes": "",
+      "updatedAt": null
+    }
+  },
+  {
+    "slug": "liquid-death",
+    "name": "Liquid Death",
+    "industry": "beverage_cpg",
+    "domain": "liquiddeath.com",
+    "hqState": "CA",
+    "foundation": {
+      "status": "none_found",
+      "ein": null,
+      "name": null
+    },
+    "research": {
+      "waterFocus": "unknown",
+      "focusAreas": [],
+      "applicationProcess": "unknown",
+      "annualGivingUsd": null,
+      "sizeBand": "unknown",
+      "warmIntro": false,
+      "sourceUrl": "",
+      "notes": "",
+      "updatedAt": null
+    }
+  },
+  {
+    "slug": "patagonia",
+    "name": "Patagonia",
+    "industry": "outdoor_apparel",
+    "domain": "patagonia.com",
+    "hqState": "CA",
+    "foundation": {
+      "status": "matched",
+      "ein": "142004175",
+      "name": "Patagonia.org"
+    },
+    "research": {
+      "waterFocus": "unknown",
+      "focusAreas": [],
+      "applicationProcess": "unknown",
+      "annualGivingUsd": null,
+      "sizeBand": "unknown",
+      "warmIntro": false,
+      "sourceUrl": "",
+      "notes": "",
+      "updatedAt": null
+    }
+  },
+  {
+    "slug": "rei",
+    "name": "REI",
+    "industry": "outdoor_apparel",
+    "domain": "rei.com",
+    "hqState": "WA",
+    "foundation": {
+      "status": "matched",
+      "ein": "854299419",
+      "name": "REI Cooperative Action Fund"
+    },
+    "research": {
+      "waterFocus": "unknown",
+      "focusAreas": [],
+      "applicationProcess": "unknown",
+      "annualGivingUsd": null,
+      "sizeBand": "unknown",
+      "warmIntro": false,
+      "sourceUrl": "",
+      "notes": "",
+      "updatedAt": null
+    }
+  },
+  {
+    "slug": "columbia-sportswear",
+    "name": "Columbia Sportswear",
+    "industry": "outdoor_apparel",
+    "domain": "columbia.com",
+    "hqState": "OR",
+    "foundation": {
+      "status": "none_found",
+      "ein": null,
+      "name": null
+    },
+    "research": {
+      "waterFocus": "unknown",
+      "focusAreas": [],
+      "applicationProcess": "unknown",
+      "annualGivingUsd": null,
+      "sizeBand": "unknown",
+      "warmIntro": false,
+      "sourceUrl": "",
+      "notes": "",
+      "updatedAt": null
+    }
+  },
+  {
+    "slug": "vf",
+    "name": "VF Corporation",
+    "industry": "outdoor_apparel",
+    "domain": "vfc.com",
+    "hqState": "CO",
+    "foundation": {
+      "status": "matched",
+      "ein": "562322084",
+      "name": "The VF Foundation"
+    },
+    "research": {
+      "waterFocus": "unknown",
+      "focusAreas": [],
+      "applicationProcess": "unknown",
+      "annualGivingUsd": null,
+      "sizeBand": "unknown",
+      "warmIntro": false,
+      "sourceUrl": "",
+      "notes": "",
+      "updatedAt": null
+    }
+  },
+  {
+    "slug": "nike",
+    "name": "Nike",
+    "industry": "outdoor_apparel",
+    "domain": "nike.com",
+    "hqState": "OR",
+    "foundation": {
+      "status": "matched",
+      "ein": "931159948",
+      "name": "Nike Foundation"
+    },
+    "research": {
+      "waterFocus": "unknown",
+      "focusAreas": [],
+      "applicationProcess": "unknown",
+      "annualGivingUsd": null,
+      "sizeBand": "unknown",
+      "warmIntro": false,
+      "sourceUrl": "",
+      "notes": "",
+      "updatedAt": null
+    }
+  },
+  {
+    "slug": "yeti",
+    "name": "YETI",
+    "industry": "outdoor_apparel",
+    "domain": "yeti.com",
+    "hqState": "TX",
+    "foundation": {
+      "status": "unverified",
+      "ein": null,
+      "name": null
+    },
+    "research": {
+      "waterFocus": "unknown",
+      "focusAreas": [],
+      "applicationProcess": "unknown",
+      "annualGivingUsd": null,
+      "sizeBand": "unknown",
+      "warmIntro": false,
+      "sourceUrl": "",
+      "notes": "",
+      "updatedAt": null
+    }
+  },
+  {
+    "slug": "hydro-flask",
+    "name": "Hydro Flask",
+    "industry": "outdoor_apparel",
+    "domain": "hydroflask.com",
+    "hqState": "OR",
+    "foundation": {
+      "status": "none_found",
+      "ein": null,
+      "name": null
+    },
+    "research": {
+      "waterFocus": "unknown",
+      "focusAreas": [],
+      "applicationProcess": "unknown",
+      "annualGivingUsd": null,
+      "sizeBand": "unknown",
+      "warmIntro": false,
+      "sourceUrl": "",
+      "notes": "",
+      "updatedAt": null
+    }
+  },
+  {
+    "slug": "klean-kanteen",
+    "name": "Klean Kanteen",
+    "industry": "outdoor_apparel",
+    "domain": "kleankanteen.com",
+    "hqState": "CA",
+    "foundation": {
+      "status": "none_found",
+      "ein": null,
+      "name": null
+    },
+    "research": {
+      "waterFocus": "unknown",
+      "focusAreas": [],
+      "applicationProcess": "unknown",
+      "annualGivingUsd": null,
+      "sizeBand": "unknown",
+      "warmIntro": false,
+      "sourceUrl": "",
+      "notes": "",
+      "updatedAt": null
+    }
+  },
+  {
+    "slug": "camelbak",
+    "name": "CamelBak",
+    "industry": "outdoor_apparel",
+    "domain": "camelbak.com",
+    "hqState": "CA",
+    "foundation": {
+      "status": "none_found",
+      "ein": null,
+      "name": null
+    },
+    "research": {
+      "waterFocus": "unknown",
+      "focusAreas": [],
+      "applicationProcess": "unknown",
+      "annualGivingUsd": null,
+      "sizeBand": "unknown",
+      "warmIntro": false,
+      "sourceUrl": "",
+      "notes": "",
+      "updatedAt": null
+    }
+  },
+  {
+    "slug": "google",
+    "name": "Google",
+    "industry": "tech",
+    "domain": "google.com",
+    "hqState": "CA",
+    "foundation": {
+      "status": "matched",
+      "ein": "201548253",
+      "name": "Google Foundation"
+    },
+    "research": {
+      "waterFocus": "unknown",
+      "focusAreas": [],
+      "applicationProcess": "unknown",
+      "annualGivingUsd": null,
+      "sizeBand": "unknown",
+      "warmIntro": false,
+      "sourceUrl": "",
+      "notes": "",
+      "updatedAt": null
+    }
+  },
+  {
+    "slug": "microsoft",
+    "name": "Microsoft",
+    "industry": "tech",
+    "domain": "microsoft.com",
+    "hqState": "WA",
+    "foundation": {
+      "status": "unverified",
+      "ein": null,
+      "name": null
+    },
+    "research": {
+      "waterFocus": "unknown",
+      "focusAreas": [],
+      "applicationProcess": "unknown",
+      "annualGivingUsd": null,
+      "sizeBand": "unknown",
+      "warmIntro": false,
+      "sourceUrl": "",
+      "notes": "",
+      "updatedAt": null
+    }
+  },
+  {
+    "slug": "salesforce",
+    "name": "Salesforce",
+    "industry": "tech",
+    "domain": "salesforce.com",
+    "hqState": "CA",
+    "foundation": {
+      "status": "matched",
+      "ein": "943347800",
+      "name": "Salesforce Foundation"
+    },
+    "research": {
+      "waterFocus": "unknown",
+      "focusAreas": [],
+      "applicationProcess": "unknown",
+      "annualGivingUsd": null,
+      "sizeBand": "unknown",
+      "warmIntro": false,
+      "sourceUrl": "",
+      "notes": "",
+      "updatedAt": null
+    }
+  },
+  {
+    "slug": "cisco",
+    "name": "Cisco",
+    "industry": "tech",
+    "domain": "cisco.com",
+    "hqState": "CA",
+    "foundation": {
+      "status": "matched",
+      "ein": "770443347",
+      "name": "Cisco Systems Foundation"
+    },
+    "research": {
+      "waterFocus": "unknown",
+      "focusAreas": [],
+      "applicationProcess": "unknown",
+      "annualGivingUsd": null,
+      "sizeBand": "unknown",
+      "warmIntro": false,
+      "sourceUrl": "",
+      "notes": "",
+      "updatedAt": null
+    }
+  },
+  {
+    "slug": "intel",
+    "name": "Intel",
+    "industry": "tech",
+    "domain": "intel.com",
+    "hqState": "CA",
+    "foundation": {
+      "status": "matched",
+      "ein": "943092928",
+      "name": "Intel Foundation"
+    },
+    "research": {
+      "waterFocus": "unknown",
+      "focusAreas": [],
+      "applicationProcess": "unknown",
+      "annualGivingUsd": null,
+      "sizeBand": "unknown",
+      "warmIntro": false,
+      "sourceUrl": "",
+      "notes": "",
+      "updatedAt": null
+    }
+  },
+  {
+    "slug": "adobe",
+    "name": "Adobe",
+    "industry": "tech",
+    "domain": "adobe.com",
+    "hqState": "CA",
+    "foundation": {
+      "status": "matched",
+      "ein": "260233808",
+      "name": "Adobe Foundation"
+    },
+    "research": {
+      "waterFocus": "unknown",
+      "focusAreas": [],
+      "applicationProcess": "unknown",
+      "annualGivingUsd": null,
+      "sizeBand": "unknown",
+      "warmIntro": false,
+      "sourceUrl": "",
+      "notes": "",
+      "updatedAt": null
+    }
+  },
+  {
+    "slug": "qualcomm",
+    "name": "Qualcomm",
+    "industry": "tech",
+    "domain": "qualcomm.com",
+    "hqState": "CA",
+    "foundation": {
+      "status": "matched",
+      "ein": "274621444",
+      "name": "Qualcomm Charitable Foundation"
+    },
+    "research": {
+      "waterFocus": "unknown",
+      "focusAreas": [],
+      "applicationProcess": "unknown",
+      "annualGivingUsd": null,
+      "sizeBand": "unknown",
+      "warmIntro": false,
+      "sourceUrl": "",
+      "notes": "",
+      "updatedAt": null
+    }
+  },
+  {
+    "slug": "xylem",
+    "name": "Xylem",
+    "industry": "water_industrial",
+    "domain": "xylem.com",
+    "hqState": "DC",
+    "foundation": {
+      "status": "none_found",
+      "ein": null,
+      "name": null
+    },
+    "research": {
+      "waterFocus": "unknown",
+      "focusAreas": [],
+      "applicationProcess": "unknown",
+      "annualGivingUsd": null,
+      "sizeBand": "unknown",
+      "warmIntro": false,
+      "sourceUrl": "",
+      "notes": "",
+      "updatedAt": null
+    }
+  },
+  {
+    "slug": "ecolab",
+    "name": "Ecolab",
+    "industry": "water_industrial",
+    "domain": "ecolab.com",
+    "hqState": "MN",
+    "foundation": {
+      "status": "matched",
+      "ein": "411372157",
+      "name": "Ecolab Foundation (A/K/A Ecolab Industry Foundation)"
+    },
+    "research": {
+      "waterFocus": "unknown",
+      "focusAreas": [],
+      "applicationProcess": "unknown",
+      "annualGivingUsd": null,
+      "sizeBand": "unknown",
+      "warmIntro": false,
+      "sourceUrl": "",
+      "notes": "",
+      "updatedAt": null
+    }
+  },
+  {
+    "slug": "culligan",
+    "name": "Culligan",
+    "industry": "water_industrial",
+    "domain": "culligan.com",
+    "hqState": "IL",
+    "foundation": {
+      "status": "matched",
+      "ein": "463433979",
+      "name": "Culligan Cares Foundation"
+    },
+    "research": {
+      "waterFocus": "unknown",
+      "focusAreas": [],
+      "applicationProcess": "unknown",
+      "annualGivingUsd": null,
+      "sizeBand": "unknown",
+      "warmIntro": false,
+      "sourceUrl": "",
+      "notes": "",
+      "updatedAt": null
+    }
+  },
+  {
+    "slug": "wells-fargo",
+    "name": "Wells Fargo",
+    "industry": "financial",
+    "domain": "wellsfargo.com",
+    "hqState": "CA",
+    "foundation": {
+      "status": "matched",
+      "ein": "411367441",
+      "name": "Wells Fargo Foundation"
+    },
+    "research": {
+      "waterFocus": "unknown",
+      "focusAreas": [],
+      "applicationProcess": "unknown",
+      "annualGivingUsd": null,
+      "sizeBand": "unknown",
+      "warmIntro": false,
+      "sourceUrl": "",
+      "notes": "",
+      "updatedAt": null
+    }
+  },
+  {
+    "slug": "bank-of-america",
+    "name": "Bank of America",
+    "industry": "financial",
+    "domain": "bankofamerica.com",
+    "hqState": "NC",
+    "foundation": {
+      "status": "matched",
+      "ein": "200721133",
+      "name": "The Bank of America Charitable Foundation Inc"
+    },
+    "research": {
+      "waterFocus": "unknown",
+      "focusAreas": [],
+      "applicationProcess": "unknown",
+      "annualGivingUsd": null,
+      "sizeBand": "unknown",
+      "warmIntro": false,
+      "sourceUrl": "",
+      "notes": "",
+      "updatedAt": null
+    }
+  },
+  {
+    "slug": "target",
+    "name": "Target",
+    "industry": "retail",
+    "domain": "target.com",
+    "hqState": "MN",
+    "foundation": {
+      "status": "matched",
+      "ein": "416017088",
+      "name": "Target Foundation"
+    },
+    "research": {
+      "waterFocus": "unknown",
+      "focusAreas": [],
+      "applicationProcess": "unknown",
+      "annualGivingUsd": null,
+      "sizeBand": "unknown",
+      "warmIntro": false,
+      "sourceUrl": "",
+      "notes": "",
+      "updatedAt": null
+    }
+  }
+]

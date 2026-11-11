@@ -1,0 +1,488 @@
+{
+ "ein": "911795425",
+ "name": "The Starbucks Foundation",
+ "city": "Seattle",
+ "state": "WA",
+ "formType": "990PF",
+ "taxYear": 2024,
+ "totalGiving": 13588784,
+ "totalAssets": 20890653,
+ "detailAvailable": true,
+ "stats": {
+  "count": 37,
+  "total": 17254434,
+  "median": 175000,
+  "buckets": [
+   0,
+   0,
+   9,
+   15,
+   8,
+   5
+  ],
+  "waterCount": 1,
+  "waterAmount": 469300,
+  "adjacentCount": 0,
+  "peerMatches": [
+   {
+    "nonprofit": "Planet Water Foundation",
+    "amount": 469300,
+    "purpose": "THRIVING COMMUNITIES & DISASTER RESPONSE"
+   }
+  ],
+  "thirstProjectGrants": 0
+ },
+ "grantsInAttachment": false,
+ "officers": [
+  {
+   "name": "Sara Trilling",
+   "title": "President/Director"
+  },
+  {
+   "name": "Michelle Burns",
+   "title": "President/Vp/Secretary/Director"
+  },
+  {
+   "name": "Brady Brewer",
+   "title": "Director"
+  },
+  {
+   "name": "Aj Jones III",
+   "title": "Director"
+  },
+  {
+   "name": "Mark Brown",
+   "title": "Director"
+  },
+  {
+   "name": "Dominic Carr",
+   "title": "Director"
+  },
+  {
+   "name": "Tai Fung",
+   "title": "Treasurer"
+  },
+  {
+   "name": "Kelly Goodejohn",
+   "title": "Executive Officer"
+  },
+  {
+   "name": "Katie Jones",
+   "title": "Assistant Treasurer"
+  },
+  {
+   "name": "Joshua C Gaul",
+   "title": "Assistant Secretary"
+  }
+ ],
+ "preselectedOnly": true,
+ "applicationContact": null,
+ "website": "WWW.STARBUCKS.COM",
+ "history": [
+  {
+   "year": 2013,
+   "giving": 8682760,
+   "assets": 17999827,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2014_08_PF%2F91-1795425_990PF_201309.pdf"
+  },
+  {
+   "year": 2014,
+   "giving": 13215997,
+   "assets": 12289381,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2015_07_PF%2F91-1795425_990PF_201409.pdf"
+  },
+  {
+   "year": 2015,
+   "giving": 7031304,
+   "assets": 17467133,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2016_12_PF%2F91-1795425_990PF_201509.pdf"
+  },
+  {
+   "year": 2019,
+   "giving": 15928613,
+   "assets": 45817350,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=10_2020_prefixes_91-94%2F911795425_201909_990PR_2020101317370516.pdf"
+  },
+  {
+   "year": 2020,
+   "giving": 17673421,
+   "assets": 38623752,
+   "pdfUrl": null
+  },
+  {
+   "year": 2021,
+   "giving": 23211628,
+   "assets": 35732232,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F911795425_202109_990PF_2022080220261931.pdf"
+  },
+  {
+   "year": 2022,
+   "giving": 17513436,
+   "assets": 31947882,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F911795425_202209_990PF_2023061221433400.pdf"
+  },
+  {
+   "year": 2023,
+   "giving": 24044466,
+   "assets": 43805725,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F911795425_202309_990PF_2024110422796104.pdf"
+  },
+  {
+   "year": 2024,
+   "giving": 13588784,
+   "assets": 20890653,
+   "pdfUrl": null
+  }
+ ],
+ "sources": [
+  {
+   "label": "ProPublica Nonprofit Explorer",
+   "url": "https://projects.propublica.org/nonprofits/organizations/911795425"
+  },
+  {
+   "label": "IRS e-file XML, 990PF 2024",
+   "url": "https://gt990datalake-rawdata.s3.amazonaws.com/EfileData/XmlFiles/202632229349100543_public.xml"
+  },
+  {
+   "label": "Filing PDF, 2023",
+   "url": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F911795425_202309_990PF_2024110422796104.pdf"
+  }
+ ],
+ "fetchedAt": "2026-11-11T11:39:16.232Z",
+ "grants": [
+  {
+   "recipient": "Fidelity Charitable",
+   "purpose": "THRIVING COMMUNITIES & DISASTER RESPONSE",
+   "amount": 4989160,
+   "place": "Boston, MA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Myriad USA",
+   "purpose": "THRIVING COMMUNITIES & DISASTER RESPONSE",
+   "amount": 2990412,
+   "place": "New York, NY",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "American Red Cross",
+   "purpose": "THRIVING COMMUNITIES & DISASTER RESPONSE",
+   "amount": 1100000,
+   "place": "Washington, DC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Junior Achievement Worldwide",
+   "purpose": "THRIVING COMMUNITIES & DISASTER RESPONSE",
+   "amount": 1050000,
+   "place": "Boston, MA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Mercy Corps",
+   "purpose": "THRIVING COMMUNITIES & DISASTER RESPONSE",
+   "amount": 1000000,
+   "place": "Portland, OR",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Vancouver Foundation",
+   "purpose": "THRIVING COMMUNITIES & DISASTER RESPONSE",
+   "amount": 804013,
+   "place": "Vancouver, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Ripple Effect",
+   "purpose": "THRIVING COMMUNITIES & DISASTER RESPONSE",
+   "amount": 599758,
+   "place": "New Albany, IN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Planet Water Foundation",
+   "purpose": "THRIVING COMMUNITIES & DISASTER RESPONSE",
+   "amount": 469300,
+   "place": "Phoenix, AZ",
+   "water": true,
+   "adjacent": false,
+   "peer": "Planet Water Foundation"
+  },
+  {
+   "recipient": "World Central Kitchen",
+   "purpose": "THRIVING COMMUNITIES & DISASTER RESPONSE",
+   "amount": 448000,
+   "place": "Washington, DC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Care Inc",
+   "purpose": "THRIVING COMMUNITIES & DISASTER RESPONSE",
+   "amount": 401364,
+   "place": "Atlanta, GA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Junior Achievement USA",
+   "purpose": "THRIVING COMMUNITIES & DISASTER RESPONSE",
+   "amount": 350000,
+   "place": "Colorado Springs, CO",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "World Relief",
+   "purpose": "THRIVING COMMUNITIES & DISASTER RESPONSE",
+   "amount": 330000,
+   "place": "Baltimore, MD",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Mentor",
+   "purpose": "THRIVING COMMUNITIES & DISASTER RESPONSE",
+   "amount": 250000,
+   "place": "Boston, MA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "American Friends of Bean Voyage",
+   "purpose": "THRIVING COMMUNITIES & DISASTER RESPONSE",
+   "amount": 215938,
+   "place": "Wilmington, DE",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Boys & Girls Clubs of America",
+   "purpose": "THRIVING COMMUNITIES & DISASTER RESPONSE",
+   "amount": 200000,
+   "place": "Atlanta, GA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Impactassets",
+   "purpose": "THRIVING COMMUNITIES & DISASTER RESPONSE",
+   "amount": 200000,
+   "place": "Bethesda, MD",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "United Nations Foundation",
+   "purpose": "THRIVING COMMUNITIES & DISASTER RESPONSE",
+   "amount": 200000,
+   "place": "Washington, DC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Lutheran World Relief",
+   "purpose": "THRIVING COMMUNITIES & DISASTER RESPONSE",
+   "amount": 195000,
+   "place": "Baltimore, MD",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Days for Girls International",
+   "purpose": "THRIVING COMMUNITIES & DISASTER RESPONSE",
+   "amount": 175000,
+   "place": "Bellingham, WA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Friends of Forge",
+   "purpose": "THRIVING COMMUNITIES & DISASTER RESPONSE",
+   "amount": 172500,
+   "place": "Miami, FL",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Mary's Place",
+   "purpose": "THRIVING COMMUNITIES & DISASTER RESPONSE",
+   "amount": 150000,
+   "place": "Seattle, WA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Glasswing International",
+   "purpose": "THRIVING COMMUNITIES & DISASTER RESPONSE",
+   "amount": 144000,
+   "place": "New York, NY",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Farestart",
+   "purpose": "THRIVING COMMUNITIES & DISASTER RESPONSE",
+   "amount": 135000,
+   "place": "Seattle, WA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Save the Children",
+   "purpose": "THRIVING COMMUNITIES & DISASTER RESPONSE",
+   "amount": 125000,
+   "place": "Fairfield, CT",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Team Rubicon",
+   "purpose": "THRIVING COMMUNITIES & DISASTER RESPONSE",
+   "amount": 100000,
+   "place": "Los Angeles, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Wakami Foundation",
+   "purpose": "THRIVING COMMUNITIES & DISASTER RESPONSE",
+   "amount": 100000,
+   "place": "Buffalo, MN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Wellspring Family Services",
+   "purpose": "THRIVING COMMUNITIES & DISASTER RESPONSE",
+   "amount": 100000,
+   "place": "Seattle, WA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "YWCA Seattle King Snohomish",
+   "purpose": "THRIVING COMMUNITIES & DISASTER RESPONSE",
+   "amount": 60000,
+   "place": "Seattle, WA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Dc Central Kitchen",
+   "purpose": "THRIVING COMMUNITIES & DISASTER RESPONSE",
+   "amount": 35000,
+   "place": "Washington, DC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Junior Achievement of Georgia",
+   "purpose": "THRIVING COMMUNITIES & DISASTER RESPONSE",
+   "amount": 30000,
+   "place": "Atlanta, GA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Youthcare",
+   "purpose": "THRIVING COMMUNITIES & DISASTER RESPONSE",
+   "amount": 25000,
+   "place": "Seattle, WA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Christel House International",
+   "purpose": "THRIVING COMMUNITIES & DISASTER RESPONSE",
+   "amount": 24989,
+   "place": "Indianapolis, IN",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Hello Neighbor",
+   "purpose": "THRIVING COMMUNITIES & DISASTER RESPONSE",
+   "amount": 20000,
+   "place": "Pittsburgh, PA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Junior Achievement of Washington",
+   "purpose": "THRIVING COMMUNITIES & DISASTER RESPONSE",
+   "amount": 20000,
+   "place": "Auburn, WA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "The Asia Foundation",
+   "purpose": "THRIVING COMMUNITIES & DISASTER RESPONSE",
+   "amount": 20000,
+   "place": "San Francisco, CA",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "A Wider Circle",
+   "purpose": "THRIVING COMMUNITIES & DISASTER RESPONSE",
+   "amount": 15000,
+   "place": "Kensington, MD",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  },
+  {
+   "recipient": "Deaf-Reach",
+   "purpose": "THRIVING COMMUNITIES & DISASTER RESPONSE",
+   "amount": 10000,
+   "place": "Washington, DC",
+   "water": false,
+   "adjacent": false,
+   "peer": null
+  }
+ ],
+ "grantsTruncated": false
+}

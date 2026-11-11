@@ -1,0 +1,139 @@
+{
+ "ein": "770443347",
+ "name": "Cisco Systems Foundation",
+ "city": "San Jose",
+ "state": "CA",
+ "formType": "990PF",
+ "taxYear": 2024,
+ "totalGiving": 18581219,
+ "totalAssets": 243046339,
+ "detailAvailable": false,
+ "stats": null,
+ "grantsInAttachment": true,
+ "officers": [
+  {
+   "name": "John P Morgridge",
+   "title": "Trustee/Pres."
+  },
+  {
+   "name": "Saidah Grayson Dill",
+   "title": "Trustee"
+  },
+  {
+   "name": "Mary de Wysocki",
+   "title": "Trustee/Sec't"
+  },
+  {
+   "name": "Jacqueline Wong",
+   "title": "Trustee"
+  },
+  {
+   "name": "Rob Johnson",
+   "title": "Trustee"
+  },
+  {
+   "name": "Guy Diedrich",
+   "title": "Trustee"
+  },
+  {
+   "name": "Charu Adesnik",
+   "title": "Executive Dir."
+  },
+  {
+   "name": "John Rivers",
+   "title": "Trustee"
+  },
+  {
+   "name": "Roger Biscay",
+   "title": "Treasurer"
+  },
+  {
+   "name": "Agostino Santoni",
+   "title": "Trustee"
+  },
+  {
+   "name": "Alba San Martin",
+   "title": "Trustee"
+  },
+  {
+   "name": "Brian Tippens",
+   "title": "Trustee"
+  }
+ ],
+ "preselectedOnly": false,
+ "applicationContact": "Statement 19",
+ "website": "cisco.com/c/en/us/about/csr/impact/cisco-foun",
+ "history": [
+  {
+   "year": 2013,
+   "giving": 11921020,
+   "assets": 129341993,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2014_06_PF%2F77-0443347_990PF_201307.pdf"
+  },
+  {
+   "year": 2014,
+   "giving": 12096136,
+   "assets": 131744052,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2015_06_PF%2F77-0443347_990PF_201407.pdf"
+  },
+  {
+   "year": 2015,
+   "giving": 12410386,
+   "assets": 135404040,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=2016_08_PF%2F77-0443347_990PF_201507.pdf"
+  },
+  {
+   "year": 2019,
+   "giving": 17191729,
+   "assets": 193703630,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=09_2020_prefixes_75-81%2F770443347_201907_990PR_2020092117316290.pdf"
+  },
+  {
+   "year": 2020,
+   "giving": 22159536,
+   "assets": 211691989,
+   "pdfUrl": null
+  },
+  {
+   "year": 2021,
+   "giving": 24195672,
+   "assets": 243938932,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F770443347_202107_990PF_2022082220287518.pdf"
+  },
+  {
+   "year": 2022,
+   "giving": 24851135,
+   "assets": 214319622,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F770443347_202207_990PF_2023071021474092.pdf"
+  },
+  {
+   "year": 2023,
+   "giving": 30414677,
+   "assets": 229806533,
+   "pdfUrl": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F770443347_202307_990PF_2024070222639298.pdf"
+  },
+  {
+   "year": 2024,
+   "giving": 18581219,
+   "assets": 243046339,
+   "pdfUrl": null
+  }
+ ],
+ "sources": [
+  {
+   "label": "ProPublica Nonprofit Explorer",
+   "url": "https://projects.propublica.org/nonprofits/organizations/770443347"
+  },
+  {
+   "label": "IRS e-file XML, 990PF 2024",
+   "url": "https://gt990datalake-rawdata.s3.amazonaws.com/EfileData/XmlFiles/202631639349100018_public.xml"
+  },
+  {
+   "label": "Filing PDF, 2023",
+   "url": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F770443347_202307_990PF_2024070222639298.pdf"
+  }
+ ],
+ "fetchedAt": "2026-11-11T11:39:23.085Z",
+ "grants": [],
+ "grantsTruncated": false
+}
