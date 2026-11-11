@@ -1,6 +1,6 @@
 import { afterEach, describe, expect, it, vi } from "vitest";
 import { createSession, sameOrigin, validAccessKey, verifySession } from "@/lib/auth";
-import { configFromRows, configToRows, filingRows, researchFromRow } from "@/lib/sheet-data";
+import { configFromRows, configToRows, filingRows, outreachFromRow, researchFromRow } from "@/lib/sheet-data";
 import { validateOperations } from "@/lib/mutations";
 import { sheetRequest } from "@/lib/sheets";
 import config from "@data/weights.json";
@@ -25,6 +25,12 @@ describe("team sessions", () => {
   });
 });
 describe("sheet data boundaries", () => {
+  it("normalizes numeric Sheet IDs so outreach can be edited or removed after reload", () => {
+    const row = outreachFromRow({id:1794433000000,company:"Acme",date:"2026-11-11",status:"Drafted"});
+    expect(row.id).toBe("1794433000000");
+    expect(validateOperations([{tab:"Outreach Tracker",key:row.id,row:{...row,status:"Replied"}}])).toHaveLength(1);
+    expect(validateOperations([{tab:"Outreach Tracker",key:row.id,delete:true}])).toHaveLength(1);
+  });
   it("round-trips editable weights and rejects broken tier ordering and all-zero weights", () => {
     expect(configFromRows(configToRows(config as ScoringConfig), config as ScoringConfig)).toEqual(config);
     expect(() => configFromRows([{section: "tiers", key: "A", value: 1}], config as ScoringConfig)).toThrow("Tier cutoffs");

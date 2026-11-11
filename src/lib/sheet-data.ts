@@ -1,12 +1,19 @@
 import { EMPTY_RESEARCH, INDUSTRY_LABELS } from "./types";
 import type { Company, Filing, PeerRow, Research, ScoringConfig, Sponsorship } from "./types";
 import type { SheetRow, SheetTables } from "./sheet-schema";
+import type { OutreachEntry } from "./store";
 
 const str = (x: unknown) => x == null ? "" : String(x);
 const number = (x: unknown): number | null => x === "" || x == null ? null : Number.isFinite(Number(x)) ? Number(x) : null;
 const bool = (x: unknown) => x === true || str(x).toLowerCase() === "true" || str(x).toLowerCase() === "yes";
 const list = (x: unknown) => str(x).split(";").map((s) => s.trim()).filter(Boolean);
 const oneOf = <T extends string>(x: unknown, allowed: readonly T[], fallback: T): T => allowed.includes(str(x) as T) ? str(x) as T : fallback;
+
+/** Sheets can coerce numeric-looking IDs into numbers; workflow keys stay strings. */
+export function outreachFromRow(row: SheetRow): OutreachEntry {
+  return { id: str(row.id), date: str(row.date).slice(0, 10), company: str(row.company), contact: str(row.contact),
+    channel: str(row.channel), template: str(row.template), status: str(row.status), notes: str(row.notes) };
+}
 
 export function researchFromRow(row: SheetRow): Research {
   return {

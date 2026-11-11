@@ -8,6 +8,7 @@ import { getAppData, DEFAULT_CONFIG } from "@/lib/data";
 import { SESSION_COOKIE, verifySession } from "@/lib/auth";
 import { sheetConfigured } from "@/lib/sheets";
 import type { StoreShape } from "@/lib/store";
+import { outreachFromRow } from "@/lib/sheet-data";
 import "./globals.css";
 
 const sans = IBM_Plex_Sans({ subsets: ["latin"], weight: ["400", "500", "600"], variable: "--font-sans" });
@@ -27,8 +28,8 @@ export default async function RootLayout({ children }: { children: React.ReactNo
     try {
       const data = await getAppData();
       initial = { research: Object.fromEntries(data.companies.map((c) => [c.slug, c.research])), weights: data.config,
-        outreach: (data.tables?.["Outreach Tracker"] ?? []) as unknown as StoreShape["outreach"],
-        searches: (data.tables?.["Search Log"] ?? []).map((r) => ({ ...r, score: r.score === "" || r.score == null ? null : Number(r.score) })) as unknown as StoreShape["searches"] };
+        outreach: (data.tables?.["Outreach Tracker"] ?? []).map(outreachFromRow),
+        searches: (data.tables?.["Search Log"] ?? []).map((r) => ({ ...r, id: String(r.id), score: r.score === "" || r.score == null ? null : Number(r.score) })) as unknown as StoreShape["searches"] };
       for (const [tab, rows] of Object.entries(data.tables ?? {})) for (const row of rows) {
         const key = row.slug ?? row.id; if (key != null) versions[`${tab}:${key}`] = String(row.version ?? "");
       }

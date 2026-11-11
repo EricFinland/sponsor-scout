@@ -113,8 +113,8 @@ function persistChange<K extends keyof StoreShape>(key: K, previous: StoreShape[
     if (config) for (const row of configToRows(config)) enqueue({ tab: "Weights", key: String(row.id), row });
   } else if (key === "outreach") {
     const before = previous as StoreShape["outreach"], after = value as StoreShape["outreach"];
-    for (const row of after) if (JSON.stringify(before.find((r) => r.id === row.id)) !== JSON.stringify(row)) enqueue({ tab: "Outreach Tracker", key: row.id, row: { ...row } });
-    for (const row of before) if (!after.some((r) => r.id === row.id)) enqueue({ tab: "Outreach Tracker", key: row.id, delete: true });
+    for (const row of after) if (JSON.stringify(before.find((r) => r.id === row.id)) !== JSON.stringify(row)) enqueue({ tab: "Outreach Tracker", key: String(row.id), row: { ...row } });
+    for (const row of before) if (!after.some((r) => r.id === row.id)) enqueue({ tab: "Outreach Tracker", key: String(row.id), delete: true });
   } else if (key === "searches") {
     const before = previous as StoreShape["searches"];
     for (const row of value as StoreShape["searches"]) {
