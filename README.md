@@ -2,7 +2,9 @@
 
 Corporate sponsor research for Thirst Project. Type in any company and get its giving history, the water nonprofits it already funds, who to contact, a starting outreach email, and a score that says whether it is worth pursuing.
 
-**Live site:** https://sponsor-scout-lime.vercel.app
+**Shared workspace:** https://sponsor-scout-jeffreyli1717-2803.vercel.app (team access required)
+
+**Original public demo:** https://sponsor-scout-lime.vercel.app
 
 The scoring is rules-based. Every point on a profile links back to an IRS filing, the Peers table or a research note, so anyone can check where a number came from.
 
