@@ -4,6 +4,10 @@ import companiesJson from "@data/companies.json";
 import peersJson from "@data/peers.json";
 import weightsJson from "@data/weights.json";
 import { normalizeName } from "./names";
+import { cache } from "react";
+import { cookies } from "next/headers";
+import { SESSION_COOKIE, verifySession } from "./auth";
+import { readSheet, sheetConfigured } from "./sheets";
 import type { Company, Filing, FilingSummary, PeerRow, ScoringConfig } from "./types";
 
 /** Server-side access to the dataset bundled with the app. */
@@ -11,6 +15,18 @@ import type { Company, Filing, FilingSummary, PeerRow, ScoringConfig } from "./t
 export const COMPANIES = companiesJson as Company[];
 export const PEERS = peersJson as PeerRow[];
 export const DEFAULT_CONFIG = weightsJson as ScoringConfig;
+
+/** Request-scoped read: Sheet edits are reflected on the next navigation/refresh. Never silently fall back on a storage failure. */
+export const getAppData = cache(async () => {
+  if (!sheetConfigured()) return { companies: COMPANIES, peers: PEERS, config: DEFAULT_CONFIG, filings: {} as Record<string, Filing>, tables: null, shared: false };
+  if (!verifySession((await cookies()).get(SESSION_COOKIE)?.value)) throw new Error("A team session is required to read the shared workspace.");
+  return { ...await readSheet(DEFAULT_CONFIG), shared: true };
+});
+
+export function datasetFiling(data: Awaited<ReturnType<typeof getAppData>>, ein: string | null): Filing | null {
+  if (!ein) return null;
+  return data.shared ? data.filings[ein] ?? null : getFiling(ein);
+}
 
 export function getCompany(slug: string): Company | undefined {
   return COMPANIES.find((c) => c.slug === slug);

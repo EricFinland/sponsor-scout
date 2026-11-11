@@ -11,6 +11,8 @@ import type {
   Tier,
 } from "./types";
 import { FACTOR_ORDER } from "./types";
+import { localPresence } from "./local-presence";
+import { recentSponsorships, sponsorshipHistory } from "./sponsorships";
 
 /**
  * Rules-based scoring. Every point awarded is listed as a line of evidence,
@@ -66,7 +68,12 @@ function missionAlignment(inputs: ScoreInputs): FactorScore {
     });
   }
 
-  if (stats && stats.thirstProjectGrants > 0) {
+  const history = sponsorshipHistory(company, inputs.asOfYear);
+  const recent = recentSponsorships(company, inputs.asOfYear);
+  if (history.length > 0) {
+    evidence.push({ text: `Documented Thirst Project gala sponsorship in ${history[0].year}${recent.length ? " (within the last three calendar years)" : " (historical; current interest is unconfirmed)"}.`,
+      points: recent.length ? 20 : 10, sourceUrl: history[0].sourceUrl });
+  } else if (stats && stats.thirstProjectGrants > 0) {
     evidence.push({
       text: `Foundation has already funded Thirst Project (${stats.thirstProjectGrants} grant${
         stats.thirstProjectGrants === 1 ? "" : "s"
@@ -117,7 +124,7 @@ function missionAlignment(inputs: ScoreInputs): FactorScore {
     evidence.push({ text: "Industry has a direct business tie to water.", points: tie });
   }
 
-  const hasData = research.waterFocus !== "unknown" || research.focusAreas.length > 0 || stats !== null;
+  const hasData = research.waterFocus !== "unknown" || research.focusAreas.length > 0 || stats !== null || history.length > 0;
   if (hasData && research.waterFocus === "unknown") {
     // Foundation grants are only one channel. Until someone reads the company's own
     // reporting, its stated priorities get partial credit instead of none.
@@ -157,11 +164,11 @@ function peerSignal(inputs: ScoreInputs): FactorScore {
 
   if (industryPeerCompanies >= 2) {
     evidence.push({
-      text: `${industryPeerCompanies} other companies in this industry sponsor water nonprofits.`,
+      text: `${industryPeerCompanies} other companies in this industry have documented support for water nonprofits (grants or partnerships).`,
       points: 15,
     });
   } else if (industryPeerCompanies === 1) {
-    evidence.push({ text: "One other company in this industry sponsors a water nonprofit.", points: 8 });
+    evidence.push({ text: "One other company in this industry has documented support for a water nonprofit.", points: 8 });
   }
 
   const checked = nonprofits.length > 0 || Boolean(filing?.detailAvailable);
@@ -192,7 +199,12 @@ function capacityFit(inputs: ScoreInputs): FactorScore {
   let score: number;
   let hasData = true;
 
-  if (filing && filing.totalGiving !== null) {
+  const recent = recentSponsorships(company, inputs.asOfYear);
+  if (recent.length > 0) {
+    const largest = recent.reduce((best, s) => s.amountUsd > best.amountUsd ? s : best);
+    score = largest.amountUsd >= 25_000 ? 85 : largest.amountUsd >= 10_000 ? 70 : largest.amountUsd >= 5_000 ? 55 : 40;
+    evidence.push({ text: `Largest documented Thirst Project gala sponsorship in the last three calendar years: ${formatUsd(largest.amountUsd)} (${largest.year}). This is an observed past sponsorship, not an annual giving budget or a promised future amount.`, points: score, sourceUrl: largest.sourceUrl });
+  } else if (filing && filing.totalGiving !== null) {
     const band = givingBandScore(filing.totalGiving);
     if (stats && stats.count > 0) {
       const inRange = stats.buckets[2] + stats.buckets[3];
@@ -286,34 +298,42 @@ function accessibility(inputs: ScoreInputs): FactorScore {
       sourceUrl: source,
     });
   }
+  const history = sponsorshipHistory(company, inputs.asOfYear);
   if (research.warmIntro) {
     evidence.push({ text: "Thirst Project has a warm introduction available.", points: 30 });
+  } else if (history.length > 0) {
+    evidence.push({ text: `Prior gala sponsor (${history[0].year}). Ask the relationship owner about renewal; an active contact or warm introduction has not been assumed.`,
+      points: recentSponsorships(company, inputs.asOfYear).length ? 20 : 10, sourceUrl: history[0].sourceUrl });
   }
-  const state = company.hqState || filing?.state || "";
-  if (state && state === config.homeState) {
-    evidence.push({ text: `Based in ${config.homeState}, Thirst Project's home state.`, points: 10 });
-  }
+  const local = localPresence(research, inputs.asOfYear);
+  evidence.push({ text: local.reason, points: local.points, sourceUrl: research.laSourceUrl || undefined });
   if (company.domain) {
     evidence.push({ text: "Company email domain is known, so work emails can be looked up.", points: 5 });
   }
 
-  const hasData =
+  const hasAccessData =
     research.applicationProcess !== "unknown" ||
     research.warmIntro ||
+    history.length > 0 ||
     (filing !== null && (filing.preselectedOnly !== null || filing.officers.length > 0));
-  let score = clamp(sum(evidence));
-  if (!hasData) score = Math.max(score, config.baseline.accessibility);
-  return { key: "accessibility", score, hasData, evidence };
+  const rawOther = sum(evidence) - local.points;
+  const other = hasAccessData ? Math.min(65, rawOther) : Math.min(65, Math.max(rawOther, config.baseline.accessibility));
+  evidence.push({ text: "Contact and application evidence occupies up to 65 accessibility points. Documented local presence occupies the remaining 35, so a strong contact score cannot erase the LA distinction.", points: null });
+  if (!hasAccessData) evidence.push({ text: `Contact/application evidence is incomplete; that portion uses the neutral ${config.baseline.accessibility} baseline (capped at 65).`, points: null });
+  return { key: "accessibility", score: clamp(other + local.points), hasData: hasAccessData || local.verified, evidence };
 }
 
 function confidence(inputs: ScoreInputs): FactorScore {
   const { company, filing, peers, asOfYear } = inputs;
   const { research } = company;
+  const history = sponsorshipHistory(company, asOfYear);
   const evidence: Evidence[] = [];
   const add = (ok: boolean, points: number, yes: string, no: string) =>
     evidence.push({ text: ok ? yes : no, points: ok ? points : 0 });
 
-  if (company.foundation.status === "matched" && filing) {
+  if (history.length > 0) {
+    evidence.push({ text: "Thirst Project sponsorship history is documented in the team's source workbook.", points: 25 });
+  } else if (company.foundation.status === "matched" && filing) {
     evidence.push({ text: "Corporate foundation identified and its IRS filing found.", points: 25 });
   } else if (company.foundation.status === "none_found") {
     evidence.push({
@@ -325,15 +345,15 @@ function confidence(inputs: ScoreInputs): FactorScore {
   }
 
   add(
-    Boolean(filing?.detailAvailable),
+    Boolean(filing?.detailAvailable) || history.length > 0,
     20,
-    "Grant-by-grant detail is available.",
-    "No grant-by-grant detail available.",
+    "Itemized grant or sponsorship records are available.",
+    "No itemized grant or sponsorship records available.",
   );
   add(
-    Boolean(filing?.taxYear && filing.taxYear >= asOfYear - 3),
+    Boolean(filing?.taxYear && filing.taxYear >= asOfYear - 3) || recentSponsorships(company, asOfYear).length > 0,
     10,
-    `Latest filing covers ${filing?.taxYear}.`,
+    "Recent filing or sponsorship evidence is available.",
     filing?.taxYear ? `Latest filing is from ${filing.taxYear} and may be stale.` : "No recent filing.",
   );
   add(

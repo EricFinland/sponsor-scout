@@ -196,6 +196,12 @@ describe("capacity fit", () => {
 });
 
 describe("accessibility", () => {
+  it("reserves 35 points for LA even when contact evidence is already strong", () => {
+    const c = company({ domain: "acme.com", research: { ...EMPTY_RESEARCH, applicationProcess: "open", warmIntro: true } });
+    const without = scoreCompany(inputs({company: c, filing: filing()})).factors.accessibility.score;
+    const withLA = scoreCompany(inputs({company: { ...c, research: { ...c.research, laPresence: "headquarters", laCity: "El Segundo", laCounty: "Los Angeles", laSourceUrl: "https://example.org/office", laVerifiedAt: "2026-11-11", laEvidence: "Headquarters address." } }, filing: filing()})).factors.accessibility.score;
+    expect(without).toBe(65); expect(withLA).toBe(100); expect(withLA - without).toBe(35);
+  });
   it("reads the application stance from the filing", () => {
     const open = scoreCompany(inputs({ filing: filing() })).factors.accessibility.score;
     const closed = scoreCompany(inputs({ filing: filing({ preselectedOnly: true }) })).factors.accessibility.score;
@@ -214,7 +220,8 @@ describe("accessibility", () => {
         filing: filing({ preselectedOnly: true }),
       }),
     ).factors.accessibility;
-    expect(result.score).toBe(100);
+    // A California address alone no longer earns local accessibility points.
+    expect(result.score).toBe(65);
   });
 });
 

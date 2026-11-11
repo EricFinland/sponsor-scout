@@ -17,6 +17,10 @@ const COMMON: SuggestedRole[] = [
 ];
 
 const BY_INDUSTRY: Record<Industry, SuggestedRole[]> = {
+  entertainment: [
+    { title: "Corporate Partnerships", why: "Coordinates brand and event sponsorships." },
+    { title: "Social Impact", why: "Connects community programs and philanthropic partnerships." },
+  ],
   beverage_cpg: [
     { title: "Sustainability", why: "Water stewardship targets usually sit with this team." },
     { title: "Brand Partnerships", why: "Funds cause campaigns tied to a product line." },

@@ -2,6 +2,12 @@ import type { Metadata } from "next";
 import { IBM_Plex_Sans, Source_Serif_4 } from "next/font/google";
 import Link from "next/link";
 import NavLinks from "@/components/NavLinks";
+import WorkspaceProvider from "@/components/WorkspaceProvider";
+import { cookies } from "next/headers";
+import { getAppData, DEFAULT_CONFIG } from "@/lib/data";
+import { SESSION_COOKIE, verifySession } from "@/lib/auth";
+import { sheetConfigured } from "@/lib/sheets";
+import type { StoreShape } from "@/lib/store";
 import "./globals.css";
 
 const sans = IBM_Plex_Sans({ subsets: ["latin"], weight: ["400", "500", "600"], variable: "--font-sans" });
@@ -13,7 +19,21 @@ export const metadata: Metadata = {
   robots: { index: false, follow: false },
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default async function RootLayout({ children }: { children: React.ReactNode }) {
+  let initial: Partial<StoreShape> | null = null;
+  let workspaceError = "";
+  const versions: Record<string, string> = {};
+  if (sheetConfigured() && verifySession((await cookies()).get(SESSION_COOKIE)?.value)) {
+    try {
+      const data = await getAppData();
+      initial = { research: Object.fromEntries(data.companies.map((c) => [c.slug, c.research])), weights: data.config,
+        outreach: (data.tables?.["Outreach Tracker"] ?? []) as unknown as StoreShape["outreach"],
+        searches: (data.tables?.["Search Log"] ?? []).map((r) => ({ ...r, score: r.score === "" || r.score == null ? null : Number(r.score) })) as unknown as StoreShape["searches"] };
+      for (const [tab, rows] of Object.entries(data.tables ?? {})) for (const row of rows) {
+        const key = row.slug ?? row.id; if (key != null) versions[`${tab}:${key}`] = String(row.version ?? "");
+      }
+    } catch (error) { workspaceError = error instanceof Error ? error.message : "The team Sheet could not be loaded."; }
+  }
   return (
     <html lang="en" className={`${sans.variable} ${serif.variable}`}>
       <body>
@@ -33,7 +53,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           </div>
         </header>
         <main id="main" className="wrap">
-          {children}
+          <WorkspaceProvider initial={initial} versions={versions} defaults={DEFAULT_CONFIG} error={workspaceError}>{children}</WorkspaceProvider>
         </main>
         <footer className="site-foot">
           <div className="wrap">

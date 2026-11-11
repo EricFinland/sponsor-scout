@@ -9,8 +9,7 @@ export default function TrackerPage() {
       <div className="page-head">
         <h1>Tracker</h1>
         <p className="lede">
-          Outreach you have logged, companies you have looked up, and research notes you have saved. This lives in your
-          browser. Export it to share with the team or paste into the Google Sheet.
+          Outreach, company lookups and research notes. When the team Sheet is connected, changes are shared across the workspace.
         </p>
       </div>
       <TrackerClient sheetConnected={Boolean(process.env.SHEET_WEBHOOK_URL)} />

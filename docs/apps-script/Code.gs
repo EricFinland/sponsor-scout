@@ -1,57 +1,136 @@
-/**
- * Appends rows sent by Sponsor Scout to the matching tab of this spreadsheet.
- * Setup steps are in docs/SHEET_SYNC.md.
- */
+/** Sponsor Scout private storage. Bind this script to the destination Sheet. Never publish the Sheet itself. */
+var READ_TABS = ['Companies', 'Profiles', 'Peers', 'Sponsorships', 'Weights', 'Scores', 'Tier Summary', 'Outreach Tracker', 'Search Log', 'Filings'];
+var WRITE_KEYS = { 'Companies': 'slug', 'Profiles': 'slug', 'Weights': 'id', 'Outreach Tracker': 'id', 'Search Log': 'id', 'Filings': 'id' };
 
-var ALLOWED_TABS = ['Search Log', 'Profiles', 'Outreach Tracker', 'Scores'];
+function setupSponsorScout() {
+  var props = PropertiesService.getScriptProperties();
+  if (!props.getProperty('SECRET')) props.setProperty('SECRET', Utilities.getUuid().replace(/-/g, '') + Utilities.getUuid().replace(/-/g, ''));
+  props.setProperty('SPREADSHEET_ID', SpreadsheetApp.getActiveSpreadsheet().getId());
+  // A toast avoids leaving the execution suspended behind a dialog in another tab.
+  SpreadsheetApp.getActiveSpreadsheet().toast('Storage settings saved. The server secret is in Apps Script Project Settings.', 'Sponsor Scout', 8);
+}
+
+function doGet() { return respond({ ok: false, error: 'Authenticated POST requests only.' }); }
 
 function doPost(e) {
   try {
     var payload = JSON.parse(e.postData.contents);
-    var secret = PropertiesService.getScriptProperties().getProperty('SECRET');
-    if (!secret || payload.secret !== secret) return respond({ ok: false, error: 'unauthorized' });
-    if (ALLOWED_TABS.indexOf(payload.tab) === -1) return respond({ ok: false, error: 'unknown tab' });
-
+    var props = PropertiesService.getScriptProperties();
+    var secret = props.getProperty('SECRET');
+    if (!secret || typeof payload.secret !== 'string' || payload.secret !== secret) return respond({ ok: false, error: 'Unauthorized.' });
+    var id = props.getProperty('SPREADSHEET_ID');
+    if (!id) throw new Error('Run setupSponsorScout in the bound spreadsheet first.');
+    // Bound active-document helpers are unavailable in web apps. The ID comes only from owner-run setup, never from the request.
+    var spreadsheet = SpreadsheetApp.openById(id);
     var lock = LockService.getScriptLock();
-    lock.waitLock(10000);
+    if (!lock.tryLock(20000)) throw new Error('The Sheet is busy. Retry the save.');
     try {
-      appendRow(payload.tab, payload.row || {});
-    } finally {
-      lock.releaseLock();
+      if (payload.action === 'read') {
+        var data = {};
+        READ_TABS.forEach(function (tab) { data[tab] = readTable(spreadsheet, tab).rows; });
+        return respond({ ok: true, data: data });
+      }
+      if (payload.action === 'mutate') return respond({ ok: true, data: mutate(spreadsheet, payload.operations) });
+      if (payload.action === 'scores') {
+        if (!Array.isArray(payload.rows) || !Array.isArray(payload.summary) || payload.rows.length > 5000) throw new Error('Invalid score rows.');
+        replaceDerived(spreadsheet, 'Scores', payload.rows);
+        replaceDerived(spreadsheet, 'Tier Summary', payload.summary);
+        return respond({ ok: true, data: { count: payload.rows.length } });
+      }
+      throw new Error('Unknown action.');
+    } finally { lock.releaseLock(); }
+  } catch (error) { return respond({ ok: false, error: String(error.message || error) }); }
+}
+
+function readTable(spreadsheet, tab) {
+  var sheet = spreadsheet.getSheetByName(tab);
+  if (!sheet) throw new Error('Required tab is missing: ' + tab);
+  var values = sheet.getDataRange().getValues();
+  var headers = (values.shift() || []).map(String);
+  if (!headers[0]) throw new Error('Missing headers: ' + tab);
+  var rows = [], rowNumbers = [];
+  values.forEach(function (values, index) {
+    if (values.every(function (v) { return v === ''; })) return;
+    var row = {};
+    headers.forEach(function (header, i) { if (header) row[header] = values[i] instanceof Date ? values[i].toISOString() : values[i] === undefined ? '' : values[i]; });
+    rows.push(row); rowNumbers.push(index + 2);
+  });
+  return { sheet: sheet, headers: headers, rows: rows, rowNumbers: rowNumbers };
+}
+
+function sameValues(row, patch) {
+  return Object.keys(patch).every(function (key) { return key === 'version' || String(row[key] == null ? '' : row[key]) === String(patch[key] == null ? '' : patch[key]); });
+}
+
+function mutate(spreadsheet, operations) {
+  if (!Array.isArray(operations) || !operations.length || operations.length > 50) throw new Error('Invalid changes.');
+  var tables = {}, seen = {}, plans = [];
+  // Preflight the entire batch before changing any cell.
+  operations.forEach(function (op) {
+    var keyColumn = WRITE_KEYS[op.tab];
+    if (!keyColumn || typeof op.key !== 'string' || !op.key || op.key.length > 200) throw new Error('Invalid change.');
+    var compound = op.tab + ':' + op.key;
+    if (seen[compound]) throw new Error('Duplicate change key.');
+    seen[compound] = true;
+    var table = tables[op.tab] || (tables[op.tab] = readTable(spreadsheet, op.tab));
+    var matches = table.rows.map(function (row, i) { return String(row[keyColumn]) === op.key ? i : -1; }).filter(function (i) { return i >= 0; });
+    if (matches.length > 1) throw new Error('Duplicate key in ' + op.tab + ': ' + op.key);
+    var index = matches.length ? matches[0] : -1;
+    var old = index >= 0 ? table.rows[index] : null;
+    if (op.delete && ['Companies', 'Profiles', 'Outreach Tracker'].indexOf(op.tab) === -1) throw new Error('This table cannot be deleted.');
+    if (!op.delete && (!op.row || typeof op.row !== 'object' || String(op.row[keyColumn]) !== op.key)) throw new Error('Invalid row.');
+    if (!op.delete) Object.keys(op.row).forEach(function (key) {
+      var value = op.row[key];
+      if (table.headers.indexOf(key) < 0 || key === 'version') throw new Error('Unknown or protected column: ' + key);
+      if (value !== null && ['string', 'number', 'boolean'].indexOf(typeof value) < 0) throw new Error('Invalid cell value.');
+      if (typeof value === 'string' && value.length > (op.tab === 'Filings' ? 25000 : 5000)) throw new Error('Cell value is too long.');
+    });
+    var versioned = table.headers.indexOf('version') >= 0;
+    var unchanged = old && !op.delete && sameValues(old, op.row);
+    if (versioned && old && !unchanged && String(old.version || '') !== String(op.expectedVersion || '')) throw new Error('Conflict: ' + op.tab + ' ' + op.key + ' changed by another editor. Download your unsaved backup and reload before reconciling.');
+    plans.push({ op: op, table: table, old: old, index: index, unchanged: unchanged, versioned: versioned });
+  });
+  var versions = {};
+  plans.forEach(function (plan) {
+    var op = plan.op, table = plan.table, compound = op.tab + ':' + op.key;
+    if (plan.unchanged) { versions[compound] = String(plan.old.version || ''); return; }
+    if (op.delete) {
+      if (plan.index >= 0) table.sheet.getRange(table.rowNumbers[plan.index], 1, 1, table.headers.length).clearContent();
+      versions[compound] = ''; return;
     }
-    return respond({ ok: true });
-  } catch (error) {
-    return respond({ ok: false, error: String(error) });
-  }
-}
-
-function appendRow(tabName, row) {
-  var spreadsheet = SpreadsheetApp.getActiveSpreadsheet();
-  var sheet = spreadsheet.getSheetByName(tabName) || spreadsheet.insertSheet(tabName);
-  var keys = Object.keys(row);
-
-  var headers = [];
-  if (sheet.getLastRow() > 0 && sheet.getLastColumn() > 0) {
-    headers = sheet.getRange(1, 1, 1, sheet.getLastColumn()).getValues()[0].map(String);
-  }
-  var missing = keys.filter(function (key) {
-    return headers.indexOf(key) === -1;
+    var row = Object.assign({}, plan.old || {}, op.row);
+    if (plan.versioned) row.version = Utilities.getUuid();
+    var values = table.headers.map(function (header) { return safeCell(row[header]); });
+    var rowNumber = plan.index >= 0 ? table.rowNumbers[plan.index] : table.sheet.getLastRow() + 1;
+    table.sheet.getRange(rowNumber, 1, 1, values.length).setValues([values]);
+    versions[compound] = row.version || '';
   });
-  if (missing.length > 0) {
-    headers = headers.concat(missing);
-    sheet.getRange(1, 1, 1, headers.length).setValues([headers]);
-  }
-
-  var values = headers.map(function (header) {
-    var value = row[header];
-    if (value === undefined || value === null) return '';
-    // A leading apostrophe stops Sheets from treating the text as a formula.
-    if (typeof value === 'string' && /^[=+\-@]/.test(value)) return "'" + value;
-    return value;
-  });
-  sheet.appendRow(values);
+  SpreadsheetApp.flush();
+  return { versions: versions };
 }
 
-function respond(body) {
-  return ContentService.createTextOutput(JSON.stringify(body)).setMimeType(ContentService.MimeType.JSON);
+function safeCell(value) {
+  if (value === undefined || value === null) return '';
+  // Treat all user text as text, including values that could otherwise become formulas.
+  if (typeof value === 'string' && /^[=+\-@]/.test(value)) return "'" + value;
+  return value;
 }
+
+function replaceDerived(spreadsheet, tab, rows) {
+  var table = readTable(spreadsheet, tab);
+  if (table.sheet.getLastRow() > 1) table.sheet.getRange(2, 1, table.sheet.getLastRow() - 1, table.headers.length).clearContent();
+  if (rows.length) table.sheet.getRange(2, 1, rows.length, table.headers.length).setValues(rows.map(function (row) { return table.headers.map(function (header) { return safeCell(row[header]); }); }));
+}
+
+/** Manual Sheet edits also bump record versions so stale browser saves cannot silently overwrite them. */
+function onEdit(e) {
+  if (!e || !e.range) return;
+  var sheet = e.range.getSheet();
+  if (!WRITE_KEYS[sheet.getName()] || e.range.getRow() === 1) return;
+  var headers = sheet.getRange(1, 1, 1, sheet.getLastColumn()).getValues()[0];
+  var versionColumn = headers.indexOf('version') + 1;
+  if (!versionColumn) return;
+  for (var row = e.range.getRow(); row <= e.range.getLastRow(); row++) sheet.getRange(row, versionColumn).setValue(Utilities.getUuid());
+}
+
+function respond(body) { return ContentService.createTextOutput(JSON.stringify(body)).setMimeType(ContentService.MimeType.JSON); }

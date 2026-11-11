@@ -11,7 +11,7 @@ export async function GET(request: Request) {
     const candidates = await searchFoundations(query);
     return NextResponse.json(
       { candidates, alreadyPartner: isExistingPartner(query) },
-      { headers: { "Cache-Control": "public, s-maxage=86400, stale-while-revalidate=604800" } },
+      { headers: { "Cache-Control": "no-store" } },
     );
   } catch {
     return NextResponse.json(

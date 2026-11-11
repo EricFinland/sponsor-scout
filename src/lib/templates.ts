@@ -72,7 +72,7 @@ Thank you,
   {
     id: "general",
     label: "General",
-    industries: ["water_industrial", "financial", "retail", "other"],
+    industries: ["water_industrial", "financial", "retail", "entertainment", "other"],
     subject: "Introducing Thirst Project to {{company}}",
     body: `Hi {{first}},
 

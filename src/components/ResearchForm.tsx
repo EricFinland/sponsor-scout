@@ -2,7 +2,8 @@
 
 import { useEffect, useState } from "react";
 import { formatDate } from "@/lib/format";
-import { logToSheet, useStore } from "@/lib/store";
+import { logToSheet, useStore, isSharedWorkspace } from "@/lib/store";
+import { LA_LABELS } from "@/lib/local-presence";
 import type { Company, Research } from "@/lib/types";
 import { FOCUS_AREAS } from "@/lib/types";
 
@@ -146,6 +147,20 @@ export default function ResearchForm({ company, hasFoundation }: { company: Comp
         />
       </label>
 
+      <fieldset className="local-research"><legend>LA accessibility evidence</legend>
+        <p className="footnote">Local presence reserves 35 of 100 accessibility points: LA County headquarters +35, office +30, operating facility +20, retail +10. Office/headquarters in Orange, Ventura, Riverside or San Bernardino County +15. Only the strongest location counts. An HTTPS source, supporting evidence, city/county and a review this or last calendar year are required.</p>
+        <label className="field"><span>Local presence</span><select className="input" value={draft.laPresence ?? "unknown"} onChange={(e) => change("laPresence", e.target.value as Research["laPresence"])}>
+          {Object.entries(LA_LABELS).map(([value, label]) => <option key={value} value={value}>{label}</option>)}
+        </select></label>
+        <label className="field"><span>Local city</span><input className="input" value={draft.laCity ?? ""} onChange={(e) => change("laCity", e.target.value)} /></label>
+        <label className="field"><span>County</span><select className="input" value={draft.laCounty ?? ""} onChange={(e) => change("laCounty", e.target.value)}>
+          <option value="">Not recorded</option>{["Los Angeles", "Orange", "Ventura", "Riverside", "San Bernardino", "Other"].map((c) => <option key={c}>{c}</option>)}
+        </select></label>
+        <label className="field"><span>Location source URL</span><input className="input" type="url" value={draft.laSourceUrl ?? ""} onChange={(e) => change("laSourceUrl", e.target.value)} /></label>
+        <label className="field"><span>Location reviewed on</span><input className="input" type="date" max={new Date().toISOString().slice(0, 10)} value={draft.laVerifiedAt ?? ""} onChange={(e) => change("laVerifiedAt", e.target.value)} /></label>
+        <label className="field"><span>Supporting location evidence</span><textarea className="input" rows={3} value={draft.laEvidence ?? ""} onChange={(e) => change("laEvidence", e.target.value)} /></label>
+      </fieldset>
+
       <label className="field">
         <span>Notes</span>
         <textarea className="input" rows={3} value={draft.notes} onChange={(e) => change("notes", e.target.value)} />
@@ -157,7 +172,7 @@ export default function ResearchForm({ company, hasFoundation }: { company: Comp
         </button>
         <span className="status" role="status">
           {saved
-            ? "Saved in this browser."
+            ? isSharedWorkspace() ? "Shared save queued. Check the save status above." : "Saved in this browser."
             : company.research.updatedAt
               ? `Last saved ${formatDate(company.research.updatedAt)}.`
               : ""}
