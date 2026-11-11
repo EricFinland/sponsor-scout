@@ -36,5 +36,5 @@ export default function WorkspaceProvider({ initial, versions, defaults, error, 
       <button className="link-button" disabled={refreshing} onClick={() => void refreshScores()}>{refreshing ? "Updating scores…" : "Update Sheet scores"}</button>
       <button className="link-button" onClick={() => { if (!hasUnsavedChanges()) window.location.reload(); }}>Reload Sheet data</button>
       <button className="link-button" onClick={async () => { if (hasUnsavedChanges()) return; await fetch("/api/auth/logout", { method: "POST" }); window.location.assign("/login"); }}>Sign out</button></span>
-      {refreshMessage && <span>{refreshMessage}</span>}</div>}{children}</>;
+      {refreshMessage && <span>{refreshMessage}</span>}</div>}{initial ? <div className="workspace-content">{children}</div> : children}</>;
 }
