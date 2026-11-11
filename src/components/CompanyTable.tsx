@@ -2,12 +2,12 @@
 
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { useMemo, useState } from "react";
+import { type ReactNode, useMemo, useState } from "react";
 import { sameCompany } from "@/lib/names";
 import { useStore } from "@/lib/store";
 import type { Company, FactorKey, FilingSummary, Industry, PeerRow, ScoreResult, ScoringConfig, Tier } from "@/lib/types";
 import { INDUSTRY_LABELS } from "@/lib/types";
-import { ConfidenceText, TierMark } from "./ui";
+import { Bar, type BarTone, ConfidenceText, TierMark } from "./ui";
 import { score, useConfig } from "./useScore";
 
 export interface TableEntry {
@@ -39,7 +39,13 @@ export default function CompanyTable({
   entries,
   peersTable,
   defaultConfig,
+  intro,
+  stats,
 }: {
+  /** Page title and lede, shown above the search box inside the tinted band. */
+  intro: ReactNode;
+  /** Summary figures shown along the bottom of the band. */
+  stats: ReactNode;
   entries: TableEntry[];
   peersTable: PeerRow[];
   defaultConfig: ScoringConfig;
@@ -118,6 +124,8 @@ export default function CompanyTable({
 
   return (
     <>
+      <div className="band">
+      {intro}
       <form className="search" onSubmit={submit} role="search">
         <label htmlFor="company-search">Company name</label>
         <div className="search-row">
@@ -137,6 +145,8 @@ export default function CompanyTable({
           Typing filters the list below. Press Enter to open a company, or to research one that is not on the list yet.
         </p>
       </form>
+      {stats}
+      </div>
 
       <section aria-labelledby="on-file" className="on-file">
         <div className="section-head">
@@ -224,13 +234,21 @@ export default function CompanyTable({
                   <td>
                     <TierMark tier={row.result.tier} />
                   </td>
-                  <td className="num strong">
-                    {row.result.overall}
-                    {row.result.provisional && (
-                      <span className="provisional" title="Provisional: limited research on file">
-                        *
+                  <td className="score-cell">
+                    <span className="score-cell-inner">
+                      <Bar
+                        value={row.result.overall}
+                        tone={row.result.provisional ? "muted" : (row.result.tier.toLowerCase() as BarTone)}
+                      />
+                      <span className="score-cell-value">
+                        {row.result.overall}
+                        {row.result.provisional && (
+                          <span className="provisional" title="Provisional: limited research on file">
+                            *
+                          </span>
+                        )}
                       </span>
-                    )}
+                    </span>
                   </td>
                   <td className="num optional">{row.result.factors.mission_alignment.score}</td>
                   <td className="num optional">{row.result.factors.peer_signal.score}</td>

@@ -187,12 +187,15 @@ export default function LookupClient({ known, peersTable, defaultConfig, hunterE
   }
 
   return (
-    <div className="narrow">
-      <h1>Look up a company</h1>
-      <p className="lede">
-        Enter a company and confirm which foundation is theirs. Giving history, officers and a score follow from its
-        latest IRS filing.
-      </p>
+    <>
+      <div className="page-head">
+        <h1>Look up a company</h1>
+        <p className="lede">
+          Enter a company and confirm which foundation is theirs. Giving history, officers and a score follow from
+          its latest IRS filing.
+        </p>
+      </div>
+      <div className="narrow">
 
       <form className="search" onSubmit={submitName} role="search">
         <label htmlFor="lookup-name">Company name</label>
@@ -303,6 +306,7 @@ export default function LookupClient({ known, peersTable, defaultConfig, hunterE
           </div>
         </form>
       )}
-    </div>
+      </div>
+    </>
   );
 }

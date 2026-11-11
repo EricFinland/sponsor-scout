@@ -6,6 +6,15 @@ import type { Filing } from "@/lib/types";
 
 type Filter = "all" | "water" | "peer";
 const PAGE = 25;
+const SIZE_LABELS = ["<$1K", "$1K+", "$10K+", "$50K+", "$250K+", "$1M+"];
+const SIZE_RANGES = [
+  "Under $1,000",
+  "$1,000 to $10,000",
+  "$10,000 to $50,000",
+  "$50,000 to $250,000",
+  "$250,000 to $1 million",
+  "$1 million and up",
+];
 
 export default function Giving({ filing }: { filing: Filing }) {
   const [filter, setFilter] = useState<Filter>("all");
@@ -13,7 +22,8 @@ export default function Giving({ filing }: { filing: Filing }) {
   const [shown, setShown] = useState(PAGE);
 
   const stats = filing.stats;
-  const years = filing.history.filter((y) => y.giving !== null);
+  const years = filing.history.filter((y) => y.giving !== null).slice(-7);
+  const bucketPeak = Math.max(1, ...(stats?.buckets ?? [0]));
   const peak = Math.max(1, ...years.map((y) => y.giving ?? 0));
 
   const rows = useMemo(() => {
@@ -50,17 +60,53 @@ export default function Giving({ filing }: { filing: Filing }) {
         )}
       </p>
 
-      {years.length > 1 && (
-        <div className="years" role="img" aria-label="Grants paid by year">
-          {years.map((y) => (
-            <div className="year" key={y.year}>
-              <span className="year-label">{y.year}</span>
-              <span className="year-bar">
-                <span style={{ width: `${((y.giving ?? 0) / peak) * 100}%` }} />
-              </span>
-              <span className="year-value">{formatUsd(y.giving)}</span>
-            </div>
-          ))}
+      {(years.length > 1 || (stats !== null && stats.count > 1)) && (
+        <div className="charts">
+          {years.length > 1 && (
+            <figure className="chart">
+              <figcaption>Grants paid by year</figcaption>
+              <div
+                className="columns"
+                role="img"
+                aria-label={`Grants paid each year, ${years[0].year} to ${years[years.length - 1].year}`}
+              >
+                {years.map((y, i) => (
+                  <div
+                    className={`column${i === years.length - 1 ? " column-on" : ""}`}
+                    key={y.year}
+                    title={`${y.year}: ${formatUsd(y.giving)}`}
+                  >
+                    <span className="column-value">{formatUsd(y.giving)}</span>
+                    <span className="column-plot">
+                      <span className="column-bar" style={{ height: `${((y.giving ?? 0) / peak) * 100}%` }} />
+                    </span>
+                    <span className="column-label">{y.year}</span>
+                  </div>
+                ))}
+              </div>
+            </figure>
+          )}
+          {stats !== null && stats.count > 1 && (
+            <figure className="chart">
+              <figcaption>Grant sizes in {filing.taxYear}</figcaption>
+              <div className="columns" role="img" aria-label="Number of grants by size">
+                {SIZE_LABELS.map((label, i) => (
+                  <div
+                    className={`column${i === 2 || i === 3 ? " column-on" : ""}`}
+                    key={label}
+                    title={`${SIZE_RANGES[i]}: ${stats.buckets[i]} grants`}
+                  >
+                    <span className="column-value">{stats.buckets[i] || ""}</span>
+                    <span className="column-plot">
+                      <span className="column-bar" style={{ height: `${(stats.buckets[i] / bucketPeak) * 100}%` }} />
+                    </span>
+                    <span className="column-label">{label}</span>
+                  </div>
+                ))}
+              </div>
+              <p className="footnote">Each label is the low end of its range. Darker bars: $10K to $250K, a realistic first ask.</p>
+            </figure>
+          )}
         </div>
       )}
 

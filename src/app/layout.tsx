@@ -23,6 +23,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <header className="site-head">
           <div className="wrap site-head-inner">
             <Link href="/" className="wordmark">
+              <svg width="15" height="20" viewBox="0 0 15 20" aria-hidden="true">
+                <path d="M7.5 0.6S0.8 8.2 0.8 12.7a6.7 6.7 0 0 0 13.4 0C14.2 8.2 7.5 0.6 7.5 0.6z" fill="currentColor" />
+              </svg>
               Sponsor Scout
               <span>for Thirst Project</span>
             </Link>

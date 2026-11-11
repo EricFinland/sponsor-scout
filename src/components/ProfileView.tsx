@@ -10,7 +10,7 @@ import Contacts from "./Contacts";
 import Giving from "./Giving";
 import Outreach from "./Outreach";
 import ResearchForm from "./ResearchForm";
-import { Bar, ConfidenceText, External, Notice, TierMark } from "./ui";
+import { Bar, ConfidenceText, External, Notice, ScoreScale, TIER_MEANING, TierMark } from "./ui";
 import { score, useCompanyWithResearch, useConfig } from "./useScore";
 
 interface Props {
@@ -98,25 +98,22 @@ export default function ProfileView({
           )}
         </div>
 
-        <div className={`scorecard scorecard-${result.tier.toLowerCase()}`}>
-          <div className="scorecard-number">
+        <div className="scorecard">
+          <div className="scorecard-top">
             <span className="scorecard-value">{result.overall}</span>
-            <span className="scorecard-of">out of 100</span>
-          </div>
-          <dl className="scorecard-facts">
-            <div>
-              <dt>Tier</dt>
-              <dd>
+            <div className="scorecard-detail">
+              <span className="scorecard-tier">
                 <TierMark tier={result.tier} large />
-              </dd>
-            </div>
-            <div>
-              <dt>Confidence</dt>
-              <dd>
+                {result.provisional ? "Needs research" : TIER_MEANING[result.tier]}
+              </span>
+              <span className="scorecard-line">Score out of 100</span>
+              <span className="scorecard-line">
+                Confidence{" "}
                 <ConfidenceText label={result.confidenceLabel} score={result.factors.confidence.score} />
-              </dd>
+              </span>
             </div>
-          </dl>
+          </div>
+          <ScoreScale score={result.overall} tier={result.tier} tiers={config.tiers} />
         </div>
       </header>
 
