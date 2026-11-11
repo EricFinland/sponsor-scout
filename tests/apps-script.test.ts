@@ -25,6 +25,20 @@ describe("Apps Script storage contract", () => {
     ]});
     expect(result.ok).toBe(false); expect(result.error).toContain("Conflict"); expect(runtime.sheets["Search Log"].getLastRow()).toBe(1);
   });
+  it("reuses reserved checkbox rows for multiple new profiles and skips them on read", () => {
+    const runtime = createSheetRuntime({Profiles:[{slug:"acme",version:"v1"}, ...Array.from({length:998},()=>({warmIntro:false}))]});
+    expect(runtime.call({action:"read",secret:"fixture-only-secret"}).data.Profiles).toHaveLength(1);
+    const result = runtime.call({action:"mutate",secret:"fixture-only-secret",operations:["new-one","new-two"].map(slug=>({tab:"Profiles",key:slug,row:{slug,notes:"New"}}))});
+    expect(result.ok).toBe(true);
+    expect(runtime.sheets.Profiles.values[2][0]).toBe("new-one");
+    expect(runtime.sheets.Profiles.values[3][0]).toBe("new-two");
+    expect(runtime.call({action:"read",secret:"fixture-only-secret"}).data.Profiles).toHaveLength(3);
+  });
+  it("expands a full grid before appending a new record", () => {
+    const runtime = createSheetRuntime({Profiles:Array.from({length:999},(_,i)=>({slug:`company-${i}`}))});
+    expect(runtime.call({action:"mutate",secret:"fixture-only-secret",operations:[{tab:"Profiles",key:"new",row:{slug:"new"}}]}).ok).toBe(true);
+    expect(runtime.sheets.Profiles.getMaxRows()).toBe(1001);
+  });
   it("bumps versions for edits made directly in Sheets", () => {
     const runtime = createSheetRuntime({Profiles:[{slug:"acme",version:"v1"}]});
     runtime.context.onEdit({range:runtime.sheets.Profiles.getRange(2,9)});

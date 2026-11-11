@@ -13,11 +13,14 @@ class FakeRange {
 }
 class FakeSheet {
   values: unknown[][];
+  maxRows = 1000;
   constructor(public name: string, values: unknown[][]) { this.values = values; }
   getName() { return this.name; }
   getLastRow() { let last = this.values.length; while (last > 1 && this.values[last - 1].every((v) => v == null || v === "")) last--; return last; }
   getLastColumn() { return this.values[0].length; }
-  getRange(row: number, col: number, height = 1, width = 1) { return new FakeRange(this, row, col, height, width); }
+  getMaxRows() { return this.maxRows; }
+  insertRowsAfter(_after: number, count: number) { this.maxRows += count; }
+  getRange(row: number, col: number, height = 1, width = 1) { if (row + height - 1 > this.maxRows) throw new Error("Rows out of bounds"); return new FakeRange(this, row, col, height, width); }
   getDataRange() { return this.getRange(1, 1, this.getLastRow(), this.getLastColumn()); }
 }
 export function createSheetRuntime(seed: SheetTables = {}) {

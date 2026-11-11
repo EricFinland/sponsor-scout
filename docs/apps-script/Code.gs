@@ -48,14 +48,21 @@ function readTable(spreadsheet, tab) {
   var values = sheet.getDataRange().getValues();
   var headers = (values.shift() || []).map(String);
   if (!headers[0]) throw new Error('Missing headers: ' + tab);
-  var rows = [], rowNumbers = [];
+  var rows = [], rowNumbers = [], emptyRows = [];
+  var keyIndex = headers.indexOf(WRITE_KEYS[tab] || headers[0]);
   values.forEach(function (values, index) {
+    // Checkbox validation may populate FALSE through the reserved table area.
+    // These are available rows, not research records. Preserve orphan text.
+    if (values[keyIndex] === '') {
+      if (values.every(function (v) { return v === '' || v === false; })) emptyRows.push(index + 2);
+      return;
+    }
     if (values.every(function (v) { return v === ''; })) return;
     var row = {};
     headers.forEach(function (header, i) { if (header) row[header] = values[i] instanceof Date ? values[i].toISOString() : values[i] === undefined ? '' : values[i]; });
     rows.push(row); rowNumbers.push(index + 2);
   });
-  return { sheet: sheet, headers: headers, rows: rows, rowNumbers: rowNumbers };
+  return { sheet: sheet, headers: headers, rows: rows, rowNumbers: rowNumbers, emptyRows: emptyRows, nextRow: values.length + 2 };
 }
 
 function sameValues(row, patch) {
@@ -101,7 +108,9 @@ function mutate(spreadsheet, operations) {
     var row = Object.assign({}, plan.old || {}, op.row);
     if (plan.versioned) row.version = Utilities.getUuid();
     var values = table.headers.map(function (header) { return safeCell(row[header]); });
-    var rowNumber = plan.index >= 0 ? table.rowNumbers[plan.index] : table.sheet.getLastRow() + 1;
+    var rowNumber = plan.index >= 0 ? table.rowNumbers[plan.index] : table.emptyRows.length ? table.emptyRows.shift() : table.nextRow++;
+    var maxRows = table.sheet.getMaxRows();
+    if (rowNumber > maxRows) table.sheet.insertRowsAfter(maxRows, rowNumber - maxRows);
     table.sheet.getRange(rowNumber, 1, 1, values.length).setValues([values]);
     versions[compound] = row.version || '';
   });
