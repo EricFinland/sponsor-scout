@@ -12,6 +12,8 @@ import Outreach from "./Outreach";
 import ResearchForm from "./ResearchForm";
 import { Bar, ConfidenceText, External, Notice, ScoreScale, TIER_MEANING, TierMark } from "./ui";
 import { score, useCompanyWithResearch, useConfig } from "./useScore";
+import { sponsorshipHistory } from "@/lib/sponsorships";
+import { localPresence, LA_LABELS } from "@/lib/local-presence";
 
 interface Props {
   company: Company;
@@ -44,6 +46,8 @@ export default function ProfileView({
   const totalWeight = FACTOR_ORDER.reduce((t, k) => t + Math.max(0, config.weights[k]), 0) || 1;
   const saved = prospects.some((p) => p.company.slug === company.slug);
   const place = company.hqState || filing?.state || "";
+  const history = sponsorshipHistory(company, new Date().getFullYear());
+  const local = localPresence(company.research, new Date().getFullYear());
   const otherIndustryPeers = [
     ...new Set(
       peersTable.filter((p) => p.industry === company.industry && p.company !== company.name).map((p) => p.company),
@@ -55,8 +59,7 @@ export default function ProfileView({
       if (current.some((p) => p.company.slug === company.slug)) {
         return current.filter((p) => p.company.slug !== company.slug);
       }
-      const summary = filing ? (({ grants: _g, grantsTruncated: _t, ...rest }) => rest)(filing) : null;
-      return [...current, { company: baseCompany, filing: summary, savedAt: new Date().toISOString() }];
+      return [...current, { company, filing, savedAt: new Date().toISOString() }];
     });
   }
 
@@ -123,6 +126,7 @@ export default function ProfileView({
           relationship first.
         </Notice>
       )}
+      {history.length > 0 && !alreadyPartner && <Notice><strong>Previous gala sponsor.</strong> Coordinate with Thirst Project&apos;s relationship owner before approaching this organization. Historical support does not establish an active partnership today.</Notice>}
       {result.provisional && (
         <Notice tone="warn">
           <strong>Provisional score.</strong> There is not enough on file to rank this company with confidence. About ten
@@ -138,6 +142,16 @@ export default function ProfileView({
 
       <div className="profile-grid">
         <div className="profile-main">
+          <section aria-labelledby="local-presence"><h2 id="local-presence">LA presence</h2>
+            <p><strong>{LA_LABELS[company.research.laPresence ?? "unknown"]}</strong>. {local.reason}</p>
+            {company.research.laEvidence && <p>{company.research.laEvidence}</p>}
+            {company.research.laSourceUrl && <External href={company.research.laSourceUrl}>Location source</External>}
+          </section>
+          {history.length > 0 && <section aria-labelledby="sponsorship-history"><h2 id="sponsorship-history">Thirst Project sponsorship history</h2>
+            <p className="footnote">Gala sponsorship records from the team workbook. These are separate from foundation grants and support for other nonprofits.</p>
+            <div className="table-wrap"><table className="data"><thead><tr><th>Year</th><th>Event</th><th>Relationship</th><th className="num">Amount</th><th>Source</th></tr></thead>
+              <tbody>{history.map((s) => <tr key={s.id}><td>{s.year}</td><td>{s.event}</td><td>{s.relationship}</td><td className="num">{formatUsdExact(s.amountUsd)}</td><td><External href={s.sourceUrl}>Source row {s.sourceRow}</External></td></tr>)}</tbody></table></div>
+          </section>}
           <section aria-labelledby="why">
             <h2 id="why">Why this score</h2>
             <div className="factors">

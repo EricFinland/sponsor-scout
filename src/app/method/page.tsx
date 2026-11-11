@@ -1,11 +1,13 @@
 import type { Metadata } from "next";
 import WeightsEditor from "@/components/WeightsEditor";
-import { DEFAULT_CONFIG } from "@/lib/data";
+import { getAppData } from "@/lib/data";
 import { peerNonprofitNames } from "@/lib/keywords";
 
 export const metadata: Metadata = { title: "Method" };
 
-export default function MethodPage() {
+export const dynamic = "force-dynamic";
+export default async function MethodPage() {
+  const { config: DEFAULT_CONFIG, shared } = await getAppData();
   return (
     <div className="prose-page">
       <div className="page-head">
@@ -20,7 +22,7 @@ export default function MethodPage() {
         <h2>Weights and tiers</h2>
         <p>
           Five factors are each scored from 0 to 100. The overall score is their weighted average. Change a weight below
-          to see how the ranking moves. Changes stay in this browser until you reset them.
+          to see how the ranking moves. {shared ? "Changes are saved to the team Google Sheet." : "Changes stay in this browser until you reset them."}
         </p>
         <WeightsEditor defaults={DEFAULT_CONFIG} />
       </section>
@@ -48,6 +50,7 @@ export default function MethodPage() {
           whole words, or when the recipient is a known water nonprofit. River and watershed conservation counts as a
           neighboring cause instead.
         </p>
+        <p className="footnote">Documented Thirst Project gala sponsorship in this or the prior two calendar years earns +20 for direct mission support; older sponsorship earns +10. This replaces the existing Thirst Project grant bonus when both are present, rather than counting both.</p>
 
         <h3>Peer signal</h3>
         <p>Has the company funded organizations like Thirst Project?</p>
@@ -57,7 +60,7 @@ export default function MethodPage() {
             <tr><td>Supports two</td><td className="num">75</td></tr>
             <tr><td>Supports three or more</td><td className="num">90</td></tr>
             <tr><td>Those gifts total $250,000 or more</td><td className="num">+10</td></tr>
-            <tr><td>Two or more other companies in the same industry sponsor water nonprofits</td><td className="num">+15</td></tr>
+            <tr><td>Two or more other companies in the same industry have documented support for water nonprofits</td><td className="num">+15</td></tr>
           </tbody>
         </table>
         <p className="footnote">
@@ -81,6 +84,7 @@ export default function MethodPage() {
           ask, and scales down from there. A foundation that only writes seven-figure checks scores lower here than its
           total suggests. Without a filing, reported giving or company size is used.
         </p>
+        <p className="footnote">When recent Thirst Project gala sponsorships exist, the largest single sponsorship in this or the prior two calendar years takes priority: $25,000 or more scores 85; $10,000–$24,999 scores 70; $5,000–$9,999 scores 55; smaller amounts score 40. Several years are never summed into an annual budget. Older gifts do not establish current capacity.</p>
 
         <h3>Accessibility</h3>
         <p>How reachable is the decision maker?</p>
@@ -92,10 +96,19 @@ export default function MethodPage() {
             <tr><td>Invitation only, or the 990-PF says preselected organizations only</td><td className="num">+5</td></tr>
             <tr><td>A warm introduction is available</td><td className="num">+30</td></tr>
             <tr><td>Officers and directors are named in the filing</td><td className="num">+20</td></tr>
-            <tr><td>Based in Thirst Project&apos;s home state</td><td className="num">+10</td></tr>
+            <tr><td>Prior Thirst Project gala sponsor: recent / older (replaces warm-intro bonus unless a warm intro is confirmed)</td><td className="num">+20 / +10</td></tr>
             <tr><td>Company email domain is known</td><td className="num">+5</td></tr>
           </tbody>
         </table>
+        <p>Contact and application evidence is capped at 65 points. The remaining 35 points are reserved for documented local presence, so the LA contribution remains material even when a company has strong contacts.</p>
+        <table className="data rules"><tbody>
+          <tr><td>Headquarters in Los Angeles County</td><td className="num">+35</td></tr>
+          <tr><td>Corporate office in Los Angeles County</td><td className="num">+30</td></tr>
+          <tr><td>Operating facility in Los Angeles County</td><td className="num">+20</td></tr>
+          <tr><td>Retail presence in Los Angeles County</td><td className="num">+10</td></tr>
+          <tr><td>Office/headquarters in Orange, Ventura, Riverside or San Bernardino County</td><td className="num">+15</td></tr>
+        </tbody></table>
+        <p className="footnote">Only the strongest documented location counts. An HTTPS source, supporting evidence, local city/county and a review this or last calendar year are required. A California address, past gala attendance, or missing location research earns no local bonus. Local presence does not prove local control of a sponsorship budget. With default weights, verified LA headquarters can add 7 points to the overall score.</p>
 
         <h3>Confidence</h3>
         <p>
@@ -105,7 +118,7 @@ export default function MethodPage() {
         <table className="data rules">
           <tbody>
             <tr><td>Corporate foundation identified and its filing found</td><td className="num">+25</td></tr>
-            <tr><td>Or: confirmed that no foundation exists</td><td className="num">+15</td></tr>
+            <tr><td>Or: no foundation found in the search (not proof of nonexistence)</td><td className="num">+15</td></tr>
             <tr><td>Grant-by-grant detail available</td><td className="num">+20</td></tr>
             <tr><td>Filing is from the last three years</td><td className="num">+10</td></tr>
             <tr><td>Giving priorities reviewed by a researcher</td><td className="num">+10</td></tr>
@@ -116,6 +129,7 @@ export default function MethodPage() {
             <tr><td>Annual giving total known</td><td className="num">+5</td></tr>
           </tbody>
         </table>
+        <p className="footnote">Documented gala history can supply the 25-point source-identification and 20-point itemized-record components in place of a foundation filing. Recent sponsorship can supply the 10-point recency component. These alternatives are not added twice.</p>
       </section>
 
       <section>

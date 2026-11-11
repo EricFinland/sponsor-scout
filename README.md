@@ -2,7 +2,9 @@
 
 Corporate sponsor research for Thirst Project. Type in any company and get its giving history, the water nonprofits it already funds, who to contact, a starting outreach email, and a score that says whether it is worth pursuing.
 
-**Live site:** https://sponsor-scout-lime.vercel.app
+**Shared workspace:** https://sponsor-scout-jeffreyli1717-2803.vercel.app (team access required)
+
+**Original public demo:** https://sponsor-scout-lime.vercel.app
 
 The scoring is rules-based. Every point on a profile links back to an IRS filing, the Peers table or a research note, so anyone can check where a number came from.
 
@@ -61,18 +63,18 @@ A factor with no evidence is held at a neutral value and the company is marked p
 
 ## What it costs to run
 
-Nothing. There are no paid services, no API keys and no database.
+The public-data demo needs no paid services. Shared team storage uses a private Google Sheet and a free Apps Script web app. Server-only credentials and a team access key are required for shared mode.
 
 | Piece | How it stays free |
 | --- | --- |
 | Filing data | Two keyless public sources: the ProPublica Nonprofit Explorer API for foundation search and yearly totals, and the GivingTuesday 990 Data Lake for the IRS e-file records that hold grant lists and officers |
 | Starter companies | Bundled with the app as JSON, so their profiles need no outside calls |
-| Team data | Research notes, saved lookups and the outreach log live in the browser and export from the Tracker page |
-| Hosting | Vercel's free plan. The only server work is fetching and parsing a filing on a new lookup, cached for a day |
+| Team data | In shared mode, company data, research, lookups, outreach, weights and filing snapshots live in the private team Sheet. Local demo mode uses browser storage |
+| Hosting | Next.js on Vercel. Shared mode also reads and writes the private Sheet through server routes |
 
 ## Run it locally
 
-Requires Node 20 or newer.
+Requires Node 24 or newer for the current toolchain.
 
 ```bash
 npm install
@@ -83,27 +85,27 @@ Open http://localhost:3000.
 
 | Command | What it does |
 | --- | --- |
-| `npm test` | Runs 41 tests on the scoring engine, filing parser and matching rules |
+| `npm test` | Runs scoring, filing, matching, import, storage, authentication and Apps Script tests |
 | `npm run build` | Production build |
 | `npm run seed` | Re-pulls the latest filings for the starter list |
 
 ## Deploying
 
-The Vercel project is linked to this repository. Every push to `main` builds and publishes the live site. There are no build settings or required environment variables.
+Deploy as a Next.js project using Node 24. Local demo mode needs no environment variables. Shared team mode requires the three server-only variables documented in [docs/SHEET_SYNC.md](docs/SHEET_SYNC.md). Connect a Git branch in Vercel if automatic deployments are desired; source-file deployments do not establish a Git integration.
 
 Vercel's free Hobby plan is for non-commercial use. If Thirst Project takes this over as an organization, check that plan's terms or apply for a nonprofit plan.
 
 ## Optional settings
 
-The app runs with none of these set. They are listed in `.env.example`.
+Local demo mode runs with none of these set. They are listed in `.env.example`.
 
 | Variable | What it turns on |
 | --- | --- |
 | `PARTNER_COMPANIES` | A comma-separated list of existing Thirst Project partners. Matching companies get a notice on their profile and the outreach draft is turned off. Kept out of the repository because the list is private |
 | `HUNTER_API_KEY` | Work email lookup for foundation officers through Hunter.io (free tier, 50 credits a month). One credit per lookup, only when someone asks |
-| `SHEET_WEBHOOK_URL`, `SHEET_WEBHOOK_SECRET` | Appends lookups, research notes and logged outreach to a Google Sheet. Setup is in [docs/SHEET_SYNC.md](docs/SHEET_SYNC.md) |
+| `SHEET_WEBHOOK_URL`, `SHEET_WEBHOOK_SECRET` | Connects the private Google Sheet as the shared data store (also requires `TEAM_ACCESS_KEY`). Setup is in [docs/SHEET_SYNC.md](docs/SHEET_SYNC.md) |
 
-Hunter lookup and Sheet logging are built but have not been tested against the live services yet.
+The Google Sheets integration now reads and writes shared data with authenticated sessions, conflict detection and explicit save status. See `docs/SHEET_SYNC.md` for setup, verification and limitations. Hunter lookup still requires a separately configured key.
 
 ## Working with the data
 
@@ -120,17 +122,16 @@ Hunter lookup and Sheet logging are built but have not been tested against the l
 
 **Add a sponsorship found in an annual report.** Add a row to `data/peers.json` with any `relationship` other than `Foundation grant`. Rows with that exact value are regenerated from filings on each seed.
 
-**Make research notes permanent.** Export them from the Tracker page and copy the values into that company's `research` block in `data/companies.json`.
+**Make research notes permanent.** Shared mode saves notes to Profiles in the private Sheet. For a public demo, export notes from Tracker and copy approved public values into the company's `research` block in `data/companies.json`.
 
 **Change how companies are scored.** Weights and tier cutoffs are in `data/weights.json`, and the Method page lets you try new weights in the browser first. Point values for each rule are in `src/lib/scoring.ts`, each with a test in `tests/scoring.test.ts`. Water keywords are in `src/lib/keywords.ts`.
 
 ## State of the starter data
 
-There are 33 companies on file. The filing data is real and sourced. The manual research has not been done yet.
+There are 54 organizations on file: the original 33 companies and 21 additional organizations from the gala history. Six profiles have sourced LA location evidence. Giving priorities still require manual research. The private shared Sheet adds 37 organization gala sponsorship records; these amounts and personal donor records are not bundled in this public repository.
 
-- **21 have a matched foundation**, with grants, officers and totals read from its latest filing.
-- **9 have no foundation in IRS records** and show as provisional until research is entered.
-- **3 matches are unconfirmed** (Procter & Gamble, Microsoft, YETI) because the search results were ambiguous. Use Look up to settle them.
+- **Of the original 33 companies, 21 have a matched foundation**, nine have no foundation found and three have unconfirmed matches (Procter & Gamble, Microsoft, YETI). An unsuccessful search does not prove that no foundation exists.
+- **Imported organizations have no assumed foundation match.** Their private gala history provides separate sponsorship evidence in shared mode.
 - **Foundation matches were chosen by name and city.** Verify a match before relying on it for outreach.
 - **Outreach templates are starting drafts.** Text in [brackets] is for the sender to fill in, and the wording should be reviewed by Thirst Project before the team uses it.
 
@@ -147,5 +148,13 @@ src/lib            Scoring, filing parser, data sources, templates
 data               The bundled dataset and scoring configuration
 scripts            Seeding scripts
 tests              Unit tests, including one against a real 990-PF
-docs               Google Sheet logging setup
+docs               Shared Google Sheet storage setup
 ```
+
+## LA presence and sponsorship evidence
+
+Accessibility reserves 35 points for sourced local presence and caps other access evidence at 65. California alone no longer earns a local bonus. The Method page documents location tiers and review-date requirements.
+
+Gala sponsorships are stored separately from foundation grants and peer-nonprofit support. Recent observed sponsorship amounts take precedence for capacity fit; lifetime totals are never treated as an annual budget. Historical sponsors are routed toward relationship-owner renewal rather than cold email drafts.
+
+Shared Sheets contain private team data. When a Sheet endpoint is configured, sign-in is required for pages and APIs. Never commit raw source workbooks, private sponsorship amounts, Google credentials or server secrets.

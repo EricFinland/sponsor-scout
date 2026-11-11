@@ -5,6 +5,7 @@ import { splitPersonName } from "@/lib/names";
 import { logToSheet, useStore } from "@/lib/store";
 import { fillTemplate, hookLine, templateFor, TEMPLATES } from "@/lib/templates";
 import type { Company, Filing, PeerRow } from "@/lib/types";
+import { sponsorshipHistory } from "@/lib/sponsorships";
 
 export default function Outreach({
   company,
@@ -72,6 +73,9 @@ export default function Outreach({
 
   if (disabled) {
     return <p className="empty">Outreach drafts are off for existing partners.</p>;
+  }
+  if (sponsorshipHistory(company, new Date().getFullYear()).length > 0) {
+    return <p className="empty">This organization has sponsored Thirst Project before. Coordinate a renewal with the relationship owner before creating outreach; cold email drafts are disabled.</p>;
   }
 
   return (

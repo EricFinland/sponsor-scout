@@ -249,7 +249,13 @@
       "warmIntro": false,
       "sourceUrl": "",
       "notes": "",
-      "updatedAt": null
+      "updatedAt": null,
+      "laPresence": "office",
+      "laCity": "Los Angeles",
+      "laCounty": "Los Angeles",
+      "laSourceUrl": "https://liquiddeath.com/policies/terms-of-service",
+      "laVerifiedAt": "2026-11-11",
+      "laEvidence": "Liquid Death's current terms identify its company contact address as 4077 Redwood Ave, Los Angeles, CA 90066. Treated as an office/contact location, not proof that sponsorship decisions are made there."
     }
   },
   {
@@ -756,6 +762,663 @@
       "sourceUrl": "",
       "notes": "",
       "updatedAt": null
+    }
+  },
+  {
+    "name": "Heather Hay Miller Foundation",
+    "slug": "heather-hay-miller-foundation",
+    "industry": "other",
+    "domain": "",
+    "aliases": [],
+    "hqState": "",
+    "entityType": "foundation",
+    "foundation": {
+      "status": "unverified",
+      "ein": null,
+      "name": null
+    },
+    "research": {
+      "waterFocus": "unknown",
+      "focusAreas": [],
+      "applicationProcess": "unknown",
+      "annualGivingUsd": null,
+      "sizeBand": "unknown",
+      "warmIntro": false,
+      "sourceUrl": "",
+      "notes": "",
+      "updatedAt": null,
+      "laPresence": "unknown",
+      "laCity": "",
+      "laCounty": "",
+      "laSourceUrl": "",
+      "laVerifiedAt": "",
+      "laEvidence": ""
+    }
+  },
+  {
+    "name": "Mattel",
+    "slug": "mattel",
+    "industry": "other",
+    "domain": "mattel.com",
+    "aliases": [],
+    "hqState": "",
+    "entityType": "company",
+    "foundation": {
+      "status": "unverified",
+      "ein": null,
+      "name": null
+    },
+    "research": {
+      "waterFocus": "unknown",
+      "focusAreas": [],
+      "applicationProcess": "unknown",
+      "annualGivingUsd": null,
+      "sizeBand": "unknown",
+      "warmIntro": false,
+      "sourceUrl": "",
+      "notes": "",
+      "updatedAt": null,
+      "laPresence": "headquarters",
+      "laCity": "El Segundo",
+      "laCounty": "Los Angeles",
+      "laSourceUrl": "https://investors.mattel.com/resources/investor-faqs/default.aspx",
+      "laVerifiedAt": "2026-11-11",
+      "laEvidence": "Mattel's investor FAQ identifies its headquarters at 333 Continental Boulevard, El Segundo, CA 90245."
+    }
+  },
+  {
+    "name": "United Talent Agency",
+    "slug": "united-talent-agency",
+    "industry": "entertainment",
+    "domain": "unitedtalent.com",
+    "aliases": [
+      "UTA"
+    ],
+    "hqState": "",
+    "entityType": "company",
+    "foundation": {
+      "status": "unverified",
+      "ein": null,
+      "name": null
+    },
+    "research": {
+      "waterFocus": "unknown",
+      "focusAreas": [],
+      "applicationProcess": "unknown",
+      "annualGivingUsd": null,
+      "sizeBand": "unknown",
+      "warmIntro": false,
+      "sourceUrl": "",
+      "notes": "",
+      "updatedAt": null,
+      "laPresence": "office",
+      "laCity": "Beverly Hills",
+      "laCounty": "Los Angeles",
+      "laSourceUrl": "https://www.unitedtalent.com/about",
+      "laVerifiedAt": "2026-11-11",
+      "laEvidence": "UTA lists its Los Angeles office at 9336 Civic Center Drive, Beverly Hills, CA 90210."
+    }
+  },
+  {
+    "name": "Miramax",
+    "slug": "miramax",
+    "industry": "entertainment",
+    "domain": "miramax.com",
+    "aliases": [],
+    "hqState": "",
+    "entityType": "company",
+    "foundation": {
+      "status": "unverified",
+      "ein": null,
+      "name": null
+    },
+    "research": {
+      "waterFocus": "unknown",
+      "focusAreas": [],
+      "applicationProcess": "unknown",
+      "annualGivingUsd": null,
+      "sizeBand": "unknown",
+      "warmIntro": false,
+      "sourceUrl": "",
+      "notes": "",
+      "updatedAt": null,
+      "laPresence": "unknown",
+      "laCity": "",
+      "laCounty": "",
+      "laSourceUrl": "",
+      "laVerifiedAt": "",
+      "laEvidence": ""
+    }
+  },
+  {
+    "name": "Southwest Food Excellence",
+    "slug": "southwest-food-excellence",
+    "industry": "other",
+    "domain": "",
+    "aliases": [],
+    "hqState": "",
+    "entityType": "company",
+    "foundation": {
+      "status": "unverified",
+      "ein": null,
+      "name": null
+    },
+    "research": {
+      "waterFocus": "unknown",
+      "focusAreas": [],
+      "applicationProcess": "unknown",
+      "annualGivingUsd": null,
+      "sizeBand": "unknown",
+      "warmIntro": false,
+      "sourceUrl": "",
+      "notes": "",
+      "updatedAt": null,
+      "laPresence": "unknown",
+      "laCity": "",
+      "laCounty": "",
+      "laSourceUrl": "",
+      "laVerifiedAt": "",
+      "laEvidence": ""
+    }
+  },
+  {
+    "name": "Temple Hill Entertainment",
+    "slug": "temple-hill-entertainment",
+    "industry": "entertainment",
+    "domain": "templehillent.com",
+    "aliases": [],
+    "hqState": "",
+    "entityType": "company",
+    "foundation": {
+      "status": "unverified",
+      "ein": null,
+      "name": null
+    },
+    "research": {
+      "waterFocus": "unknown",
+      "focusAreas": [],
+      "applicationProcess": "unknown",
+      "annualGivingUsd": null,
+      "sizeBand": "unknown",
+      "warmIntro": false,
+      "sourceUrl": "",
+      "notes": "",
+      "updatedAt": null,
+      "laPresence": "unknown",
+      "laCity": "",
+      "laCounty": "",
+      "laSourceUrl": "",
+      "laVerifiedAt": "",
+      "laEvidence": ""
+    }
+  },
+  {
+    "name": "Paramount Pictures",
+    "slug": "paramount-pictures",
+    "industry": "entertainment",
+    "domain": "paramountpictures.com",
+    "aliases": [],
+    "hqState": "",
+    "entityType": "company",
+    "foundation": {
+      "status": "unverified",
+      "ein": null,
+      "name": null
+    },
+    "research": {
+      "waterFocus": "unknown",
+      "focusAreas": [],
+      "applicationProcess": "unknown",
+      "annualGivingUsd": null,
+      "sizeBand": "unknown",
+      "warmIntro": false,
+      "sourceUrl": "",
+      "notes": "",
+      "updatedAt": null,
+      "laPresence": "operations",
+      "laCity": "Los Angeles",
+      "laCounty": "Los Angeles",
+      "laSourceUrl": "https://www.paramountstudios.com/the-studios/",
+      "laVerifiedAt": "2026-11-11",
+      "laEvidence": "Paramount Pictures Studios operates its studio campus at 5555 Melrose Avenue, Hollywood, CA 90038. This source establishes an operating facility, not the location of the sponsorship decision maker."
+    }
+  },
+  {
+    "name": "BeatBox",
+    "slug": "beatbox",
+    "industry": "beverage_cpg",
+    "domain": "",
+    "aliases": [],
+    "hqState": "",
+    "entityType": "company",
+    "foundation": {
+      "status": "unverified",
+      "ein": null,
+      "name": null
+    },
+    "research": {
+      "waterFocus": "unknown",
+      "focusAreas": [],
+      "applicationProcess": "unknown",
+      "annualGivingUsd": null,
+      "sizeBand": "unknown",
+      "warmIntro": false,
+      "sourceUrl": "",
+      "notes": "",
+      "updatedAt": null,
+      "laPresence": "unknown",
+      "laCity": "",
+      "laCounty": "",
+      "laSourceUrl": "",
+      "laVerifiedAt": "",
+      "laEvidence": ""
+    }
+  },
+  {
+    "name": "MALK Organics",
+    "slug": "malk-organics",
+    "industry": "beverage_cpg",
+    "domain": "",
+    "aliases": [],
+    "hqState": "",
+    "entityType": "company",
+    "foundation": {
+      "status": "unverified",
+      "ein": null,
+      "name": null
+    },
+    "research": {
+      "waterFocus": "unknown",
+      "focusAreas": [],
+      "applicationProcess": "unknown",
+      "annualGivingUsd": null,
+      "sizeBand": "unknown",
+      "warmIntro": false,
+      "sourceUrl": "",
+      "notes": "",
+      "updatedAt": null,
+      "laPresence": "unknown",
+      "laCity": "",
+      "laCounty": "",
+      "laSourceUrl": "",
+      "laVerifiedAt": "",
+      "laEvidence": ""
+    }
+  },
+  {
+    "name": "The Good Store",
+    "slug": "good-store",
+    "industry": "other",
+    "domain": "",
+    "aliases": [],
+    "hqState": "",
+    "entityType": "company",
+    "foundation": {
+      "status": "unverified",
+      "ein": null,
+      "name": null
+    },
+    "research": {
+      "waterFocus": "unknown",
+      "focusAreas": [],
+      "applicationProcess": "unknown",
+      "annualGivingUsd": null,
+      "sizeBand": "unknown",
+      "warmIntro": false,
+      "sourceUrl": "",
+      "notes": "",
+      "updatedAt": null,
+      "laPresence": "unknown",
+      "laCity": "",
+      "laCounty": "",
+      "laSourceUrl": "",
+      "laVerifiedAt": "",
+      "laEvidence": ""
+    }
+  },
+  {
+    "name": "HJTH LLC",
+    "slug": "hjth",
+    "industry": "other",
+    "domain": "",
+    "aliases": [],
+    "hqState": "",
+    "entityType": "company",
+    "foundation": {
+      "status": "unverified",
+      "ein": null,
+      "name": null
+    },
+    "research": {
+      "waterFocus": "unknown",
+      "focusAreas": [],
+      "applicationProcess": "unknown",
+      "annualGivingUsd": null,
+      "sizeBand": "unknown",
+      "warmIntro": false,
+      "sourceUrl": "",
+      "notes": "",
+      "updatedAt": null,
+      "laPresence": "unknown",
+      "laCity": "",
+      "laCounty": "",
+      "laSourceUrl": "",
+      "laVerifiedAt": "",
+      "laEvidence": ""
+    }
+  },
+  {
+    "name": "Paramount",
+    "slug": "paramount",
+    "industry": "entertainment",
+    "domain": "",
+    "aliases": [],
+    "hqState": "",
+    "entityType": "company",
+    "foundation": {
+      "status": "unverified",
+      "ein": null,
+      "name": null
+    },
+    "research": {
+      "waterFocus": "unknown",
+      "focusAreas": [],
+      "applicationProcess": "unknown",
+      "annualGivingUsd": null,
+      "sizeBand": "unknown",
+      "warmIntro": false,
+      "sourceUrl": "",
+      "notes": "",
+      "updatedAt": null,
+      "laPresence": "unknown",
+      "laCity": "",
+      "laCounty": "",
+      "laSourceUrl": "",
+      "laVerifiedAt": "",
+      "laEvidence": ""
+    }
+  },
+  {
+    "name": "Lionsgate",
+    "slug": "lionsgate",
+    "industry": "entertainment",
+    "domain": "lionsgate.com",
+    "aliases": [],
+    "hqState": "",
+    "entityType": "company",
+    "foundation": {
+      "status": "unverified",
+      "ein": null,
+      "name": null
+    },
+    "research": {
+      "waterFocus": "unknown",
+      "focusAreas": [],
+      "applicationProcess": "unknown",
+      "annualGivingUsd": null,
+      "sizeBand": "unknown",
+      "warmIntro": false,
+      "sourceUrl": "",
+      "notes": "",
+      "updatedAt": null,
+      "laPresence": "office",
+      "laCity": "Santa Monica",
+      "laCounty": "Los Angeles",
+      "laSourceUrl": "https://www.sec.gov/Archives/edgar/data/2052959/000205295926000052/R1.htm",
+      "laVerifiedAt": "2026-11-11",
+      "laEvidence": "Lionsgate Studios' 2026 SEC filing identifies principal executive offices at 2700 Colorado Avenue, Santa Monica, CA 90404. Historical Lionsgate sponsor identity should be confirmed before renewal."
+    }
+  },
+  {
+    "name": "Nickelodeon",
+    "slug": "nickelodeon",
+    "industry": "entertainment",
+    "domain": "nick.com",
+    "aliases": [],
+    "hqState": "",
+    "entityType": "company",
+    "foundation": {
+      "status": "unverified",
+      "ein": null,
+      "name": null
+    },
+    "research": {
+      "waterFocus": "unknown",
+      "focusAreas": [],
+      "applicationProcess": "unknown",
+      "annualGivingUsd": null,
+      "sizeBand": "unknown",
+      "warmIntro": false,
+      "sourceUrl": "",
+      "notes": "",
+      "updatedAt": null,
+      "laPresence": "unknown",
+      "laCity": "",
+      "laCounty": "",
+      "laSourceUrl": "",
+      "laVerifiedAt": "",
+      "laEvidence": ""
+    }
+  },
+  {
+    "name": "McCloskey Mechanical",
+    "slug": "mccloskey-mechanical",
+    "industry": "other",
+    "domain": "",
+    "aliases": [],
+    "hqState": "",
+    "entityType": "company",
+    "foundation": {
+      "status": "unverified",
+      "ein": null,
+      "name": null
+    },
+    "research": {
+      "waterFocus": "unknown",
+      "focusAreas": [],
+      "applicationProcess": "unknown",
+      "annualGivingUsd": null,
+      "sizeBand": "unknown",
+      "warmIntro": false,
+      "sourceUrl": "",
+      "notes": "",
+      "updatedAt": null,
+      "laPresence": "unknown",
+      "laCity": "",
+      "laCounty": "",
+      "laSourceUrl": "",
+      "laVerifiedAt": "",
+      "laEvidence": ""
+    }
+  },
+  {
+    "name": "Stance",
+    "slug": "stance",
+    "industry": "outdoor_apparel",
+    "domain": "",
+    "aliases": [],
+    "hqState": "",
+    "entityType": "company",
+    "foundation": {
+      "status": "unverified",
+      "ein": null,
+      "name": null
+    },
+    "research": {
+      "waterFocus": "unknown",
+      "focusAreas": [],
+      "applicationProcess": "unknown",
+      "annualGivingUsd": null,
+      "sizeBand": "unknown",
+      "warmIntro": false,
+      "sourceUrl": "",
+      "notes": "",
+      "updatedAt": null,
+      "laPresence": "unknown",
+      "laCity": "",
+      "laCounty": "",
+      "laSourceUrl": "",
+      "laVerifiedAt": "",
+      "laEvidence": ""
+    }
+  },
+  {
+    "name": "PrettyLitter",
+    "slug": "prettylitter",
+    "industry": "beverage_cpg",
+    "domain": "",
+    "aliases": [
+      "Pretty Litter"
+    ],
+    "hqState": "",
+    "entityType": "company",
+    "foundation": {
+      "status": "unverified",
+      "ein": null,
+      "name": null
+    },
+    "research": {
+      "waterFocus": "unknown",
+      "focusAreas": [],
+      "applicationProcess": "unknown",
+      "annualGivingUsd": null,
+      "sizeBand": "unknown",
+      "warmIntro": false,
+      "sourceUrl": "",
+      "notes": "",
+      "updatedAt": null,
+      "laPresence": "unknown",
+      "laCity": "",
+      "laCounty": "",
+      "laSourceUrl": "",
+      "laVerifiedAt": "",
+      "laEvidence": ""
+    }
+  },
+  {
+    "name": "Viacom",
+    "slug": "viacom",
+    "industry": "entertainment",
+    "domain": "",
+    "aliases": [],
+    "hqState": "",
+    "entityType": "company",
+    "foundation": {
+      "status": "unverified",
+      "ein": null,
+      "name": null
+    },
+    "research": {
+      "waterFocus": "unknown",
+      "focusAreas": [],
+      "applicationProcess": "unknown",
+      "annualGivingUsd": null,
+      "sizeBand": "unknown",
+      "warmIntro": false,
+      "sourceUrl": "",
+      "notes": "",
+      "updatedAt": null,
+      "laPresence": "unknown",
+      "laCity": "",
+      "laCounty": "",
+      "laSourceUrl": "",
+      "laVerifiedAt": "",
+      "laEvidence": ""
+    }
+  },
+  {
+    "name": "Genexa",
+    "slug": "genexa",
+    "industry": "other",
+    "domain": "",
+    "aliases": [],
+    "hqState": "",
+    "entityType": "company",
+    "foundation": {
+      "status": "unverified",
+      "ein": null,
+      "name": null
+    },
+    "research": {
+      "waterFocus": "unknown",
+      "focusAreas": [],
+      "applicationProcess": "unknown",
+      "annualGivingUsd": null,
+      "sizeBand": "unknown",
+      "warmIntro": false,
+      "sourceUrl": "",
+      "notes": "",
+      "updatedAt": null,
+      "laPresence": "unknown",
+      "laCity": "",
+      "laCounty": "",
+      "laSourceUrl": "",
+      "laVerifiedAt": "",
+      "laEvidence": ""
+    }
+  },
+  {
+    "name": "Disney",
+    "slug": "disney",
+    "industry": "entertainment",
+    "domain": "thewaltdisneycompany.com",
+    "aliases": [],
+    "hqState": "",
+    "entityType": "company",
+    "foundation": {
+      "status": "unverified",
+      "ein": null,
+      "name": null
+    },
+    "research": {
+      "waterFocus": "unknown",
+      "focusAreas": [],
+      "applicationProcess": "unknown",
+      "annualGivingUsd": null,
+      "sizeBand": "unknown",
+      "warmIntro": false,
+      "sourceUrl": "",
+      "notes": "",
+      "updatedAt": null,
+      "laPresence": "office",
+      "laCity": "Burbank",
+      "laCounty": "Los Angeles",
+      "laSourceUrl": "https://privacy.thewaltdisneycompany.com/en/support/",
+      "laVerifiedAt": "2026-11-11",
+      "laEvidence": "Disney's corporate privacy contact lists 500 South Buena Vista Street, Burbank, CA 91521-7667. This supports a corporate office, without inferring a local sponsorship contact."
+    }
+  },
+  {
+    "name": "SunTrust Bank",
+    "slug": "suntrust-bank",
+    "industry": "financial",
+    "domain": "",
+    "aliases": [
+      "Sun Trust Bank"
+    ],
+    "hqState": "",
+    "entityType": "company",
+    "foundation": {
+      "status": "unverified",
+      "ein": null,
+      "name": null
+    },
+    "research": {
+      "waterFocus": "unknown",
+      "focusAreas": [],
+      "applicationProcess": "unknown",
+      "annualGivingUsd": null,
+      "sizeBand": "unknown",
+      "warmIntro": false,
+      "sourceUrl": "",
+      "notes": "",
+      "updatedAt": null,
+      "laPresence": "unknown",
+      "laCity": "",
+      "laCounty": "",
+      "laSourceUrl": "",
+      "laVerifiedAt": "",
+      "laEvidence": ""
     }
   }
 ]

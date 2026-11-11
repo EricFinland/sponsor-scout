@@ -33,7 +33,7 @@ export default function TrackerClient({ sheetConnected }: { sheetConnected: bool
     <div className="tracker">
       <p className="footnote">
         {sheetConnected
-          ? "Connected to the team Google Sheet. New lookups, saved notes and logged outreach are also appended there."
+          ? "Using the team Google Sheet. Research and outreach are updated in place. Check the save status above before closing this page."
           : "Not connected to a Google Sheet. Everything below is kept in this browser only. Setup steps are in docs/SHEET_SYNC.md."}
       </p>
 
@@ -280,9 +280,10 @@ export default function TrackerClient({ sheetConnected }: { sheetConnected: bool
           >
             Download everything
           </button>
-          <button type="button" className="button" onClick={() => fileInput.current?.click()}>
+          <button type="button" className="button" onClick={() => fileInput.current?.click()} disabled={sheetConnected}>
             Restore from a backup
           </button>
+          {sheetConnected && <span className="quiet">Backup restore is available in local mode. It cannot overwrite the shared workspace.</span>}
           <input
             ref={fileInput}
             type="file"

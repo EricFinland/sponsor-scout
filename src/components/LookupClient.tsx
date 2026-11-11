@@ -13,7 +13,7 @@ import { External, Notice } from "./ui";
 import { score, useConfig } from "./useScore";
 
 interface Props {
-  known: { name: string; slug: string }[];
+  known: Company[];
   peersTable: PeerRow[];
   defaultConfig: ScoringConfig;
   hunterEnabled: boolean;
@@ -49,7 +49,7 @@ export default function LookupClient({ known, peersTable, defaultConfig, hunterE
   const [, setSearches] = useStore("searches");
   const logged = useRef("");
 
-  const existing = known.find((k) => sameCompany(k.name, q));
+  const existing = known.find((k) => sameCompany(k.name, q) || k.aliases?.some((alias) => sameCompany(alias, q)));
   const confirming = Boolean(q) && !ein;
   const showingProfile = Boolean(q) && Boolean(ein);
 
@@ -108,17 +108,18 @@ export default function LookupClient({ known, peersTable, defaultConfig, hunterE
   const company = useMemo<Company | null>(() => {
     if (!showingProfile || loaded.state !== "ready") return null;
     return {
-      slug: slugify(q),
-      name: q,
-      industry,
-      domain,
-      hqState: "",
+      ...existing,
+      slug: existing?.slug ?? slugify(q),
+      name: existing?.name ?? q,
+      industry: industryParam ? industry : existing?.industry ?? industry,
+      domain: domain || existing?.domain || "",
+      hqState: existing?.hqState ?? "",
       foundation: loaded.filing
         ? { status: "matched", ein: loaded.filing.ein, name: loaded.filing.name }
         : { status: "none_found", ein: null, name: null },
-      research: { ...EMPTY_RESEARCH },
+      research: existing?.research ?? { ...EMPTY_RESEARCH },
     };
-  }, [showingProfile, loaded, q, industry, domain]);
+  }, [showingProfile, loaded, q, industry, industryParam, domain, existing]);
 
   // Record each completed lookup once.
   useEffect(() => {

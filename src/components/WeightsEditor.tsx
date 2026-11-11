@@ -1,6 +1,6 @@
 "use client";
 
-import { useStore } from "@/lib/store";
+import { useStore, isSharedWorkspace } from "@/lib/store";
 import type { FactorKey, ScoringConfig } from "@/lib/types";
 import { FACTOR_LABELS, FACTOR_ORDER } from "@/lib/types";
 import { TierMark } from "./ui";
@@ -92,7 +92,7 @@ export default function WeightsEditor({ defaults }: { defaults: ScoringConfig })
         </button>
         <span className="status">
           {override
-            ? "Using adjusted weights in this browser. Scores across the app reflect them."
+            ? isSharedWorkspace() ? "Using shared weights. Changes are queued for the team Sheet; check the save status above." : "Using adjusted weights in this browser. Scores across the app reflect them."
             : "Using the default weights from data/weights.json."}
         </span>
       </p>

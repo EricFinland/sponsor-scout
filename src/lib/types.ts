@@ -5,6 +5,7 @@ export type Industry =
   | "water_industrial"
   | "financial"
   | "retail"
+  | "entertainment"
   | "other";
 
 export const INDUSTRY_LABELS: Record<Industry, string> = {
@@ -14,6 +15,7 @@ export const INDUSTRY_LABELS: Record<Industry, string> = {
   water_industrial: "Water and industrial",
   financial: "Financial services",
   retail: "Retail",
+  entertainment: "Entertainment and media",
   other: "Other",
 };
 
@@ -109,6 +111,13 @@ export interface Research {
   sourceUrl: string;
   notes: string;
   updatedAt: string | null;
+  /** Local presence is scored only with a location, source and recent review. */
+  laPresence?: "headquarters" | "office" | "operations" | "retail" | "regional" | "none" | "unknown";
+  laCity?: string;
+  laCounty?: string;
+  laSourceUrl?: string;
+  laVerifiedAt?: string;
+  laEvidence?: string;
 }
 
 export const EMPTY_RESEARCH: Research = {
@@ -121,6 +130,12 @@ export const EMPTY_RESEARCH: Research = {
   sourceUrl: "",
   notes: "",
   updatedAt: null,
+  laPresence: "unknown",
+  laCity: "",
+  laCounty: "",
+  laSourceUrl: "",
+  laVerifiedAt: "",
+  laEvidence: "",
 };
 
 export const FOCUS_AREAS = [
@@ -144,6 +159,23 @@ export interface Company {
     name: string | null;
   };
   research: Research;
+  aliases?: string[];
+  entityType?: "company" | "foundation";
+  relationshipStatus?: "prospect" | "historical_sponsor" | "current_partner";
+  /** Imported history stays separate from grants and other nonprofits' support. */
+  sponsorships?: Sponsorship[];
+}
+
+export interface Sponsorship {
+  id: string;
+  company: string;
+  year: number;
+  amountUsd: number;
+  event: string;
+  relationship: "Gala sponsorship";
+  sourceUrl: string;
+  sourceRow: number;
+  originalName: string;
 }
 
 export interface PeerRow {

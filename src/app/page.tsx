@@ -1,12 +1,14 @@
 import CompanyTable, { type TableEntry } from "@/components/CompanyTable";
-import { COMPANIES, DEFAULT_CONFIG, getFiling, isExistingPartner, PEERS, summarize } from "@/lib/data";
+import { getAppData, datasetFiling, isExistingPartner, summarize } from "@/lib/data";
 import { formatUsd } from "@/lib/format";
 
-export default function HomePage() {
-  const entries: TableEntry[] = COMPANIES.map((company) => ({
+export const dynamic = "force-dynamic";
+export default async function HomePage() {
+  const data = await getAppData();
+  const entries: TableEntry[] = data.companies.map((company) => ({
     company,
-    filing: summarize(getFiling(company.foundation.ein)),
-    alreadyPartner: isExistingPartner(company.name),
+    filing: summarize(datasetFiling(data, company.foundation.ein)),
+    alreadyPartner: company.relationshipStatus === "current_partner" || isExistingPartner(company.name),
   }));
 
   const filings = entries.flatMap((entry) => (entry.filing ? [entry.filing] : []));
@@ -17,8 +19,8 @@ export default function HomePage() {
   return (
     <CompanyTable
       entries={entries}
-      peersTable={PEERS}
-      defaultConfig={DEFAULT_CONFIG}
+      peersTable={data.peers}
+      defaultConfig={data.config}
       intro={
         <>
           <h1>Corporate sponsor research</h1>

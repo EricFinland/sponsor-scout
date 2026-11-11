@@ -9,6 +9,7 @@ import type { Company, FactorKey, FilingSummary, Industry, PeerRow, ScoreResult,
 import { INDUSTRY_LABELS } from "@/lib/types";
 import { Bar, type BarTone, ConfidenceText, TierMark } from "./ui";
 import { score, useConfig } from "./useScore";
+import { LA_LABELS } from "@/lib/local-presence";
 
 export interface TableEntry {
   company: Company;
@@ -96,7 +97,7 @@ export default function CompanyTable({
     return rows
       .filter((r) => tier === "all" || r.result.tier === tier)
       .filter((r) => industry === "all" || r.company.industry === industry)
-      .filter((r) => !needle || `${r.company.name} ${r.filing?.name ?? ""}`.toLowerCase().includes(needle))
+      .filter((r) => !needle || `${r.company.name} ${(r.company.aliases ?? []).join(" ")} ${r.filing?.name ?? ""}`.toLowerCase().includes(needle))
       .sort((a, b) => {
         const av = value(a);
         const bv = value(b);
@@ -112,7 +113,7 @@ export default function CompanyTable({
     event.preventDefault();
     const name = query.trim();
     if (!name) return;
-    const exact = rows.find((r) => sameCompany(r.company.name, name));
+    const exact = rows.find((r) => sameCompany(r.company.name, name) || r.company.aliases?.some((alias) => sameCompany(alias, name)));
     router.push(exact ? exact.href : `/lookup?q=${encodeURIComponent(name)}`);
   }
 
@@ -198,6 +199,7 @@ export default function CompanyTable({
                   </button>
                 </th>
                 <th>Tier</th>
+                <th className="optional">LA presence</th>
                 {COLUMNS.map((column) => (
                   <th
                     key={column.key}
@@ -225,6 +227,7 @@ export default function CompanyTable({
                         row.filing?.name ??
                           (row.company.foundation.status === "none_found" ? "No foundation found" : "Foundation not confirmed"),
                         row.alreadyPartner ? "Existing partner" : "",
+                        row.company.sponsorships?.length ? "Previous gala sponsor" : "",
                         row.savedLookup ? "Saved lookup" : "",
                       ]
                         .filter(Boolean)
@@ -234,6 +237,7 @@ export default function CompanyTable({
                   <td>
                     <TierMark tier={row.result.tier} />
                   </td>
+                  <td className="optional"><span className="sub">{LA_LABELS[row.company.research.laPresence ?? "unknown"]}</span></td>
                   <td className="score-cell">
                     <span className="score-cell-inner">
                       <Bar
@@ -261,7 +265,7 @@ export default function CompanyTable({
               ))}
               {visible.length === 0 && (
                 <tr>
-                  <td colSpan={8} className="empty-cell">
+                  <td colSpan={9} className="empty-cell">
                     {query.trim()
                       ? `Nothing on file matches "${query.trim()}". Press Enter to research it.`
                       : "No companies match these filters."}
