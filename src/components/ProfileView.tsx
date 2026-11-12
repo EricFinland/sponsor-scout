@@ -3,7 +3,8 @@
 import Link from "next/link";
 import { useMemo } from "react";
 import { formatEin, formatUsd, formatUsdExact } from "@/lib/format";
-import { useStore, isReadOnlyWorkspace } from "@/lib/store";
+import { useStore, isReadOnlyWorkspace, isSharedWorkspace } from "@/lib/store";
+import { PROVIDER_NAMES, type CompanyEvidence } from "@/lib/company-evidence";
 import type { Company, Filing, PeerRow, ScoringConfig } from "@/lib/types";
 import { FACTOR_LABELS, FACTOR_ORDER, INDUSTRY_LABELS } from "@/lib/types";
 import Contacts from "./Contacts";
@@ -13,7 +14,7 @@ import ResearchForm from "./ResearchForm";
 import { Bar, ConfidenceText, External, Notice, ScoreScale, TIER_MEANING, TierMark } from "./ui";
 import { score, useCompanyWithResearch, useConfig } from "./useScore";
 import { sponsorshipHistory } from "@/lib/sponsorships";
-import { localPresence, LA_LABELS } from "@/lib/local-presence";
+import { localPresence, localPresenceLabel } from "@/lib/local-presence";
 
 interface Props {
   company: Company;
@@ -24,6 +25,8 @@ interface Props {
   hunterEnabled: boolean;
   /** "lookup" profiles are not part of the bundled dataset and can be saved to this browser. */
   mode: "dataset" | "lookup";
+  publicDataPreview?: CompanyEvidence;
+  onFile?: boolean;
 }
 
 export default function ProfileView({
@@ -34,8 +37,11 @@ export default function ProfileView({
   alreadyPartner,
   hunterEnabled,
   mode,
+  publicDataPreview,
+  onFile,
 }: Props) {
-  const company = useCompanyWithResearch(baseCompany);
+  const company = useCompanyWithResearch(baseCompany, publicDataPreview);
+  const [, setResearch] = useStore("research");
   const config = useConfig(defaultConfig);
   const [prospects, setProspects] = useStore("prospects");
   const { result, peers, industryPeers } = useMemo(
@@ -55,6 +61,7 @@ export default function ProfileView({
   ];
 
   function toggleSaved() {
+    if (!saved) setResearch((current) => ({ ...current, [company.slug]: company.research }));
     setProspects((current) => {
       if (current.some((p) => p.company.slug === company.slug)) {
         return current.filter((p) => p.company.slug !== company.slug);
@@ -89,16 +96,17 @@ export default function ProfileView({
               <Link href={`/lookup?q=${encodeURIComponent(company.name)}`}>Check the candidates</Link>
             </p>
           )}
-          {mode === "lookup" && (
+          {mode === "lookup" && !onFile && (
             <p className="profile-actions">
               <button type="button" className="button" disabled={isReadOnlyWorkspace()} onClick={toggleSaved}>
                 {saved ? "Remove from my list" : "Save to my list"}
               </button>
               <span className="quiet">
-                {saved ? "Saved in this browser. It now appears on the Companies page." : "Not saved yet."}
+                {saved ? isSharedWorkspace() ? "Shared save queued. Check the status above before leaving." : "Saved in this browser." : "Preview only. Save to keep this company and its selected data."}
               </span>
             </p>
           )}
+          {mode === "lookup" && onFile && publicDataPreview && <p className="profile-actions"><button className="button button-primary" disabled={isReadOnlyWorkspace()} onClick={() => setResearch((current) => ({ ...current, [company.slug]: company.research }))}>Save company data to shared profile</button><span className="quiet">Check the save status above for confirmation.</span></p>}
         </div>
 
         <div className="scorecard">
@@ -139,11 +147,21 @@ export default function ProfileView({
           be analyzed here. The totals are still accurate. The filing PDF is linked under Sources.
         </Notice>
       )}
+      {company.research.publicData && <section className="public-company-summary" aria-labelledby="public-data-summary"><h2 id="public-data-summary">Public company data{publicDataPreview ? " preview" : ""}</h2>
+        <p className="footnote">Matched records confirmed {company.research.publicData.confirmedAt.slice(0, 10)}. These facts support company-size and location estimates, not evidence of giving or sponsorship.</p>
+        <div className="public-source-grid">{company.research.publicData.records.map((r) => <div className="public-source" key={r.provider}><h3>{PROVIDER_NAMES[r.provider]}</h3><p><External href={r.url}>{r.name}</External></p><p className="footnote">{r.description}</p>
+          {r.headquarters && <p>Headquarters: {[r.headquarters.city, r.headquarters.region, r.headquarters.country].filter(Boolean).join(", ")}{r.headquarters.county ? ` · ${r.headquarters.county} County` : ""}{r.headquarters.countyUrl && <> · <External href={r.headquarters.countyUrl}>County source</External></>}</p>}
+          {r.revenue && <p>Annual revenue: <External href={r.revenue.url}>{formatUsd(r.revenue.usd)}</External> (year ended {r.revenue.end})</p>}
+          {r.assets && <p>Assets: <External href={r.assets.url}>{formatUsd(r.assets.usd)}</External> ({r.assets.end})</p>}
+          {r.warnings?.map((w) => <p className="footnote" key={w}>{w}</p>)}<p className="footnote">Retrieved {r.fetchedAt.slice(0, 10)}</p></div>)}</div>
+        <p><Link href={`/lookup?q=${encodeURIComponent(company.name)}`}>Review or refresh public company data</Link></p>
+      </section>}
+      {mode === "dataset" && !company.research.publicData && <p className="public-company-summary"><Link href={`/lookup?q=${encodeURIComponent(company.name)}`}>Look up Wikidata, SEC EDGAR and GLEIF data for this company</Link></p>}
 
       <div className="profile-grid">
         <div className="profile-main">
           <section aria-labelledby="local-presence"><h2 id="local-presence">LA presence</h2>
-            <p><strong>{LA_LABELS[company.research.laPresence ?? "unknown"]}</strong>. {local.reason}</p>
+            <p><strong>{localPresenceLabel(company.research)}</strong>. {local.reason}</p>
             {company.research.laEvidence && <p>{company.research.laEvidence}</p>}
             {company.research.laSourceUrl && <External href={company.research.laSourceUrl}>Location source</External>}
           </section>

@@ -9,7 +9,8 @@ import type { Company, FactorKey, FilingSummary, Industry, PeerRow, ScoreResult,
 import { INDUSTRY_LABELS } from "@/lib/types";
 import { Bar, type BarTone, ConfidenceText, TierMark } from "./ui";
 import { score, useConfig } from "./useScore";
-import { LA_LABELS } from "@/lib/local-presence";
+import { localPresenceLabel } from "@/lib/local-presence";
+import { withPublicMetadata } from "@/lib/company-evidence";
 
 export interface TableEntry {
   company: Company;
@@ -66,9 +67,9 @@ export default function CompanyTable({
       .filter((p) => !entries.some((e) => e.company.slug === p.company.slug))
       .map((p) => ({ company: p.company, filing: p.filing, alreadyPartner: false, savedLookup: true }));
     return [...bundled, ...saved].map((entry) => {
-      const company = research[entry.company.slug]
+      const company = withPublicMetadata(research[entry.company.slug]
         ? { ...entry.company, research: research[entry.company.slug] }
-        : entry.company;
+        : entry.company);
       const params = new URLSearchParams({
         q: company.name,
         ein: entry.filing?.ein ?? "none",
@@ -237,7 +238,7 @@ export default function CompanyTable({
                   <td>
                     <TierMark tier={row.result.tier} />
                   </td>
-                  <td className="optional"><span className="sub">{LA_LABELS[row.company.research.laPresence ?? "unknown"]}</span></td>
+                  <td className="optional"><span className="sub">{localPresenceLabel(row.company.research)}</span></td>
                   <td className="score-cell">
                     <span className="score-cell-inner">
                       <Bar

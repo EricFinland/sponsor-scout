@@ -13,6 +13,7 @@ import type {
 import { FACTOR_ORDER } from "./types";
 import { localPresence } from "./local-presence";
 import { recentSponsorships, sponsorshipHistory } from "./sponsorships";
+import { revenueSize } from "./company-evidence";
 
 /**
  * Rules-based scoring. Every point awarded is listed as a line of evidence,
@@ -121,7 +122,7 @@ function missionAlignment(inputs: ScoreInputs): FactorScore {
 
   const tie = INDUSTRY_WATER_TIE[company.industry];
   if (tie) {
-    evidence.push({ text: "Industry has a direct business tie to water.", points: tie });
+    evidence.push({ text: "Industry has a direct business tie to water.", points: tie, sourceUrl: company.research.publicData?.records.find((r) => r.suggestedIndustry === company.industry)?.url });
   }
 
   const hasData = research.waterFocus !== "unknown" || research.focusAreas.length > 0 || stats !== null || history.length > 0;
@@ -238,6 +239,10 @@ function capacityFit(inputs: ScoreInputs): FactorScore {
       points: score,
       sourceUrl: company.research.sourceUrl || undefined,
     });
+  } else if (company.research.sizeBand === "unknown" && revenueSize(company.research.publicData, inputs.asOfYear)) {
+    const derived = revenueSize(company.research.publicData, inputs.asOfYear)!;
+    score = SIZE_BAND_SCORE[derived.band as keyof typeof SIZE_BAND_SCORE];
+    evidence.push({ text: `Company-size estimate from ${formatUsd(derived.record.revenue!.usd)} in annual SEC revenue for the year ended ${derived.record.revenue!.end} (${derived.band}). Revenue is not a giving or sponsorship budget.`, points: score, sourceUrl: derived.record.revenue!.url });
   } else if (company.research.sizeBand !== "unknown") {
     score = SIZE_BAND_SCORE[company.research.sizeBand];
     evidence.push({
@@ -306,7 +311,7 @@ function accessibility(inputs: ScoreInputs): FactorScore {
       points: recentSponsorships(company, inputs.asOfYear).length ? 20 : 10, sourceUrl: history[0].sourceUrl });
   }
   const local = localPresence(research, inputs.asOfYear);
-  evidence.push({ text: local.reason, points: local.points, sourceUrl: research.laSourceUrl || undefined });
+  evidence.push({ text: local.reason, points: local.points, sourceUrl: local.sourceUrl || research.laSourceUrl || undefined });
   if (company.domain) {
     evidence.push({ text: "Company email domain is known, so work emails can be looked up.", points: 5 });
   }

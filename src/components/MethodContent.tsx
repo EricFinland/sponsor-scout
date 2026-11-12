@@ -25,6 +25,7 @@ export default function MethodContent({config: DEFAULT_CONFIG, shared}: {config:
 
       <section>
         <h2>The five factors</h2>
+        <p className="footnote">Company lookup also searches Wikidata, SEC EDGAR and GLEIF through free public APIs, without AI. Users confirm company matches before saving sourced snapshots. Recent annual USD revenue can supply the company-size fallback when giving and manually researched size are unavailable; quarterly figures, assets and revenue are never treated as giving budgets. Confirmed headquarters can supply local-presence points when the county is verified. Conflicting or incomplete locations receive no automatic points. These sources add no grants, sponsorship history, warm introductions or giving priorities.</p>
 
         <h3>Mission alignment</h3>
         <p>Does the company already care about what Thirst Project does?</p>

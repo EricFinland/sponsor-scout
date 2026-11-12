@@ -1,4 +1,5 @@
 import { SHEET_COLUMNS, type SheetTab, type SheetRow } from "./sheet-schema";
+import { parseCompanyEvidence } from "./company-evidence";
 
 export interface SheetOperation { tab: SheetTab; key: string; row?: SheetRow; delete?: boolean; expectedVersion?: string | null }
 const WRITABLE = new Set<SheetTab>(["Companies", "Profiles", "Weights", "Outreach Tracker", "Search Log", "Filings"]);
@@ -23,6 +24,7 @@ export function validateOperations(value: unknown): SheetOperation[] {
       row[key] = value as SheetRow[string];
     }
     if (String(row[KEYS[op.tab as SheetTab]!] ?? "") !== op.key) throw new Error("The row key does not match its change.");
+    if (op.tab === "Profiles" && row.publicData && !parseCompanyEvidence(row.publicData)) throw new Error("Public company data is invalid. Select and confirm source records again.");
     return { tab: op.tab, key: op.key, row, expectedVersion: op.expectedVersion ?? null };
   });
 }

@@ -72,3 +72,7 @@ Clear aliases such as UTA/United Talent Agency are normalized. Ambiguous Paramou
 ## Personal template editor
 
 The Templates page is available without sign-in. Visitors can customize four starter drafts or add personal templates; the outreach composer uses the same personal library. This feature uses browser localStorage even when the shared workspace is public-read. It does not grant visitors permission to modify the Sheet. Saved templates are validated, support {{first}}, {{company}}, {{hook}} and {{sender}}, and can be exported/imported as versioned JSON backups. Import adds copies rather than overwriting existing records. Unsaved drafts block workspace reload; storage errors keep the draft visible and are not reported as successful saves. Clearing browser storage removes personal versions.
+
+## Company-data snapshot column
+
+Before deploying company enrichment, append the `publicData` header to Profiles (column R in the existing workspace). Retain the existing A:Q columns, including version. The field is a validated version-1 JSON snapshot, capped at 5,000 characters, of up to one confirmed record per source. It stores provenance, headquarters geography and annual financial facts; do not substitute revenue for annualGivingUsd. The current Apps Script reads column headers dynamically, so adding this column requires no script redeployment. Older records with blank publicData remain valid. Website saves, score refreshes and company ranking all decode the same snapshot.

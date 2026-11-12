@@ -41,6 +41,7 @@ export function matchScore(company: string, orgName: string): number {
 async function getJson<T>(url: string): Promise<T | null> {
   const response = await fetch(url, {
     headers: { Accept: "application/json" },
+    signal: AbortSignal.timeout(12000),
     next: { revalidate: DAY },
   } as RequestInit);
   if (response.status === 404) return null;
