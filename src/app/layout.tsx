@@ -5,7 +5,7 @@ import NavLinks from "@/components/NavLinks";
 import WorkspaceProvider from "@/components/WorkspaceProvider";
 import { cookies } from "next/headers";
 import { getAppData, DEFAULT_CONFIG } from "@/lib/data";
-import { SESSION_COOKIE, verifySession } from "@/lib/auth";
+import { canReadWorkspace, publicWorkspace, workspaceAccess, SESSION_COOKIE } from "@/lib/auth";
 import { sheetConfigured } from "@/lib/sheets";
 import type { StoreShape } from "@/lib/store";
 import { outreachFromRow } from "@/lib/sheet-data";
@@ -28,7 +28,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
   let workspaceError = "";
   let catalog: WorkspaceCatalog | null = null;
   const versions: Record<string, string> = {};
-  if (sheetConfigured() && verifySession((await cookies()).get(SESSION_COOKIE)?.value)) {
+  if (sheetConfigured() && canReadWorkspace((await cookies()).get(SESSION_COOKIE)?.value)) {
     try {
       const data = await getAppData();
       catalog = { companies: data.companies, summaries: data.summaries, peers: data.peers, config: data.config, hunterEnabled: hunterEnabled(),
@@ -60,7 +60,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
           </div>
         </header>
         <main id="main" className="wrap">
-          <WorkspaceProvider initial={initial} versions={versions} defaults={DEFAULT_CONFIG} error={workspaceError}>{catalog ? <WorkspaceViews data={catalog}>{children}</WorkspaceViews> : children}</WorkspaceProvider>
+          <WorkspaceProvider initial={initial} versions={versions} defaults={DEFAULT_CONFIG} error={workspaceError} readOnly={workspaceAccess() === "public-read"} showSignOut={!publicWorkspace()}>{catalog ? <WorkspaceViews data={catalog}>{children}</WorkspaceViews> : children}</WorkspaceProvider>
         </main>
         <footer className="site-foot">
           <div className="wrap">

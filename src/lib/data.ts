@@ -6,7 +6,7 @@ import weightsJson from "@data/weights.json";
 import { normalizeName } from "./names";
 import { cache } from "react";
 import { cookies } from "next/headers";
-import { SESSION_COOKIE, verifySession } from "./auth";
+import { canReadWorkspace, SESSION_COOKIE } from "./auth";
 import { sheetConfigured } from "./sheets";
 import { sharedCatalog, sharedFiling } from "./shared-data";
 import type { Company, Filing, FilingSummary, PeerRow, ScoringConfig } from "./types";
@@ -20,7 +20,7 @@ export const DEFAULT_CONFIG = weightsJson as ScoringConfig;
 /** Authenticate before the private, workspace-scoped server cache. */
 export const getAppData = cache(async () => {
   if (!sheetConfigured()) return { companies: COMPANIES, peers: PEERS, config: DEFAULT_CONFIG, filings: {} as Record<string, Filing>, summaries: {} as Record<string, FilingSummary>, tables: null, shared: false };
-  if (!verifySession((await cookies()).get(SESSION_COOKIE)?.value)) throw new Error("A team session is required to read the shared workspace.");
+  if (!canReadWorkspace((await cookies()).get(SESSION_COOKIE)?.value)) throw new Error("A team session is required to read the shared workspace.");
   return { ...await sharedCatalog(DEFAULT_CONFIG), shared: true };
 });
 
@@ -32,7 +32,7 @@ export function datasetFiling(data: Awaited<ReturnType<typeof getAppData>>, ein:
 export async function companyFiling(ein: string | null): Promise<Filing | null> {
   if (!ein) return null;
   if (!sheetConfigured()) return getFiling(ein);
-  if (!verifySession((await cookies()).get(SESSION_COOKIE)?.value)) throw new Error("A team session is required.");
+  if (!canReadWorkspace((await cookies()).get(SESSION_COOKIE)?.value)) throw new Error("A team session is required.");
   return sharedFiling(ein);
 }
 

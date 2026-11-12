@@ -3,12 +3,13 @@ import { useEffect, useState } from "react";
 import { initializeWorkspace, hasUnsavedChanges, useSyncStatus, flushShared, type StoreShape } from "@/lib/store";
 import type { ScoringConfig } from "@/lib/types";
 
-export default function WorkspaceProvider({ initial, versions, defaults, error, children }: {
+export default function WorkspaceProvider({ initial, versions, defaults, error, children, readOnly = false, showSignOut = true }: {
   initial: Partial<StoreShape> | null; versions: Record<string, string>; defaults: ScoringConfig; error: string; children: React.ReactNode;
+  readOnly?: boolean; showSignOut?: boolean;
 }) {
   const [ready, setReady] = useState(!initial);
   useEffect(() => {
-    if (initial) { initializeWorkspace(initial, versions, defaults); setReady(true); }
+    if (initial) { initializeWorkspace(initial, versions, defaults, {readOnly}); setReady(true); }
     const preventLoss = (e: BeforeUnloadEvent) => { if (hasUnsavedChanges()) { e.preventDefault(); e.returnValue = ""; } };
     window.addEventListener("beforeunload", preventLoss);
     return () => window.removeEventListener("beforeunload", preventLoss);
@@ -43,8 +44,8 @@ export default function WorkspaceProvider({ initial, versions, defaults, error, 
   return <>{initial && <div className={`workspace-status ${status.state === "error" ? "workspace-error" : ""}`} role="status">
     <span>{status.message}</span>
     <span className="row-actions">{status.state === "error" && <button className="link-button" onClick={() => void flushShared()}>Retry save</button>}
-      <button className="link-button" disabled={refreshing} onClick={() => void refreshScores()}>{refreshing ? "Updating scores…" : "Update Sheet scores"}</button>
+      {!readOnly && <button className="link-button" disabled={refreshing} onClick={() => void refreshScores()}>{refreshing ? "Updating scores…" : "Update Sheet scores"}</button>}
       <button className="link-button" disabled={reloading} onClick={() => void reloadData()}>{reloading ? "Reloading…" : "Reload Sheet data"}</button>
-      <button className="link-button" onClick={async () => { if (hasUnsavedChanges()) return; await fetch("/api/auth/logout", { method: "POST" }); window.location.assign("/login"); }}>Sign out</button></span>
+      {showSignOut && <button className="link-button" onClick={async () => { if (hasUnsavedChanges()) return; await fetch("/api/auth/logout", { method: "POST" }); window.location.assign("/login"); }}>Sign out</button>}</span>
       {refreshMessage && <span>{refreshMessage}</span>}</div>}{initial ? <div className="workspace-content">{children}</div> : children}</>;
 }

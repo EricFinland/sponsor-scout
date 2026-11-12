@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useMemo } from "react";
 import { formatEin, formatUsd, formatUsdExact } from "@/lib/format";
-import { useStore } from "@/lib/store";
+import { useStore, isReadOnlyWorkspace } from "@/lib/store";
 import type { Company, Filing, PeerRow, ScoringConfig } from "@/lib/types";
 import { FACTOR_LABELS, FACTOR_ORDER, INDUSTRY_LABELS } from "@/lib/types";
 import Contacts from "./Contacts";
@@ -91,7 +91,7 @@ export default function ProfileView({
           )}
           {mode === "lookup" && (
             <p className="profile-actions">
-              <button type="button" className="button" onClick={toggleSaved}>
+              <button type="button" className="button" disabled={isReadOnlyWorkspace()} onClick={toggleSaved}>
                 {saved ? "Remove from my list" : "Save to my list"}
               </button>
               <span className="quiet">

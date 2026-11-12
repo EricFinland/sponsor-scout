@@ -1,4 +1,5 @@
 "use client";
+import { isReadOnlyWorkspace } from "@/lib/store";
 import WeightsEditor from "./WeightsEditor";
 import type { ScoringConfig } from "@/lib/types";
 import { peerNonprofitNames } from "@/lib/keywords";
@@ -17,8 +18,7 @@ export default function MethodContent({config: DEFAULT_CONFIG, shared}: {config:
       <section>
         <h2>Weights and tiers</h2>
         <p>
-          Five factors are each scored from 0 to 100. The overall score is their weighted average. Change a weight below
-          to see how the ranking moves. {shared ? "Changes are saved to the team Google Sheet." : "Changes stay in this browser until you reset them."}
+          Five factors are each scored from 0 to 100. The overall score is their weighted average. {isReadOnlyWorkspace() ? "Settings are view-only here; edit the private Google Sheet to change them." : <>Change a weight below to see how the ranking moves. {shared ? "Changes are saved to the team Google Sheet." : "Changes stay in this browser until you reset them."}</>}
         </p>
         <WeightsEditor defaults={DEFAULT_CONFIG} />
       </section>

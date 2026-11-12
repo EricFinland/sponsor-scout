@@ -1,6 +1,6 @@
 "use client";
 
-import { useStore, isSharedWorkspace } from "@/lib/store";
+import { useStore, isSharedWorkspace, isReadOnlyWorkspace } from "@/lib/store";
 import type { FactorKey, ScoringConfig } from "@/lib/types";
 import { FACTOR_LABELS, FACTOR_ORDER } from "@/lib/types";
 import { TierMark } from "./ui";
@@ -16,7 +16,7 @@ export default function WeightsEditor({ defaults }: { defaults: ScoringConfig })
     setOverride({ ...config, tiers: { ...config.tiers, [key]: Math.max(0, Math.min(100, value || 0)) } });
 
   return (
-    <div className="weights">
+    <div className="weights"><fieldset className="editable-fields" disabled={isReadOnlyWorkspace()} aria-label="Scoring settings">
       <table className="data">
         <thead>
           <tr>
@@ -96,6 +96,7 @@ export default function WeightsEditor({ defaults }: { defaults: ScoringConfig })
             : "Using the default weights from data/weights.json."}
         </span>
       </p>
+    </fieldset>
     </div>
   );
 }

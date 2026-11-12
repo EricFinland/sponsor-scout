@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { formatDate } from "@/lib/format";
-import { logToSheet, useStore, isSharedWorkspace } from "@/lib/store";
+import { logToSheet, useStore, isSharedWorkspace, isReadOnlyWorkspace } from "@/lib/store";
 import { LA_LABELS } from "@/lib/local-presence";
 import type { Company, Research } from "@/lib/types";
 import { FOCUS_AREAS } from "@/lib/types";
@@ -46,10 +46,10 @@ export default function ResearchForm({ company, hasFoundation }: { company: Comp
 
   return (
     <form className="side-block research" onSubmit={save}>
+      <fieldset className="editable-fields" disabled={isReadOnlyWorkspace()} aria-label="Research notes">
       <h2>Research notes</h2>
       <p className="footnote">
-        What the filings cannot tell us. Fill in from the company&apos;s impact or CSR report and the score updates when
-        you save.
+        {isReadOnlyWorkspace() ? "Shared research is view-only here. Make changes in the private Google Sheet." : <>What the filings cannot tell us. Fill in from the company&apos;s impact or CSR report and the score updates when you save.</>}
       </p>
 
       <label className="field">
@@ -178,6 +178,7 @@ export default function ResearchForm({ company, hasFoundation }: { company: Comp
               : ""}
         </span>
       </div>
+      </fieldset>
     </form>
   );
 }

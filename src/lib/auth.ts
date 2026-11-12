@@ -31,3 +31,17 @@ export function sameOrigin(request: Request): boolean {
   const host = request.headers.get("host") ?? url.host;
   return origin === `${url.protocol}//${host}`;
 }
+
+/** Access is private unless explicitly configured by the deployment owner. */
+export function workspaceAccess(): "private" | "public-read" | "public-edit" {
+  const mode = process.env.WORKSPACE_ACCESS;
+  return mode === "public-read" || mode === "public-edit" ? mode : "private";
+}
+export function publicWorkspace(): boolean { return workspaceAccess() !== "private"; }
+export function canReadWorkspace(session: string | undefined): boolean {
+  return publicWorkspace() || verifySession(session);
+}
+export function canWriteWorkspace(session: string | undefined): boolean {
+  const mode = workspaceAccess();
+  return mode === "public-edit" || (mode === "private" && verifySession(session));
+}

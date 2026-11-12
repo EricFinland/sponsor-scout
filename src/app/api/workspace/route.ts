@@ -1,6 +1,6 @@
 import { cookies } from "next/headers";
 import { NextResponse } from "next/server";
-import { sameOrigin, SESSION_COOKIE, verifySession } from "@/lib/auth";
+import { canReadWorkspace, canWriteWorkspace, sameOrigin, SESSION_COOKIE } from "@/lib/auth";
 import { DEFAULT_CONFIG } from "@/lib/data";
 import { readSheet, scoreRows, sheetConfigured, sheetRequest } from "@/lib/sheets";
 import { validateOperations } from "@/lib/mutations";
@@ -10,7 +10,8 @@ import { invalidateSheetData } from "@/lib/shared-data";
 export const dynamic = "force-dynamic";
 export async function POST(request: Request) {
   if (!sheetConfigured()) return NextResponse.json({ error: "Shared storage is not configured." }, { status: 503 });
-  if (!verifySession((await cookies()).get(SESSION_COOKIE)?.value)) return NextResponse.json({ error: "Sign in to save shared data." }, { status: 401 });
+  const session = (await cookies()).get(SESSION_COOKIE)?.value;
+  if (!canReadWorkspace(session)) return NextResponse.json({ error: "Sign in to save shared data." }, { status: 401 });
   if (!sameOrigin(request)) return NextResponse.json({ error: "Invalid request origin." }, { status: 403 });
   if (Number(request.headers.get("content-length")) > 1_000_000) return NextResponse.json({ error: "This change is too large." }, { status: 413 });
   try {
@@ -21,6 +22,7 @@ export async function POST(request: Request) {
       invalidateSheetData();
       return NextResponse.json({ ok: true }, { headers: { "Cache-Control": "no-store" } });
     }
+    if (!canWriteWorkspace(session)) return NextResponse.json({ error: "This workspace is view-only. Edit the private Google Sheet directly." }, { status: 403 });
     if (body.action === "refreshScores") {
       const data = await readSheet(DEFAULT_CONFIG);
       const scored = scoreRows(data, new Date().getFullYear());

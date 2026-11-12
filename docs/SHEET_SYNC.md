@@ -31,8 +31,9 @@ Keep stable slugs and IDs intact. Do not edit Filings payload chunks by hand. Do
    - `SHEET_WEBHOOK_URL`: deployed `/exec` URL.
    - `SHEET_WEBHOOK_SECRET`: generated Script Properties `SECRET`.
    - `TEAM_ACCESS_KEY`: a separate random team access key with at least 24 characters. This is not the Google password or the Sheet server secret.
-7. Redeploy. In shared mode, pages and APIs require an eight-hour signed, HTTP-only team session. The owner distributes the team key privately. Vercel's own deployment protection can remain enabled.
-8. Sign in, save a research note, and verify the matching Profiles row. Reload the site to confirm the note is read from the Sheet. Check the save status before closing a tab.
+7. Choose `WORKSPACE_ACCESS`: `private` (default) requires an eight-hour signed team session; `public-read` removes sign-in and blocks shared-data writes; `public-edit` removes sign-in and lets all visitors edit. Public modes expose the operational sponsorship history and outreach notes; original Source History and Import Review tabs are still excluded. The Sheet itself stays restricted and server credentials stay private. Configure Vercel protection so the production domain has the intended visibility.
+8. Redeploy. Public mode redirects `/login` to the home page and hides Sign out. In public-read mode, edit the private Sheet directly and use Reload Sheet data to show changes.
+9. For private or public-edit mode, save a research note, and verify the matching Profiles row. Reload the site to confirm the note is read from the Sheet. Check the save status before closing a tab.
 
 If the script code changes, deploy a new Apps Script version under the existing deployment and retain its `/exec` URL. A new Vercel deployment alone does not update Apps Script.
 

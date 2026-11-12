@@ -60,6 +60,8 @@ const PREFIX = "sponsor-scout:";
 const cache = new Map<string, unknown>();
 const listeners = new Set<() => void>();
 let shared = false;
+let readOnly = false;
+export function isReadOnlyWorkspace() { return readOnly; }
 let versions: Record<string, string> = {};
 let fallbackConfig: ScoringConfig | null = null;
 let syncState = { state: "local", message: "Changes are saved in this browser." };
@@ -68,10 +70,11 @@ let saving = false;
 let saveTimer: ReturnType<typeof setTimeout> | undefined;
 const notify = () => listeners.forEach((listener) => listener());
 
-export function initializeWorkspace(initial: Partial<StoreShape>, initialVersions: Record<string, string>, defaults: ScoringConfig) {
+export function initializeWorkspace(initial: Partial<StoreShape>, initialVersions: Record<string, string>, defaults: ScoringConfig, options: {readOnly?: boolean} = {}) {
   shared = true; versions = initialVersions; fallbackConfig = defaults;
+  readOnly = Boolean(options.readOnly);
   for (const key of Object.keys(DEFAULTS) as (keyof StoreShape)[]) cache.set(key, initial[key] ?? DEFAULTS[key]);
-  syncState = { state: "saved", message: "Workspace loaded. Reload Sheet data for other editors’ changes." }; notify();
+  syncState = { state: "saved", message: readOnly ? "Public view. Edit the private Sheet directly, then reload Sheet data." : "Workspace loaded. Reload Sheet data for other editors’ changes." }; notify();
 }
 
 function enqueue(op: SheetOperation) {
@@ -151,6 +154,7 @@ export function writeStore<K extends keyof StoreShape>(
   key: K,
   next: StoreShape[K] | ((current: StoreShape[K]) => StoreShape[K]),
 ): void {
+  if (readOnly && key !== "sender") return;
   const previous = read(key);
   const value = typeof next === "function" ? (next as (c: StoreShape[K]) => StoreShape[K])(previous) : next;
   cache.set(key, value);

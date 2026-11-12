@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useRef, useState } from "react";
 import { formatDate, toCsv } from "@/lib/format";
-import { downloadFile, exportAll, importAll, useStore } from "@/lib/store";
+import { downloadFile, exportAll, importAll, useStore, isReadOnlyWorkspace } from "@/lib/store";
 
 const STATUSES = ["Drafted", "Sent", "Replied", "Meeting set", "Declined", "No response"];
 
@@ -32,7 +32,7 @@ export default function TrackerClient({ sheetConnected }: { sheetConnected: bool
   return (
     <div className="tracker">
       <p className="footnote">
-        {sheetConnected
+        {isReadOnlyWorkspace() ? "Shared outreach and research are view-only here. Edit the private Sheet, then reload Sheet data." : sheetConnected
           ? "Using the team Google Sheet. Research and outreach are updated in place. Check the save status above before closing this page."
           : "Not connected to a Google Sheet. Everything below is kept in this browser only. Setup steps are in docs/SHEET_SYNC.md."}
       </p>
@@ -86,6 +86,7 @@ export default function TrackerClient({ sheetConnected }: { sheetConnected: bool
                     <td>
                       <select
                         className="input input-small"
+                        disabled={isReadOnlyWorkspace()}
                         aria-label={`Status for ${row.company}`}
                         value={row.status}
                         onChange={(e) => update(row.id, "status", e.target.value)}
@@ -98,6 +99,7 @@ export default function TrackerClient({ sheetConnected }: { sheetConnected: bool
                     <td>
                       <input
                         className="input input-small"
+                        disabled={isReadOnlyWorkspace()}
                         aria-label={`Notes for ${row.company}`}
                         value={row.notes}
                         onChange={(e) => update(row.id, "notes", e.target.value)}
@@ -107,6 +109,7 @@ export default function TrackerClient({ sheetConnected }: { sheetConnected: bool
                       <button
                         type="button"
                         className="link-button"
+                        disabled={isReadOnlyWorkspace()}
                         onClick={() => setOutreach((rows) => rows.filter((r) => r.id !== row.id))}
                       >
                         Remove
@@ -214,7 +217,7 @@ export default function TrackerClient({ sheetConnected }: { sheetConnected: bool
             <button
               type="button"
               className="link-button"
-              disabled={searches.length === 0}
+              disabled={searches.length === 0 || isReadOnlyWorkspace()}
               onClick={() =>
                 downloadFile(
                   "search-log.csv",
@@ -231,7 +234,7 @@ export default function TrackerClient({ sheetConnected }: { sheetConnected: bool
             >
               Export CSV
             </button>
-            <button type="button" className="link-button" disabled={searches.length === 0} onClick={() => setSearches([])}>
+            <button type="button" className="link-button" disabled={searches.length === 0 || isReadOnlyWorkspace()} onClick={() => setSearches([])}>
               Clear
             </button>
           </span>

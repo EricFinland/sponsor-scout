@@ -2,7 +2,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 import { splitPersonName } from "@/lib/names";
-import { logToSheet, useStore } from "@/lib/store";
+import { logToSheet, useStore, isReadOnlyWorkspace } from "@/lib/store";
 import { fillTemplate, hookLine, templateFor, TEMPLATES } from "@/lib/templates";
 import type { Company, Filing, PeerRow } from "@/lib/types";
 import { sponsorshipHistory } from "@/lib/sponsorships";
@@ -138,7 +138,7 @@ export default function Outreach({
         >
           Open in mail app
         </a>
-        <button type="button" className="button" onClick={log}>
+        <button type="button" className="button" disabled={isReadOnlyWorkspace()} onClick={log}>
           Log to tracker
         </button>
         <span className="status" role="status">

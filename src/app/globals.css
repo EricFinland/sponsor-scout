@@ -1667,3 +1667,5 @@ table.rules .num {
 .workspace-error { border-color: #b86a34; background: #fff4e8; }
 .local-research { border: 0; border-top: 1px solid #d9ded9; margin: 20px 0; padding: 18px 0 0; min-width: 0; }
 .local-research legend { font-weight: 600; padding-right: 10px; }
+
+.editable-fields { border: 0; margin: 0; padding: 0; min-width: 0; }

@@ -17,7 +17,7 @@ import { configToRows } from "@/lib/sheet-data";
 import type { ScoringConfig } from "@/lib/types";
 import { createSheetRuntime } from "./helpers/sheet-runtime";
 
-beforeEach(()=>{state.values.clear();state.options=[];state.cookie=undefined;vi.stubEnv("SHEET_WEBHOOK_URL","https://fixture.example/script");vi.stubEnv("SHEET_WEBHOOK_SECRET","fixture-only-secret");vi.stubEnv("TEAM_ACCESS_KEY","fixture-team-access-key-long-enough");});
+beforeEach(()=>{vi.stubEnv("WORKSPACE_ACCESS","private");state.values.clear();state.options=[];state.cookie=undefined;vi.stubEnv("SHEET_WEBHOOK_URL","https://fixture.example/script");vi.stubEnv("SHEET_WEBHOOK_SECRET","fixture-only-secret");vi.stubEnv("TEAM_ACCESS_KEY","fixture-team-access-key-long-enough");});
 afterEach(()=>{vi.unstubAllGlobals();vi.unstubAllEnvs();});
 function setup(){
   const runtime=createSheetRuntime({Companies:[{slug:"acme",name:"Acme"}],Profiles:[{slug:"acme",notes:"Before",version:"v1"}],Weights:configToRows(config as ScoringConfig)});
@@ -25,6 +25,13 @@ function setup(){
   vi.stubGlobal("fetch",fetcher);return{runtime,fetcher};
 }
 describe("private server cache",()=>{
+  it("serves public reads without a cookie and rejects anonymous writes in view-only mode",async()=>{
+    const {fetcher}=setup();vi.stubEnv("WORKSPACE_ACCESS","public-read");
+    expect((await getAppData()).companies[0].name).toBe("Acme");
+    const response=await POST(new Request("https://fixture.example/api/workspace",{method:"POST",headers:{origin:"https://fixture.example"},body:JSON.stringify({operations:[{tab:"Profiles",key:"acme",row:{slug:"acme",notes:"Unauthorized"}}]})}));
+    expect(response.status).toBe(403);expect(fetcher).toHaveBeenCalledTimes(1);
+  });
+
   it("coalesces simultaneous misses, reuses the server cache, and sets a 60-second lifetime",async()=>{
     const {fetcher}=setup();await Promise.all([sharedCatalog(config as ScoringConfig),sharedCatalog(config as ScoringConfig)]);
     await sharedCatalog(config as ScoringConfig);expect(fetcher).toHaveBeenCalledTimes(1);expect(state.options[0].revalidate).toBe(60);
