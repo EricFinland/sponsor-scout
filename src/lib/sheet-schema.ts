@@ -1,7 +1,7 @@
 /** Stable, human-editable columns shared by the app, workbook builder and Apps Script. */
 export const SHEET_COLUMNS = {
   Companies: ["slug", "name", "industry", "domain", "hqState", "foundationStatus", "ein", "foundationName", "entityType", "relationshipStatus", "aliases", "version"],
-  Profiles: ["slug", "waterFocus", "focusAreas", "applicationProcess", "annualGivingUsd", "sizeBand", "warmIntro", "sourceUrl", "notes", "updatedAt", "laPresence", "laCity", "laCounty", "laSourceUrl", "laVerifiedAt", "laEvidence", "version"],
+  Profiles: ["slug", "waterFocus", "focusAreas", "applicationProcess", "annualGivingUsd", "sizeBand", "warmIntro", "sourceUrl", "notes", "updatedAt", "laPresence", "laCity", "laCounty", "laSourceUrl", "laVerifiedAt", "laEvidence", "version", "publicData"],
   Peers: ["id", "company", "industry", "peerNonprofit", "relationship", "year", "amountUsd", "sourceUrl", "note"],
   Sponsorships: ["id", "company", "year", "amountUsd", "event", "relationship", "sourceUrl", "sourceRow", "originalName"],
   Weights: ["id", "section", "key", "value", "version"],

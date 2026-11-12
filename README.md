@@ -163,3 +163,13 @@ Shared Sheets contain private team data. Private mode requires sign-in. Public m
 ## Personal email templates
 
 Use Templates in the main navigation to edit a starter or add a reusable email, choose industries and preview its placeholders. Personal versions are stored only in this browser, appear in the company outreach picker and survive workspace reloads. Export/import JSON backups to share them or move devices. Import adds copies, and removal offers Undo. The public Google Sheet workspace remains view-only; template edits do not write to it. Clearing browser storage removes personal templates, so keep an exported backup.
+
+## Public company data (no AI)
+
+Company lookup searches Wikidata, SEC EDGAR and GLEIF independently. Select records for the same legal entity, review the fields and build a preview. Save the company or use **Save company data to shared profile** for an existing company. Confirmed snapshots, identifiers, source URLs and retrieval dates are stored in Profiles.publicData; refresh them through lookup. Failed sources can be skipped or retried. No paid data API, AI model or AI key is used.
+
+Configure server-only `SEC_USER_AGENT` with your application name and a real administrative contact email to comply with SEC fair-access identification. Successful searches and selected-record reads are cached for an hour; the SEC ticker index is cached for a day. SEC requests are paced within each server instance. Public source coverage is incomplete, especially for private companies; SEC name discovery uses its public ticker index and does not enumerate every historical or private filer.
+
+Only annual USD revenue with a 300–400 day reporting period from annual SEC filings is eligible for the company-size fallback. Revenue older than two calendar years, quarterly data, foreign-currency figures and assets do not supply that fallback. Actual sponsorship/giving evidence and manually researched size take precedence. Source records do not earn giving-history or sponsorship-confidence points.
+
+Headquarters are distinct from registered-agent and business addresses. Wikidata administrative geography or the free Census geocoder verifies the county. Confirmed, recent headquarters in LA County can earn the existing +35 accessibility points; neighboring-county headquarters can earn +15. Conflicting cities, stale data, lapsed/inactive records and missing county evidence yield no automatic location points. Manual LA research remains authoritative. Company metadata gaps can be filled from confirmed sources without overwriting populated metadata.

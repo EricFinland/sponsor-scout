@@ -15,8 +15,8 @@ export async function GET(request: Request) {
     );
   } catch {
     return NextResponse.json(
-      { error: "ProPublica's nonprofit search did not respond. Try again in a minute." },
-      { status: 502 },
+      { candidates: [], alreadyPartner: isExistingPartner(query), warning: "ProPublica's nonprofit search did not respond. Retry later or continue with company data; foundation status remains unverified." },
+      { headers: { "Cache-Control": "no-store" } },
     );
   }
 }

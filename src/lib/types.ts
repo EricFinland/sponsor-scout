@@ -1,3 +1,4 @@
+import type { CompanyEvidence } from "./company-evidence";
 export type Industry =
   | "beverage_cpg"
   | "outdoor_apparel"
@@ -102,6 +103,8 @@ export interface Filing extends FilingSummary {
 export type FoundationStatus = "matched" | "none_found" | "unverified";
 
 export interface Research {
+  /** Explicitly confirmed, sourced public company facts; never sponsorship evidence. */
+  publicData?: CompanyEvidence;
   waterFocus: "yes" | "no" | "unknown";
   focusAreas: string[];
   applicationProcess: "open" | "invite_only" | "unknown";

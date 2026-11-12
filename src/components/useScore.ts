@@ -4,6 +4,7 @@ import { useMemo } from "react";
 import { industryPeerCompanies, peersForCompany } from "@/lib/peers";
 import { scoreCompany } from "@/lib/scoring";
 import { useStore } from "@/lib/store";
+import { withPublicMetadata, type CompanyEvidence } from "@/lib/company-evidence";
 import type { Company, FilingSummary, PeerRow, ScoreResult, ScoringConfig } from "@/lib/types";
 
 export const AS_OF_YEAR = new Date().getFullYear();
@@ -15,12 +16,13 @@ export function useConfig(defaults: ScoringConfig): ScoringConfig {
 }
 
 /** A company with any research notes saved in this browser applied on top. */
-export function useCompanyWithResearch(company: Company): Company {
+export function useCompanyWithResearch(company: Company, preview?: CompanyEvidence): Company {
   const [research] = useStore("research");
   return useMemo(() => {
     const saved = research[company.slug];
-    return saved ? { ...company, research: saved } : company;
-  }, [company, research]);
+    const next = saved ? { ...company, research: saved } : company;
+    return withPublicMetadata(preview ? { ...next, research: { ...next.research, publicData: preview } } : next);
+  }, [company, research, preview]);
 }
 
 export function score(

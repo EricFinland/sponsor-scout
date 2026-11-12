@@ -1,4 +1,5 @@
 import { EMPTY_RESEARCH, INDUSTRY_LABELS } from "./types";
+import { parseCompanyEvidence, withPublicMetadata } from "./company-evidence";
 import type { Company, Filing, PeerRow, Research, ScoringConfig, Sponsorship } from "./types";
 import type { SheetRow, SheetTables } from "./sheet-schema";
 import type { OutreachEntry } from "./store";
@@ -18,6 +19,7 @@ export function outreachFromRow(row: SheetRow): OutreachEntry {
 export function researchFromRow(row: SheetRow): Research {
   return {
     ...EMPTY_RESEARCH,
+    publicData: parseCompanyEvidence(row.publicData),
     waterFocus: oneOf(row.waterFocus, ["yes", "no", "unknown"], "unknown"), focusAreas: list(row.focusAreas),
     applicationProcess: oneOf(row.applicationProcess, ["open", "invite_only", "unknown"], "unknown"),
     annualGivingUsd: number(row.annualGivingUsd), sizeBand: oneOf(row.sizeBand, ["small", "mid", "large", "enterprise", "unknown"], "unknown"),
@@ -28,7 +30,8 @@ export function researchFromRow(row: SheetRow): Research {
 }
 
 export function researchToRow(slug: string, r: Research): SheetRow {
-  return { slug, ...EMPTY_RESEARCH, ...r, focusAreas: r.focusAreas.join("; ") };
+  const { publicData, ...fields } = r;
+  return { slug, ...EMPTY_RESEARCH, ...fields, focusAreas: r.focusAreas.join("; "), publicData: publicData ? JSON.stringify(parseCompanyEvidence(publicData) ?? null) : "" };
 }
 
 export function companyToRow(c: Company): SheetRow {
@@ -79,13 +82,13 @@ export function decodeDataset(tables: SheetTables, defaults: ScoringConfig) {
     const slug = str(row.slug), name = str(row.name);
     if (!slug || !name || seen.has(slug)) throw new Error(`Companies requires unique, nonblank slugs and names. Check ${slug || "the blank slug"}.`);
     seen.add(slug);
-    return { slug, name, industry: oneOf(row.industry, Object.keys(INDUSTRY_LABELS), "other") as Company["industry"], domain: str(row.domain), hqState: str(row.hqState),
+    return withPublicMetadata({ slug, name, industry: oneOf(row.industry, Object.keys(INDUSTRY_LABELS), "other") as Company["industry"], domain: str(row.domain), hqState: str(row.hqState),
       foundation: { status: oneOf(row.foundationStatus, ["matched", "none_found", "unverified"], "unverified"), ein: str(row.ein).padStart(str(row.ein) ? 9 : 0, "0") || null, name: str(row.foundationName) || null },
       research: research.get(slug) ?? { ...EMPTY_RESEARCH }, aliases: list(row.aliases),
       entityType: oneOf(row.entityType, ["company", "foundation"] as const, "company"),
       relationshipStatus: oneOf(row.relationshipStatus, ["prospect", "historical_sponsor", "current_partner"] as const, "prospect"),
       sponsorships: sponsorships.filter((s) => s.company === name),
-    };
+    });
   });
   const filings: Record<string, Filing> = {};
   const chunks = new Map<string, SheetRow[]>();
