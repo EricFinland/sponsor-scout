@@ -5,6 +5,7 @@ import type { Company, FilingSummary, Research, ScoringConfig } from "./types";
 import { companyToRow, configToRows, filingRows, researchToRow } from "./sheet-data";
 import type { SheetOperation } from "./mutations";
 import type { Filing } from "./types";
+import { validatePersonalTemplates, type OutreachTemplate } from "./templates";
 
 /**
  * Shared mode queues acknowledged, versioned Sheet writes and keeps private
@@ -45,6 +46,7 @@ export interface StoreShape {
   searches: SearchEntry[];
   weights: ScoringConfig | null;
   sender: string;
+  templates: OutreachTemplate[];
 }
 
 const DEFAULTS: StoreShape = {
@@ -54,6 +56,7 @@ const DEFAULTS: StoreShape = {
   searches: [],
   weights: null,
   sender: "",
+  templates: [],
 };
 
 const PREFIX = "sponsor-scout:";
@@ -67,14 +70,19 @@ let fallbackConfig: ScoringConfig | null = null;
 let syncState = { state: "local", message: "Changes are saved in this browser." };
 const pending = new Map<string, SheetOperation>();
 let saving = false;
+let templateDraftDirty = false;
+export function setTemplateDraftDirty(dirty: boolean) { templateDraftDirty = dirty; }
 let saveTimer: ReturnType<typeof setTimeout> | undefined;
 const notify = () => listeners.forEach((listener) => listener());
 
 export function initializeWorkspace(initial: Partial<StoreShape>, initialVersions: Record<string, string>, defaults: ScoringConfig, options: {readOnly?: boolean} = {}) {
   shared = true; versions = initialVersions; fallbackConfig = defaults;
   readOnly = Boolean(options.readOnly);
-  for (const key of Object.keys(DEFAULTS) as (keyof StoreShape)[]) cache.set(key, initial[key] ?? DEFAULTS[key]);
-  syncState = { state: "saved", message: readOnly ? "Public view. Edit the private Sheet directly, then reload Sheet data." : "Workspace loaded. Reload Sheet data for other editors’ changes." }; notify();
+  for (const key of Object.keys(DEFAULTS) as (keyof StoreShape)[]) {
+    if (key === "templates") { cache.delete(key); continue; }
+    cache.set(key, initial[key] ?? DEFAULTS[key]);
+  }
+  syncState = { state: "saved", message: readOnly ? "Shared data is view-only. Personal email templates can be edited in Templates." : "Workspace loaded. Reload Sheet data for other editors’ changes." }; notify();
 }
 
 function enqueue(op: SheetOperation) {
@@ -102,7 +110,7 @@ export async function flushShared(): Promise<void> {
   if (pending.size && syncState.state !== "error") await flushShared();
 }
 
-export function hasUnsavedChanges() { return pending.size > 0 || saving; }
+export function hasUnsavedChanges() { return pending.size > 0 || saving || templateDraftDirty; }
 export function isSharedWorkspace() { return shared; }
 export function useSyncStatus() { return useSyncExternalStore(subscribe, () => syncState, () => syncState); }
 
@@ -141,8 +149,8 @@ function read<K extends keyof StoreShape>(key: K): StoreShape[K] {
   if (cache.has(key)) return cache.get(key) as StoreShape[K];
   let value: StoreShape[K] = DEFAULTS[key];
   try {
-    const raw = shared ? null : window.localStorage.getItem(PREFIX + key);
-    if (raw !== null) value = JSON.parse(raw) as StoreShape[K];
+    const raw = shared && key !== "templates" ? null : window.localStorage.getItem(PREFIX + key);
+    if (raw !== null) value = (key === "templates" ? validatePersonalTemplates(JSON.parse(raw)) : JSON.parse(raw)) as StoreShape[K];
   } catch {
     // Private mode or a corrupt entry. Fall back to the default.
   }
@@ -154,9 +162,17 @@ export function writeStore<K extends keyof StoreShape>(
   key: K,
   next: StoreShape[K] | ((current: StoreShape[K]) => StoreShape[K]),
 ): void {
-  if (readOnly && key !== "sender") return;
-  const previous = read(key);
+  if (readOnly && key !== "sender" && key !== "templates") return;
+  const previous = (key === "templates"
+    ? validatePersonalTemplates(JSON.parse(window.localStorage.getItem(PREFIX + key) ?? "[]"))
+    : read(key)) as StoreShape[K];
   const value = typeof next === "function" ? (next as (c: StoreShape[K]) => StoreShape[K])(previous) : next;
+  if (key === "templates") {
+    const templates = validatePersonalTemplates(value);
+    // Confirm durable browser storage before showing a saved state. No Sheet writes.
+    window.localStorage.setItem(PREFIX + key, JSON.stringify(templates));
+    cache.set(key, templates); notify(); return;
+  }
   cache.set(key, value);
   try {
     if (!shared) window.localStorage.setItem(PREFIX + key, JSON.stringify(value));
@@ -170,7 +186,7 @@ export function writeStore<K extends keyof StoreShape>(
 function subscribe(listener: () => void): () => void {
   listeners.add(listener);
   const onStorage = (event: StorageEvent) => {
-    if (!shared && event.key && event.key.startsWith(PREFIX)) {
+    if (event.key && event.key.startsWith(PREFIX) && (!shared || event.key === PREFIX + "templates")) {
       cache.delete(event.key.slice(PREFIX.length));
       listener();
     }
@@ -205,6 +221,7 @@ export function exportAll(): StoreShape {
     searches: read("searches"),
     weights: read("weights"),
     sender: read("sender"),
+    templates: read("templates"),
   };
 }
 

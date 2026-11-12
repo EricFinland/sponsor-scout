@@ -159,3 +159,7 @@ Accessibility reserves 35 points for sourced local presence and caps other acces
 Gala sponsorships are stored separately from foundation grants and peer-nonprofit support. Recent observed sponsorship amounts take precedence for capacity fit; lifetime totals are never treated as an annual budget. Historical sponsors are routed toward relationship-owner renewal rather than cold email drafts.
 
 Shared Sheets contain private team data. Private mode requires sign-in. Public modes remove sign-in and expose the operational workspace; public-read blocks changes to shared data. Never commit raw source workbooks, private sponsorship amounts, Google credentials or server secrets.
+
+## Personal email templates
+
+Use Templates in the main navigation to edit a starter or add a reusable email, choose industries and preview its placeholders. Personal versions are stored only in this browser, appear in the company outreach picker and survive workspace reloads. Export/import JSON backups to share them or move devices. Import adds copies, and removal offers Undo. The public Google Sheet workspace remains view-only; template edits do not write to it. Clearing browser storage removes personal templates, so keep an exported backup.

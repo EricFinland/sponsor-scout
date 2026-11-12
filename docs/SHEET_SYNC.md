@@ -39,7 +39,7 @@ If the script code changes, deploy a new Apps Script version under the existing 
 
 ## Research and scoring
 
-The four main views stay loaded in browser memory and switch without page or Sheet requests. They share company metadata, research, workflow records and filing summaries; full grant lists are requested only for a company profile. Nothing private is written to browser localStorage.
+The five main views stay loaded in browser memory and switch without page or Sheet requests. They share company metadata, research, workflow records and filing summaries; full grant lists are requested only for a company profile. Shared company, research and workflow records are not written to browser localStorage. Personal email templates explicitly saved by the visitor are stored locally and never written to the shared Sheet.
 
 Server reads use a workspace-scoped, authenticated cache with a 60-second revalidation interval and concurrent-miss deduplication. Successful writes invalidate affected cache entries. The Apps Script summary cache also lasts up to 60 seconds and is cleared when filings change.
 
@@ -68,3 +68,7 @@ The record needs a city, county, HTTPS source, supporting evidence, and a valid 
 The gala workbook contains 37 organization sponsorships totaling $303,500 and four personal/family gifts totaling $30,500. Personal gifts remain in the private source/review tabs and do not create company profiles. Twenty-two organizations are represented in the history; 21 are new to the 33-company starter list, producing 54 profiles.
 
 Clear aliases such as UTA/United Talent Agency are normalized. Ambiguous Paramount shorthand remains separate from Paramount Pictures. Parent companies, brands and legacy entities are not automatically merged. Unknown foundation matches remain unverified. Past sponsorship is not assumed to be a current partnership or a warm introduction.
+
+## Personal template editor
+
+The Templates page is available without sign-in. Visitors can customize four starter drafts or add personal templates; the outreach composer uses the same personal library. This feature uses browser localStorage even when the shared workspace is public-read. It does not grant visitors permission to modify the Sheet. Saved templates are validated, support {{first}}, {{company}}, {{hook}} and {{sender}}, and can be exported/imported as versioned JSON backups. Import adds copies rather than overwriting existing records. Unsaved drafts block workspace reload; storage errors keep the draft visible and are not reported as successful saves. Clearing browser storage removes personal versions.

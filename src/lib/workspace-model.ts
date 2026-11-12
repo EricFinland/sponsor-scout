@@ -7,4 +7,4 @@ export interface WorkspaceCatalog {
   hunterEnabled: boolean;
   partnerSlugs: string[];
 }
-export const WORKSPACE_PATHS = ["/", "/lookup", "/tracker", "/method"] as const;
+export const WORKSPACE_PATHS = ["/", "/lookup", "/tracker", "/templates", "/method"] as const;

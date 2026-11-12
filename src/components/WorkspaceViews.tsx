@@ -5,6 +5,7 @@ import CompanyTable from "./CompanyTable";
 import LookupClient from "./LookupClient";
 import TrackerClient from "./TrackerClient";
 import MethodContent from "./MethodContent";
+import TemplatesManager from "./TemplatesManager";
 import { formatUsd } from "@/lib/format";
 import { WORKSPACE_PATHS, type WorkspaceCatalog } from "@/lib/workspace-model";
 
@@ -15,7 +16,7 @@ export default function WorkspaceViews({ data, children }: { data: WorkspaceCata
     alreadyPartner: company.relationshipStatus === "current_partner" || data.partnerSlugs.includes(company.slug) }));
   const filings = entries.flatMap((entry) => entry.filing ? [entry.filing] : []);
   useEffect(() => {
-    const titles: Record<string, string> = { "/": "Sponsor Scout", "/lookup": "Look up a company | Sponsor Scout", "/tracker": "Tracker | Sponsor Scout", "/method": "Method | Sponsor Scout" };
+    const titles: Record<string, string> = { "/": "Sponsor Scout", "/lookup": "Look up a company | Sponsor Scout", "/tracker": "Tracker | Sponsor Scout", "/templates": "Email templates | Sponsor Scout", "/method": "Method | Sponsor Scout" };
     if (titles[path]) document.title = titles[path];
     else {
       const company = data.companies.find((item) => path === `/company/${item.slug}`);
@@ -36,6 +37,7 @@ export default function WorkspaceViews({ data, children }: { data: WorkspaceCata
     <div hidden={path !== "/lookup"} data-workspace-page="lookup"><LookupClient known={data.companies} peersTable={data.peers} defaultConfig={data.config} hunterEnabled={data.hunterEnabled} /></div>
     <div hidden={path !== "/tracker"} data-workspace-page="tracker"><div className="page-head"><h1>Tracker</h1><p className="lede">Outreach, company lookups and research notes. Changes are shared across the workspace.</p></div><TrackerClient sheetConnected /></div>
     <div hidden={path !== "/method"} data-workspace-page="method"><MethodContent config={data.config} shared /></div>
+    <div hidden={path !== "/templates"} data-workspace-page="templates"><TemplatesManager companies={data.companies} peers={data.peers} summaries={data.summaries} /></div>
     {!WORKSPACE_PATHS.some((p) => p === path) && children}
   </>;
 }

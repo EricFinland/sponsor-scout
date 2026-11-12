@@ -8,6 +8,7 @@ const LINKS = [
   { href: "/", label: "Companies", match: (path: string) => path === "/" || path.startsWith("/company") },
   { href: "/lookup", label: "Look up", match: (path: string) => path.startsWith("/lookup") },
   { href: "/tracker", label: "Tracker", match: (path: string) => path.startsWith("/tracker") },
+  { href: "/templates", label: "Templates", match: (path: string) => path.startsWith("/templates") },
   { href: "/method", label: "Method", match: (path: string) => path.startsWith("/method") },
 ];
 

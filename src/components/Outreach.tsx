@@ -2,8 +2,10 @@
 
 import { useEffect, useMemo, useState } from "react";
 import { splitPersonName } from "@/lib/names";
-import { logToSheet, useStore, isReadOnlyWorkspace } from "@/lib/store";
-import { fillTemplate, hookLine, templateFor, TEMPLATES } from "@/lib/templates";
+import { logToSheet, useStore, isReadOnlyWorkspace, isSharedWorkspace } from "@/lib/store";
+import { fillTemplate, hookLine, templateFor } from "@/lib/templates";
+import { useTemplateLibrary } from "./useTemplates";
+import Link from "next/link";
 import type { Company, Filing, PeerRow } from "@/lib/types";
 import { sponsorshipHistory } from "@/lib/sponsorships";
 
@@ -20,13 +22,17 @@ export default function Outreach({
 }) {
   const [sender, setSender] = useStore("sender");
   const [, setOutreach] = useStore("outreach");
-  const [templateId, setTemplateId] = useState(() => templateFor(company.industry).id);
+  const {templates, personal} = useTemplateLibrary();
+  const [templateId, setTemplateId] = useState(() => templateFor(company.industry, templates).id);
   const [contact, setContact] = useState("");
   const [subject, setSubject] = useState("");
   const [body, setBody] = useState("");
   const [status, setStatus] = useState("");
 
-  const template = TEMPLATES.find((t) => t.id === templateId) ?? TEMPLATES[0];
+  const template = templates.find((t) => t.id === templateId) ?? templateFor(company.industry, templates);
+  useEffect(() => {
+    if (!templates.some((t) => t.id === templateId)) setTemplateId(templateFor(company.industry, templates).id);
+  }, [templates, templateId, company.industry]);
   const hook = useMemo(() => hookLine(company, filing, peers), [company, filing, peers]);
 
   // Rebuild the draft when the template, recipient or sender changes. Edits made
@@ -84,9 +90,9 @@ export default function Outreach({
         <label className="field">
           <span>Template</span>
           <select className="input" value={templateId} onChange={(e) => setTemplateId(e.target.value)}>
-            {TEMPLATES.map((t) => (
+            {templates.map((t) => (
               <option key={t.id} value={t.id}>
-                {t.label}
+                {t.label}{personal.some((p) => p.id === t.id) ? " (Personal)" : ""}
               </option>
             ))}
           </select>
@@ -118,6 +124,10 @@ export default function Outreach({
           />
         </label>
       </div>
+      <p className="footnote"><Link href="/templates" prefetch={false} onClick={(event) => {
+        if (!isSharedWorkspace() || event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+        event.preventDefault(); window.history.pushState(null, "", "/templates"); window.scrollTo(0, 0);
+      }}>Add or edit email templates</Link>. Personal versions are saved in this browser.</p>
 
       <label className="field">
         <span>Subject</span>
