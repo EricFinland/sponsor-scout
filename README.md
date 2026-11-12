@@ -105,7 +105,7 @@ Local demo mode runs with none of these set. They are listed in `.env.example`.
 | `HUNTER_API_KEY` | Work email lookup for foundation officers through Hunter.io (free tier, 50 credits a month). One credit per lookup, only when someone asks |
 | `SHEET_WEBHOOK_URL`, `SHEET_WEBHOOK_SECRET` | Connects the private Google Sheet as the shared data store (also requires `TEAM_ACCESS_KEY`). Setup is in [docs/SHEET_SYNC.md](docs/SHEET_SYNC.md) |
 
-The Google Sheets integration now reads and writes shared data with authenticated sessions, conflict detection and explicit save status. See `docs/SHEET_SYNC.md` for setup, verification and limitations. Hunter lookup still requires a separately configured key.
+The Google Sheets integration reads and writes shared data with authenticated sessions, conflict detection and explicit save status. Main tabs reuse the browser workspace without network navigation. Server snapshots are cached for 60 seconds; ranking uses filing summaries and full grant details load on demand. Use Reload Sheet data for changes made by other editors. See `docs/SHEET_SYNC.md` for setup, verification and limitations. Hunter lookup still requires a separately configured key.
 
 ## Working with the data
 

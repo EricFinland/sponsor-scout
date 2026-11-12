@@ -71,7 +71,7 @@ const notify = () => listeners.forEach((listener) => listener());
 export function initializeWorkspace(initial: Partial<StoreShape>, initialVersions: Record<string, string>, defaults: ScoringConfig) {
   shared = true; versions = initialVersions; fallbackConfig = defaults;
   for (const key of Object.keys(DEFAULTS) as (keyof StoreShape)[]) cache.set(key, initial[key] ?? DEFAULTS[key]);
-  syncState = { state: "saved", message: "Connected to the team Google Sheet." }; notify();
+  syncState = { state: "saved", message: "Workspace loaded. Reload Sheet data for other editors’ changes." }; notify();
 }
 
 function enqueue(op: SheetOperation) {

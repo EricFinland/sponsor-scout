@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import ProfileView from "@/components/ProfileView";
-import { getAppData, datasetFiling, hunterEnabled, isExistingPartner } from "@/lib/data";
+import { getAppData, companyFiling, hunterEnabled, isExistingPartner } from "@/lib/data";
 export const dynamic = "force-dynamic";
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
@@ -18,7 +18,7 @@ export default async function CompanyPage({ params }: { params: Promise<{ slug: 
   return (
     <ProfileView
       company={company}
-      filing={datasetFiling(data, company.foundation.ein)}
+      filing={await companyFiling(company.foundation.ein)}
       peersTable={data.peers}
       defaultConfig={data.config}
       alreadyPartner={company.relationshipStatus === "current_partner" || isExistingPartner(company.name)}

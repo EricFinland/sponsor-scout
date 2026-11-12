@@ -27,8 +27,23 @@ function doPost(e) {
     try {
       if (payload.action === 'read') {
         var data = {};
-        READ_TABS.forEach(function (tab) { data[tab] = readTable(spreadsheet, tab).rows; });
+        var tabs = payload.tabs === undefined ? READ_TABS : payload.tabs;
+        if (!Array.isArray(tabs) || !tabs.length || tabs.some(function (tab) { return READ_TABS.indexOf(tab) < 0; })) throw new Error('Invalid read tabs.');
+        tabs.forEach(function (tab) { data[tab] = readTable(spreadsheet, tab).rows; });
         return respond({ ok: true, data: data });
+      }
+      if (payload.action === 'catalog') {
+        var catalog = {};
+        ['Companies', 'Profiles', 'Peers', 'Sponsorships', 'Weights', 'Outreach Tracker', 'Search Log'].forEach(function (tab) { catalog[tab] = readTable(spreadsheet, tab).rows; });
+        return respond({ ok: true, data: { tables: catalog, summaries: filingSummaries(spreadsheet) } });
+      }
+      if (payload.action === 'filing') {
+        if (typeof payload.ein !== 'string' || !/^\d{9}$/.test(payload.ein)) throw new Error('Invalid EIN.');
+        return respond({ ok: true, data: filingObjects(spreadsheet, payload.ein)[payload.ein] || null });
+      }
+      if (payload.action === 'refresh') {
+        CacheService.getScriptCache().remove('filing-summaries');
+        return respond({ ok: true, data: { refreshed: true } });
       }
       if (payload.action === 'mutate') return respond({ ok: true, data: mutate(spreadsheet, payload.operations) });
       if (payload.action === 'scores') {
@@ -40,6 +55,38 @@ function doPost(e) {
       throw new Error('Unknown action.');
     } finally { lock.releaseLock(); }
   } catch (error) { return respond({ ok: false, error: String(error.message || error) }); }
+}
+
+function filingObjects(spreadsheet, requestedEin) {
+  var groups = {}, result = {};
+  readTable(spreadsheet, 'Filings').rows.forEach(function (row) {
+    var ein = String(row.ein).padStart(9, '0');
+    if (requestedEin && requestedEin !== ein) return;
+    (groups[ein] || (groups[ein] = [])).push(row);
+  });
+  Object.keys(groups).forEach(function (ein) {
+    var rows = groups[ein].sort(function (a, b) { return Number(a.part) - Number(b.part); });
+    if (!rows.every(function (row, i) { return Number(row.part) === i; })) throw new Error('Missing or duplicate filing chunks: ' + ein);
+    var filing = JSON.parse(rows.map(function (row) { return row.payload; }).join(''));
+    if (filing.ein !== ein || !Array.isArray(filing.grants)) throw new Error('Invalid filing: ' + ein);
+    result[ein] = filing;
+  });
+  return result;
+}
+
+function filingSummaries(spreadsheet) {
+  var cache = CacheService.getScriptCache(), cached = cache.get('filing-summaries');
+  if (cached) return JSON.parse(cached);
+  var filings = filingObjects(spreadsheet), summaries = {};
+  Object.keys(filings).forEach(function (ein) {
+    var summary = Object.assign({}, filings[ein]);
+    delete summary.grants; delete summary.grantsTruncated;
+    summaries[ein] = summary;
+  });
+  var text = JSON.stringify(summaries);
+  // CacheService has a 100 KB value limit. Larger datasets still work uncached.
+  if (Utilities.newBlob(text).getBytes().length < 90000) cache.put('filing-summaries', text, 60);
+  return summaries;
 }
 
 function readTable(spreadsheet, tab) {
@@ -115,6 +162,7 @@ function mutate(spreadsheet, operations) {
     versions[compound] = row.version || '';
   });
   SpreadsheetApp.flush();
+  if (operations.some(function (op) { return op.tab === 'Filings'; })) CacheService.getScriptCache().remove('filing-summaries');
   return { versions: versions };
 }
 
@@ -135,6 +183,7 @@ function replaceDerived(spreadsheet, tab, rows) {
 function onEdit(e) {
   if (!e || !e.range) return;
   var sheet = e.range.getSheet();
+  if (sheet.getName() === 'Filings') CacheService.getScriptCache().remove('filing-summaries');
   if (!WRITE_KEYS[sheet.getName()] || e.range.getRow() === 1) return;
   var headers = sheet.getRange(1, 1, 1, sheet.getLastColumn()).getValues()[0];
   var versionColumn = headers.indexOf('version') + 1;

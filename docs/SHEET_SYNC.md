@@ -38,7 +38,11 @@ If the script code changes, deploy a new Apps Script version under the existing 
 
 ## Research and scoring
 
-Sheet edits are reflected on a full page reload. Use **Reload Sheet data** in the app after editing cells. Use **Update Sheet scores** to recompute Scores and Tier Summary from the current shared inputs. These output tabs are snapshots with `scoredAt` and an input hash, not live spreadsheet formulas.
+The four main views stay loaded in browser memory and switch without page or Sheet requests. They share company metadata, research, workflow records and filing summaries; full grant lists are requested only for a company profile. Nothing private is written to browser localStorage.
+
+Server reads use a workspace-scoped, authenticated cache with a 60-second revalidation interval and concurrent-miss deduplication. Successful writes invalidate affected cache entries. The Apps Script summary cache also lasts up to 60 seconds and is cleared when filings change.
+
+Other editors’ changes are not pushed into an already-open workspace. Use **Reload Sheet data** after editing cells: it clears both cache layers before reloading. A normal browser reload may reuse the server cache. The first uncached workspace load, an uncached filing, explicit refreshes and confirmed saves still depend on Google response time. Use **Update Sheet scores** to recompute Scores and Tier Summary from the current shared inputs. These output tabs are snapshots with `scoredAt` and an input hash, not live spreadsheet formulas.
 
 The app queues changes and confirms the endpoint response before reporting a shared save. Failed changes remain in browser memory, with retry and backup options. If another editor changed the same record, download your unsaved backup, reload, and reconcile rather than overwriting blindly. Restore-from-backup is disabled in shared mode.
 

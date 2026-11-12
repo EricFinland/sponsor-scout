@@ -5,6 +5,7 @@ import { DEFAULT_CONFIG } from "@/lib/data";
 import { readSheet, scoreRows, sheetConfigured, sheetRequest } from "@/lib/sheets";
 import { validateOperations } from "@/lib/mutations";
 import { configFromRows } from "@/lib/sheet-data";
+import { invalidateSheetData } from "@/lib/shared-data";
 
 export const dynamic = "force-dynamic";
 export async function POST(request: Request) {
@@ -15,6 +16,11 @@ export async function POST(request: Request) {
   try {
     const text = await request.text(); if (text.length > 1_000_000) return NextResponse.json({ error: "This change is too large." }, { status: 413 });
     const body = JSON.parse(text);
+    if (body.action === "refreshData") {
+      await sheetRequest("refresh");
+      invalidateSheetData();
+      return NextResponse.json({ ok: true }, { headers: { "Cache-Control": "no-store" } });
+    }
     if (body.action === "refreshScores") {
       const data = await readSheet(DEFAULT_CONFIG);
       const scored = scoreRows(data, new Date().getFullYear());
@@ -23,12 +29,13 @@ export async function POST(request: Request) {
     }
     const operations = validateOperations(body.operations);
     if (operations.some((op) => op.tab === "Weights")) {
-      const data = await readSheet(DEFAULT_CONFIG);
-      const next = new Map((data.tables.Weights ?? []).map((r) => [String(r.id), r]));
+      const data = await sheetRequest<import("@/lib/sheet-schema").SheetTables>("read", { tabs: ["Weights"] });
+      const next = new Map((data.Weights ?? []).map((r) => [String(r.id), r]));
       for (const op of operations.filter((op) => op.tab === "Weights")) if (op.row) next.set(op.key, op.row);
       configFromRows([...next.values()], DEFAULT_CONFIG);
     }
     const result = await sheetRequest<{ versions: Record<string, string> }>("mutate", { operations });
+    invalidateSheetData(operations.map((op) => op.tab));
     return NextResponse.json({ ok: true, ...result }, { headers: { "Cache-Control": "no-store" } });
   } catch (error) {
     const message = error instanceof Error ? error.message : "The shared save failed.";

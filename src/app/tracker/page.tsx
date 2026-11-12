@@ -1,9 +1,11 @@
 import type { Metadata } from "next";
 import TrackerClient from "@/components/TrackerClient";
+import { sheetConfigured } from "@/lib/sheets";
 
 export const metadata: Metadata = { title: "Tracker" };
 
 export default function TrackerPage() {
+  if (sheetConfigured()) return null;
   return (
     <>
       <div className="page-head">
