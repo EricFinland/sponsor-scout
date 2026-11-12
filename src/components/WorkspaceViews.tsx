@@ -17,7 +17,11 @@ export default function WorkspaceViews({ data, children }: { data: WorkspaceCata
   useEffect(() => {
     const titles: Record<string, string> = { "/": "Sponsor Scout", "/lookup": "Look up a company | Sponsor Scout", "/tracker": "Tracker | Sponsor Scout", "/method": "Method | Sponsor Scout" };
     if (titles[path]) document.title = titles[path];
-  }, [path]);
+    else {
+      const company = data.companies.find((item) => path === `/company/${item.slug}`);
+      if (company) document.title = `${company.name} | Sponsor Scout`;
+    }
+  }, [path, data.companies]);
   return <>
     <div hidden={path !== "/"} data-workspace-page="companies">
       <CompanyTable entries={entries} peersTable={data.peers} defaultConfig={data.config}
