@@ -1,5 +1,6 @@
 import { formatUsd } from "./format";
 import type { Company, FilingSummary, Industry, PeerRow } from "./types";
+import { INDUSTRY_LABELS } from "./types";
 
 export interface OutreachTemplate {
   id: string;
@@ -7,6 +8,7 @@ export interface OutreachTemplate {
   industries: Industry[];
   subject: string;
   body: string;
+  updatedAt?: string;
 }
 
 /**
@@ -89,8 +91,47 @@ Thank you,
   },
 ];
 
-export function templateFor(industry: Industry): OutreachTemplate {
-  return TEMPLATES.find((t) => t.industries.includes(industry)) ?? TEMPLATES[TEMPLATES.length - 1];
+export function templateFor(industry: Industry, templates: OutreachTemplate[] = TEMPLATES): OutreachTemplate {
+  return templates.find((t) => t.industries.includes(industry)) ?? templates.find((t) => t.id === "general") ?? templates.find((t) => !t.industries.length) ?? templates[0] ?? TEMPLATES[TEMPLATES.length - 1];
+}
+
+export const TEMPLATE_TOKENS = ["first", "company", "hook", "sender"] as const;
+export const MAX_PERSONAL_TEMPLATES = 100;
+export function validateTemplate(value: unknown): OutreachTemplate {
+  if (!value || typeof value !== "object") throw new Error("Invalid template.");
+  const row = value as Record<string, unknown>;
+  if (typeof row.id !== "string" || !/^[a-z0-9][a-z0-9_-]{0,99}$/.test(row.id)) throw new Error("Invalid template ID.");
+  if (typeof row.label !== "string" || !row.label.trim() || row.label.length > 80) throw new Error("Enter a template name of 1–80 characters.");
+  if (typeof row.subject !== "string" || !row.subject.trim() || row.subject.length > 200) throw new Error("Enter a subject of 1–200 characters.");
+  if (typeof row.body !== "string" || !row.body.trim() || row.body.length > 5000) throw new Error("Enter a message of 1–5,000 characters.");
+  if (!Array.isArray(row.industries) || !row.industries.every((industry) => typeof industry === "string" && Object.hasOwn(INDUSTRY_LABELS, industry))) throw new Error("Choose valid industries.");
+  const text = row.subject + "\n" + row.body;
+  for (const match of text.matchAll(/\{\{([\s\S]*?)\}\}/g)) {
+    if (!(TEMPLATE_TOKENS as readonly string[]).includes(match[1])) throw new Error(`Unknown placeholder {{${match[1]}}}. Use {{first}}, {{company}}, {{hook}} or {{sender}}.`);
+  }
+  if (text.replace(/\{\{[\s\S]*?\}\}/g, "").includes("{{") || text.replace(/\{\{[\s\S]*?\}\}/g, "").includes("}}")) throw new Error("A placeholder has unmatched braces.");
+  return { id: row.id, label: row.label.trim(), subject: row.subject.trim(), body: row.body,
+    industries: [...new Set(row.industries)] as Industry[], ...(typeof row.updatedAt === "string" ? {updatedAt: row.updatedAt} : {}) };
+}
+export function validatePersonalTemplates(value: unknown): OutreachTemplate[] {
+  if (!Array.isArray(value) || value.length > MAX_PERSONAL_TEMPLATES) throw new Error(`A library can contain up to ${MAX_PERSONAL_TEMPLATES} personal templates.`);
+  const templates = value.map(validateTemplate);
+  if (new Set(templates.map((template) => template.id)).size !== templates.length) throw new Error("The file contains duplicate template IDs.");
+  return templates;
+}
+export function mergeTemplates(personal: OutreachTemplate[]): OutreachTemplate[] {
+  const templates = new Map(TEMPLATES.map((template) => [template.id, template]));
+  for (const template of personal) templates.set(template.id, template);
+  return [...templates.values()];
+}
+export function parseTemplateBackup(text: string): OutreachTemplate[] {
+  let data: unknown;
+  try { data = JSON.parse(text); } catch { throw new Error("Choose a valid JSON template backup."); }
+  if (!data || typeof data !== "object" || !("version" in data) || data.version !== 1 || !("templates" in data)) throw new Error("Choose a Sponsor Scout template backup (version 1).");
+  return validatePersonalTemplates(data.templates);
+}
+export function templateBackup(templates: OutreachTemplate[]): string {
+  return JSON.stringify({version: 1, templates: validatePersonalTemplates(templates)}, null, 2);
 }
 
 /** One sentence that shows the sender did their homework, drawn from the evidence on file. */

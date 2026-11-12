@@ -5,10 +5,13 @@ import NavLinks from "@/components/NavLinks";
 import WorkspaceProvider from "@/components/WorkspaceProvider";
 import { cookies } from "next/headers";
 import { getAppData, DEFAULT_CONFIG } from "@/lib/data";
-import { SESSION_COOKIE, verifySession } from "@/lib/auth";
+import { canReadWorkspace, publicWorkspace, workspaceAccess, SESSION_COOKIE } from "@/lib/auth";
 import { sheetConfigured } from "@/lib/sheets";
 import type { StoreShape } from "@/lib/store";
 import { outreachFromRow } from "@/lib/sheet-data";
+import WorkspaceViews from "@/components/WorkspaceViews";
+import type { WorkspaceCatalog } from "@/lib/workspace-model";
+import { hunterEnabled, isExistingPartner } from "@/lib/data";
 import "./globals.css";
 
 const sans = IBM_Plex_Sans({ subsets: ["latin"], weight: ["400", "500", "600"], variable: "--font-sans" });
@@ -23,10 +26,13 @@ export const metadata: Metadata = {
 export default async function RootLayout({ children }: { children: React.ReactNode }) {
   let initial: Partial<StoreShape> | null = null;
   let workspaceError = "";
+  let catalog: WorkspaceCatalog | null = null;
   const versions: Record<string, string> = {};
-  if (sheetConfigured() && verifySession((await cookies()).get(SESSION_COOKIE)?.value)) {
+  if (sheetConfigured() && canReadWorkspace((await cookies()).get(SESSION_COOKIE)?.value)) {
     try {
       const data = await getAppData();
+      catalog = { companies: data.companies, summaries: data.summaries, peers: data.peers, config: data.config, hunterEnabled: hunterEnabled(),
+        partnerSlugs: data.companies.filter((company) => isExistingPartner(company.name)).map((company) => company.slug) };
       initial = { research: Object.fromEntries(data.companies.map((c) => [c.slug, c.research])), weights: data.config,
         outreach: (data.tables?.["Outreach Tracker"] ?? []).map(outreachFromRow),
         searches: (data.tables?.["Search Log"] ?? []).map((r) => ({ ...r, id: String(r.id), score: r.score === "" || r.score == null ? null : Number(r.score) })) as unknown as StoreShape["searches"] };
@@ -50,11 +56,11 @@ export default async function RootLayout({ children }: { children: React.ReactNo
               Sponsor Scout
               <span>for Thirst Project</span>
             </Link>
-            <NavLinks />
+            <NavLinks shared={sheetConfigured()} />
           </div>
         </header>
         <main id="main" className="wrap">
-          <WorkspaceProvider initial={initial} versions={versions} defaults={DEFAULT_CONFIG} error={workspaceError}>{children}</WorkspaceProvider>
+          <WorkspaceProvider initial={initial} versions={versions} defaults={DEFAULT_CONFIG} error={workspaceError} readOnly={workspaceAccess() === "public-read"} showSignOut={!publicWorkspace()}>{catalog ? <WorkspaceViews data={catalog}>{children}</WorkspaceViews> : children}</WorkspaceProvider>
         </main>
         <footer className="site-foot">
           <div className="wrap">

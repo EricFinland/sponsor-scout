@@ -1,8 +1,9 @@
 import { NextResponse } from "next/server";
-import { createSession, sameOrigin, SESSION_COOKIE, validAccessKey } from "@/lib/auth";
+import { createSession, publicWorkspace, sameOrigin, SESSION_COOKIE, validAccessKey } from "@/lib/auth";
 
 const attempts = new Map<string, { count: number; until: number }>();
 export async function POST(request: Request) {
+  if (publicWorkspace()) return NextResponse.json({ error: "Sign-in is not enabled for this workspace." }, { status: 410 });
   if (!sameOrigin(request)) return NextResponse.json({ error: "Invalid request origin." }, { status: 403 });
   const ip = request.headers.get("x-forwarded-for")?.split(",")[0]?.trim() ?? "local";
   const attempt = attempts.get(ip);

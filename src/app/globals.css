@@ -1667,3 +1667,26 @@ table.rules .num {
 .workspace-error { border-color: #b86a34; background: #fff4e8; }
 .local-research { border: 0; border-top: 1px solid #d9ded9; margin: 20px 0; padding: 18px 0 0; min-width: 0; }
 .local-research legend { font-weight: 600; padding-right: 10px; }
+
+.editable-fields { border: 0; margin: 0; padding: 0; min-width: 0; }
+
+/* Personal email template library */
+.template-tools { margin: 0 0 24px; }
+.template-layout { display: grid; grid-template-columns: 230px minmax(0, 1fr); gap: 36px; align-items: start; }
+.template-layout h2 { margin-bottom: 12px; }
+.template-list { display: grid; gap: 8px; }
+.template-item { font: inherit; width: 100%; text-align: left; padding: 12px 14px; border: 1px solid var(--rule); border-radius: 6px; background: white; color: var(--ink); cursor: pointer; overflow-wrap: anywhere; }
+.template-item[aria-pressed="true"] { background: var(--tint); border-color: var(--navy); }
+.template-item:disabled { cursor: default; opacity: .6; }
+.template-item strong { display: block; }
+.template-editor { border: 1px solid var(--rule); border-radius: 8px; padding: 24px; }
+.template-industries { border: 0; padding: 0; margin: 20px 0; }
+.template-industries legend { font-weight: 500; }
+.template-body { line-height: 1.65; resize: vertical; }
+.template-unsaved { padding: 12px 16px; background: #fff4e8; margin-bottom: 18px; }
+.template-message { padding: 12px 16px; background: #edf5ef; margin-bottom: 18px; }
+.template-preview { margin-top: 32px; }
+.template-preview-email { padding: 24px; background: var(--wash); border: 1px solid var(--rule); border-radius: 8px; }
+.template-preview-body { white-space: pre-wrap; overflow-wrap: anywhere; line-height: 1.7; margin-top: 18px; }
+@media (max-width: 800px) { .template-layout { grid-template-columns: 1fr; gap: 24px; } .template-list { grid-template-columns: repeat(2, minmax(0, 1fr)); } .template-editor { padding: 18px; } .site-head nav { gap: 18px; } }
+@media (max-width: 440px) { .site-head nav { gap: 14px; } .site-head nav a { font-size: 13px; } }

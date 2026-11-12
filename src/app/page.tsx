@@ -1,13 +1,15 @@
 import CompanyTable, { type TableEntry } from "@/components/CompanyTable";
-import { getAppData, datasetFiling, isExistingPartner, summarize } from "@/lib/data";
+import { getAppData, datasetFiling, isExistingPartner } from "@/lib/data";
 import { formatUsd } from "@/lib/format";
+import { sheetConfigured } from "@/lib/sheets";
 
 export const dynamic = "force-dynamic";
 export default async function HomePage() {
+  if (sheetConfigured()) return null;
   const data = await getAppData();
   const entries: TableEntry[] = data.companies.map((company) => ({
     company,
-    filing: summarize(datasetFiling(data, company.foundation.ein)),
+    filing: datasetFiling(data, company.foundation.ein),
     alreadyPartner: company.relationshipStatus === "current_partner" || isExistingPartner(company.name),
   }));
 

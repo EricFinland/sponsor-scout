@@ -13,6 +13,7 @@ class FakeRange {
 }
 class FakeSheet {
   values: unknown[][];
+  reads = 0;
   maxRows = 1000;
   constructor(public name: string, values: unknown[][]) { this.values = values; }
   getName() { return this.name; }
@@ -21,17 +22,20 @@ class FakeSheet {
   getMaxRows() { return this.maxRows; }
   insertRowsAfter(_after: number, count: number) { this.maxRows += count; }
   getRange(row: number, col: number, height = 1, width = 1) { if (row + height - 1 > this.maxRows) throw new Error("Rows out of bounds"); return new FakeRange(this, row, col, height, width); }
-  getDataRange() { return this.getRange(1, 1, this.getLastRow(), this.getLastColumn()); }
+  getDataRange() { this.reads++; return this.getRange(1, 1, this.getLastRow(), this.getLastColumn()); }
 }
 export function createSheetRuntime(seed: SheetTables = {}) {
   const sheets = Object.fromEntries(Object.entries(SHEET_COLUMNS).map(([name, columns]) => [name, new FakeSheet(name, [[...columns], ...(seed[name as keyof SheetTables] ?? []).map((row) => columns.map((col) => row[col] ?? ""))])]));
   const properties: Record<string, string> = { SECRET: "fixture-only-secret", SPREADSHEET_ID: "fixture" };
   const spreadsheet = { getId: () => "fixture", getSheetByName: (name: string) => sheets[name], toast() {} };
+  const scriptCache = new Map<string, string>();
   const context = vm.createContext({
     SpreadsheetApp: { getActiveSpreadsheet: () => null, openById: (id: string) => { if (id !== "fixture") throw new Error("Unexpected spreadsheet ID"); return spreadsheet; }, flush() {}, getUi: () => ({alert() {}}) },
     PropertiesService: { getScriptProperties: () => ({ getProperty: (key: string) => properties[key], setProperty(key: string, value: string) { properties[key] = value; } }) },
     LockService: { getScriptLock: () => ({ tryLock: () => true, releaseLock() {} }) },
-    Utilities: { getUuid: randomUUID }, ContentService: { MimeType: { JSON: "application/json" }, createTextOutput: (value: string) => ({ setMimeType: () => value }) },
+    Utilities: { getUuid: randomUUID, newBlob: (text: string) => ({getBytes: () => Buffer.from(text)}) },
+    CacheService: { getScriptCache: () => ({get: (key: string) => scriptCache.get(key) ?? null, put: (key: string, value: string) => scriptCache.set(key, value), remove: (key: string) => scriptCache.delete(key)}) },
+    ContentService: { MimeType: { JSON: "application/json" }, createTextOutput: (value: string) => ({ setMimeType: () => value }) },
     console,
   });
   vm.runInContext(fs.readFileSync(new URL("../../docs/apps-script/Code.gs", import.meta.url), "utf8"), context);

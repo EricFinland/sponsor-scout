@@ -6,8 +6,9 @@ import weightsJson from "@data/weights.json";
 import { normalizeName } from "./names";
 import { cache } from "react";
 import { cookies } from "next/headers";
-import { SESSION_COOKIE, verifySession } from "./auth";
-import { readSheet, sheetConfigured } from "./sheets";
+import { canReadWorkspace, SESSION_COOKIE } from "./auth";
+import { sheetConfigured } from "./sheets";
+import { sharedCatalog, sharedFiling } from "./shared-data";
 import type { Company, Filing, FilingSummary, PeerRow, ScoringConfig } from "./types";
 
 /** Server-side access to the dataset bundled with the app. */
@@ -16,16 +17,23 @@ export const COMPANIES = companiesJson as Company[];
 export const PEERS = peersJson as PeerRow[];
 export const DEFAULT_CONFIG = weightsJson as ScoringConfig;
 
-/** Request-scoped read: Sheet edits are reflected on the next navigation/refresh. Never silently fall back on a storage failure. */
+/** Authenticate before the private, workspace-scoped server cache. */
 export const getAppData = cache(async () => {
-  if (!sheetConfigured()) return { companies: COMPANIES, peers: PEERS, config: DEFAULT_CONFIG, filings: {} as Record<string, Filing>, tables: null, shared: false };
-  if (!verifySession((await cookies()).get(SESSION_COOKIE)?.value)) throw new Error("A team session is required to read the shared workspace.");
-  return { ...await readSheet(DEFAULT_CONFIG), shared: true };
+  if (!sheetConfigured()) return { companies: COMPANIES, peers: PEERS, config: DEFAULT_CONFIG, filings: {} as Record<string, Filing>, summaries: {} as Record<string, FilingSummary>, tables: null, shared: false };
+  if (!canReadWorkspace((await cookies()).get(SESSION_COOKIE)?.value)) throw new Error("A team session is required to read the shared workspace.");
+  return { ...await sharedCatalog(DEFAULT_CONFIG), shared: true };
 });
 
-export function datasetFiling(data: Awaited<ReturnType<typeof getAppData>>, ein: string | null): Filing | null {
+export function datasetFiling(data: Awaited<ReturnType<typeof getAppData>>, ein: string | null): FilingSummary | null {
   if (!ein) return null;
-  return data.shared ? data.filings[ein] ?? null : getFiling(ein);
+  return data.shared ? data.summaries[ein] ?? null : summarize(getFiling(ein));
+}
+
+export async function companyFiling(ein: string | null): Promise<Filing | null> {
+  if (!ein) return null;
+  if (!sheetConfigured()) return getFiling(ein);
+  if (!canReadWorkspace((await cookies()).get(SESSION_COOKIE)?.value)) throw new Error("A team session is required.");
+  return sharedFiling(ein);
 }
 
 export function getCompany(slug: string): Company | undefined {

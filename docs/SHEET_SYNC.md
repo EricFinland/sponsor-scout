@@ -31,14 +31,19 @@ Keep stable slugs and IDs intact. Do not edit Filings payload chunks by hand. Do
    - `SHEET_WEBHOOK_URL`: deployed `/exec` URL.
    - `SHEET_WEBHOOK_SECRET`: generated Script Properties `SECRET`.
    - `TEAM_ACCESS_KEY`: a separate random team access key with at least 24 characters. This is not the Google password or the Sheet server secret.
-7. Redeploy. In shared mode, pages and APIs require an eight-hour signed, HTTP-only team session. The owner distributes the team key privately. Vercel's own deployment protection can remain enabled.
-8. Sign in, save a research note, and verify the matching Profiles row. Reload the site to confirm the note is read from the Sheet. Check the save status before closing a tab.
+7. Choose `WORKSPACE_ACCESS`: `private` (default) requires an eight-hour signed team session; `public-read` removes sign-in and blocks shared-data writes; `public-edit` removes sign-in and lets all visitors edit. Public modes expose the operational sponsorship history and outreach notes; original Source History and Import Review tabs are still excluded. The Sheet itself stays restricted and server credentials stay private. Configure Vercel protection so the production domain has the intended visibility.
+8. Redeploy. Public mode redirects `/login` to the home page and hides Sign out. In public-read mode, edit the private Sheet directly and use Reload Sheet data to show changes.
+9. For private or public-edit mode, save a research note, and verify the matching Profiles row. Reload the site to confirm the note is read from the Sheet. Check the save status before closing a tab.
 
 If the script code changes, deploy a new Apps Script version under the existing deployment and retain its `/exec` URL. A new Vercel deployment alone does not update Apps Script.
 
 ## Research and scoring
 
-Sheet edits are reflected on a full page reload. Use **Reload Sheet data** in the app after editing cells. Use **Update Sheet scores** to recompute Scores and Tier Summary from the current shared inputs. These output tabs are snapshots with `scoredAt` and an input hash, not live spreadsheet formulas.
+The five main views stay loaded in browser memory and switch without page or Sheet requests. They share company metadata, research, workflow records and filing summaries; full grant lists are requested only for a company profile. Shared company, research and workflow records are not written to browser localStorage. Personal email templates explicitly saved by the visitor are stored locally and never written to the shared Sheet.
+
+Server reads use a workspace-scoped, authenticated cache with a 60-second revalidation interval and concurrent-miss deduplication. Successful writes invalidate affected cache entries. The Apps Script summary cache also lasts up to 60 seconds and is cleared when filings change.
+
+Other editors’ changes are not pushed into an already-open workspace. Use **Reload Sheet data** after editing cells: it clears both cache layers before reloading. A normal browser reload may reuse the server cache. The first uncached workspace load, an uncached filing, explicit refreshes and confirmed saves still depend on Google response time. Use **Update Sheet scores** to recompute Scores and Tier Summary from the current shared inputs. These output tabs are snapshots with `scoredAt` and an input hash, not live spreadsheet formulas.
 
 The app queues changes and confirms the endpoint response before reporting a shared save. Failed changes remain in browser memory, with retry and backup options. If another editor changed the same record, download your unsaved backup, reload, and reconcile rather than overwriting blindly. Restore-from-backup is disabled in shared mode.
 
@@ -63,3 +68,7 @@ The record needs a city, county, HTTPS source, supporting evidence, and a valid 
 The gala workbook contains 37 organization sponsorships totaling $303,500 and four personal/family gifts totaling $30,500. Personal gifts remain in the private source/review tabs and do not create company profiles. Twenty-two organizations are represented in the history; 21 are new to the 33-company starter list, producing 54 profiles.
 
 Clear aliases such as UTA/United Talent Agency are normalized. Ambiguous Paramount shorthand remains separate from Paramount Pictures. Parent companies, brands and legacy entities are not automatically merged. Unknown foundation matches remain unverified. Past sponsorship is not assumed to be a current partnership or a warm introduction.
+
+## Personal template editor
+
+The Templates page is available without sign-in. Visitors can customize four starter drafts or add personal templates; the outreach composer uses the same personal library. This feature uses browser localStorage even when the shared workspace is public-read. It does not grant visitors permission to modify the Sheet. Saved templates are validated, support {{first}}, {{company}}, {{hook}} and {{sender}}, and can be exported/imported as versioned JSON backups. Import adds copies rather than overwriting existing records. Unsaved drafts block workspace reload; storage errors keep the draft visible and are not reported as successful saves. Clearing browser storage removes personal versions.

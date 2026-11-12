@@ -1,10 +1,14 @@
 import { NextRequest, NextResponse } from "next/server";
-import { SESSION_COOKIE, verifySession } from "./lib/auth";
+import { publicWorkspace, SESSION_COOKIE, verifySession } from "./lib/auth";
 
 /** Shared Sheets contain private history and notes. Every shared-mode route requires a team session. */
 export function proxy(request: NextRequest) {
   if (!process.env.SHEET_WEBHOOK_URL) return NextResponse.next();
   const path = request.nextUrl.pathname;
+  if (publicWorkspace()) {
+    if (path === "/login") return NextResponse.redirect(new URL("/", request.url));
+    return NextResponse.next();
+  }
   if (path === "/login" || path.startsWith("/api/auth/")) return NextResponse.next();
   if ((process.env.TEAM_ACCESS_KEY ?? "").length < 24) {
     return new NextResponse("Team access is not configured. Set TEAM_ACCESS_KEY before enabling shared Google Sheets storage.", { status: 503 });

@@ -103,9 +103,10 @@ Local demo mode runs with none of these set. They are listed in `.env.example`.
 | --- | --- |
 | `PARTNER_COMPANIES` | A comma-separated list of existing Thirst Project partners. Matching companies get a notice on their profile and the outreach draft is turned off. Kept out of the repository because the list is private |
 | `HUNTER_API_KEY` | Work email lookup for foundation officers through Hunter.io (free tier, 50 credits a month). One credit per lookup, only when someone asks |
+| `WORKSPACE_ACCESS` | `private` requires team sign-in; `public-read` allows public viewing; `public-edit` also permits public editing |
 | `SHEET_WEBHOOK_URL`, `SHEET_WEBHOOK_SECRET` | Connects the private Google Sheet as the shared data store (also requires `TEAM_ACCESS_KEY`). Setup is in [docs/SHEET_SYNC.md](docs/SHEET_SYNC.md) |
 
-The Google Sheets integration now reads and writes shared data with authenticated sessions, conflict detection and explicit save status. See `docs/SHEET_SYNC.md` for setup, verification and limitations. Hunter lookup still requires a separately configured key.
+The Google Sheets integration reads and writes shared data with authenticated sessions, conflict detection and explicit save status. Main tabs reuse the browser workspace without network navigation. Server snapshots are cached for 60 seconds; ranking uses filing summaries and full grant details load on demand. Use Reload Sheet data for changes made by other editors. See `docs/SHEET_SYNC.md` for setup, verification and limitations. Hunter lookup still requires a separately configured key.
 
 ## Working with the data
 
@@ -157,4 +158,8 @@ Accessibility reserves 35 points for sourced local presence and caps other acces
 
 Gala sponsorships are stored separately from foundation grants and peer-nonprofit support. Recent observed sponsorship amounts take precedence for capacity fit; lifetime totals are never treated as an annual budget. Historical sponsors are routed toward relationship-owner renewal rather than cold email drafts.
 
-Shared Sheets contain private team data. When a Sheet endpoint is configured, sign-in is required for pages and APIs. Never commit raw source workbooks, private sponsorship amounts, Google credentials or server secrets.
+Shared Sheets contain private team data. Private mode requires sign-in. Public modes remove sign-in and expose the operational workspace; public-read blocks changes to shared data. Never commit raw source workbooks, private sponsorship amounts, Google credentials or server secrets.
+
+## Personal email templates
+
+Use Templates in the main navigation to edit a starter or add a reusable email, choose industries and preview its placeholders. Personal versions are stored only in this browser, appear in the company outreach picker and survive workspace reloads. Export/import JSON backups to share them or move devices. Import adds copies, and removal offers Undo. The public Google Sheet workspace remains view-only; template edits do not write to it. Clearing browser storage removes personal templates, so keep an exported backup.
