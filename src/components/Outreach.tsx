@@ -14,11 +14,14 @@ export default function Outreach({
   filing,
   peers,
   disabled,
+  disabledReason,
 }: {
   company: Company;
   filing: Filing | null;
   peers: PeerRow[];
   disabled: boolean;
+  /** Shown instead of the default when drafts are off for another reason. */
+  disabledReason?: string;
 }) {
   const [sender, setSender] = useStore("sender");
   const [, setOutreach] = useStore("outreach");
@@ -78,7 +81,7 @@ export default function Outreach({
   }
 
   if (disabled) {
-    return <p className="empty">Outreach drafts are off for existing partners.</p>;
+    return <p className="empty">{disabledReason ?? "Outreach drafts are off for existing partners."}</p>;
   }
   if (sponsorshipHistory(company, new Date().getFullYear()).length > 0) {
     return <p className="empty">This organization has sponsored Thirst Project before. Coordinate a renewal with the relationship owner before creating outreach; cold email drafts are disabled.</p>;

@@ -68,6 +68,8 @@ export function isReadOnlyWorkspace() { return readOnly; }
 let versions: Record<string, string> = {};
 let fallbackConfig: ScoringConfig | null = null;
 let syncState = { state: "local", message: "Changes are saved in this browser." };
+/** Set when the Sheet accepted a save but could not store every field. Stays until reload. */
+let syncWarning = "";
 const pending = new Map<string, SheetOperation>();
 let saving = false;
 let templateDraftDirty = false;
@@ -103,7 +105,12 @@ export async function flushShared(): Promise<void> {
     if (!response.ok) throw new Error(result.error ?? "The shared save failed.");
     Object.assign(versions, result.versions);
     for (const [id, op] of batch) if (pending.get(id) === op) pending.delete(id);
-    syncState = { state: pending.size ? "saving" : "saved", message: pending.size ? "Saving to Google Sheet…" : "All changes saved to Google Sheet." };
+    if (result.warning) syncWarning = String(result.warning);
+    syncState = pending.size
+      ? { state: "saving", message: "Saving to Google Sheet…" }
+      : syncWarning
+        ? { state: "warning", message: syncWarning }
+        : { state: "saved", message: "All changes saved to Google Sheet." };
   } catch (e) {
     syncState = { state: "error", message: `${e instanceof Error ? e.message : "The shared save failed."} Your unsaved changes are still here. Download a backup before reloading.` };
   } finally { saving = false; notify(); }

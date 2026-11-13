@@ -1,10 +1,12 @@
 import { formatUsd } from "./format";
 import type {
   ConfidenceLabel,
+  EthicsCheck,
   Evidence,
   FactorKey,
   FactorScore,
   Industry,
+  Research,
   ScoreInputs,
   ScoreResult,
   ScoringConfig,
@@ -27,6 +29,19 @@ const INDUSTRY_WATER_TIE: Partial<Record<Industry, number>> = {
 };
 
 const SIZE_BAND_SCORE = { small: 25, mid: 40, large: 55, enterprise: 65 } as const;
+
+/** The sponsor-fit research fields, with defaults for older records that predate them. */
+export function fitSignals(research: Research) {
+  const clean = (items: string[] | undefined) => (items ?? []).map((s) => s.trim()).filter(Boolean);
+  return {
+    csr: research.csrReport ?? "unknown",
+    programs: clean(research.givingPrograms),
+    partners: [...new Set(clean(research.nonprofitPartners))],
+    credentials: clean(research.ethicsCredentials),
+    ethics: research.ethicsCheck ?? "unknown",
+    ethicsSource: research.ethicsSourceUrl || research.sourceUrl || undefined,
+  };
+}
 
 function clamp(n: number): number {
   return Math.max(0, Math.min(100, Math.round(n)));
@@ -119,12 +134,27 @@ function missionAlignment(inputs: ScoreInputs): FactorScore {
     });
   }
 
+  const fit = fitSignals(research);
+  if (fit.csr === "yes") {
+    evidence.push({ text: "Publishes a CSR, impact or sustainability report, so its giving priorities are on the record.", points: 10, sourceUrl: research.sourceUrl || undefined });
+  } else if (fit.csr === "no") {
+    evidence.push({ text: "No CSR, impact or sustainability report found.", points: 0, sourceUrl: research.sourceUrl || undefined });
+  }
+  if (fit.credentials.length > 0) {
+    evidence.push({
+      text: `Public commitments in line with Thirst Project's values: ${fit.credentials.join(", ")}.`,
+      points: Math.min(10, fit.credentials.length * 5),
+      sourceUrl: fit.ethicsSource,
+    });
+  }
+
   const tie = INDUSTRY_WATER_TIE[company.industry];
   if (tie) {
     evidence.push({ text: "Industry has a direct business tie to water.", points: tie });
   }
 
-  const hasData = research.waterFocus !== "unknown" || research.focusAreas.length > 0 || stats !== null || history.length > 0;
+  const hasData = research.waterFocus !== "unknown" || research.focusAreas.length > 0 || stats !== null || history.length > 0 ||
+    fit.csr !== "unknown" || fit.credentials.length > 0;
   if (hasData && research.waterFocus === "unknown") {
     // Foundation grants are only one channel. Until someone reads the company's own
     // reporting, its stated priorities get partial credit instead of none.
@@ -162,6 +192,15 @@ function peerSignal(inputs: ScoreInputs): FactorScore {
     }
   }
 
+  const partners = fitSignals(company.research).partners;
+  if (partners.length > 0) {
+    evidence.push({
+      text: `Has partnered with or sponsored ${partners.length} nonprofit${partners.length === 1 ? "" : "s"}: ${partners.join(", ")}.`,
+      points: partners.length >= 3 ? 40 : 30,
+      sourceUrl: company.research.sourceUrl || undefined,
+    });
+  }
+
   if (industryPeerCompanies >= 2) {
     evidence.push({
       text: `${industryPeerCompanies} other companies in this industry have documented support for water nonprofits (grants or partnerships).`,
@@ -171,9 +210,9 @@ function peerSignal(inputs: ScoreInputs): FactorScore {
     evidence.push({ text: "One other company in this industry has documented support for a water nonprofit.", points: 8 });
   }
 
-  const checked = nonprofits.length > 0 || Boolean(filing?.detailAvailable);
+  const checked = nonprofits.length > 0 || partners.length > 0 || Boolean(filing?.detailAvailable);
   let score = clamp(sum(evidence));
-  if (nonprofits.length === 0) {
+  if (nonprofits.length === 0 && partners.length === 0) {
     if (checked) {
       evidence.unshift({
         text: "No grants to known water nonprofits in the latest filing, and none listed in the Peers table.",
@@ -252,6 +291,17 @@ function capacityFit(inputs: ScoreInputs): FactorScore {
       points: null,
     });
   }
+  const programs = fitSignals(company.research).programs;
+  if (programs.length > 0 && recent.length === 0 && !(filing && filing.totalGiving !== null)) {
+    const points = Math.min(15, programs.length * 5);
+    evidence.push({
+      text: `Runs ${programs.length} giving program${programs.length === 1 ? "" : "s"} (${programs.join(", ")}), so there is budget set aside for causes.`,
+      points,
+      sourceUrl: company.research.sourceUrl || undefined,
+    });
+    score = clamp(score + points);
+    hasData = true;
+  }
   return { key: "capacity_fit", score, hasData, evidence };
 }
 
@@ -305,6 +355,13 @@ function accessibility(inputs: ScoreInputs): FactorScore {
     evidence.push({ text: `Prior gala sponsor (${history[0].year}). Ask the relationship owner about renewal; an active contact or warm introduction has not been assumed.`,
       points: recentSponsorships(company, inputs.asOfYear).length ? 20 : 10, sourceUrl: history[0].sourceUrl });
   }
+  const accessPrograms = fitSignals(research).programs;
+  if (accessPrograms.includes("Event sponsorships")) {
+    evidence.push({ text: "Sponsors events, which matches Thirst Project's gala sponsorship ask.", points: 10, sourceUrl: research.sourceUrl || undefined });
+  }
+  if (accessPrograms.includes("Employee matching gifts")) {
+    evidence.push({ text: "Matches employee gifts, an easy first ask for supporters who work there.", points: 5, sourceUrl: research.sourceUrl || undefined });
+  }
   const local = localPresence(research, inputs.asOfYear);
   evidence.push({ text: local.reason, points: local.points, sourceUrl: research.laSourceUrl || undefined });
   if (company.domain) {
@@ -315,6 +372,7 @@ function accessibility(inputs: ScoreInputs): FactorScore {
     research.applicationProcess !== "unknown" ||
     research.warmIntro ||
     history.length > 0 ||
+    accessPrograms.length > 0 ||
     (filing !== null && (filing.preselectedOnly !== null || filing.officers.length > 0));
   const rawOther = sum(evidence) - local.points;
   const other = hasAccessData ? Math.min(65, rawOther) : Math.min(65, Math.max(rawOther, config.baseline.accessibility));
@@ -376,6 +434,15 @@ function confidence(inputs: ScoreInputs): FactorScore {
     "Annual giving total is known.",
     "Annual giving total unknown.",
   );
+  const fit = fitSignals(research);
+  add(fit.csr !== "unknown", 5, "CSR reporting checked.", "CSR reporting not yet checked.");
+  add(
+    fit.partners.length > 0 || fit.programs.length > 0,
+    5,
+    "Nonprofit partnerships or giving programs recorded.",
+    "Nonprofit partnerships and giving programs not recorded.",
+  );
+  add(fit.ethics !== "unknown", 10, "Ethics screen completed.", "Ethics not yet screened.");
   add(
     peers.length > 0 || Boolean(filing?.detailAvailable),
     10,
@@ -384,6 +451,16 @@ function confidence(inputs: ScoreInputs): FactorScore {
   );
 
   return { key: "confidence", score: clamp(sum(evidence)), hasData: true, evidence };
+}
+
+/**
+ * A company flagged in the ethics screen cannot rank above a tier, whatever its
+ * other evidence: "review" stops below Tier A, "conflict" drops to Tier D.
+ */
+export function ethicsCeiling(check: EthicsCheck, config: ScoringConfig): number {
+  if (check === "conflict") return Math.max(0, config.tiers.C - 1);
+  if (check === "review") return Math.max(0, config.tiers.A - 1);
+  return 100;
 }
 
 export function tierFor(overall: number, config: ScoringConfig): Tier {
@@ -410,7 +487,10 @@ export function scoreCompany(inputs: ScoreInputs): ScoreResult {
   const { weights } = inputs.config;
   const totalWeight = FACTOR_ORDER.reduce((t, k) => t + Math.max(0, weights[k]), 0);
   const weighted = FACTOR_ORDER.reduce((t, k) => t + Math.max(0, weights[k]) * factors[k].score, 0);
-  const overall = totalWeight > 0 ? Math.round(weighted / totalWeight) : 0;
+  const uncapped = totalWeight > 0 ? Math.round(weighted / totalWeight) : 0;
+  const check = fitSignals(inputs.company.research).ethics;
+  const ceiling = ethicsCeiling(check, inputs.config);
+  const overall = Math.min(uncapped, ceiling);
   const confidenceLabel = confidenceLabelFor(factors.confidence.score, inputs.config);
   return {
     overall,
@@ -418,5 +498,6 @@ export function scoreCompany(inputs: ScoreInputs): ScoreResult {
     confidenceLabel,
     provisional: confidenceLabel === "Low",
     factors,
+    ethics: { check, uncapped, capped: overall < uncapped },
   };
 }

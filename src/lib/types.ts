@@ -118,7 +118,40 @@ export interface Research {
   laSourceUrl?: string;
   laVerifiedAt?: string;
   laEvidence?: string;
+  /** Sponsor-fit signals for companies without a foundation filing. All come from the company's own or public reporting. */
+  csrReport?: "yes" | "no" | "unknown";
+  givingPrograms?: string[];
+  nonprofitPartners?: string[];
+  ethicsCredentials?: string[];
+  ethicsCheck?: EthicsCheck;
+  ethicsNotes?: string;
+  ethicsSourceUrl?: string;
 }
+
+export type EthicsCheck = "unknown" | "clear" | "review" | "conflict";
+
+export const ETHICS_LABELS: Record<EthicsCheck, string> = {
+  unknown: "Not screened yet",
+  clear: "Screened, no concerns found",
+  review: "Concern worth discussing before outreach",
+  conflict: "Not a fit for Thirst Project",
+};
+
+export const GIVING_PROGRAMS = [
+  "Corporate grants",
+  "Event sponsorships",
+  "Employee matching gifts",
+  "Cause marketing",
+  "In-kind donations",
+  "Employee volunteering",
+] as const;
+
+export const ETHICS_CREDENTIALS = [
+  "Certified B Corporation",
+  "1% for the Planet member",
+  "UN Global Compact participant",
+  "Published water stewardship goals",
+] as const;
 
 export const EMPTY_RESEARCH: Research = {
   waterFocus: "unknown",
@@ -136,6 +169,13 @@ export const EMPTY_RESEARCH: Research = {
   laSourceUrl: "",
   laVerifiedAt: "",
   laEvidence: "",
+  csrReport: "unknown",
+  givingPrograms: [],
+  nonprofitPartners: [],
+  ethicsCredentials: [],
+  ethicsCheck: "unknown",
+  ethicsNotes: "",
+  ethicsSourceUrl: "",
 };
 
 export const FOCUS_AREAS = [
@@ -244,6 +284,13 @@ export interface ScoreResult {
   /** True when confidence is Low. The score should be read as a placeholder. */
   provisional: boolean;
   factors: Record<FactorKey, FactorScore>;
+  /** Result of the ethics screen. A flagged company has its overall score capped. */
+  ethics: {
+    check: EthicsCheck;
+    /** The weighted score before any ethics cap. */
+    uncapped: number;
+    capped: boolean;
+  };
 }
 
 export interface ScoreInputs {

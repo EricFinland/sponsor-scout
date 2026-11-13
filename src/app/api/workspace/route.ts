@@ -3,7 +3,8 @@ import { NextResponse } from "next/server";
 import { canReadWorkspace, canWriteWorkspace, sameOrigin, SESSION_COOKIE } from "@/lib/auth";
 import { DEFAULT_CONFIG } from "@/lib/data";
 import { readSheet, scoreRows, sheetConfigured, sheetRequest } from "@/lib/sheets";
-import { validateOperations } from "@/lib/mutations";
+import { validateOperations, withoutColumns } from "@/lib/mutations";
+import { PROFILE_FIT_COLUMNS } from "@/lib/sheet-schema";
 import { configFromRows } from "@/lib/sheet-data";
 import { invalidateSheetData } from "@/lib/shared-data";
 
@@ -36,9 +37,23 @@ export async function POST(request: Request) {
       for (const op of operations.filter((op) => op.tab === "Weights")) if (op.row) next.set(op.key, op.row);
       configFromRows([...next.values()], DEFAULT_CONFIG);
     }
-    const result = await sheetRequest<{ versions: Record<string, string> }>("mutate", { operations });
+    let result: { versions: Record<string, string> };
+    let warning: string | undefined;
+    try {
+      result = await sheetRequest<{ versions: Record<string, string> }>("mutate", { operations });
+    } catch (error) {
+      // Workbooks created before the sponsor-fit fields lack their Profiles columns.
+      // The Apps Script checks every change before writing, so nothing was saved; retry without them.
+      const missing = /Unknown or protected column: (\w+)/.exec(error instanceof Error ? error.message : "")?.[1];
+      if (!missing || !(PROFILE_FIT_COLUMNS as readonly string[]).includes(missing)) throw error;
+      result = await sheetRequest<{ versions: Record<string, string> }>("mutate", {
+        operations: withoutColumns(operations, "Profiles", PROFILE_FIT_COLUMNS),
+      });
+      warning = "Saved, except nonprofit history, CSR and ethics notes: the team Sheet's Profiles tab has no columns for them yet. " +
+        "Redeploy the Apps Script from docs/apps-script/Code.gs and it adds them on the next save.";
+    }
     invalidateSheetData(operations.map((op) => op.tab));
-    return NextResponse.json({ ok: true, ...result }, { headers: { "Cache-Control": "no-store" } });
+    return NextResponse.json({ ok: true, ...result, warning }, { headers: { "Cache-Control": "no-store" } });
   } catch (error) {
     const message = error instanceof Error ? error.message : "The shared save failed.";
     return NextResponse.json({ error: message }, { status: /conflict|changed by another/i.test(message) ? 409 : 400 });

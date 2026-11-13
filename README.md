@@ -61,6 +61,18 @@ Each factor is scored 0 to 100. The overall score is the weighted average.
 
 A factor with no evidence is held at a neutral value and the company is marked provisional, so a thin profile never looks as settled as a researched one. The Method page in the app lists every rule and its point value.
 
+### Sponsor fit for companies without a foundation
+
+Without a 990-PF, four questions carry the score. Each profile shows them together under Sponsor fit.
+
+| Question | Where the answer comes from | How it scores |
+| --- | --- | --- |
+| Is it in or near LA? | Research notes. The engine also looks up the headquarters on Wikidata and offers it as a one-click fill | Up to 35 accessibility points once confirmed |
+| Has it backed nonprofits before? | Named nonprofit partners in research notes, plus gala history and water grants | Peer signal 30 to 40, plus the existing water-nonprofit rules |
+| Does it report on its giving? | CSR report and giving programs in research notes | Mission +10 for a report, capacity +5 per program (up to 15), accessibility +10 for event sponsorships |
+| Is it a values fit? | Ethics screen and public commitments in research notes | Commitments add up to 10 to mission. A concern holds the company below Tier A; not a fit drops it to Tier D and turns off outreach |
+
+
 ## What it costs to run
 
 The public-data demo needs no paid services. Shared team storage uses a private Google Sheet and a free Apps Script web app. Server-only credentials and a team access key are required for shared mode.
@@ -129,7 +141,7 @@ The Google Sheets integration reads and writes shared data with authenticated se
 
 ## State of the starter data
 
-There are 54 organizations on file: the original 33 companies and 21 additional organizations from the gala history. Six profiles have sourced LA location evidence. Giving priorities still require manual research. The private shared Sheet adds 37 organization gala sponsorship records; these amounts and personal donor records are not bundled in this public repository.
+There are 54 organizations on file: the original 33 companies and 21 additional organizations from the gala history. Six profiles have sourced LA location evidence. Giving priorities, nonprofit history, CSR and the ethics screen still require manual research. The private shared Sheet adds 37 organization gala sponsorship records; these amounts and personal donor records are not bundled in this public repository.
 
 - **Of the original 33 companies, 21 have a matched foundation**, nine have no foundation found and three have unconfirmed matches (Procter & Gamble, Microsoft, YETI). An unsuccessful search does not prove that no foundation exists.
 - **Imported organizations have no assumed foundation match.** Their private gala history provides separate sponsorship evidence in shared mode.

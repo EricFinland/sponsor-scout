@@ -13,7 +13,9 @@ import ResearchForm from "./ResearchForm";
 import { Bar, ConfidenceText, External, Notice, ScoreScale, TIER_MEANING, TierMark } from "./ui";
 import { score, useCompanyWithResearch, useConfig } from "./useScore";
 import { sponsorshipHistory } from "@/lib/sponsorships";
-import { localPresence, LA_LABELS } from "@/lib/local-presence";
+import SponsorFit from "./SponsorFit";
+import { usePublicRecord } from "./usePublicRecord";
+import { ETHICS_LABELS } from "@/lib/types";
 
 interface Props {
   company: Company;
@@ -47,7 +49,9 @@ export default function ProfileView({
   const saved = prospects.some((p) => p.company.slug === company.slug);
   const place = company.hqState || filing?.state || "";
   const history = sponsorshipHistory(company, new Date().getFullYear());
-  const local = localPresence(company.research, new Date().getFullYear());
+  const laUnresearched = (company.research.laPresence ?? "unknown") === "unknown";
+  const record = usePublicRecord(company.name, company.domain, laUnresearched);
+  const ethicsCheck = result.ethics.check;
   const otherIndustryPeers = [
     ...new Set(
       peersTable.filter((p) => p.industry === company.industry && p.company !== company.name).map((p) => p.company),
@@ -133,6 +137,20 @@ export default function ProfileView({
           minutes with its impact report, entered under Research notes, will firm this up.
         </Notice>
       )}
+      {ethicsCheck === "conflict" && (
+        <Notice tone="stop">
+          <strong>Not a fit for Thirst Project.</strong>{" "}
+          {company.research.ethicsNotes || "The ethics screen found a conflict with Thirst Project's values or its youth audience."}{" "}
+          {result.ethics.capped && `The score is held at ${result.overall} (Tier D) instead of ${result.ethics.uncapped}.`} Outreach drafts are turned off.
+        </Notice>
+      )}
+      {ethicsCheck === "review" && (
+        <Notice tone="warn">
+          <strong>Ethics review before outreach.</strong>{" "}
+          {company.research.ethicsNotes || "The ethics screen found a concern worth discussing with the team."}{" "}
+          {result.ethics.capped && `The score is held at ${result.overall} instead of ${result.ethics.uncapped} until the concern is resolved.`}
+        </Notice>
+      )}
       {filing?.grantsInAttachment && !filing.detailAvailable && (
         <Notice>
           This foundation files its grant list as a PDF attachment instead of itemized data, so individual grants cannot
@@ -142,10 +160,8 @@ export default function ProfileView({
 
       <div className="profile-grid">
         <div className="profile-main">
-          <section aria-labelledby="local-presence"><h2 id="local-presence">LA presence</h2>
-            <p><strong>{LA_LABELS[company.research.laPresence ?? "unknown"]}</strong>. {local.reason}</p>
-            {company.research.laEvidence && <p>{company.research.laEvidence}</p>}
-            {company.research.laSourceUrl && <External href={company.research.laSourceUrl}>Location source</External>}
+          <section aria-labelledby="sponsor-fit"><h2 id="sponsor-fit">Sponsor fit</h2>
+            <SponsorFit company={company} peers={peers} history={history} record={record} />
           </section>
           {history.length > 0 && <section aria-labelledby="sponsorship-history"><h2 id="sponsorship-history">Thirst Project sponsorship history</h2>
             <p className="footnote">Gala sponsorship records from the team workbook. These are separate from foundation grants and support for other nonprofits.</p>
@@ -258,12 +274,18 @@ export default function ProfileView({
 
           <section aria-labelledby="outreach">
             <h2 id="outreach">Outreach email</h2>
-            <Outreach company={company} filing={filing} peers={peers} disabled={alreadyPartner} />
+            <Outreach
+              company={company}
+              filing={filing}
+              peers={peers}
+              disabled={alreadyPartner || ethicsCheck === "conflict"}
+              disabledReason={alreadyPartner ? undefined : `Outreach drafts are off: ${ETHICS_LABELS.conflict.toLowerCase()}.`}
+            />
           </section>
         </div>
 
         <aside className="profile-side">
-          <ResearchForm company={company} hasFoundation={Boolean(filing)} />
+          <ResearchForm company={company} hasFoundation={Boolean(filing)} record={laUnresearched ? record : null} />
           {filing && (
             <div className="side-block">
               <h2>Sources</h2>

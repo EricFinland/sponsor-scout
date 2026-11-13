@@ -41,7 +41,7 @@ export default function WorkspaceProvider({ initial, versions, defaults, error, 
   }
   if (error) return <div role="alert" className="notice"><h1>Team Sheet unavailable</h1><p>{error}</p><button className="button" onClick={() => window.location.reload()}>Retry connection</button></div>;
   if (!ready) return <p className="loading">Loading the team workspace…</p>;
-  return <>{initial && <div className={`workspace-status ${status.state === "error" ? "workspace-error" : ""}`} role="status">
+  return <>{initial && <div className={`workspace-status ${status.state === "error" ? "workspace-error" : status.state === "warning" ? "workspace-warning" : ""}`} role="status">
     <span>{status.message}</span>
     <span className="row-actions">{status.state === "error" && <button className="link-button" onClick={() => void flushShared()}>Retry save</button>}
       {!readOnly && <button className="link-button" disabled={refreshing} onClick={() => void refreshScores()}>{refreshing ? "Updating scores…" : "Update Sheet scores"}</button>}

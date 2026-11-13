@@ -1,6 +1,8 @@
 /** Sponsor Scout private storage. Bind this script to the destination Sheet. Never publish the Sheet itself. */
 var READ_TABS = ['Companies', 'Profiles', 'Peers', 'Sponsorships', 'Weights', 'Scores', 'Tier Summary', 'Outreach Tracker', 'Search Log', 'Filings'];
 var WRITE_KEYS = { 'Companies': 'slug', 'Profiles': 'slug', 'Weights': 'id', 'Outreach Tracker': 'id', 'Search Log': 'id', 'Filings': 'id' };
+// Columns added after the first workbooks were built. A missing one is appended to the header row on first write.
+var OPTIONAL_COLUMNS = { 'Profiles': ['csrReport', 'givingPrograms', 'nonprofitPartners', 'ethicsCredentials', 'ethicsCheck', 'ethicsNotes', 'ethicsSourceUrl'] };
 
 function setupSponsorScout() {
   var props = PropertiesService.getScriptProperties();
@@ -118,7 +120,7 @@ function sameValues(row, patch) {
 
 function mutate(spreadsheet, operations) {
   if (!Array.isArray(operations) || !operations.length || operations.length > 50) throw new Error('Invalid changes.');
-  var tables = {}, seen = {}, plans = [];
+  var tables = {}, seen = {}, plans = [], addHeaders = {};
   // Preflight the entire batch before changing any cell.
   operations.forEach(function (op) {
     var keyColumn = WRITE_KEYS[op.tab];
@@ -135,7 +137,9 @@ function mutate(spreadsheet, operations) {
     if (!op.delete && (!op.row || typeof op.row !== 'object' || String(op.row[keyColumn]) !== op.key)) throw new Error('Invalid row.');
     if (!op.delete) Object.keys(op.row).forEach(function (key) {
       var value = op.row[key];
-      if (table.headers.indexOf(key) < 0 || key === 'version') throw new Error('Unknown or protected column: ' + key);
+      var optional = (OPTIONAL_COLUMNS[op.tab] || []).indexOf(key) >= 0;
+      if (key === 'version' || (table.headers.indexOf(key) < 0 && !optional)) throw new Error('Unknown or protected column: ' + key);
+      if (table.headers.indexOf(key) < 0) (addHeaders[op.tab] || (addHeaders[op.tab] = {}))[key] = true;
       if (value !== null && ['string', 'number', 'boolean'].indexOf(typeof value) < 0) throw new Error('Invalid cell value.');
       if (typeof value === 'string' && value.length > (op.tab === 'Filings' ? 25000 : 5000)) throw new Error('Cell value is too long.');
     });
@@ -143,6 +147,12 @@ function mutate(spreadsheet, operations) {
     var unchanged = old && !op.delete && sameValues(old, op.row);
     if (versioned && old && !unchanged && String(old.version || '') !== String(op.expectedVersion || '')) throw new Error('Conflict: ' + op.tab + ' ' + op.key + ' changed by another editor. Download your unsaved backup and reload before reconciling.');
     plans.push({ op: op, table: table, old: old, index: index, unchanged: unchanged, versioned: versioned });
+  });
+  // Every change passed its checks. Only now extend header rows, before any record is written.
+  Object.keys(addHeaders).forEach(function (tab) {
+    var table = tables[tab], added = Object.keys(addHeaders[tab]);
+    table.sheet.getRange(1, table.headers.length + 1, 1, added.length).setValues([added]);
+    table.headers = table.headers.concat(added);
   });
   var versions = {};
   plans.forEach(function (plan) {

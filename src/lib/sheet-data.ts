@@ -24,11 +24,17 @@ export function researchFromRow(row: SheetRow): Research {
     warmIntro: bool(row.warmIntro), sourceUrl: str(row.sourceUrl), notes: str(row.notes), updatedAt: str(row.updatedAt) || null,
     laPresence: oneOf(row.laPresence, ["headquarters", "office", "operations", "retail", "regional", "none", "unknown"] as const, "unknown"),
     laCity: str(row.laCity), laCounty: str(row.laCounty), laSourceUrl: str(row.laSourceUrl), laVerifiedAt: str(row.laVerifiedAt).slice(0, 10), laEvidence: str(row.laEvidence),
+    csrReport: oneOf(row.csrReport, ["yes", "no", "unknown"] as const, "unknown"), givingPrograms: list(row.givingPrograms),
+    nonprofitPartners: list(row.nonprofitPartners), ethicsCredentials: list(row.ethicsCredentials),
+    ethicsCheck: oneOf(row.ethicsCheck, ["unknown", "clear", "review", "conflict"] as const, "unknown"),
+    ethicsNotes: str(row.ethicsNotes), ethicsSourceUrl: str(row.ethicsSourceUrl),
   };
 }
 
 export function researchToRow(slug: string, r: Research): SheetRow {
-  return { slug, ...EMPTY_RESEARCH, ...r, focusAreas: r.focusAreas.join("; ") };
+  const join = (items: string[] | undefined) => (items ?? []).join("; ");
+  return { slug, ...EMPTY_RESEARCH, ...r, focusAreas: join(r.focusAreas), givingPrograms: join(r.givingPrograms),
+    nonprofitPartners: join(r.nonprofitPartners), ethicsCredentials: join(r.ethicsCredentials) } as SheetRow;
 }
 
 export function companyToRow(c: Company): SheetRow {

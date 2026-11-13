@@ -39,6 +39,8 @@ export default function MethodContent({config: DEFAULT_CONFIG, shared}: {config:
             <tr><td>10% or more of grants fund neighboring causes</td><td className="num">+10</td></tr>
             <tr><td>Each stated focus area next to Thirst Project&apos;s work, up to two</td><td className="num">+8</td></tr>
             <tr><td>Industry has a direct tie to water (beverage, water technology, outdoor)</td><td className="num">+8 to +10</td></tr>
+            <tr><td>Publishes a CSR, impact or sustainability report</td><td className="num">+10</td></tr>
+            <tr><td>Each public values commitment (B Corp, 1% for the Planet, UN Global Compact, water stewardship goals), up to two</td><td className="num">+5</td></tr>
           </tbody>
         </table>
         <p className="footnote">
@@ -57,6 +59,8 @@ export default function MethodContent({config: DEFAULT_CONFIG, shared}: {config:
             <tr><td>Supports three or more</td><td className="num">90</td></tr>
             <tr><td>Those gifts total $250,000 or more</td><td className="num">+10</td></tr>
             <tr><td>Two or more other companies in the same industry have documented support for water nonprofits</td><td className="num">+15</td></tr>
+            <tr><td>Has partnered with or sponsored one or two nonprofits of any kind (research note)</td><td className="num">+30</td></tr>
+            <tr><td>Three or more</td><td className="num">+40</td></tr>
           </tbody>
         </table>
         <p className="footnote">
@@ -80,6 +84,7 @@ export default function MethodContent({config: DEFAULT_CONFIG, shared}: {config:
           ask, and scales down from there. A foundation that only writes seven-figure checks scores lower here than its
           total suggests. Without a filing, reported giving or company size is used.
         </p>
+        <p className="footnote">Without a filing or recent gala record, each giving program the company runs (corporate grants, event sponsorships, matching gifts, cause marketing, in-kind donations, employee volunteering) adds 5 points, up to 15.</p>
         <p className="footnote">When recent Thirst Project gala sponsorships exist, the largest single sponsorship in this or the prior two calendar years takes priority: $25,000 or more scores 85; $10,000–$24,999 scores 70; $5,000–$9,999 scores 55; smaller amounts score 40. Several years are never summed into an annual budget. Older gifts do not establish current capacity.</p>
 
         <h3>Accessibility</h3>
@@ -94,6 +99,8 @@ export default function MethodContent({config: DEFAULT_CONFIG, shared}: {config:
             <tr><td>Officers and directors are named in the filing</td><td className="num">+20</td></tr>
             <tr><td>Prior Thirst Project gala sponsor: recent / older (replaces warm-intro bonus unless a warm intro is confirmed)</td><td className="num">+20 / +10</td></tr>
             <tr><td>Company email domain is known</td><td className="num">+5</td></tr>
+            <tr><td>Sponsors events, which matches the gala ask</td><td className="num">+10</td></tr>
+            <tr><td>Matches employee gifts</td><td className="num">+5</td></tr>
           </tbody>
         </table>
         <p>Contact and application evidence is capped at 65 points. The remaining 35 points are reserved for documented local presence, so the LA contribution remains material even when a company has strong contacts.</p>
@@ -123,8 +130,23 @@ export default function MethodContent({config: DEFAULT_CONFIG, shared}: {config:
             <tr><td>Focus areas recorded</td><td className="num">+5</td></tr>
             <tr><td>Application process confirmed</td><td className="num">+5</td></tr>
             <tr><td>Annual giving total known</td><td className="num">+5</td></tr>
+            <tr><td>Ethics screen completed</td><td className="num">+10</td></tr>
+            <tr><td>CSR reporting checked</td><td className="num">+5</td></tr>
+            <tr><td>Nonprofit partnerships or giving programs recorded</td><td className="num">+5</td></tr>
           </tbody>
         </table>
+        <p className="footnote">Confidence is capped at 100. For a company without a foundation, the research notes alone can reach High confidence.</p>
+
+        <h3>Ethics screen</h3>
+        <p>A researcher records whether the company is a values fit for a youth-led water charity. The screen does not add points. It sets a ceiling.</p>
+        <table className="data rules">
+          <tbody>
+            <tr><td>Screened, no concerns found</td><td className="num">No ceiling</td></tr>
+            <tr><td>Concern worth discussing before outreach (for example a water-use dispute or pollution record)</td><td className="num">Below Tier A</td></tr>
+            <tr><td>Not a fit (for example alcohol, tobacco, vaping, gambling or firearms, or serious misconduct). Outreach drafts are turned off</td><td className="num">Tier D</td></tr>
+          </tbody>
+        </table>
+        <p className="footnote">Headquarters can also be suggested automatically from Wikidata, a free public database. The suggestion counts only after a researcher confirms it in Research notes, the same rule that applies to every LA location.</p>
         <p className="footnote">Documented gala history can supply the 25-point source-identification and 20-point itemized-record components in place of a foundation filing. Recent sponsorship can supply the 10-point recency component. These alternatives are not added twice.</p>
       </section>
 

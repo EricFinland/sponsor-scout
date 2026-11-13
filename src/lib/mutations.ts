@@ -26,3 +26,12 @@ export function validateOperations(value: unknown): SheetOperation[] {
     return { tab: op.tab, key: op.key, row, expectedVersion: op.expectedVersion ?? null };
   });
 }
+
+/** Drops the named columns from one tab's rows, leaving every other change intact. */
+export function withoutColumns(operations: SheetOperation[], tab: SheetTab, columns: readonly string[]): SheetOperation[] {
+  return operations.map((op) => {
+    if (op.tab !== tab || !op.row) return op;
+    const row = Object.fromEntries(Object.entries(op.row).filter(([key]) => !columns.includes(key)));
+    return { ...op, row };
+  });
+}

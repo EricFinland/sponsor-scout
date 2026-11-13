@@ -1,7 +1,7 @@
 /** Stable, human-editable columns shared by the app, workbook builder and Apps Script. */
 export const SHEET_COLUMNS = {
   Companies: ["slug", "name", "industry", "domain", "hqState", "foundationStatus", "ein", "foundationName", "entityType", "relationshipStatus", "aliases", "version"],
-  Profiles: ["slug", "waterFocus", "focusAreas", "applicationProcess", "annualGivingUsd", "sizeBand", "warmIntro", "sourceUrl", "notes", "updatedAt", "laPresence", "laCity", "laCounty", "laSourceUrl", "laVerifiedAt", "laEvidence", "version"],
+  Profiles: ["slug", "waterFocus", "focusAreas", "applicationProcess", "annualGivingUsd", "sizeBand", "warmIntro", "sourceUrl", "notes", "updatedAt", "laPresence", "laCity", "laCounty", "laSourceUrl", "laVerifiedAt", "laEvidence", "csrReport", "givingPrograms", "nonprofitPartners", "ethicsCredentials", "ethicsCheck", "ethicsNotes", "ethicsSourceUrl", "version"],
   Peers: ["id", "company", "industry", "peerNonprofit", "relationship", "year", "amountUsd", "sourceUrl", "note"],
   Sponsorships: ["id", "company", "year", "amountUsd", "event", "relationship", "sourceUrl", "sourceRow", "originalName"],
   Weights: ["id", "section", "key", "value", "version"],
@@ -16,3 +16,10 @@ export const SHEET_COLUMNS = {
 export type SheetTab = keyof typeof SHEET_COLUMNS;
 export type SheetRow = Record<string, string | number | boolean | null>;
 export type SheetTables = Partial<Record<SheetTab, SheetRow[]>>;
+
+/**
+ * Profiles columns added after the first shared workbooks were created. Older
+ * Sheets may lack them; the save route retries without them and says so, and the
+ * current Apps Script adds them on first write.
+ */
+export const PROFILE_FIT_COLUMNS = ["csrReport", "givingPrograms", "nonprofitPartners", "ethicsCredentials", "ethicsCheck", "ethicsNotes", "ethicsSourceUrl"] as const;

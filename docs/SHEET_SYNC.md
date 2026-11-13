@@ -49,6 +49,12 @@ The app queues changes and confirms the endpoint response before reporting a sha
 
 New-company lookups are logged. Saving a lookup adds its company and filing to the shared store. Removing a personal bookmark does not delete the shared company. Outreach status and note edits update their existing rows. Clear on the lookup log clears only the local view; it does not erase shared audit history. Sender name is a personal browser-session preference.
 
+## Sponsor-fit columns
+
+Profiles gained seven columns for companies without a foundation: `csrReport`, `givingPrograms`, `nonprofitPartners`, `ethicsCredentials`, `ethicsCheck`, `ethicsNotes` and `ethicsSourceUrl`. Lists are stored separated by semicolons.
+
+Workbooks built before this change do not have these headers. Until the Apps Script is updated, research saves still go through for every other field, and the save banner says the sponsor-fit fields were not stored. To fix it, deploy the current `docs/apps-script/Code.gs` as a new version of the existing web app deployment. It appends any missing sponsor-fit header to Profiles on the next save. You can also add the seven headers to the end of row 1 by hand.
+
 ## LA accessibility
 
 Local presence reserves 35 of 100 accessibility points. Contact/application evidence is capped at 65. One strongest verified location earns:

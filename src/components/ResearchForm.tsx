@@ -5,13 +5,23 @@ import { formatDate } from "@/lib/format";
 import { logToSheet, useStore, isSharedWorkspace, isReadOnlyWorkspace } from "@/lib/store";
 import { LA_LABELS } from "@/lib/local-presence";
 import type { Company, Research } from "@/lib/types";
-import { FOCUS_AREAS } from "@/lib/types";
+import { ETHICS_CREDENTIALS, ETHICS_LABELS, FOCUS_AREAS, GIVING_PROGRAMS } from "@/lib/types";
+import { laFieldsFrom, type PublicRecord } from "@/lib/public-record";
 
 /**
  * The questions a filing cannot answer. A researcher fills these in from the
  * company's impact or CSR report, and the score updates as soon as they save.
  */
-export default function ResearchForm({ company, hasFoundation }: { company: Company; hasFoundation: boolean }) {
+export default function ResearchForm({
+  company,
+  hasFoundation,
+  record = null,
+}: {
+  company: Company;
+  hasFoundation: boolean;
+  /** A Wikidata headquarters match, offered as a one-click fill for the LA fields. */
+  record?: PublicRecord | null;
+}) {
   const [, setStored] = useStore("research");
   const [draft, setDraft] = useState<Research>(company.research);
   const [saved, setSaved] = useState(false);
@@ -20,6 +30,16 @@ export default function ResearchForm({ company, hasFoundation }: { company: Comp
     setDraft(company.research);
   }, [company.research]);
 
+  const [partnersText, setPartnersText] = useState((company.research.nonprofitPartners ?? []).join("; "));
+  useEffect(() => {
+    setPartnersText((company.research.nonprofitPartners ?? []).join("; "));
+  }, [company.research.nonprofitPartners]);
+  const laFill = record ? laFieldsFrom(record, new Date().toISOString().slice(0, 10)) : null;
+  const toggle = (key: "givingPrograms" | "ethicsCredentials", item: string, on: boolean) => {
+    const current = draft[key] ?? [];
+    change(key, on ? [...current, item] : current.filter((x) => x !== item));
+  };
+
   const change = <K extends keyof Research>(key: K, value: Research[K]) => {
     setDraft((current) => ({ ...current, [key]: value }));
     setSaved(false);
@@ -27,7 +47,14 @@ export default function ResearchForm({ company, hasFoundation }: { company: Comp
 
   function save(event: React.FormEvent) {
     event.preventDefault();
-    const next = { ...draft, sourceUrl: draft.sourceUrl.trim(), updatedAt: new Date().toISOString() };
+    const partners = [...new Set(partnersText.split(/[;\n]/).map((p) => p.trim()).filter(Boolean))];
+    const next = {
+      ...draft,
+      nonprofitPartners: partners,
+      sourceUrl: draft.sourceUrl.trim(),
+      ethicsSourceUrl: (draft.ethicsSourceUrl ?? "").trim(),
+      updatedAt: new Date().toISOString(),
+    };
     setStored((current) => ({ ...current, [company.slug]: next }));
     logToSheet("Profiles", {
       company: company.name,
@@ -147,8 +174,68 @@ export default function ResearchForm({ company, hasFoundation }: { company: Comp
         />
       </label>
 
+      <fieldset className="local-research"><legend>Nonprofit history and CSR</legend>
+        <p className="footnote">For companies without a foundation filing, these carry most of the score. Use the company&apos;s impact report, CSR page or press releases.</p>
+        <label className="field">
+          <span>Nonprofits it has partnered with or sponsored</span>
+          <textarea className="input" rows={2} placeholder="One per line, or separated by semicolons" value={partnersText}
+            onChange={(e) => { setPartnersText(e.target.value); setSaved(false); }} />
+        </label>
+        <label className="field">
+          <span>Publishes a CSR, impact or sustainability report?</span>
+          <select className="input" value={draft.csrReport ?? "unknown"} onChange={(e) => change("csrReport", e.target.value as Research["csrReport"])}>
+            <option value="unknown">Not checked yet</option>
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+          </select>
+        </label>
+        <fieldset className="field">
+          <legend>Giving programs it runs</legend>
+          <div className="checks">
+            {GIVING_PROGRAMS.map((program) => (
+              <label key={program} className="check">
+                <input type="checkbox" checked={(draft.givingPrograms ?? []).includes(program)} onChange={(e) => toggle("givingPrograms", program, e.target.checked)} />
+                {program}
+              </label>
+            ))}
+          </div>
+        </fieldset>
+      </fieldset>
+
+      <fieldset className="local-research"><legend>Values and ethics</legend>
+        <p className="footnote">Flag anything that would embarrass Thirst Project or clash with a student audience: water-use disputes, pollution, labor abuses, or products like alcohol, tobacco, vaping, gambling and firearms. &ldquo;Concern&rdquo; holds the company below Tier A. &ldquo;Not a fit&rdquo; drops it to Tier D and turns off outreach.</p>
+        <label className="field">
+          <span>Ethics screen</span>
+          <select className="input" value={draft.ethicsCheck ?? "unknown"} onChange={(e) => change("ethicsCheck", e.target.value as Research["ethicsCheck"])}>
+            {Object.entries(ETHICS_LABELS).map(([value, label]) => <option key={value} value={value}>{label}</option>)}
+          </select>
+        </label>
+        <fieldset className="field">
+          <legend>Public commitments</legend>
+          <div className="checks checks-single">
+            {ETHICS_CREDENTIALS.map((credential) => (
+              <label key={credential} className="check">
+                <input type="checkbox" checked={(draft.ethicsCredentials ?? []).includes(credential)} onChange={(e) => toggle("ethicsCredentials", credential, e.target.checked)} />
+                {credential}
+              </label>
+            ))}
+          </div>
+        </fieldset>
+        <label className="field"><span>What the screen found</span><textarea className="input" rows={2} value={draft.ethicsNotes ?? ""} onChange={(e) => change("ethicsNotes", e.target.value)} /></label>
+        <label className="field"><span>Ethics source URL</span><input className="input" type="url" placeholder="https://" value={draft.ethicsSourceUrl ?? ""} onChange={(e) => change("ethicsSourceUrl", e.target.value)} /></label>
+      </fieldset>
+
       <fieldset className="local-research"><legend>LA accessibility evidence</legend>
         <p className="footnote">Local presence reserves 35 of 100 accessibility points: LA County headquarters +35, office +30, operating facility +20, retail +10. Office/headquarters in Orange, Ventura, Riverside or San Bernardino County +15. Only the strongest location counts. An HTTPS source, supporting evidence, city/county and a review this or last calendar year are required.</p>
+        {laFill && record && (
+          <p className="fit-suggest">
+            Wikidata lists {record.label}&apos;s headquarters as {record.hqCity}, in {record.county} County.{" "}
+            <button type="button" className="link-button" onClick={() => setDraft((current) => ({ ...current, ...laFill }))}>
+              Use this
+            </button>{" "}
+            then Save notes to count it.
+          </p>
+        )}
         <label className="field"><span>Local presence</span><select className="input" value={draft.laPresence ?? "unknown"} onChange={(e) => change("laPresence", e.target.value as Research["laPresence"])}>
           {Object.entries(LA_LABELS).map(([value, label]) => <option key={value} value={value}>{label}</option>)}
         </select></label>

